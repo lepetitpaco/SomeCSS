@@ -1,3 +1,8 @@
+/*Higher Emoji Picker*/
+.emojiPicker-3m1S-j .scrollerWrap-PyxcLY .scroller-3vODG7 {
+    height: 650px!important; 
+}
+
 /*Avatar Size*/
 .avatar-large {
     width: 69px;
@@ -6,10 +11,22 @@
     border-radius: 15px;
 }
 
-/*Higher Emoji Picker*/
-.emojiPicker-3m1S-j .scrollerWrap-PyxcLY .scroller-3vODG7 {
-    height: 650px!important; 
+/* Remove Shadows behind avatars & guilds */
+
+.avatar-small    {
+    box-shadow: none !important;
 }
+.avatar-large {
+    box-shadow: none !important;
+}
+.icon-friends {
+    box-shadow: none !important;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    box-shadow: none !important;
+}
+
+
 
 /* Make the background really clear & more smooth */
 [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT),
@@ -46,20 +63,7 @@ body::after,
     animation: none;
 }
 
-/* Remove Shadows behind avatars & guilds */
 
-.avatar-small    {
-    box-shadow: none !important;
-}
-.avatar-large {
-    box-shadow: none !important;
-}
-.icon-friends {
-    box-shadow: none !important;
-}
-.guilds-wrapper .guilds .guild .guild-inner {
-    box-shadow: none !important;
-}
 
 
 
