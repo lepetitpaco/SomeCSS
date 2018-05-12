@@ -10,21 +10,16 @@ https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.
 #### If Better Disocrd works go to Part II
 ##### Wipe Discord Completely from your PC
 
+
 `windows key + r`
-
-search : `appdata`
-
-Press `"OK"`
+	search : `appdata`
+	Press `"OK"`
 
 Go into "`Roaming`"
-
-    Delete the folder named `discord`
-    
+	Delete the folder named `discord`
 Go Back one page
-
-Go into "`Local`"
-
-    Delete the folder named `discord`
+	Go into "`Local`"
+		Delete the folder named `discord`
     
 You **deleted** discord completely from your computer
 
@@ -37,31 +32,22 @@ https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.
 # Part II: Better Discord - Themes and Plugins
 
 To **add** themes or plugins to discord
-    `windows key + r`
-    
-        search : `appdata`
-        
-        Press `OK`
-        
-    
-Go into "`Roaming\BetterDiscord`"
 
-    Themes in "`themes`"
-    
-    Plugins in "`plugins`"
-    
+    `windows key + r`
+			search : `appdata`
+			Press `OK`
+			
+Go into "`Roaming\BetterDiscord`"
+	Themes in "`themes`"
+	Plugins in "`plugins`"
+	
 **Quit** Discord and **Start** it again
 
 **Into** Discord
-
-    Go into `User Settings`
-    
-    `Themes `
-    
-            Toggle theme(s)
-            
-        `Plugins`
-        
-            Toggle Plugin(s)
+Go into `User Settings`
+	`Themes `
+		Toggle theme(s)
+	`Plugins`
+		Toggle Plugin(s)
             
         
