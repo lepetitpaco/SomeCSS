@@ -52,3 +52,15 @@ body::after,
 }
 
 
+
+/*Custom Modifications*/
+
+/*Don't Display of the Blocked Message Line*/
+.message-group-blocked {
+    display: none !important;    
+}
+
+/*Transparancy of the clock Plugin*/
+#dv-mount {
+    background-color:transparent !important;
+}
