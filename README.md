@@ -30,6 +30,7 @@ To **add** themes or plugins to discord
 	`windows key + r`
 	    search : `appdata`
 	    Press `OK`
+	    
  - Go into `Roaming\BetterDiscord`
 	 - Themes in `themes`
 	 - Plugins in`plugins`
