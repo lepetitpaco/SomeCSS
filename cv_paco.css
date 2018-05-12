@@ -1,0 +1,54 @@
+/*============== CUSTOMIZABLE COLORS ===============*/
+
+:root {
+	--main-color: rgb(88, 160, 207);
+	--hover-color: rgb(146, 207, 247);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+
+/*========= CUSTOMIZABLE BACKGROUND IMAGE ==========*/
+
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://img00.deviantart.net/af0e/i/2016/062/6/6/aeolian_by_wlop-d9ctyhy.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*========= CUSTOMIZABLE USER POPOUT IMAGE ==========*/
+/*For Background Customisation*/
+.userPopout-3XzG_A::before {
+    background-image: url(https://i.imgur.com/cQnptkJ.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: blur(0px);
+
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*========= CUSTOMIZABLE USER PROFILE POPOUT IMAGE ==========*/
+/*For Background Customisation*/
+.root-SR8cQa::before {
+    background-image: url(http://i.imgur.com/lE907Dh.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    filter: blur(0px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+
