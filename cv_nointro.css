@@ -1,0 +1,14 @@
+/* Remove ClearVision start up animations */
+.app,
+body::after,
+#app-mount::before,
+#app-mount::after {
+    -webkit-animation: none;
+    animation: none;
+}
+
+
+
+
+
+
