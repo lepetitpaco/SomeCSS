@@ -1,8 +1,8 @@
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
-	--main-color: #FF6000;
-	--hover-color: #FF6000;
+	--main-color: rgb(192, 14, 14);
+	--hover-color: rgb(233, 233, 233);
     --background-blur: 0px;
     --background-brightness: 100%;
 }
@@ -20,7 +20,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label {
-    background-image: url(https://i.imgur.com/4Zwrj0L.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://gamingbolt.com/wp-content/uploads/2017/06/god-of-war.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 
 
@@ -31,7 +31,7 @@ body::after,
 /*========= CUSTOMIZABLE USER POPOUT IMAGE ==========*/
 /*For Background Customisation*/
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.imgur.com/qhol6xJ.png) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://ih0.redbubble.net/image.236615180.6668/flat,800x800,070,f.u1.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -48,10 +48,11 @@ body::after,
 /*========= CUSTOMIZABLE USER PROFILE POPOUT IMAGE ==========*/
 /*For Background Customisation*/
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/jPThZfb.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://ih0.redbubble.net/image.236615180.6668/flat,800x800,070,f.u1.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
     filter: blur(0px);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
+
 
