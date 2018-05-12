@@ -9,11 +9,11 @@ https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.
 ##### Wipe Discord Completely from your PC
 	`windows key + r`
 	    search : `appdata`
-	    Press `"OK"`
+	    Press `OK
 
- - Go into "`Roaming`" 
+ - Go into `Roaming`
 	 - Delete the folder named `discord`
- - Go Back one page Go into "`Local`" 
+ - Go Back one page Go into `Local`
 	 - Delete the folder named `discord`
 
 You **deleted** discord completely from your computer
@@ -29,7 +29,7 @@ To **add** themes or plugins to discord
 
 	`windows key + r`
 	    search : `appdata`
-	    Press `"OK"`
+	    Press `OK`
  - Go into `Roaming\BetterDiscord`
 	 - Themes in `themes`
 	 - Plugins in`plugins`
