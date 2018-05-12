@@ -10,8 +10,8 @@ https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.
 #### If Better Disocrd works go to Part II
 ##### Wipe Discord Completely from your PC
 `windows key + r`
-	search : `appdata`
-	Press `"OK"`
+	    search : `appdata`
+	    Press `"OK"`
 
 Go into "`Roaming`"
     Delete the folder named `discord`
