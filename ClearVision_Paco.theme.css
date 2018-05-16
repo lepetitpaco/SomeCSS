@@ -1,6 +1,6 @@
 //META{"name":"ClearVision_Paco","description":"ShadowBlade WLOP Based -Custom Adds by lepetitpaco","author":"Zerthox","version":"5"}*//{}
-
 /*============== Images & Icon Links ===============*/
+
 /*==================================================================================================================================
 Aeolian Aiming - https://img00.deviantart.net/af0e/i/2016/062/6/6/aeolian_by_wlop-d9ctyhy.jpg
 Aeolian Lions - https://pre00.deviantart.net/eb9d/th/pre/f/2018/134/d/a/lion_by_wlop-dcbk7fi.jpg
@@ -12,177 +12,303 @@ Yan/Aeolian - https://pre00.deviantart.net/1022/th/pre/i/2016/185/c/4/sea_by_wlo
 Soviet Star - https://i.imgur.com/6RdPm7t.png
 Hammer and Sickle - https://i.imgur.com/gopbjvC.png
 
+Tron Bike Orange - https://i.imgur.com/4Zwrj0L.jpg
+Tron Circuits - https://i.imgur.com/qhol6xJ.png
+Tron Bike Side - http://i.imgur.com/jPThZfb.jpg
+
 ==================================================================================================================================*/
+
 /* IMPORT CSS FROM GITHUB */
+
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 /*============== CUSTOMIZABLE COLORS ===============*/
+
 :root {
-    --main-color: goldenrod;
+    --main-color: #daa520;
     --hover-color: rgba(75, 72, 72, 0.267);
     --background-blur: 0px;
     --background-brightness: 100%;
+    --secondary-text-color: #daa520;
 }
+
 /*CUSTOMIZABLE BACKGROUND IMAGE*/
-body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::before, .root-SR8cQa::before, #pubs-container::before, .auth-background, .auth-tiling-bg, .invite-modal .invite-splash, .radio-theme.dark label {
-   /* IMPORTANT: Link must be HTTPS! */
+
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.dark label {
+    /* IMPORTANT: Link must be HTTPS! */
     background-image: url(https://pre00.deviantart.net/1022/th/pre/i/2016/185/c/4/sea_by_wlop-d9rb761.jpg) !important;
 }
+
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
+
 .userPopout-3XzG_A::before {
     background-image: url(https://i.imgur.com/ukcDcJ0.png) !important;
-   /* IMPORTANT: Link must be HTTPS! */
+    /* IMPORTANT: Link must be HTTPS! */
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     filter: blur(0px);
 }
+
 /*CUSTOMIZABLE USER PROFILE POPOUT IMAGE*/
+
 .root-SR8cQa::before {
     background-image: url(https://pre00.deviantart.net/eb9d/th/pre/f/2018/134/d/a/lion_by_wlop-dcbk7fi.jpg) !important;
-   /* IMPORTANT: Link must be HTTPS! */
+    /* IMPORTANT: Link must be HTTPS! */
     filter: blur(0px);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 
+/*=============================================================================================================================================================================*/
+
+/*CLEAR VISION MODS*/
 
 /*=============================================================================================================================================================================*/
-                                                                    /*CLEAR VISION MODS*/
-/*=============================================================================================================================================================================*/
+
 /* Remove ClearVision start up animations */
-.app, body::after, #app-mount::before, #app-mount::after {
+
+.app,
+body::after,
+#app-mount::before,
+#app-mount::after {
     -webkit-animation: none;
     animation: none;
 }
+
 /* Make the background really clear & more smooth */
-[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT), [class*="userPopout-"] [class*="footer-"], .activity-11LB_k, [class*="theme-"] [class*="topSectionNormal-"], [class*="theme-"] .body-3ND3kc, .topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P, DIV.theme-dark .guilds-wrapper .scroller-wrap, DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"], DIV.theme-dark DIV.flex-spacer.flex-horizontal, DIV[class*="titleWrapper"].theme-dark > DIV[class*="title-"], DIV.theme-dark DIV.channel-members, DIV.theme-dark .search-results-wrap, DIV.theme-dark #friends [class*="noWrap"][class*="headerBar"], DIV.theme-dark #friends DIV.friends-table {
+
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT),
+[class*="userPopout-"] [class*="footer-"],
+.activity-11LB_k,
+[class*="theme-"] [class*="topSectionNormal-"],
+[class*="theme-"] .body-3ND3kc,
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P,
+DIV.theme-dark .guilds-wrapper .scroller-wrap,
+DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
+DIV.theme-dark DIV.flex-spacer.flex-horizontal,
+DIV[class*="titleWrapper"].theme-dark>DIV[class*="title-"],
+DIV.theme-dark DIV.channel-members,
+DIV.theme-dark .search-results-wrap,
+DIV.theme-dark #friends [class*="noWrap"][class*="headerBar"],
+DIV.theme-dark #friends DIV.friends-table {
     background-color: transparent !important;
 }
+
 /*remove CV Version number*/
+
 .accountDetails-3k9g4n::after {
     display: none;
 }
+
 /* Remove unnecessary help texts from status picker */
-.helper-2c73HK{
-    display: none;;
+
+.helper-2c73HK {
+    display: none;
 }
+
 /*========================================== Discord Experiments =====================================*/
+
 /*Games Tab*/
+
 .theme-dark .activityFeed-28jde9 {
-    background-color: transparent; 
+    background-color: transparent;
 }
-.theme-dark .headerBar-UHpsPw{
-    background-color: transparent; 
+
+.theme-dark .headerBar-UHpsPw {
+    background-color: transparent;
 }
+
 .private-channels .btn-friends:first-child .channel-name {
     color: white;
 }
+
 .private-channels .btn-friends:first-child .channel-name::before {
     font-size: 15px;
     content: '';
     color: white;
 }
+
 /*===============================================================================================*/
 
 /*=============================================================================================================================================================================*/
+
 /*=============================================================================================================================================================================*/
 
 /*=============================================================================================================================================================================*/
-                                                                    /*CUSTOM*/
+
+/*CUSTOM*/
+
 /*=============================================================================================================================================================================*/
+
 /*Don't Display of the Blocked Message Line*/
+
 .message-group-blocked {
     display: none !important;
 }
+
 /*Transparancy of the clock Plugin*/
+
 #dv-mount {
-    background-color:transparent !important;
+    background-color: transparent !important;
 }
+
 /*Avatar Size*/
+
 .avatar-large {
     width: 90px;
     height: 90px;
     background-size: 90px 90px;
     border-radius: 19px;
 }
+
 /*Higher Emoji Picker*/
 
 .emojiPicker-3m1S-j .scrollerWrap-PyxcLY .scroller-3vODG7 {
-    height: 850px!important;
+    height: 850px !important;
 }
 
 /*Remove Space between Emojis*/
-.emoji{
-    margin: 0!important;
+
+.emoji {
+    margin: 0 !important;
 }
 
-/*User Popout Title and Note Color*/
-.bodyTitle-Y0qMQz{
+/*User Popout Inside Appearance and Color*/
+
+.bodyTitle-Y0qMQz {
     height: 36px;
     font-size: 16px;
     font-weight: bold;
-    color: goldenrod;
+    color: var(--main-color);
     margin-bottom: -8%;
 }
 
-.bodyTitle-Y0qMQz:last-child{
-    margin-bottom: 0%!important;
+.bodyTitle-Y0qMQz:last-child {
+    margin-bottom: 0% !important;
 }
 
-.theme-dark .note-3kmerW textarea{
+.theme-dark .note-3kmerW textarea {
     height: 36px;
     font-size: 14px;
     font-weight: bold;
-    color: goldenrod;
+    ;
 }
 
 /*Move User Avatar on Right*/
-.avatarWrapper-3H_478{
-    left:50px;
+
+.avatarWrapper-3H_478 {
+    left: 50px;
+}
+
+/*Creation Date*/
+
+.textRow-19NEd_ {
+    font-weight: 900;
+}
+
+/*Rolename User Popout*/
+
+.roleName-32vpEy {
+    font-weight: 900;
+}
+
+/*Various User Popour and Modal re Coloring*/
+
+/*Nickanme*/
+
+.headerName-fajvi9,
+/*User @*/
+
+.headerTagUsernameNoNickname-2_H881,
+.headerTag-2pZJzA,
+.username-3gJmXY,
+/*User Discriminator*/
+
+.discriminator,
+.discriminator:hover,
+/*Creation Date*/
+
+.theme-dark .header-2BwW8b .creationDate,
+.theme-dark [class*='topSection'] .creationDate,
+/*Activity Game and Spotify*/
+
+.activityName-1IaRLn,
+.theme-dark .activityUserPopout-2yItg2 .details-38sfDr,
+.theme-dark .activityUserPopout-2yItg2 .content-3JfFJh,
+.theme-dark .note-3kmerW textarea,
+.activityUserPopout-2yItg2 .headerText-1HLrL7,
+/*Role Name Userpopout*/
+
+.roleName-32vpEy {
+    color: var(--secondary-text-color) !important;
 }
 
 /*================================= PRIVATE CHANNEL CUSTOM =========================================*/
+
 /*Change Direct Message Button Background Image*/
-.guilds-wrapper .guilds .friends-icon::after{
+
+.guilds-wrapper .guilds .friends-icon::after {
     background-image: url(https://i.imgur.com/6RdPm7t.png) !important;
 }
+
 /*Make Channel (private and General) display wider*/
+
 .channels-Ie2l6A {
     width: 300px;
 }
+
 /*FRIEND LIST TWEAKS*/
+
 /*Change Person Waving by USSR Logo*/
+
 .link-button-icon[name="PersonWaving"] g {
     display: none;
 }
+
 .link-button-icon[name="PersonWaving"] {
     background-image: url("https://i.imgur.com/gopbjvC.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /*Replacing the term Friends by Comrades*/
+
 .private-channels .btn-friends .channel-name {
     color: transparent;
 }
+
 .private-channels .btn-friends .channel-name::before {
     font-size: 15px;
     content: 'Comrades ★';
     color: rgb(255, 0, 0);
 }
+
 /*Adding Prefix before all friends name in recent dms list*/
+
 .private-channels .channel-name::before {
     content: 'Comrade ★ ';
-    color:  rgb(172, 0, 0);
-   
+    color: rgb(255, 0, 0);
 }
 
 /*Replace Channel Icon in DMS*/
+
 .channelIcon-MsmKOO[name="At"] path {
     display: none;
 }
+
 .channelIcon-MsmKOO[name="At"] {
     color: transparent;
     background-image: url("https://i.imgur.com/6RdPm7t.png");
@@ -190,20 +316,33 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /*==============================================================================================*/
+
 /*======================================== SPEECH BUBBLES =====================================*/
+
 .message-group .comment {
-	padding: 10px !important;
-	border-radius: 5px !important;
-	background: rgba(0,0,0,.3);
+    padding: 10px !important;
+    border-radius: 5px !important;
+    background: rgba(0, 0, 0, .3);
 }
+
 .message-group.compact .comment {
-	padding: 0 !important;
+    padding: 0 !important;
 }
+
 /*===============================================================================================*/
+
 /*======================================== SERVER GRID 2 COLUMNS =================================*/
-.guilds-wrapper{width: 125px;}
-.guilds-wrapper .scroller-wrap{width: 150px;}
+
+.guilds-wrapper {
+    width: 125px;
+}
+
+.guilds-wrapper .scroller-wrap {
+    width: 150px;
+}
+
 .guilds-wrapper .guilds {
     display: flex;
     flex-flow: row wrap;
@@ -212,43 +351,43 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
 }
 
 .guilds-wrapper .guilds .guild {
-	margin-left: 8px;
+    margin-left: 8px;
     margin-top: 8px;
 }
 
 .guilds-wrapper .guilds .guild.unread::before {
-	left: -2px;
+    left: -2px;
     top: 5px;
-    z-index:9000;
+    z-index: 9000;
 }
 
 .guilds-wrapper .guilds .guild:first-child {
-    position: relative; 
+    position: relative;
     left: 0;
     margin: auto;
     margin-top: 15px;
 }
 
 #bd-pub-li {
-	position: absolute;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
 
 #bd-pub-li #bd-pub-button {
-    position:absolute;
+    position: absolute;
     width: 100%;
-	text-align: center;
+    text-align: center;
 }
 
 .guilds-wrapper .guilds .guild-separator {
-	position: relative;
+    position: relative;
     width: 100%;
     margin-top: 10px;
 }
 
 .guilds-wrapper .guilds .friends-online {
-	position: relative;
+    position: relative;
     width: 100%;
     margin: auto;
     margin-top: 5px;
@@ -259,7 +398,7 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
 }
 
 .guilds-wrapper .guilds .guild {
-	position: relative;
+    position: relative;
 }
 
 .guilds-wrapper .guilds .dms {
@@ -273,6 +412,7 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
 }
 
 /*Friend Button*/
+
 .guilds-wrapper .guilds .guild:first-child {
     position: relative;
     left: -11px;
@@ -281,6 +421,7 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
 }
 
 /*Number of Online Friends Indicator*/
+
 .guilds-wrapper .guilds .friends-online {
     position: relative;
     width: 75%;
@@ -290,6 +431,7 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
 }
 
 /*DM Person Talking Placement*/
+
 .guilds-wrapper .guilds .dms {
     width: 100%;
     display: flex;
@@ -297,21 +439,28 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, .userPopout-3XzG_A::
     margin-left: 10px;
     flex-flow: row wrap;
 }
+
 .guilds-wrapper .guilds .dms .guild {
     left: -11px;
 }
 
- /*Separator Line btween guilds and dms // friends section*/
+/*Separator Line btween guilds and dms // friends section*/
+
 .guilds-wrapper .guilds .guild-separator {
     position: relative;
     width: 100%;
     margin-top: 10px;
     left: -11px;
 }
+
 /*=============================================================================*/
-/*=============================================================================================================================================================================*/
+
 /*=============================================================================================================================================================================*/
 
 /*=============================================================================================================================================================================*/
-                                                                    /*TESTING*/
+
+/*=============================================================================================================================================================================*/
+
+/*TESTING*/
+
 /*=============================================================================================================================================================================*/
