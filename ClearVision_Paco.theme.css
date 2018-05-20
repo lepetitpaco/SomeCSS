@@ -57,6 +57,7 @@ body::after,
     -o-background-size: cover;
     background-size: cover;
     filter: blur(0px);
+    filter: brightness(50%);
 }
 
 /*CUSTOMIZABLE USER PROFILE POPOUT IMAGE*/
@@ -64,10 +65,11 @@ body::after,
 .root-SR8cQa::before {
     background-image: url(https://pre00.deviantart.net/eb9d/th/pre/f/2018/134/d/a/lion_by_wlop-dcbk7fi.jpg) !important;
     /* IMPORTANT: Link must be HTTPS! */
-    filter: blur(0px);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
+    filter: blur(0px);
+    filter: brightness(50%);
 }
 
 /*=============================================================================================================================================================================*/
@@ -109,12 +111,6 @@ DIV.theme-dark #friends DIV.friends-table {
 /*remove CV Version number*/
 
 .accountDetails-3k9g4n::after {
-    display: none;
-}
-
-/* Remove unnecessary help texts from status picker */
-
-.helper-2c73HK {
     display: none;
 }
 
@@ -173,16 +169,28 @@ DIV.theme-dark #friends DIV.friends-table {
     border-radius: 19px;
 }
 
+/*Move User Avatar / Profile Picture on the Right*/
+
+/* .avatarWrapper-3H_478 {
+    left: 50px;
+} */
+
 /*Higher Emoji Picker*/
 
 .emojiPicker-3m1S-j .scrollerWrap-PyxcLY .scroller-3vODG7 {
-    height: 850px !important;
+    height: 800px !important;
 }
 
 /*Remove Space between Emojis*/
 
 .emoji {
     margin: 0 !important;
+}
+
+/* Remove unnecessary help texts from status picker */
+
+.helper-2c73HK {
+    display: none;
 }
 
 /*User Popout Inside Appearance and Color*/
@@ -204,12 +212,6 @@ DIV.theme-dark #friends DIV.friends-table {
     font-size: 14px;
     font-weight: bold;
     ;
-}
-
-/*Move User Avatar on Right*/
-
-.avatarWrapper-3H_478 {
-    left: 50px;
 }
 
 /*Creation Date*/
@@ -242,6 +244,7 @@ DIV.theme-dark #friends DIV.friends-table {
 
 .theme-dark .header-2BwW8b .creationDate,
 .theme-dark [class*='topSection'] .creationDate,
+.theme-dark .activityProfile-2bJRaP .details-38sfDr,
 /*Activity Game and Spotify*/
 
 .activityName-1IaRLn,
@@ -249,10 +252,59 @@ DIV.theme-dark #friends DIV.friends-table {
 .theme-dark .activityUserPopout-2yItg2 .content-3JfFJh,
 .theme-dark .note-3kmerW textarea,
 .activityUserPopout-2yItg2 .headerText-1HLrL7,
+.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7,
+.textRow-19NEd_,
 /*Role Name Userpopout*/
 
 .roleName-32vpEy {
     color: var(--secondary-text-color) !important;
+}
+
+/*Chat Text Normal Text Formatting*/
+
+.message-group .comment .markup {
+    font-weight: 600;
+    /* font-family: 'Consolas' */
+}
+
+/*Chat and Voice Opacity to not hurt me little eyes*/
+
+.wrapper-2NJDcI,
+.nameDefaultVoice-3WUH7s,
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.iconDefault-3Gr8d2,
+.nameDefault-2DI02H,
+.colorDefaultText-oas-QM,
+.colorDefaultVoice-3wYlhb,
+.colorHoveredText-OZnAgu,
+.colorHoveredVoice-1kucsK,
+.colorLockedText-1VRkPt,
+.colorLockedVoice-2UlBjl,
+.colorSelectedText-1y4Wvs,
+.colorSelectedVoice-Xcb_9R,
+.colorUnreadText-2t7XRb,
+.colorUnreadVoice-137o4S {
+    opacity: 1;
+    color: #fff;
+}
+
+/*Voice chat Selected to make a visual difference and it's cool*/
+
+.colorSelectedVoice-Xcb_9R,
+.nameSelectedVoice-1qSph5 {
+    opacity: 1;
+    color: var(--main-color);
+}
+
+/*Clickable Pinned Messages*/
+
+.messagesPopout-24nkyi.scroller .message-group .sink-interactions.clickable,
+.messagesPopout-24nkyi.scroller .message-group .avatar-large,
+.messagesPopout-24nkyi.scroller .message-group .comment .markup {
+    pointer-events: none;
 }
 
 /*================================= PRIVATE CHANNEL CUSTOM =========================================*/
@@ -265,56 +317,17 @@ DIV.theme-dark #friends DIV.friends-table {
 
 /*Make Channel (private and General) display wider*/
 
-.channels-Ie2l6A {
+/* .channels-Ie2l6A {
     width: 300px;
-}
+} */
 
 /*FRIEND LIST TWEAKS*/
 
-/*Change Person Waving by USSR Logo*/
+/*Names on the Direct Message List*/
 
-.link-button-icon[name="PersonWaving"] g {
-    display: none;
-}
-
-.link-button-icon[name="PersonWaving"] {
-    background-image: url("https://i.imgur.com/gopbjvC.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-/*Replacing the term Friends by Comrades*/
-
-.private-channels .btn-friends .channel-name {
-    color: transparent;
-}
-
-.private-channels .btn-friends .channel-name::before {
-    font-size: 15px;
-    content: 'Comrades ★';
-    color: rgb(255, 0, 0);
-}
-
-/*Adding Prefix before all friends name in recent dms list*/
-
-.private-channels .channel-name::before {
-    content: 'Comrade ★ ';
-    color: rgb(255, 0, 0);
-}
-
-/*Replace Channel Icon in DMS*/
-
-.channelIcon-MsmKOO[name="At"] path {
-    display: none;
-}
-
-.channelIcon-MsmKOO[name="At"] {
-    color: transparent;
-    background-image: url("https://i.imgur.com/6RdPm7t.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.private-channels .channel .channel-name {
+    opacity: 1;
+    color: white;
 }
 
 /*==============================================================================================*/
@@ -453,11 +466,17 @@ DIV.theme-dark #friends DIV.friends-table {
     left: -11px;
 }
 
+/*Read All Button*/
+
+#RANbutton-frame {
+    position: relative;
+    width: 75%;
+    margin: auto;
+    margin-top: 5px;
+    left: -11px;
+}
+
 /*=============================================================================*/
-
-/*=============================================================================================================================================================================*/
-
-/*=============================================================================================================================================================================*/
 
 /*=============================================================================================================================================================================*/
 
