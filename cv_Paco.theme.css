@@ -1,0 +1,489 @@
+//META{"name":"cv_Paco","description":"Whatever makes my peepee hard","author":"lepetitpaco","version":"5"}*//{}
+/*============== Images & Icon Links ===============*/
+
+/*==================================================================================================================================
+NOTES
++ Image LINKS must begin by HTTPS - Upload your image or gif on imgur if you don't know how to have a HTTPS link.
+
+    User Popout Size
+    --userPopout-width: auto;
+    --userPopout-height: auto;
+    Modal Popout Size
+    --modalPopout-width: auto;
+    --modalPopout-height: auto;
+
+==================================================================================================================================*/
+
+/* IMPORT CSS FROM GITHUB */
+
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+/*============== CUSTOMIZABLE COLORS ===============*/
+
+:root {
+    --main-color: #00eeff;
+    --hover-color: rgba(75, 72, 72, 0.267);
+    --secondary-text-color: #70faff;
+    /*background*/
+    --background-blur: 0px;
+    --background-brightness: 100%;
+    /*Various Sizes*/
+    --emoji-picker-height: 420px;
+    /*Speech Bubble*/
+    --speech-bubbles-background: rgba(0, 0, 0, .0);
+    /* User Popout Size */
+    --userPopout-width: 420px;
+}
+
+/*CUSTOMIZABLE BACKGROUND IMAGE*/
+
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.dark label {
+    /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://localhost:35724/zelda4k.jpg) !important;
+}
+
+/*CUSTOMIZABLE USER POPOUT IMAGE*/
+
+.userPopout-3XzG_A::before {
+    background-image: url(https://localhost:35724/zelda4k.jpg) !important;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+/*CUSTOMIZABLE POPOUT MODAL*/
+
+.root-SR8cQa::before {
+    background-image: url(https://localhost:35724/zeldaFA.png) !important;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+/*CUSTOMIZABLE HOME ICON*/
+
+.homeIcon-1FoKUJ {
+    color: transparent;
+    /* background-image: url(https://localhost:35724/zeldaFA.png) !important; */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+/* .homeIcon-1FoKUJ g {
+    display: none;
+} */
+
+[class*="theme-"] .homeIcon-1FoKUJ{
+    background-color: gold!important;
+}
+
+.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ{
+    background-color: gold!important;
+}
+
+
+
+
+/*========================================================================= DO NOT TOUCH IF YOU DON'T KNOW WHAT IT IS =========================================================================*/
+
+/*=============================================================================================================================================================================*/
+
+/*CLEAR VISION MODS*/
+
+/*=============================================================================================================================================================================*/
+
+/* Remove ClearVision start up animations */
+
+.app,
+body::after,
+#app-mount::before,
+#app-mount::after {
+    -webkit-animation: none;
+    animation: none;
+}
+
+/* Make the background really clear & more smooth */
+
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT),
+[class*="userPopout-"] [class*="footer-"],
+.activity-11LB_k,
+[class*="theme-"] [class*="topSectionNormal-"],
+[class*="theme-"] .body-3ND3kc,
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P,
+.theme-dark .guildsWrapper-5TJh6A,
+DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
+DIV.theme-dark DIV.flex-spacer.flex-horizontal,
+DIV[class*="titleWrapper"].theme-dark>DIV[class*="title-"],
+DIV.theme-dark DIV.channel-members,
+DIV.theme-dark .search-results-wrap,
+DIV.theme-dark #friends [class*="noWrap"][class*="headerBar"],
+DIV.theme-dark #friends DIV.friends-table,
+.topSectionStreaming-1Tpf5X,
+.backdrop-1wrmKB,
+.headerXbox-3G-4PF
+/* ,
+[class*=appMount-] */
+
+    {
+    background-color: transparent !important;
+}
+
+/*Make guild scroller lose its shadow for smooth backgrounds mod*/
+
+.guilds-wrapper,
+/*Line Just under the channel name*/
+
+.header-2o-2hj,
+/*Line Above the Chat input*/
+
+.theme-dark .chat form {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/*DISCORD PLUGINS MODS*/
+
+/*=============================================================================================================================================================================*/
+
+/*Reply Bar BBD*/
+
+.reply-list {
+    background: rgba(0, 0, 0, .8) !important;
+}
+
+.reply-item {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+/*bf toolbar BBD*/
+
+.bf-toolbar:before {
+    background: rgba(0, 0, 0, .8) !important;
+}
+
+/*Transparancy of the clock Plugin*/
+
+#dv-mount {
+    background-color: transparent !important;
+}
+
+/*DISPLAY NONE*/
+
+/*=============================================================================================================================================================================*/
+
+/*Don't Display of the Blocked Message Line*/
+
+.message-group-blocked,
+/*remove CV Version number*/
+
+.accountDetails-3k9g4n::after,
+/* Remove unnecessary help texts from status picker */
+
+.helper-2c73HK,
+/*Don't display protip cuz I'm not a noob*/
+
+.protip-YaFfgO,
+/*Don't display welcome message on server*/
+
+.welcomeMessage-3_Mcht,
+/*No Channel Message*/
+
+.wrapper-r-6rrt,
+/*Divider Bar - Line between each messages*/
+
+.theme-dark .dividerEnabled-2TTlcf,
+/*Line between the chat input and the + button*/
+
+.theme-dark .attachButtonDivider-3Glu60
+/*Scrollbars*/
+
+/* ::-webkit-scrollbar */
+
+    {
+    display: none !important;
+}
+
+/*=============================================================================================================================================================================*/
+
+/*CUSTOM*/
+
+/*=============================================================================================================================================================================*/
+
+/** Avatar & Chat fix attempt**/
+
+/*Since both influences each other, they are both treated here*/
+
+.image-33JSyf,
+.wrapper-2F3Zv8 {
+    border-radius: 25%;
+}
+
+.avatar-17mtNa {
+    -webkit-transition: opacity .2s ease;
+    cursor: pointer;
+    margin: -10px 40px 0 0;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+.avatar-17mtNa .large-3ChYtB {
+    height: 70px;
+    width: 70px;
+}
+
+.containerCozy-jafyvG {
+    padding: 25px 0;
+}
+
+/*Speech Bubbles*/
+
+.containerCompact-3pGPJs,
+.containerCozy-336-Cz {
+    /* padding: 10px !important; */
+    border-radius: 5px !important;
+    background: var(--speech-bubbles-background);
+}
+
+/*Chat Text Normal Text Formatting*/
+
+/* .message-group .comment .markup {
+    font-weight: 600;
+} */
+
+/*==================================================*/
+
+/*======================= EMOJI ===========================*/
+
+/*Higher Emoji Picker*/
+
+.emojiPicker-3m1S-j .scrollerWrap-PyxcLY .scroller-3vODG7 {
+    height: var(--emoji-picker-height);
+}
+
+/*Remove Space between Emojis*/
+
+.emoji {
+    margin: 0 !important;
+}
+
+/*==================================================*/
+
+/*=============================================== USER POPOUT =====================================================*/
+
+/*==================RE Coloring==================*/
+
+/*Nickanme*/
+
+.headerName-fajvi9,
+/*User @*/
+
+.headerTagUsernameNoNickname-2_H881,
+.headerTag-2pZJzA,
+.username-3gJmXY,
+/*User Discriminator*/
+
+.discriminator,
+.discriminator:hover,
+/*Creation Date*/
+
+.theme-dark .header-2BwW8b .creationDate,
+.theme-dark [class*='topSection'] .creationDate,
+.theme-dark .activityProfile-2bJRaP .details-38sfDr,
+/*Activity Game and Spotify*/
+
+.activityName-1IaRLn,
+.theme-dark .activityUserPopout-2yItg2 .details-38sfDr,
+.theme-dark .activityUserPopout-2yItg2 .content-3JfFJh,
+.theme-dark .note-3kmerW textarea,
+.activityUserPopout-2yItg2 .headerText-1HLrL7,
+.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7,
+.textRow-19NEd_,
+/*Role Name Userpopout*/
+
+/*Title Fonts*/
+
+.bodyTitle-Y0qMQz,
+/*Role Names*/
+
+.roleName-32vpEy {
+    color: var(--secondary-text-color) !important;
+}
+
+/*======================================================*/
+
+/*Title Fonts*/
+
+.bodyTitle-Y0qMQz {
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Note Text Font*/
+
+.theme-dark .note-3kmerW textarea {
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Creation Date // Rolename User Popout*/
+
+.textRow-19NEd_,
+.roleName-32vpEy {
+    font-weight: bold;
+}
+
+/*User Popout BIGGER*/
+
+.popout-3sVMXz .userPopout-3XzG_A {
+    /*    height: var(--userPopout-height); */
+    width: var(--userPopout-width);
+}
+
+.bodyTitle-Y0qMQz {
+    margin-bottom: -5%;
+}
+
+.footer-1fjuF6 {
+    position: relative;
+}
+
+/*======================================== MODAL POPOUT =====================================*/
+
+/* .root-SR8cQa {
+    height: var(--modalPopout-height);
+    width: var(--modalPopout-width);
+}
+
+
+.body-3ND3kc {
+    height: 100%;
+    overflow-y: scroll;
+}
+ */
+
+/*==============================================================================================*/
+
+/*Chat and Voice Opacity to not hurt me little eyes*/
+
+.wrapper-2NJDcI,
+.nameDefaultVoice-3WUH7s,
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.iconDefault-3Gr8d2,
+.nameDefault-2DI02H,
+.colorDefaultText-oas-QM,
+.colorDefaultVoice-3wYlhb,
+.colorHoveredText-OZnAgu,
+.colorHoveredVoice-1kucsK,
+.colorLockedText-1VRkPt,
+.colorLockedVoice-2UlBjl,
+.colorSelectedText-1y4Wvs,
+.colorSelectedVoice-Xcb_9R,
+.colorUnreadText-2t7XRb,
+.colorUnreadVoice-137o4S,
+.private-channels .channel .channel-name {
+    opacity: 1;
+    color: #fff;
+}
+
+/*Voice chat Selected to make a visual difference and it's cool*/
+
+.nameConnectedVoice-MHUX5F,
+.nameSelectedVoice-1qSph5 {
+    opacity: 1;
+    color: var(--main-color);
+}
+
+/*Larger pin Messages*/
+
+.messagesPopoutWrap-1MQ1bW {
+    width: 620px !important;
+    max-height: 1000px !important;
+}
+
+/*Scrollbar*/
+
+[class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    background-clip: padding-box !important;
+}
+
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
+.bda-dark .emoji-picker .scroller .emoji-item.selected,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border: 0 solid transparent !important;
+    border-radius: 3px;
+}
+
+/*TEXT INPUTS*/
+
+/*=========================================================================================================================*/
+
+/*General Chat Input*/
+
+/*Border and Background*/
+
+.inner-zqa7da.flex-1O1GKY {
+    /* border: 1px solid transparent; */
+    background: rgba(0, 0, 0, 0);
+}
+
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
+    /* box-shadow: 0 0 10px transparent; */
+    border-radius: 5px;
+    margin: 10px 0 30px;
+}
+
+/*Upload modal chat input background*/
+
+.theme-brand .inner-zqa7da .textArea-2Spzkt {
+    background: rgba(255, 255, 255, .1) !important;
+}
+
+/*Emoji Search Input*/
+
+.search-bar-light .searchBarInner-1_Tg2R {
+    background: rgba(255, 255, 255, .1) !important;
+}
+
+.search-bar input:focus {
+    border: 0 solid transparent !important;
+    -webkit-box-shadow: 0 0px 0 transparent, 0 0px 0 transparent;
+    box-shadow: 0 0px 0 transparent, 0 0px 0 transparent
+}
