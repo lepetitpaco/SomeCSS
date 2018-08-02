@@ -1,4 +1,4 @@
-//META{"name":"ClearVision_TwoColumns","description":"You get 2 server rows","author":"lepetitpaco","version":"5"}*//{}
+//META{"name":"TwoColumns","description":"You get 2 server Columns","author":"lepetitpaco","version":"1"}*//{}
 
 /*======================================== SERVER GRID 2 COLUMNS =================================*/
 
@@ -113,23 +113,4 @@
     margin: auto;
     width: 100%;
     left: 0;
-}
-
-/*Guild Separator Glow cuz we EXTRA 😌*/
-
-.theme-dark .guildSeparator-1X4GQ1:after {
-    background: var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
-}
-
-/*Blocked Messages Design*/
-.message-group-blocked{
-    background: transparent!important;
-    border-color: transparent!important;
-    box-shadow: 0 0 10px var(--main-color);
-    padding: 0 5px;
-}
-
-.message-group-blocked:hover{
-    box-shadow: 0 0 10px var(--main-color)!important;
 }
