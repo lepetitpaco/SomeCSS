@@ -1,4 +1,4 @@
-//META{"name":"cv_Paco","description":"Whatever makes my peepee hard","author":"lepetitpaco","version":"5"}*//{}
+//META{"name":"cv_Purple","description":"Purple theme for Lina heheXD","author":"lepetitpaco","version":"5"}*//{}
 /*============== Images & Icon Links ===============*/
 
 /*==================================================================================================================================
@@ -20,18 +20,19 @@ NOTES
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
-    --main-color: #00eeff;
+    --main-color: #8e6dcc;
     --hover-color: rgba(75, 72, 72, 0.267);
-    --secondary-text-color: #70faff;
+    --secondary-text-color: #8e6dcc;
     /*background*/
     --background-blur: 0px;
     --background-brightness: 100%;
     /*Various Sizes*/
-    --emoji-picker-height: 420px;
+    --emoji-picker-height: 800px;
     /*Speech Bubble*/
     --speech-bubbles-background: rgba(0, 0, 0, .0);
-    /* User Popout Size */
-    --userPopout-width: 420px;
+    /*Modal Popout Size*/
+    --modalPopout-width: 1000px;
+    --modalPopout-height: 650px;
 }
 
 /*CUSTOMIZABLE BACKGROUND IMAGE*/
@@ -47,13 +48,13 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://localhost:35724/zelda.png) !important;
+    background-image: url(https://i.imgur.com/RgWR8aR.png) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://localhost:35724/zelda.png) !important;
+    background-image: url(https://i.imgur.com/EtOsv9F.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +64,7 @@ body::after,
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://localhost:35724/zelda.png) !important;
+    background-image: url(https://i.imgur.com/gu7T88F.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -86,11 +87,11 @@ body::after,
 } */
 
 [class*="theme-"] .homeIcon-1FoKUJ {
-    background-color: gold !important;
+    background-color: var(--main-color);
 }
 
 .selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
-    background-color: gold !important;
+    background-color: var(--main-color);
 }
 
 /*========================================================================= DO NOT TOUCH IF YOU DON'T KNOW WHAT IT IS =========================================================================*/
@@ -183,7 +184,7 @@ DIV.theme-dark #friends DIV.friends-table,
 
 /*Don't Display of the Blocked Message Line*/
 
-.message-group-blocked,
+/* .message-group-blocked, */
 /*remove CV Version number*/
 
 .accountDetails-3k9g4n::after,
@@ -350,7 +351,7 @@ DIV.theme-dark #friends DIV.friends-table,
 
 .popout-3sVMXz .userPopout-3XzG_A {
     /*    height: var(--userPopout-height); */
-    width: var(--userPopout-width);
+    /* width: var(--userPopout-width); */
 }
 
 .bodyTitle-Y0qMQz {
@@ -363,7 +364,7 @@ DIV.theme-dark #friends DIV.friends-table,
 
 /*======================================== MODAL POPOUT =====================================*/
 
-/* .root-SR8cQa {
+.root-SR8cQa {
     height: var(--modalPopout-height);
     width: var(--modalPopout-width);
 }
@@ -373,7 +374,7 @@ DIV.theme-dark #friends DIV.friends-table,
     height: 100%;
     overflow-y: scroll;
 }
- */
+
 
 /*==============================================================================================*/
 
@@ -577,16 +578,14 @@ DIV.theme-dark #friends DIV.friends-table,
     left: -13px;
 }
 
-/*Select the right column of servers*/
+/*Select the right collumn of servers*/
 
 .guild-1EfMGQ.selected-ML3OIq:before,
-.guild-1EfMGQ.unread-qLkInr:nth-child(even):before {
+.guild-1EfMGQ.unread-qLkInr:nth-child(odd):before {
     left: -5px;
 }
 
-/*Select the selected thingy thing and put it back in the middle to cancel the selection of the right column servers*/
-
-[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+[class*="theme-"]  .guild-1EfMGQ.selected-ML3OIq:before{
     left: -13px;
 }
 
@@ -615,7 +614,8 @@ DIV.theme-dark #friends DIV.friends-table,
     box-shadow: 0 0 10px var(--main-color);
 }
 
-/*Blocked Messages Design*/
+
+
 .message-group-blocked{
     background: transparent!important;
     border-color: transparent!important;
