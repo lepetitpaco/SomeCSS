@@ -1,5 +1,4 @@
 //META{"name":"TwoColumns","description":"You get 2 server Columns","author":"lepetitpaco","version":"1"}*//{}
-
 /*======================================== SERVER GRID 2 COLUMNS =================================*/
 
 .guildsWrapper-5TJh6A {
@@ -69,34 +68,6 @@
     flex-flow: row wrap;
 }
 
-/*Number of Online Friends Indicator*/
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM.da-friendsOnline {
-    position: relative;
-    width: 75%;
-    margin: auto;
-    margin-top: 5px;
-    /* left: -11px; */
-}
-
-.guild-1EfMGQ.selected-ML3OIq:before,
-.guild-1EfMGQ.unread-qLkInr:before {
-    left: -13px;
-}
-
-/*Select the right column of servers*/
-
-.guild-1EfMGQ.selected-ML3OIq:before,
-.guild-1EfMGQ.unread-qLkInr:nth-child(even):before {
-    left: -5px;
-}
-
-/*Select the selected thingy thing and put it back in the middle to cancel the selection of the right column servers*/
-
-[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
-    left: -13px;
-}
-
 /*Separator Line btween guilds and dms // friends section*/
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
@@ -113,4 +84,34 @@
     margin: auto;
     width: 100%;
     left: 0;
+}
+
+/*Number of Online Friends Indicator*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM.da-friendsOnline {
+    position: relative;
+    width: 75%;
+    margin: auto;
+    margin-top: 5px;
+    /* left: -11px; */
+}
+
+/*Notification Circles*/
+
+.guild-1EfMGQ.selected-ML3OIq:before,
+.guild-1EfMGQ.unread-qLkInr:before {
+    left: -13px;
+}
+
+/*Select the right column of servers*/
+
+/* .guild-1EfMGQ.selected-ML3OIq:before,
+.guild-1EfMGQ.unread-qLkInr:nth-child(odd):before {
+    left: -5px;
+} */
+
+/*Select the selected thingy thing and put it back in the middle to cancel the selection of the right column servers*/
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    left: -13px;
 }
