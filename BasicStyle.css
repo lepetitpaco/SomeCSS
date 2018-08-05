@@ -340,6 +340,24 @@ DIV .content-yTz4x3,
     background: rgba(255, 255, 255, .1) !important;
 }
 
+/*Home Icon and Icons style fix*/
+
+.homeIcon-1FoKUJ g {
+    display: none;
+}
+
+[class*="theme-"] .homeIcon-1FoKUJ {
+    background-color: transparent !important;
+}
+
+.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
+    background-color: transparent!important;
+}
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    background: transparent !important;
+}
+
 
 
 /*==========================User Popout BIGGER==========================*/
