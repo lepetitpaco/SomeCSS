@@ -17,7 +17,10 @@ NOTES
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
-@import url(https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/TwoColumns.theme.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/DisplayNone.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
+
+
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
@@ -109,126 +112,19 @@ body::after,
 
 /*=============================================================================================================================================================================*/
 
-/*CLEAR VISION MODS*/
+
 
 /*=============================================================================================================================================================================*/
 
-/* Remove ClearVision start up animations */
 
-.app,
-body::after,
-#app-mount::before,
-#app-mount::after {
-    -webkit-animation: none;
-    animation: none;
-}
 
-/* Make the background really clear & more smooth */
 
-[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT),
-[class*="userPopout-"] [class*="footer-"],
-.activity-11LB_k,
-[class*="theme-"] [class*="topSectionNormal-"],
-[class*="theme-"] .body-3ND3kc,
-.topSectionPlaying-1J5E4n,
-.topSectionSpotify-1lI0-P,
-.guildsWrapper-5TJh6A,
-DIV DIV[class*="noWrap"] [class*="channels-"],
-DIV DIV.flex-spacer.flex-horizontal,
-DIV[class*="titleWrapper"]>DIV[class*="title-"],
-DIV DIV.channel-members,
-DIV .search-results-wrap,
-DIV #friends [class*="noWrap"][class*="headerBar"],
-DIV #friends DIV.friends-table,
-.topSectionStreaming-1Tpf5X,
-.backdrop-1wrmKB,
-.headerXbox-3G-4PF,
-DIV .chat-3bRxxu,
-DIV .content-yTz4x3,
-[class*=appMount-] {
-    background-color: transparent !important;
-}
-
-/*Make guild scroller lose its shadow for smooth backgrounds mod*/
-
-.guildsWrapper-5TJh6A,
-/*Line Just under the channel name*/
-
-.header-2o-2hj,
-/*Line Above the Chat input*/
-
-.chat form {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-}
-
-/*DISCORD PLUGINS MODS*/
 
 /*=============================================================================================================================================================================*/
 
-/*Reply Bar BBD*/
 
-.reply-list {
-    background: rgba(0, 0, 0, .8) !important;
-}
 
-.reply-item {
-    background: rgba(0, 0, 0, 0) !important;
-}
 
-/*bf toolbar BBD*/
-
-.bf-toolbar:before {
-    background: rgba(0, 0, 0, .5) !important;
-    width: 98%;
-    left: 4px;
-    border: 0px solid var(--main-color);
-    box-shadow: 0 0 12px var(--main-color);
-}
-
-/*Transparancy of the clock Plugin*/
-
-#dv-mount {
-    background-color: transparent !important;
-}
-
-/*DISPLAY NONE*/
-
-/*=============================================================================================================================================================================*/
-
-/*Don't Display of the Blocked Message Line*/
-
-.message-group-blocked,
-/*remove CV Version number*/
-
-.accountDetails-3k9g4n::after,
-/* Remove unnecessary help texts from status picker */
-
-.helper-2c73HK,
-/*Don't display protip cuz I'm not a noob*/
-
-.protip-YaFfgO,
-/*Don't display welcome message on server*/
-
-.welcomeMessage-3_Mcht,
-/*No Channel Message*/
-
-.wrapper-r-6rrt,
-/*Divider Bar - Line between each messages*/
-
-.dividerEnabled-2TTlcf,
-/*Line between the chat input and the + button*/
-
-.attachButtonDivider-3Glu60,
-/*Scrollbars*/
-
-/* ::-webkit-scrollbar, */
-
-/*Collapsed Voice Channel Still visible users*/
-
-.voiceUserSummaryItem-BDt0rD {
-    display: none !important;
-}
 
 /*=============================================================================================================================================================================*/
 
@@ -679,3 +575,4 @@ DIV .content-yTz4x3,
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+
