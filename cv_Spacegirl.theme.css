@@ -1,4 +1,4 @@
-//META{"name":"cv_Paco","description":"Whatever makes my peepee hard","author":"lepetitpaco","version":"5"}*//{}
+//META{"name":"cv_Spacegirl","description":"Spacegirl for Ammy","author":"lepetitpaco","version":"5"}*//{}
 /*============== Images & Icon Links ===============*/
 
 /*==================================================================================================================================
@@ -17,13 +17,12 @@ NOTES
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
-@import url(https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/TwoColumns.theme.css);
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
-    --main-color: gold;
+    --main-color: rgb(56, 109, 255);
     --hover-color: rgba(75, 72, 72, 0.267);
-    --secondary-text-color: gold;
+    --secondary-text-color: rgb(91, 244, 255);
     /*background*/
     --background-blur: 0px;
     --background-brightness: 30%;
@@ -32,10 +31,12 @@ NOTES
     /*Speech Bubble*/
     --speech-bubbles-background: rgba(0, 0, 0, .0);
     /* User Popout Size */
-    --userPopout-width: 420px;
+    --userPopout-width: auto;
+    --userPopout-height: auto;
     /* Modal Popout Size */
-    --modalPopout-width: 1200px;
-    --modalPopout-height: 675px;
+    --modalPopout-width: auto;
+    --modalPopout-height: auto;
+    
 }
 
 /*CUSTOMIZABLE BACKGROUND IMAGE*/
@@ -51,23 +52,23 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    background-image: url(https://i.imgur.com/Cgew8t8.png) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    background-image: url(https://i.pinimg.com/originals/1e/e5/c0/1ee5c00933f7983d587305f0bff5e7ae.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(50%);
+    filter: brightness(80%);
 }
 
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    background-image: url(https://i.imgur.com/uriSTGm.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -78,7 +79,7 @@ body::after,
 
 .homeIcon-1FoKUJ {
     color: transparent;
-    background-image: url(https://orig00.deviantart.net/e375/f/2014/205/6/b/triforce_token_by_blueamnesiac-d7s54ly.png) !important;
+    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -86,7 +87,7 @@ body::after,
 }
 
 .homeIcon-1FoKUJ:hover {
-    background-image: url(https://orig00.deviantart.net/e375/f/2014/205/6/b/triforce_token_by_blueamnesiac-d7s54ly.png);
+    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg);
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -143,8 +144,6 @@ DIV #friends DIV.friends-table,
 .topSectionStreaming-1Tpf5X,
 .backdrop-1wrmKB,
 .headerXbox-3G-4PF,
-DIV .chat-3bRxxu,
-DIV .content-yTz4x3,
 [class*=appMount-] {
     background-color: transparent !important;
 }
@@ -381,7 +380,7 @@ DIV .content-yTz4x3,
 
 .popout-3sVMXz .userPopout-3XzG_A {
     /*    height: var(--userPopout-height); */
-    width: var(--userPopout-width);
+    /* width: var(--userPopout-width); */
 }
 
 .bodyTitle-Y0qMQz {
@@ -396,7 +395,7 @@ DIV .content-yTz4x3,
 
 /*======================================== MODAL POPOUT =====================================*/
 
-.root-SR8cQa {
+/* .root-SR8cQa {
     height: var(--modalPopout-height);
     width: var(--modalPopout-width);
 }
@@ -405,7 +404,7 @@ DIV .content-yTz4x3,
     height: 100%;
     overflow-y: scroll;
 }
-
+ */
 /*==============================================================================================*/
 
 /*Chat and Voice Opacity to not hurt me little eyes*/
