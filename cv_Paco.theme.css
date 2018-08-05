@@ -17,17 +17,13 @@ NOTES
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/SmoothDesign.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/displaynone.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/CleanScrollbar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/ChannelListColors.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/UserPopoutAndModalMods.css);
+/* Paco's Modifications */
+
+/* @import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css); */
+/* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
+/* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css); */
-
-
+/* @import url(https://lepetitpaco.github.io/SomeCSS/glow.css); */
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
@@ -112,35 +108,11 @@ body::after,
 
 /*=====================================================================================================================================================================*/
 
-/*==========================User Popout BIGGER==========================*/
-
-/* .popout-3sVMXz .userPopout-3XzG_A {
-    height: var(--userPopout-height);
-    width: var(--userPopout-width);
-}
-
-.bodyTitle-Y0qMQz {
-    margin-bottom: -5%;
-}
- */
-
-/*==========================Modal Popout BIGGER==========================*/
-
-/* .root-SR8cQa {
-    height: var(--modalPopout-height);
-    width: var(--modalPopout-width);
-}
-
-.body-3ND3kc {
-    height: 100%;
-    overflow-y: scroll;
-} */
-
 /*==========================DISPLAY NONE==========================*/
 
 /*Don't Display of the Blocked Message Line*/
 
-.messageGroupBlocked-3wrQQX,
+/* .messageGroupBlocked-3wrQQX, */
 /*remove CV Version number*/
 
 .accountDetails-3k9g4n::after,
@@ -171,3 +143,28 @@ body::after,
 .voiceUserSummaryItem-BDt0rD {
     display: none !important;
 }
+
+/*==========================User Popout BIGGER==========================*/
+
+/* .popout-3sVMXz .userPopout-3XzG_A {
+    height: var(--userPopout-height);
+    width: var(--userPopout-width);
+}
+
+.bodyTitle-Y0qMQz {
+    margin-bottom: -5%;
+}
+ */
+
+/*==========================Modal Popout BIGGER==========================*/
+
+/* .root-SR8cQa {
+    height: var(--modalPopout-height);
+    width: var(--modalPopout-width);
+}
+
+.body-3ND3kc {
+    height: 100%;
+    overflow-y: scroll;
+} */
+

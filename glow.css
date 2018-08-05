@@ -65,3 +65,15 @@
 .messageGroupBlocked-3wrQQX:hover {
     box-shadow: 0 0 10px var(--main-color) !important;
 }
+
+/*bf toolbar BBD*/
+
+.bf-toolbar:before {
+    box-shadow: 0 0 12px var(--main-color);
+}
+
+/*User Popout Footer Border Top*/
+
+[class*="userPopout-"] [class*="footer-"] {
+    box-shadow: 0 0 10px var(--main-color);
+}
