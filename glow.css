@@ -1,0 +1,67 @@
+/*TEXT INPUTS*/
+
+/*=========================================================================================================================*/
+
+/*General Chat Input*/
+
+/*Border and Background*/
+
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
+    -webkit-box-shadow: 0 0 10px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Upload modal chat input background*/
+
+.theme-brand .inner-zqa7da {
+    -webkit-box-shadow: 0 0 10px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Emoji Search Input*/
+
+.search-bar-light .searchBarInner-1_Tg2R {
+    -webkit-box-shadow: 0 0 10px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/* underline roles in memberlist & DMs */
+
+.members-1998pB .membersGroup-v9BXpm::after,
+.private-channels header::after {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/* underline labels in channellist */
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz::after,
+.channels-Ie2l6A .wrapperHovered-28fu1D::after {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*doing cool notification thingy lights sexy glowy circles you know it*/
+
+.guild-1EfMGQ.unread-qLkInr:before {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Guild Separator Glow cuz we EXTRA 😌*/
+
+.guildSeparator-1X4GQ1:after {
+    background: var(--main-color) !important;
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Blocked Messages Design*/
+
+.messageGroupBlocked-3wrQQX {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.messageGroupBlocked-3wrQQX:hover {
+    box-shadow: 0 0 10px var(--main-color) !important;
+}

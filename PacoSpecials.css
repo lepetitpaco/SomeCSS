@@ -7,14 +7,14 @@
 
 /*Blocked Messages Design*/
 
-.message-group-blocked {
+.messageGroupBlocked-3wrQQX {
     background: transparent !important;
     border-color: transparent !important;
     box-shadow: 0 0 10px var(--main-color);
     padding: 0 5px;
 }
 
-.message-group-blocked:hover {
+.messageGroupBlocked-3wrQQX:hover {
     box-shadow: 0 0 10px var(--main-color) !important;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .channelTextArea-1LDbYG.channelTextArea-rNsIhG {
-    /* box-shadow: 0 0 10px transparent; */
+    box-shadow: 0 0 10px transparent;
     border-radius: 5px;
     margin: 10px 0 30px;
 }
