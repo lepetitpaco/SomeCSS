@@ -185,6 +185,13 @@ DIV .content-yTz4x3,
     background: var(--main-color) !important;
 }
 
+/*Larger pin Messages*/
+
+.messagesPopoutWrap-1MQ1bW {
+    width: 620px !important;
+    max-height: 1000px !important;
+}
+
 /*======================= EMOJI ===========================*/
 
 /*Higher Emoji Picker*/
@@ -269,7 +276,7 @@ DIV .content-yTz4x3,
 
 .messageGroupBlocked-3wrQQX {
     background: transparent !important;
-    border-color: var(--main-color)!important;
+    border-color: var(--main-color) !important;
     padding: 0 5px;
 }
 
@@ -282,6 +289,58 @@ DIV .content-yTz4x3,
     background: transparent !important;
     border-color: transparent !important;
 }
+
+/*===========================================TEXT INPUTS=========================================*/
+
+/*General Chat Input*/
+
+/*Border and Background*/
+
+.inner-zqa7da.flex-1O1GKY {
+    /* border: 1px solid transparent; */
+    background: rgba(0, 0, 0, 0);
+}
+
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
+    box-shadow: 0 0 10px transparent;
+    border-radius: 5px;
+    margin: 10px 0 30px;
+}
+
+.theme-brand .inner-zqa7da .textArea-2Spzkt {
+    background: rgba(255, 255, 255, .1) !important;
+}
+
+/*Emoji Search Input*/
+
+.search-bar-light .searchBarInner-1_Tg2R {
+    background: rgba(255, 255, 255, .1) !important;
+    border: 2 solid var(--main-color) !important;
+}
+
+.search-bar input {
+    border: 0 solid transparent !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+.search-bar input:focus {
+    border: 0 solid transparent !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+.containerDefault-3GGEv_ {
+    padding-top: 16px;
+}
+
+/*Chat Search Input*/
+
+.search .searchBar-2_Yu-C {
+    background: rgba(255, 255, 255, .1) !important;
+}
+
+
 
 /*==========================User Popout BIGGER==========================*/
 

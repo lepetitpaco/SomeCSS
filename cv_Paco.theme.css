@@ -17,16 +17,20 @@ NOTES
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
-
 /* Paco's Modifications */
+
 @import url(https://lepetitpaco.github.io/SomeCSS/BasicStyle.css);
 /* @import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css); */
-@import url(https://lepetitpaco.github.io/SomeCSS/underline.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/glow.css);
 
+/* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
+
+/* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
+
+/* @import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css); */
+
+@import url(https://lepetitpaco.github.io/SomeCSS/underline.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/BacklightNotifications.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/glow.css);
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
@@ -106,7 +110,7 @@ body::after,
 }
 
 [class*="theme-"] .homeIcon-1FoKUJ {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
@@ -149,4 +153,3 @@ body::after,
 .voiceUserSummaryItem-BDt0rD {
     display: none !important;
 }
-
