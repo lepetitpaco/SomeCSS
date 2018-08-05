@@ -1,0 +1,32 @@
+/*Chat and Voice Opacity to not hurt me little eyes*/
+
+.wrapper-2NJDcI,
+.nameDefaultVoice-3WUH7s,
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.iconDefault-3Gr8d2,
+.nameDefault-2DI02H,
+.colorDefaultText-oas-QM,
+.colorDefaultVoice-3wYlhb,
+.colorHoveredText-OZnAgu,
+.colorHoveredVoice-1kucsK,
+.colorLockedText-1VRkPt,
+.colorLockedVoice-2UlBjl,
+.colorSelectedText-1y4Wvs,
+.colorSelectedVoice-Xcb_9R,
+.colorUnreadText-2t7XRb,
+.colorUnreadVoice-137o4S,
+.private-channels .channel .channel-name {
+    opacity: 1;
+    color: #fff;
+}
+
+/*Voice chat Selected to make a visual difference and it's cool*/
+
+.nameConnectedVoice-MHUX5F,
+.nameSelectedVoice-1qSph5 {
+    opacity: 1;
+    color: var(--main-color);
+}
