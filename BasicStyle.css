@@ -60,11 +60,9 @@ DIV .content-yTz4x3,
 /*Line Above the Chat input*/
 
 .chat form,
-
 /*Remove the glow of general chat input*/
-.channelTextArea-1LDbYG.channelTextArea-rNsIhG
 
-{
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
@@ -256,7 +254,7 @@ DIV .content-yTz4x3,
 .colorUnreadVoice-137o4S,
 .private-channels .channel .channel-name {
     /* opacity: var(--chat-voice-channels-opacity)!important; */
-    color: var(--chat-voice-channels-color)!important;
+    color: var(--chat-voice-channels-color) !important;
 }
 
 /*Voice chat Selected to make a visual difference and it's cool*/
@@ -264,5 +262,23 @@ DIV .content-yTz4x3,
 .nameConnectedVoice-MHUX5F,
 .nameSelectedVoice-1qSph5 {
     /* opacity: var(--voice-chat-selected-opacity)!important; */
-    color: var(--voice-chat-selected-color)!important;
+    color: var(--voice-chat-selected-color) !important;
+}
+
+/*Blocked Messages Design*/
+
+.messageGroupBlocked-3wrQQX {
+    background: transparent !important;
+    border-color: transparent !important;
+    padding: 0 5px;
+}
+
+.messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+.messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+    background: transparent !important;
+    border-color: transparent !important;
 }

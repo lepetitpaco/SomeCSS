@@ -18,11 +18,16 @@ NOTES
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 /* Paco's Modifications */
+
 @import url(https://lepetitpaco.github.io/SomeCSS/BasicStyle.css);
 /* @import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css); */
+
 /* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
+
 /* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
+
 /* @import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css); */
+
 @import url(https://lepetitpaco.github.io/SomeCSS/glow.css);
 /*============== CUSTOMIZABLE COLORS ===============*/
 
@@ -117,6 +122,7 @@ body::after,
 /*Don't Display of the Blocked Message Line*/
 
 /* .messageGroupBlocked-3wrQQX, */
+
 /*remove CV Version number*/
 
 .accountDetails-3k9g4n::after,
@@ -171,7 +177,3 @@ body::after,
     height: 100%;
     overflow-y: scroll;
 } */
-
-
-
-

@@ -4,17 +4,8 @@
     background: var(--main-color) !important;
 }
 
-/*Blocked Messages Design*/
 
-.messageGroupBlocked-3wrQQX {
-    background: transparent !important;
-    border-color: transparent !important;
-    padding: 0 5px;
-}
 
-.messageGroupBlocked-3wrQQX:hover {
-    box-shadow: 0 0 10px var(--main-color) !important;
-}
 
 /*doing cool notification thingy lights sexy glowy circles you know it*/
 
