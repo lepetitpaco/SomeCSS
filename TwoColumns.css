@@ -46,6 +46,15 @@
     left: -11px;
 }
 
+#bd-pub-li{
+    width: 70%;
+}
+
+#bd-pub-button{
+    margin: auto;
+    margin-left: 65%;
+}
+
 /*====================================================================*/
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
