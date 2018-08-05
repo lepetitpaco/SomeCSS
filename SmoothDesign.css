@@ -76,3 +76,21 @@ DIV .content-yTz4x3,
 #dv-mount {
     background-color: transparent !important;
 }
+
+/*Channel Notice Opacity Fix*/
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid var(--main-color);
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid var(--main-color);
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+

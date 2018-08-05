@@ -1,0 +1,34 @@
+/*Speech Bubbles*/
+
+.containerCompact-3pGPJs,
+.containerCozy-336-Cz {
+    /* padding: 10px !important; */
+    border-radius: 5px !important;
+    background: var(--speech-bubbles-background);
+}
+
+/*Chat Text Normal Text Formatting*/
+
+/* .message-group .comment .markup {
+    font-weight: 600;
+} */
+
+/*======================= EMOJI ===========================*/
+
+/*Guild Separator same color than the main color*/
+
+.guildSeparator-1X4GQ1:after {
+    background: var(--main-color) !important;
+}
+
+/*Higher Emoji Picker*/
+
+.emojiPicker-3m1S-j .scrollerWrap-PyxcLY .scroller-3vODG7 {
+    height: var(--emoji-picker-height);
+}
+
+/*Remove Space between Emojis*/
+
+.emoji {
+    margin: 0 !important;
+}

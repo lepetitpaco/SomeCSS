@@ -1,0 +1,27 @@
+/** Avatar & Chat fix attempt**/
+
+/*Since both influences each other, they are both treated here*/
+
+.image-33JSyf,
+.wrapper-2F3Zv8 {
+    border-radius: 25%;
+}
+
+.avatar-17mtNa {
+    -webkit-transition: opacity .2s ease;
+    cursor: pointer;
+    margin: -10px 40px 0 0;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+.avatar-17mtNa .large-3ChYtB {
+    height: 70px;
+    width: 70px;
+}
+
+.containerCozy-jafyvG {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding: 25px 0;
+}

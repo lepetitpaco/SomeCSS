@@ -1,0 +1,181 @@
+/*Guild Separator Glow cuz we EXTRA 😌*/
+
+.guildSeparator-1X4GQ1:after {
+    background: var(--main-color) !important;
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Blocked Messages Design*/
+
+.message-group-blocked {
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: 0 0 10px var(--main-color);
+    padding: 0 5px;
+}
+
+.message-group-blocked:hover {
+    box-shadow: 0 0 10px var(--main-color) !important;
+}
+
+/*doing cool notification thingy lights sexy glowy circles you know it*/
+
+.guild-1EfMGQ.unread-qLkInr:before {
+    border-radius: 27px;
+    height: 52.5px;
+    margin-top: -26.5px;
+    width: 52.5px;
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.guild-1EfMGQ.selected-ML3OIq:before,
+.guild-1EfMGQ.unread-qLkInr:before {
+    left: -1.5px;
+}
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    left: -2px;
+    border-radius: 15px;
+    height: 52.5px;
+    margin-top: -26.5px;
+    width: 52.5px;
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*TEXT INPUTS*/
+
+/*=========================================================================================================================*/
+
+/*General Chat Input*/
+
+/*Border and Background*/
+
+.inner-zqa7da.flex-1O1GKY {
+    /* border: 1px solid transparent; */
+    background: rgba(0, 0, 0, 0);
+}
+
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
+    /* box-shadow: 0 0 10px transparent; */
+    border-radius: 5px;
+    margin: 10px 0 30px;
+}
+
+/*Upload modal chat input background*/
+
+.theme-brand .inner-zqa7da {
+    -webkit-box-shadow: 0 0 10px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.theme-brand .inner-zqa7da .textArea-2Spzkt {
+    background: rgba(255, 255, 255, .1) !important;
+}
+
+/*Emoji Search Input*/
+
+.search-bar-light .searchBarInner-1_Tg2R {
+    background: rgba(255, 255, 255, .1) !important;
+    border: 2 solid var(--main-color) !important;
+    -webkit-box-shadow: 0 0 10px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.search-bar input {
+    border: 0 solid transparent !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+.search-bar input:focus {
+    border: 0 solid transparent !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+.containerDefault-3GGEv_ {
+    padding-top: 16px;
+}
+
+/*Chat Search Input*/
+
+.search .searchBar-2_Yu-C {
+    background: rgba(255, 255, 255, .1) !important;
+}
+
+/* underline roles in memberlist & DMs */
+
+.members-1998pB .membersGroup-v9BXpm,
+.private-channels header {
+    text-align: center;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.members-1998pB .membersGroup-v9BXpm::after,
+.private-channels header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.private-channels header::after {
+    padding-bottom: 10px;
+}
+
+/* underline labels in channellist */
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz,
+.channels-Ie2l6A .wrapperHovered-28fu1D {
+    display: flex;
+    flex-direction: column;
+}
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz,
+.channels-Ie2l6A .wrapperHovered-28fu1D {
+    padding-top: 28px;
+    padding-right: 8px;
+    padding-left: 18px;
+    padding: 0 0 8px 0;
+    height: auto;
+    margin: 0px 20px;
+}
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz::after,
+.channels-Ie2l6A .wrapperHovered-28fu1D::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 92%;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+    margin: auto;
+}
+
+.channels-Ie2l6A .nameDefault-2DI02H,
+.channels-Ie2l6A .nameHovered-1gxhWH {
+    text-align: center;
+    color: var(--main-color);
+    margin: auto;
+}
+
+.iconDefault-3Gr8d2,
+.iconHovered-2L3-fB {
+    color: var(--main-color);
+}
+
+/*Remove an element that appeard in the recent dms list*/
+
+.private-channels header::after {
+    display: none;
+}
+
+/*Larger pin Messages*/
+
+.messagesPopoutWrap-1MQ1bW {
+    width: 620px !important;
+    max-height: 1000px !important;
+}
