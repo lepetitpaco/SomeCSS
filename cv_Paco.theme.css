@@ -23,7 +23,7 @@ NOTES
 /* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/glow.css); */
+@import url(https://lepetitpaco.github.io/SomeCSS/glow.css);
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
@@ -37,10 +37,9 @@ NOTES
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
     --speech-bubbles-background: rgba(0, 0, 0, .0);
-    /*Chat and Voice Opacity and Color*/
-    --chat-voice-channels-opacity: 1;
+    /*Chat and Voice Color. Default: #72767d*/
     --chat-voice-channels-color: #fff;
-    /*Voice chat Selected Color*/
+    /*Voice chat Selected Color Default: #f6f6f7*/
     --voice-chat-selected-color: var(--main-color);
 }
 
