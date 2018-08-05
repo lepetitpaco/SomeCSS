@@ -1,5 +1,3 @@
-/*CLEAR VISION MODS*/
-
 /* Remove ClearVision start up animations */
 
 .app,
@@ -36,12 +34,6 @@ DIV .content-yTz4x3,
     background-color: transparent !important;
 }
 
-/*Transparancy of the clock Plugin*/
-
-#dv-mount {
-    background-color: transparent !important;
-}
-
 /*Channel Notice Opacity Fix*/
 
 .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
@@ -67,7 +59,12 @@ DIV .content-yTz4x3,
 .header-2o-2hj,
 /*Line Above the Chat input*/
 
-.chat form {
+.chat form,
+
+/*Remove the glow of general chat input*/
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG
+
+{
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
@@ -170,7 +167,7 @@ DIV .content-yTz4x3,
 
 .textRow-19NEd_,
 .roleName-32vpEy {
-    font-weight: bold;
+    font-weight: 100;
 }
 
 /*============================================================*/
@@ -258,8 +255,8 @@ DIV .content-yTz4x3,
 .colorUnreadText-2t7XRb,
 .colorUnreadVoice-137o4S,
 .private-channels .channel .channel-name {
-    opacity: 1;
-    color: #fff;
+    opacity: var(--chat-voice-channels-opacity);
+    color: var(--chat-voice-channels-color);
 }
 
 /*Voice chat Selected to make a visual difference and it's cool*/
@@ -267,5 +264,5 @@ DIV .content-yTz4x3,
 .nameConnectedVoice-MHUX5F,
 .nameSelectedVoice-1qSph5 {
     opacity: 1;
-    color: var(--main-color);
+    color: var(--voice-chat-selected-color);
 }

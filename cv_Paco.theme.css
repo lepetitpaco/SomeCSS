@@ -18,7 +18,7 @@ NOTES
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 /* Paco's Modifications */
-
+@import url(https://lepetitpaco.github.io/SomeCSS/BasicStyle.css);
 /* @import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
@@ -37,6 +37,11 @@ NOTES
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
     --speech-bubbles-background: rgba(0, 0, 0, .0);
+    /*Chat and Voice Opacity and Color*/
+    --chat-voice-channels-opacity: 1;
+    --chat-voice-channels-color: #fff;
+    /*Voice chat Selected Color*/
+    --voice-chat-selected-color: var(--main-color);
 }
 
 /*CUSTOMIZABLE BACKGROUND IMAGE*/
@@ -167,4 +172,7 @@ body::after,
     height: 100%;
     overflow-y: scroll;
 } */
+
+
+
 
