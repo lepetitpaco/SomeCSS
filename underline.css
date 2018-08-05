@@ -1,0 +1,67 @@
+/* underline roles in memberlist & DMs */
+
+.members-1998pB .membersGroup-v9BXpm,
+.private-channels header {
+    text-align: center;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.members-1998pB .membersGroup-v9BXpm::after,
+.private-channels header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.private-channels header::after {
+    padding-bottom: 10px;
+}
+
+/* underline labels in channellist */
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz,
+.channels-Ie2l6A .wrapperHovered-28fu1D {
+    display: flex;
+    flex-direction: column;
+}
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz,
+.channels-Ie2l6A .wrapperHovered-28fu1D {
+    padding-top: 28px;
+    padding-right: 8px;
+    padding-left: 18px;
+    padding: 0 0 8px 0;
+    height: auto;
+    margin: 0px 20px;
+}
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz::after,
+.channels-Ie2l6A .wrapperHovered-28fu1D::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 92%;
+    border-bottom: 2px solid var(--main-color);
+    margin: auto;
+}
+
+.channels-Ie2l6A .nameDefault-2DI02H,
+.channels-Ie2l6A .nameHovered-1gxhWH {
+    text-align: center;
+    color: var(--main-color);
+    margin: auto;
+}
+
+.iconDefault-3Gr8d2,
+.iconHovered-2L3-fB {
+    color: var(--main-color);
+}
+
+/*Remove an element that appeard in the recent dms list*/
+
+.private-channels header::after {
+    display: none;
+}
