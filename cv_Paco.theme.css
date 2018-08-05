@@ -121,61 +121,35 @@ body::after,
 /*==========================DISPLAY NONE==========================*/
 
 /*Don't Display of the Blocked Message Line*/
-
 /* .messageGroupBlocked-3wrQQX, */
 
 /*remove CV Version number*/
-
 .accountDetails-3k9g4n::after,
+
 /* Remove unnecessary help texts from status picker */
-
 .helper-2c73HK,
+
 /*Don't display protip cuz I'm not a noob*/
-
 .protip-YaFfgO,
+
 /*Don't display welcome message on server*/
-
 .welcomeMessage-3_Mcht,
+
 /*No Channel Message*/
-
 .wrapper-r-6rrt,
+
 /*Divider Bar - Line between each messages*/
-
 .dividerEnabled-2TTlcf,
+
 /*Line between the chat input and the + button*/
-
 .attachButtonDivider-3Glu60,
-/*Scrollbars*/
 
+/*Scrollbars*/
 /* ::-webkit-scrollbar, */
 
 /*Collapsed Voice Channel Still visible users*/
-
 .voiceUserSummaryItem-BDt0rD {
     display: none !important;
 }
 
-/*==========================User Popout BIGGER==========================*/
-
-/* .popout-3sVMXz .userPopout-3XzG_A {
-    height: var(--userPopout-height);
-    width: var(--userPopout-width);
-}
-
-.bodyTitle-Y0qMQz {
-    margin-bottom: -5%;
-}
- */
-
-/*==========================Modal Popout BIGGER==========================*/
-
-/* .root-SR8cQa {
-    height: var(--modalPopout-height);
-    width: var(--modalPopout-width);
-}
-
-.body-3ND3kc {
-    height: 100%;
-    overflow-y: scroll;
-} */
 
