@@ -2,7 +2,6 @@
 
 .guildSeparator-1X4GQ1:after {
     background: var(--main-color) !important;
-    box-shadow: 0 0 10px var(--main-color);
 }
 
 /*Blocked Messages Design*/
@@ -10,7 +9,6 @@
 .messageGroupBlocked-3wrQQX {
     background: transparent !important;
     border-color: transparent !important;
-    box-shadow: 0 0 10px var(--main-color);
     padding: 0 5px;
 }
 
@@ -25,7 +23,6 @@
     height: 52.5px;
     margin-top: -26.5px;
     width: 52.5px;
-    box-shadow: 0 0 10px var(--main-color);
 }
 
 .guild-1EfMGQ.selected-ML3OIq:before,
@@ -39,7 +36,6 @@
     height: 52.5px;
     margin-top: -26.5px;
     width: 52.5px;
-    box-shadow: 0 0 10px var(--main-color);
 }
 
 /*TEXT INPUTS*/
@@ -64,8 +60,6 @@
 /*Upload modal chat input background*/
 
 .theme-brand .inner-zqa7da {
-    -webkit-box-shadow: 0 0 10px var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
 }
 
 .theme-brand .inner-zqa7da .textArea-2Spzkt {
@@ -77,8 +71,6 @@
 .search-bar-light .searchBarInner-1_Tg2R {
     background: rgba(255, 255, 255, .1) !important;
     border: 2 solid var(--main-color) !important;
-    -webkit-box-shadow: 0 0 10px var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
 }
 
 .search-bar input {
@@ -119,7 +111,6 @@
     height: 1px;
     width: 100%;
     border-bottom: 2px solid var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
 }
 
 .private-channels header::after {
@@ -151,7 +142,6 @@
     height: 1px;
     width: 92%;
     border-bottom: 2px solid var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
     margin: auto;
 }
 
