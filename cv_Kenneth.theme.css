@@ -1,18 +1,5 @@
-//META{"name":"cv_Paco","description":"Whatever makes my peepee hard","author":"lepetitpaco","version":"5"}*//{}
+//META{"name":"cv_Kenneth","description":"Kenneth Theme","author":"lepetitpaco","version":"1"}*//{}
 /*============== Images & Icon Links ===============*/
-
-/*==================================================================================================================================
-NOTES
-+ Image LINKS must begin by HTTPS - Upload your image or gif on imgur if you don't know how to have a HTTPS link.
-
-    User Popout Size
-    --userPopout-width: auto;
-    --userPopout-height: auto;
-    Modal Popout Size
-    --modalPopout-width: auto;
-    --modalPopout-height: auto;
-
-==================================================================================================================================*/
 
 /* IMPORT CSS FROM GITHUB */
 
@@ -20,18 +7,19 @@ NOTES
 /* Paco's Modifications */
 
 @import url(https://lepetitpaco.github.io/SomeCSS/BasicStyle.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/BiggerAvatar.css); */
+/* @import url(https://lepetitpaco.github.io/SomeCSS/MiscMods.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/TwoColumns.css); */
-@import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/underline.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/PacoSpecials.css); */
+/* @import url(https://lepetitpaco.github.io/SomeCSS/underline.css); */
 /* @import url(https://lepetitpaco.github.io/SomeCSS/BacklightNotifications.css); */
-@import url(https://lepetitpaco.github.io/SomeCSS/glow.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/glow.css); */
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
-    --main-color: gold;
+    --main-color: rgb(56, 109, 255);
     --hover-color: rgba(75, 72, 72, 0.267);
-    --secondary-text-color: gold;
+    --secondary-text-color: rgb(91, 244, 255);
     /*background*/
     --background-blur: 0px;
     --background-brightness: 30%;
@@ -40,9 +28,9 @@ NOTES
     /*Speech Bubble*/
     --speech-bubbles-background: rgba(0, 0, 0, .0);
     /*Chat and Voice Color. Default: #72767d*/
-    --chat-voice-channels-color: #fff;
+    --chat-voice-channels-color: #72767d;
     /*Voice chat Selected Color Default: #f6f6f7*/
-    --voice-chat-selected-color: var(--main-color);
+    --voice-chat-selected-color: #f6f6f7;
 }
 
 /*CUSTOMIZABLE BACKGROUND IMAGE*/
@@ -58,23 +46,23 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    background-image: url(https://i.imgur.com/Cgew8t8.png) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    background-image: url(https://i.pinimg.com/originals/1e/e5/c0/1ee5c00933f7983d587305f0bff5e7ae.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(50%);
+    filter: brightness(80%);
 }
 
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    background-image: url(https://i.imgur.com/uriSTGm.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +73,7 @@ body::after,
 
 .homeIcon-1FoKUJ {
     color: transparent;
-    background-image: url(https://orig00.deviantart.net/e375/f/2014/205/6/b/triforce_token_by_blueamnesiac-d7s54ly.png) !important;
+    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -93,12 +81,13 @@ body::after,
 }
 
 .homeIcon-1FoKUJ:hover {
-    background-image: url(https://orig00.deviantart.net/e375/f/2014/205/6/b/triforce_token_by_blueamnesiac-d7s54ly.png);
+    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg);
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
 }
+
 /*==========================DISPLAY NONE==========================*/
 
 /*Don't Display of the Blocked Message Line*/

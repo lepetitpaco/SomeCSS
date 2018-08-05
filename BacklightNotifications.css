@@ -19,3 +19,7 @@
     margin-top: -26.5px;
     width: 52.5px;
 }
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    background: transparent !important;
+}
