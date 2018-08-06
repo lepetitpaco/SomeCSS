@@ -13,7 +13,7 @@
     display: block;
     height: 1px;
     width: 100%;
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color)!important;
 }
 
 .private-channels header::after {
@@ -44,20 +44,21 @@
     display: block;
     height: 1px;
     width: 92%;
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color)!important;
     margin: auto;
+    margin-top: 7px;
 }
 
 .channels-Ie2l6A .nameDefault-2DI02H,
 .channels-Ie2l6A .nameHovered-1gxhWH {
     text-align: center;
-    color: var(--main-color);
+    color: var(--main-color)!important;
     margin: auto;
 }
 
 .iconDefault-3Gr8d2,
 .iconHovered-2L3-fB {
-    color: var(--main-color);
+    color: var(--main-color)!important;
 }
 
 /*Remove an element that appeard in the recent dms list*/
