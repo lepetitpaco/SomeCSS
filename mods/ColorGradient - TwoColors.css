@@ -1,0 +1,8 @@
+/*Color Gradient - 2 Colors */
+
+.markup-2BOw-j {
+    background: linear-gradient(to right, var(--first-gradient-color), var(--second-gradient-color));
+    color: transparent !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
