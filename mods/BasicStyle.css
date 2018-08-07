@@ -260,7 +260,7 @@ DIV .content-yTz4x3,
 .colorUnreadText-2t7XRb,
 .colorUnreadVoice-137o4S,
 .private-channels .channel .channel-name {
-    /* opacity: var(--chat-voice-channels-opacity)!important; */
+    opacity: var(--chat-voice-channels-opacity)!important;
     color: var(--chat-voice-channels-color) !important;
 }
 
