@@ -185,6 +185,7 @@ DIV.theme-dark #friends DIV.friends-table,
 /*Don't Display of the Blocked Message Line*/
 
 /* .message-group-blocked, */
+
 /*remove CV Version number*/
 
 .accountDetails-3k9g4n::after,
@@ -369,12 +370,10 @@ DIV.theme-dark #friends DIV.friends-table,
     width: var(--modalPopout-width);
 }
 
-
 .body-3ND3kc {
     height: 100%;
     overflow-y: scroll;
 }
-
 
 /*==============================================================================================*/
 
@@ -585,7 +584,7 @@ DIV.theme-dark #friends DIV.friends-table,
     left: -5px;
 }
 
-[class*="theme-"]  .guild-1EfMGQ.selected-ML3OIq:before{
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
     left: -13px;
 }
 
@@ -614,15 +613,13 @@ DIV.theme-dark #friends DIV.friends-table,
     box-shadow: 0 0 10px var(--main-color);
 }
 
-
-
-.message-group-blocked{
-    background: transparent!important;
-    border-color: transparent!important;
+.message-group-blocked {
+    background: transparent !important;
+    border-color: transparent !important;
     box-shadow: 0 0 10px var(--main-color);
     padding: 0 5px;
 }
 
-.message-group-blocked:hover{
-    box-shadow: 0 0 10px var(--main-color)!important;
+.message-group-blocked:hover {
+    box-shadow: 0 0 10px var(--main-color) !important;
 }
