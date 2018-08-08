@@ -1,4 +1,4 @@
-//META{"name":"cv_Spacegirl","description":"Spacegirl 88","author":"lepetitpaco","version":"5"}*//{}
+//META{"name":"cv_OBEY","description":"Propaganda by WLOP","author":"lepetitpaco","version":"1"}*//{}
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
@@ -14,15 +14,13 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 /* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
 
-/*============== CUSTOMIZABLE COLORS ===============*/
-
 :root {
-    --main-color: rgb(1, 124, 150);
-    --secondary-text-color: rgb(30, 230, 170);
+    --main-color: rgb(255, 67, 246);
+    --secondary-text-color: gold;
     --hover-color: rgba(75, 72, 72, 0.267);
     /*Colors Selector List*/
-    --first-gradient-color: rgb(1, 124, 150);
-    --second-gradient-color: rgb(30, 230, 170);
+    --first-gradient-color: rgb(255, 67, 246);
+    --second-gradient-color: gold;
     /*background*/
     --background-blur: 0px;
     --background-brightness: 30%;
@@ -41,7 +39,7 @@
     --userPopout-height: auto;
     /*Modal Popout Size*/
     --modalPopout-width: 1200px;
-    --modalPopout-height: 675px;
+    --modalPopout-height: 630px;
     /* https://andrew.hedges.name/experiments/aspect_ratio/ */
 }
 
@@ -58,23 +56,23 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/Cgew8t8.png) !important;
+    background-image: url(https://i.imgur.com/7w03Ci6.jpg) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.pinimg.com/originals/1e/e5/c0/1ee5c00933f7983d587305f0bff5e7ae.jpg) !important;
+    background-image: url(https://i.imgur.com/wm4wivd.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(80%);
+    filter: brightness(50%);
 }
 
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/uriSTGm.jpg) !important;
+    background-image: url(https://i.imgur.com/PVyCUX8.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -86,7 +84,7 @@ body::after,
 .homeIcon-1FoKUJ,
 .homeIcon-1FoKUJ:hover {
     color: transparent;
-    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg) !important;
+    background-image: url(https://orig00.deviantart.net/e375/f/2014/205/6/b/triforce_token_by_blueamnesiac-d7s54ly.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -95,35 +93,36 @@ body::after,
 
 /*==========================DISPLAY NONE==========================*/
 
+/* .messageGroupBlocked-3wrQQX, */
+
 /*Don't Display of the Blocked Message Line*/
 
-.messageGroupBlocked-3wrQQX,
-.messageGroupBlockedBtn-1PBBh-,
+.accountDetails-3k9g4n::after,
 /*remove CV Version number*/
 
-.accountDetails-3k9g4n::after,
+.helper-2c73HK,
 /* Remove unnecessary help texts from status picker */
 
-.helper-2c73HK,
+.protip-YaFfgO,
 /*Don't display protip cuz I'm not a noob*/
 
-.protip-YaFfgO,
+.welcomeMessage-3_Mcht,
 /*Don't display welcome message on server*/
 
-.welcomeMessage-3_Mcht,
+.wrapper-r-6rrt,
 /*No Channel Message*/
 
-.wrapper-r-6rrt,
+.dividerEnabled-2TTlcf,
 /*Divider Bar - Line between each messages*/
 
-.dividerEnabled-2TTlcf,
+.attachButtonDivider-3Glu60,
 /*Line between the chat input and the + button*/
 
-.attachButtonDivider-3Glu60,
+.voiceUserSummaryItem-BDt0rD
 /*Collapsed Voice Channel Still visible users*/
 
-.voiceUserSummaryItem-BDt0rD {
+    {
     display: none !important;
 }
 
-/**************************************************************************************/
+/*=========================================================EXPERIMENTS=========================================================*/

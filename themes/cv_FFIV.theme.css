@@ -1,40 +1,36 @@
-//META{"name":"cv_Spacegirl","description":"Spacegirl 88","author":"lepetitpaco","version":"5"}*//{}
-/* IMPORT CSS FROM GITHUB */
+//META{"name":"cv_FFIV","description":"Final Fantasy IV B&W","author":"lepetitpaco","version":"1"}*//{}
+/* IMPORTANT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyle.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BlackAndWhite.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorGradient-TwoColors.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-RainbowText.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/underline.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
-
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
-    --main-color: rgb(1, 124, 150);
-    --secondary-text-color: rgb(30, 230, 170);
+    --main-color: white;
+    --secondary-text-color: white;
     --hover-color: rgba(75, 72, 72, 0.267);
     /*Colors Selector List*/
-    --first-gradient-color: rgb(1, 124, 150);
-    --second-gradient-color: rgb(30, 230, 170);
+    --first-gradient-color: rgb(99, 99, 99);
+    --second-gradient-color: rgb(255, 255, 255);
     /*background*/
     --background-blur: 0px;
-    --background-brightness: 30%;
+    --background-brightness: 15%;
     /*Various Sizes*/
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
-    --speech-bubbles-background: rgba(0, 0, 0, .0);
+    --speech-bubbles-background: rgba(0, 0, 0, 0);
     /*Chat and Voice Color. Default: #72767d*/
     --chat-voice-channels-opacity: 1;
-    --chat-voice-channels-color: #fff;
+    --chat-voice-channels-color: white;
     /*Voice chat Selected Color Default: #f6f6f7*/
-    --voice-chat-selected-color: var(--main-color);
+    --voice-chat-selected-color: white;
     /*User Popout Size*/
     /*Default Width: 250px | Default Height :auto*/
     --userPopout-width: 420px;
@@ -58,23 +54,24 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/Cgew8t8.png) !important;
+    background-image: url(http://getwallpapers.com/wallpaper/full/4/4/b/337276.jpg) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.pinimg.com/originals/1e/e5/c0/1ee5c00933f7983d587305f0bff5e7ae.jpg) !important;
+    background-image: url(http://i.imgur.com/7bEL2Lx.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(80%);
+    background-position: 15%;
+    filter: brightness(30%);
 }
 
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/uriSTGm.jpg) !important;
+    background-image: url(https://i.pinimg.com/originals/e7/94/58/e794587ca3b7c1b12712d23166745cf5.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -86,7 +83,7 @@ body::after,
 .homeIcon-1FoKUJ,
 .homeIcon-1FoKUJ:hover {
     color: transparent;
-    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/fr/d/d1/Final_Fantasy_IV_%282007%29_Logo.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
