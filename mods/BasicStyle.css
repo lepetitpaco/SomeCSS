@@ -1,6 +1,6 @@
 /*Message to the people*/
 
-.typeWindows-1za-n7:hover .wordmark-2iDDfm::after {
+/* .typeWindows-1za-n7:hover .wordmark-2iDDfm::after {
     width: 2400px;
     position: absolute;
     top: 2px;
@@ -9,11 +9,11 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     content: "Sup it's Paco. You can DM me to check if there is an updated version of your theme file, if you want a mod, if there is something wrong with the theme. I can't remember everyone I gave the theme to so here's a message for you, the people. Kiss on your ass cheek <3";
-}
+} */
 
 /*keyframe animations*/
 
-.typeWindows-1za-n7 .wordmark-2iDDfm::after {
+/* .typeWindows-1za-n7 .wordmark-2iDDfm::after {
     animation: bannermove 20s linear infinite;
 }
 
@@ -21,7 +21,7 @@
     to {
         transform: translateX(-200%);
     }
-}
+} */
 
 /*============================================================================================================================================================================*/
 
