@@ -1,4 +1,4 @@
-//META{"name":"cv_Purple","description":"Purple theme for Lina heheXD","author":"lepetitpaco","version":"5"}*//{}
+//META{"name":"cv_Sylvanas","description":"Sylvanas from World of Warcraft by WLOP","author":"lepetitpaco","version":"1"}*//{}
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
@@ -6,21 +6,23 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyleV2.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-/*============== CUSTOMIZABLE COLORS ===============*/
-
 :root {
-    --main-color: #8e6dcc;
+    --main-color: rgb(255, 74, 74);
+    --secondary-text-color: rgb(205, 72, 218);
     --hover-color: rgba(75, 72, 72, 0.267);
-    --secondary-text-color: #8e6dcc;
+    /*Colors Selector List*/
+    --first-gradient-color: rgb(255, 74, 74);
+    --second-gradient-color: rgb(205, 72, 218);
     /*background*/
     --background-blur: 0px;
-    --background-brightness: 20%;
+    --background-brightness: 40%;
     /*Various Sizes*/
-    --emoji-picker-height: 800px;
+    --emoji-picker-height: 420px;
     /*Speech Bubble*/
     --speech-bubbles-background: rgba(0, 0, 0, .0);
     /*Chat and Voice Color. Default: #72767d*/
@@ -30,11 +32,11 @@
     --voice-chat-selected-color: var(--main-color);
     /*User Popout Size*/
     /*Default Width: 250px | Default Height :auto*/
-    --userPopout-width: 420px;
+    --userPopout-width: 350px;
     --userPopout-height: auto;
     /*Modal Popout Size*/
-    --modalPopout-width: 1200px;
-    --modalPopout-height: 675px;
+    --modalPopout-width: 800px;
+    --modalPopout-height: 470px;
     /* https://andrew.hedges.name/experiments/aspect_ratio/ */
     --member-list-selected-background-color: rgba(0, 0, 0, 0.420);
 }
@@ -52,13 +54,13 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/RgWR8aR.png) !important;
+    background-image: url(https://i.imgur.com/c9CEj7w.png) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.imgur.com/EtOsv9F.png) !important;
+    background-image: url(https://i.imgur.com/0m3qZSj.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +70,7 @@ body::after,
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/gu7T88F.png) !important;
+    background-image: url(https://i.imgur.com/JbiCYdN.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +82,7 @@ body::after,
 .homeIcon-1FoKUJ,
 .homeIcon-1FoKUJ:hover {
     color: transparent;
-    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg) !important;
+    background-image: url(https://i.imgur.com/JNF6AqS.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -89,36 +91,36 @@ body::after,
 
 /*==========================DISPLAY NONE==========================*/
 
+/* .messageGroupBlocked-3wrQQX, */
+
 /*Don't Display of the Blocked Message Line*/
 
-/* .messageGroupBlocked-3wrQQX,
-.messageGroupBlockedBtn-1PBBh-, */
-
+.accountDetails-3k9g4n::after,
 /*remove CV Version number*/
 
-.accountDetails-3k9g4n::after,
+.helper-2c73HK,
 /* Remove unnecessary help texts from status picker */
 
-.helper-2c73HK,
+.protip-YaFfgO,
 /*Don't display protip cuz I'm not a noob*/
 
-.protip-YaFfgO,
+.welcomeMessage-3_Mcht,
 /*Don't display welcome message on server*/
 
-.welcomeMessage-3_Mcht,
+.wrapper-r-6rrt,
 /*No Channel Message*/
 
-.wrapper-r-6rrt,
+.dividerEnabled-2TTlcf,
 /*Divider Bar - Line between each messages*/
 
-.dividerEnabled-2TTlcf,
+.attachButtonDivider-3Glu60,
 /*Line between the chat input and the + button*/
 
-.attachButtonDivider-3Glu60,
+.voiceUserSummaryItem-BDt0rD
 /*Collapsed Voice Channel Still visible users*/
 
-.voiceUserSummaryItem-BDt0rD {
+    {
     display: none !important;
 }
 
-/**************************************************************************************/
+/*=========================================================EXPERIMENTS=========================================================*/

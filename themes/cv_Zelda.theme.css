@@ -1,21 +1,15 @@
 //META{"name":"cv_Zelda","description":"Zelda on a bike by WLOP","author":"lepetitpaco","version":"1"}*//{}
-
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyle.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyleV2.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorGradient-TwoColors.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-RainbowText.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/underline.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
-
-
 :root {
     --main-color: gold;
     --secondary-text-color: gold;
@@ -25,7 +19,7 @@
     --second-gradient-color: #7DF9FF;
     /*background*/
     --background-blur: 0px;
-    --background-brightness: 30%;
+    --background-brightness: 45%;
     /*Various Sizes*/
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
@@ -42,6 +36,8 @@
     /*Modal Popout Size*/
     --modalPopout-width: 1200px;
     --modalPopout-height: 675px;
+    /* https://andrew.hedges.name/experiments/aspect_ratio/ */
+    --member-list-selected-background-color: rgba(0, 0, 0, 0.420);
 }
 
 /*CUSTOMIZABLE BACKGROUND IMAGE*/
@@ -127,4 +123,3 @@ body::after,
 }
 
 /*=========================================================EXPERIMENTS=========================================================*/
-
