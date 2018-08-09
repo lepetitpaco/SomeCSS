@@ -1,22 +1,19 @@
-//META{"name":"cv_ThatSmile","description":"It's all over when you see this","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
+//META{"name":"cv_Gumball","description":"Gumball","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyle.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyleV2.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+
 :root {
-    --main-color: #FD5F00;
-    --secondary-text-color: rgb(236, 236, 236);
+    --main-color: #719FAB;
+    --secondary-text-color: rgb(255, 111, 0);
     --hover-color: rgba(75, 72, 72, 0.267);
     /*Colors Selector List*/
-    --first-gradient-color: gold;
-    --second-gradient-color: #7DF9FF;
+    --first-gradient-color: rgb(255, 67, 246);
+    --second-gradient-color: gold;
     /*background*/
     --background-blur: 0px;
     --background-brightness: 30%;
@@ -35,11 +32,12 @@
     --userPopout-height: auto;
     /*Modal Popout Size*/
     --modalPopout-width: 1200px;
-    --modalPopout-height: 675px;
+    --modalPopout-height: 630px;
     /* https://andrew.hedges.name/experiments/aspect_ratio/ */
     --member-list-selected-background-color: rgba(0, 0, 0, 0.420);
-    /*CUSTOMIZABLE BACKGROUND IMAGE*/
 }
+
+/*CUSTOMIZABLE BACKGROUND IMAGE*/
 
 body::after,
 .callout-backdrop,
@@ -52,13 +50,13 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/Av5smb3.png) !important;
+    background-image: url(https://i.imgur.com/9fY4cvh.jpg) !important;
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.imgur.com/H08b75t.png) !important;
+    background-image: url(https://i.imgur.com/1I8kbVX.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +66,7 @@ body::after,
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/Av5smb3.png) !important;
+    background-image: url(https://i.imgur.com/3tA6Iil.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -80,11 +78,12 @@ body::after,
 .homeIcon-1FoKUJ,
 .homeIcon-1FoKUJ:hover {
     color: transparent;
-    background-image: url(https://i.imgur.com/9fxDOwa.jpg) !important;
+    background-image: url(https://i.kym-cdn.com/photos/images/facebook/000/615/803/4fd.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
+    background-position: 50%;
 }
 
 /*==========================DISPLAY NONE==========================*/
