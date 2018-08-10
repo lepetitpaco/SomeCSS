@@ -1,4 +1,4 @@
-//META{"name":"cv_OBEY","description":"Propaganda by WLOP","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
+//META{"name":"cv_PlainColor","description":"No Images, Just Colors","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
@@ -8,15 +8,13 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 :root {
-    --main-color: rgb(255, 67, 246);
-    --secondary-text-color: gold;
+    --main-color: rgb(101, 110, 228);
+    --secondary-text-color: rgb(137, 145, 255);
     --hover-color: rgba(75, 72, 72, 0.267);
     /*Colors Selector List*/
-    --first-gradient-color: rgb(255, 67, 246);
-    --second-gradient-color: gold;
+    --first-gradient-color: rgb(101, 110, 228);
+    --second-gradient-color: rgb(144, 151, 255);
     /*Various Sizes*/
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
@@ -32,7 +30,7 @@
     --userPopout-height: auto;
     /*Modal Popout Size*/
     --modalPopout-width: 1200px;
-    --modalPopout-height: 630px;
+    --modalPopout-height: 675px;
     /* https://andrew.hedges.name/experiments/aspect_ratio/ */
     --member-list-selected-background-color: rgba(0, 0, 0, 0.420);
 }
@@ -49,41 +47,15 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
-    /* IMPORTANT: Link must be HTTPS! */
-    background-image: url(https://i.imgur.com/7w03Ci6.jpg) !important;
-    filter: brightness(30%);
+    background-color: #36454f !important;
+    filter: brightness(100%);
 }
 
-/*CUSTOMIZABLE USER POPOUT IMAGE*/
-
-.userPopout-3XzG_A::before {
-    background-image: url(https://i.imgur.com/wm4wivd.jpg) !important;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    filter: brightness(50%);
-}
-
-/*CUSTOMIZABLE POPOUT MODAL*/
-
-.root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/PVyCUX8.jpg) !important;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    filter: brightness(50%);
-}
-
-/*CUSTOMIZABLE HOME ICON*/
+/*Home Icon and Icons style fix*/
 
 .homeIcon-1FoKUJ,
 .homeIcon-1FoKUJ:hover {
-    color: transparent;
-    background-image: url(https://i.imgur.com/zos5nzs.jpg) !important;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px;
+    color: var(--secondary-text-color) !important;
 }
 
 /*==========================DISPLAY NONE==========================*/
@@ -120,5 +92,19 @@ body::after,
     display: none !important;
 }
 
-/*=========================================================EXPERIMENTS=========================================================*/
+/*==========================DO NOT TOUCH==========================*/
 
+.homeIcon-1FoKUJ g {
+    display: inline;
+}
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq .homeIcon-1FoKUJ g {
+    color: white !important;
+}
+
+.popout-3sVMXz,
+.inner-1JeGVc {
+    box-shadow: 0 0 30px var(--main-color) !important;
+}
+
+/*=========================================================EXPERIMENTS=========================================================*/
