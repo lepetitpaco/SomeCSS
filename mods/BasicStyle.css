@@ -154,6 +154,12 @@ DIV .content-yTz4x3,
     color: var(--secondary-text-color) !important;
 }
 
+/*Backlight on Activity Image*/
+
+.assets-VMAukC {
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
 /*Spotify Elements*/
 
 .playButtonWrapper-3-YFAn {
@@ -168,6 +174,14 @@ DIV .content-yTz4x3,
 
 .barInner-3NDaY_ {
     background-color: rgba(29, 185, 84, 0.6)
+}
+
+/*Twitch Elements*/
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background-color: rgba(100, 65, 164, 0.342);
+    border-color: #6441A4;
+    box-shadow: 0 0 20px #6441A4;
 }
 
 /*======================================================*/
