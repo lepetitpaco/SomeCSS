@@ -1,0 +1,16 @@
+.userPopout-3XzG_A {
+    animation: popout-smooth-fade 1.3s cubic-bezier(.3,.01,.5,10);
+}
+
+@keyframes popout-smooth-fade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
