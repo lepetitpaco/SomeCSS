@@ -1,5 +1,5 @@
 .userPopout-3XzG_A {
-    animation: popout-smooth-fade 1.3s cubic-bezier(.3,.01,.5,10);
+    animation: popout-smooth-fade 1.3s cubic-bezier(.3,.01,.5,1.5);
 }
 
 @keyframes popout-smooth-fade {
