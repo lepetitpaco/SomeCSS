@@ -167,21 +167,21 @@ DIV .content-yTz4x3,
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled {
-    background-color: rgba(29, 185, 84, .3);
-    border-color: #1DB954;
-    box-shadow: 0 0 10px #1DB954;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 .barInner-3NDaY_ {
-    background-color: rgba(29, 185, 84, 0.6)
+    background-color: rgba(255, 255, 255, 0.6)
 }
 
 /*Twitch Elements*/
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-    background-color: rgba(100, 65, 164, 0.342);
-    border-color: #6441A4;
-    box-shadow: 0 0 20px #6441A4;
+    background-color: rgba(255, 255, 255, 0.342);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 /*======================================================*/
