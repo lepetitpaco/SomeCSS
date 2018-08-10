@@ -20,9 +20,6 @@
     /*Colors Selector List*/
     --first-gradient-color: rgb(99, 99, 99);
     --second-gradient-color: rgb(255, 255, 255);
-    /*background*/
-    --background-blur: 0px;
-    --background-brightness: 15%;
     /*Various Sizes*/
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
@@ -57,6 +54,7 @@ body::after,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
     background-image: url(http://getwallpapers.com/wallpaper/full/4/4/b/337276.jpg) !important;
+    filter: brightness(15%);
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/

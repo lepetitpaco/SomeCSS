@@ -17,9 +17,6 @@
     /*Colors Selector List*/
     --first-gradient-color: gold;
     --second-gradient-color: #7DF9FF;
-    /*background*/
-    --background-blur: 0px;
-    --background-brightness: 45%;
     /*Various Sizes*/
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
@@ -54,6 +51,7 @@ body::after,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
     background-image: url(https://i.imgur.com/IocVfQ8.png) !important;
+    filter: brightness(30%);
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/

@@ -16,9 +16,6 @@
     --main-color: #8e6dcc;
     --hover-color: rgba(75, 72, 72, 0.267);
     --secondary-text-color: #8e6dcc;
-    /*background*/
-    --background-blur: 0px;
-    --background-brightness: 20%;
     /*Various Sizes*/
     --emoji-picker-height: 800px;
     /*Speech Bubble*/
@@ -53,6 +50,7 @@ body::after,
 .radio-theme.dark label {
     /* IMPORTANT: Link must be HTTPS! */
     background-image: url(https://i.imgur.com/RgWR8aR.png) !important;
+    filter: brightness(20%);
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
