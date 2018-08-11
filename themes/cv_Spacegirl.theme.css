@@ -10,6 +10,8 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/PacoStrangeShit.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/PacoStrangeShit.css);
 /*============== CUSTOMIZABLE COLORS ===============*/
 
 :root {
@@ -114,11 +116,15 @@ body::after,
 .dividerEnabled-2TTlcf,
 /*Line between the chat input and the + button*/
 
-.attachButtonDivider-3Glu60,
+.attachButtonDivider-3Glu60
 /*Collapsed Voice Channel Still visible users*/
 
-.voiceUserSummaryItem-BDt0rD {
+/* .voiceUserSummaryItem-BDt0rD  */
+
+    {
     display: none !important;
 }
 
 /**************************************************************************************/
+
+/*=================================EXPERIMENTS=================================*/
