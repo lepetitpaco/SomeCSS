@@ -1,4 +1,4 @@
-//META{"name":"cv_Spacegirl","description":"Spacegirl 88","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
+//META{"name":"cv_YangXiaoLong","description":"Yang Xiao Long from RWBY","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
@@ -8,19 +8,15 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/PacoStrangeShit.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/PacoStrangeShit.css);
-/*============== CUSTOMIZABLE COLORS ===============*/
-
 :root {
-    --main-color: rgb(1, 124, 150);
-    --secondary-text-color: rgb(30, 230, 170);
+    --main-color: rgb(255, 200, 0);
+    --secondary-text-color: rgb(242, 146, 255);
     --hover-color: rgba(75, 72, 72, 0.267);
     /*Colors Selector List*/
-    --first-gradient-color: rgb(1, 124, 150);
-    --second-gradient-color: rgb(30, 230, 170);
+    --first-gradient-color: gold;
+    --second-gradient-color: rgb(242, 146, 255);
     /*Various Sizes*/
     --emoji-picker-height: 420px;
     /*Speech Bubble*/
@@ -32,11 +28,11 @@
     --voice-chat-selected-color: var(--main-color);
     /*User Popout Size*/
     /*Default Width: 250px | Default Height :auto*/
-    --userPopout-width: 420px;
+    --userPopout-width: 350px;
     --userPopout-height: auto;
     /*Modal Popout Size*/
-    --modalPopout-width: 1200px;
-    --modalPopout-height: 675px;
+    --modalPopout-width: 800px;
+    --modalPopout-height: 593px;
     /* https://andrew.hedges.name/experiments/aspect_ratio/ */
     --member-list-selected-background-color: rgba(0, 0, 0, 0.420);
 }
@@ -53,29 +49,29 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.dark label {
-    background-image: url(https://i.imgur.com/Cgew8t8.png) !important;
-    /* background-color: rgb(50, 91, 180); */
-    filter: brightness(30%);
+    /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/images/yang-xiao-long-wallpaper.jpg) !important;
+    filter: brightness(10%);
 }
 
 /*CUSTOMIZABLE USER POPOUT IMAGE*/
 
 .userPopout-3XzG_A::before {
-    background-image: url(https://i.pinimg.com/originals/1e/e5/c0/1ee5c00933f7983d587305f0bff5e7ae.jpg) !important;
+    background-image: url(https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/images/yang-xiao-long-phone.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(80%);
+    filter: brightness(30%);
 }
 
 /*CUSTOMIZABLE POPOUT MODAL*/
 
 .root-SR8cQa::before {
-    background-image: url(https://i.imgur.com/uriSTGm.jpg) !important;
+    background-image: url(https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/images/yang-xiao-long-cute.png) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(50%);
+    filter: brightness(30%);
 }
 
 /*CUSTOMIZABLE HOME ICON*/
@@ -83,7 +79,7 @@ body::after,
 .homeIcon-1FoKUJ,
 .homeIcon-1FoKUJ:hover {
     color: transparent;
-    background-image: url(https://smlycdn.akamaized.net/data/product2/2/32582a5c23fd9d15d09cb41bd3e82904ddf43122_l.jpg) !important;
+    background-image: url(https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/images/yang-xiao-long-logo.jpg) !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
@@ -92,40 +88,36 @@ body::after,
 
 /*==========================DISPLAY NONE==========================*/
 
+/* .messageGroupBlocked-3wrQQX, */
+
 /*Don't Display of the Blocked Message Line*/
 
-.messageGroupBlocked-3wrQQX,
-.messageGroupBlockedBtn-1PBBh-,
+.accountDetails-3k9g4n::after,
 /*remove CV Version number*/
 
-.accountDetails-3k9g4n::after,
+.helper-2c73HK,
 /* Remove unnecessary help texts from status picker */
 
-.helper-2c73HK,
+.protip-YaFfgO,
 /*Don't display protip cuz I'm not a noob*/
 
-.protip-YaFfgO,
+.welcomeMessage-3_Mcht,
 /*Don't display welcome message on server*/
 
-.welcomeMessage-3_Mcht,
+.wrapper-r-6rrt,
 /*No Channel Message*/
 
-.wrapper-r-6rrt,
+.dividerEnabled-2TTlcf,
 /*Divider Bar - Line between each messages*/
 
-.dividerEnabled-2TTlcf,
+.attachButtonDivider-3Glu60,
 /*Line between the chat input and the + button*/
 
-.attachButtonDivider-3Glu60
+.voiceUserSummaryItem-BDt0rD
 /*Collapsed Voice Channel Still visible users*/
-
-/* .voiceUserSummaryItem-BDt0rD  */
 
     {
     display: none !important;
 }
 
-/**************************************************************************************/
-
-/*=================================EXPERIMENTS=================================*/
-
+/*=========================================================EXPERIMENTS=========================================================*/
