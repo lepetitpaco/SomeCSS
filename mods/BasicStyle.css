@@ -116,6 +116,12 @@ DIV .content-yTz4x3,
     border: 0px solid var(--main-color);
 }
 
+/*Detailed Server ToolTips*/
+.dst-tooltip {
+    width: 100%;
+    max-width: 225px;
+}
+
 /*=============================================== USER POPOUT =====================================================*/
 
 /*==================RE Coloring==================*/
