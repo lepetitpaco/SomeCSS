@@ -5,7 +5,7 @@
 https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.exe
 
 ### If Better Discord  doesn't work even if you installed it and restarted Discord, you might have to delete discord completely to make it work. 
-#### If Better Disocrd works go to Part II
+#### If Better Discord works go to Part II
 ##### Wipe Discord Completely from your PC
 	`windows key + r`
 	    search : `appdata`
