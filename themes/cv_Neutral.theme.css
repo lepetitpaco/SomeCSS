@@ -1,17 +1,15 @@
-//META{"name":"cv_Neutral","description":"Neutra","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
+//META{"name":"cv_Neutral","description":"Neutral","author":"lepetitpaco based on ClearVision V5 by Zerthox","version":"5"}*//{}
 /* IMPORT CSS FROM GITHUB */
 
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyle.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/SomeAnimations.css);
-
 
 /*============== CUSTOMIZABLE SETTINGS ===============*/
 
 :root {
     /*Main Background*/
     --background-url: url(https://i.imgur.com/xcXDTbQ.jpg) /* Main Background Image */;
-    --background-brightness: 0% /* Main Background Brightness */;
+    --background-brightness: 100% /* Main Background Brightness */;
     /*User Popout*/
     --popout-url: url(https://i.imgur.com/xcXDTbQ.jpg) /* User Popout Background Image */;
     --popout-brightness: 100% /* User Popout Background Brightness */;
@@ -21,11 +19,11 @@
     /*Home Icon*/
     --home-icon-url: url(https://i.imgur.com/o4aatkm.jpg) /* Home Icon Image */;
     /*Colors*/
-    --main-color: rgb(102, 138, 255);
+    --main-color: rgb(46, 73, 161);
     --secondary-text-color: rgb(97, 241, 189);
     --hover-color: rgba(75, 72, 72, 0.267);
-    --first-gradient-color: rgb(255, 255, 255);
-    --second-gradient-color: rgb(97, 241, 189);
+    --first-gradient-color: rgb(255, 0, 0);
+    --second-gradient-color: rgb(241, 231, 97);
     --speech-bubbles-background: rgba(0, 0, 0, .0) /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/;
     --member-list-selected-background-color: rgba(0, 0, 0, 0.420);
     --chat-voice-channels-opacity: 1 /* Voice Channel names opacity */;
@@ -39,20 +37,3 @@
     --emoji-picker-height: 420px;
 }
 
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyle.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyleV2.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BlackAndWhite.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorGradient-TwoColors.cs);s
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-RainbowText.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/HideChannels.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/LightsOnVoiceChat.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/PacoStrangeShit.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/SomeAnimations.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/underline.css);
