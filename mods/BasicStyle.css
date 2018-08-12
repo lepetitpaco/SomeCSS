@@ -8,20 +8,6 @@ body::after,
     animation: none;
 }
 
-/*Home Icon and Icons style fix*/
-
-.homeIcon-1FoKUJ g {
-    display: none;
-}
-
-[class*="theme-"] .homeIcon-1FoKUJ {
-    background-color: transparent !important;
-}
-
-.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
-    background-color: transparent !important;
-}
-
 /*====================================================No Clutter No Delimitations====================================================*/
 
 [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT),
@@ -403,4 +389,28 @@ body::after,
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(var(--modal-brightness));
+}
+
+/*CUSTOMIZABLE HOME ICON*/
+
+.homeIcon-1FoKUJ g {
+    display: none;
+}
+
+[class*="theme-"] .homeIcon-1FoKUJ {
+    background-color: transparent !important;
+}
+
+.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
+    background-color: transparent !important;
+}
+
+.homeIcon-1FoKUJ,
+.homeIcon-1FoKUJ:hover {
+    color: transparent;
+    background-image: var(--home-icon-url) !important;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
 }
