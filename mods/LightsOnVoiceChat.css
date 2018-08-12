@@ -1,0 +1,29 @@
+/*Lights On - Voice Chat*/
+
+.avatarSpeaking-1wJCNq,
+.avatarDefault-35WC3R,
+.avatarContainer-72bSfM {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    z-index: 10;
+}
+
+.avatarSpeaking-1wJCNq::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    width: 4px;
+    height: 20px;
+    background: var(--main-color);
+}
+
+.avatarSpeaking-1wJCNq::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    left: -5px;
+    width: 100%;
+    background: linear-gradient(to right, var(--main-color) 0%, transparent 35%);
+    opacity: 0.5;
+    z-index: -1;
+}

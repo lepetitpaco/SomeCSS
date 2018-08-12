@@ -1,30 +1,3 @@
-/*Message to the people*/
-
-/* .typeWindows-1za-n7:hover .wordmark-2iDDfm::after {
-    width: 2400px;
-    position: absolute;
-    top: 2px;
-    left: 1921px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    content: "Sup it's Paco. You can DM me to check if there is an updated version of your theme file, if you want a mod, if there is something wrong with the theme. I can't remember everyone I gave the theme to so here's a message for you, the people. Kiss on your ass cheek <3";
-} */
-
-/*keyframe animations*/
-
-/* .typeWindows-1za-n7 .wordmark-2iDDfm::after {
-    animation: bannermove 20s linear infinite;
-}
-
-@keyframes bannermove {
-    to {
-        transform: translateX(-200%);
-    }
-} */
-
-/*============================================================================================================================================================================*/
-
 /* Remove ClearVision start up animations */
 
 .app,
@@ -35,7 +8,21 @@ body::after,
     animation: none;
 }
 
-/* Make the background really clear & more smooth */
+/*Home Icon and Icons style fix*/
+
+.homeIcon-1FoKUJ g {
+    display: none;
+}
+
+[class*="theme-"] .homeIcon-1FoKUJ {
+    background-color: transparent !important;
+}
+
+.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
+    background-color: transparent !important;
+}
+
+/*====================================================No Clutter No Delimitations====================================================*/
 
 [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT),
 [class*="userPopout-"] [class*="footer-"],
@@ -95,7 +82,40 @@ DIV .content-yTz4x3,
     box-shadow: none !important;
 }
 
-/*DISCORD PLUGINS MODS*/
+/*Scrollbar*/
+
+[class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    background-clip: padding-box !important;
+}
+
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
+.messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
+.bda-dark .emoji-picker .scroller .emoji-item.selected,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border: 0 solid transparent !important;
+    border-radius: 3px;
+}
+
+/*====================================================BETTER DISCORD PLUGINS MODS====================================================*/
 
 /*Reply Bar BBD*/
 
@@ -117,6 +137,7 @@ DIV .content-yTz4x3,
 }
 
 /*Detailed Server ToolTips*/
+
 .dst-tooltip {
     width: 100%;
     max-width: 225px;
@@ -233,13 +254,6 @@ DIV .content-yTz4x3,
     background: var(--main-color) !important;
 }
 
-/*Larger pin Messages*/
-
-.messagesPopoutWrap-1MQ1bW {
-    width: 620px !important;
-    max-height: 1000px !important;
-}
-
 /*======================= EMOJI ===========================*/
 
 /*Higher Emoji Picker*/
@@ -252,39 +266,6 @@ DIV .content-yTz4x3,
 
 .emoji {
     margin: 0 !important;
-}
-
-/*Scrollbar*/
-
-[class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track-piece {
-    background: transparent !important;
-    background-clip: padding-box !important;
-}
-
-.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
-.messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
-.bda-dark .emoji-picker .scroller .emoji-item.selected,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece,
-.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
-.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
-.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
-    background-color: transparent !important;
-    border-color: transparent !important;
-    border: 0 solid transparent !important;
-    border-radius: 3px;
 }
 
 /*Chat and Voice Opacity to not hurt me little eyes*/
@@ -388,16 +369,38 @@ DIV .content-yTz4x3,
     background: rgba(255, 255, 255, .1) !important;
 }
 
-/*Home Icon and Icons style fix*/
+/*===============================================================================================*/
 
-.homeIcon-1FoKUJ g {
-    display: none;
+/*CUSTOM FOR NEUTRAL*/
+
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.dark label {
+    background-image: var(--background-url) !important;
+    filter: brightness(var(--background-brightness));
 }
 
-[class*="theme-"] .homeIcon-1FoKUJ {
-    background-color: transparent !important;
+/*CUSTOMIZABLE USER POPOUT IMAGE*/
+
+.userPopout-3XzG_A::before {
+    background-image: var(--popout-url) !important;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(var(--popout-brightness));
 }
 
-.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
-    background-color: transparent !important;
+.root-SR8cQa::before {
+    background-image: var(--modal-url) !important;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(var(--modal-brightness));
 }

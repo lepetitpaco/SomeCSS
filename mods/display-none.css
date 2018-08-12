@@ -1,0 +1,45 @@
+.messageGroupBlocked-3wrQQX,
+.messageGroupBlockedBtn-1PBBh- {
+    display: none !important/*Don't Display of the Blocked Message Line*/
+    ;
+}
+
+.accountDetails-3k9g4n::after {
+    display: none !important/*remove CV Version number*/
+    ;
+}
+
+.helper-2c73HK {
+    display: none !important/* Remove unnecessary help texts from status picker */
+    ;
+}
+
+.protip-YaFfgO {
+    display: none !important/*Don't display protip cuz I'm not a noob*/
+    ;
+}
+
+.welcomeMessage-3_Mcht {
+    display: none !important/*Don't display welcome message on server*/
+    ;
+}
+
+.wrapper-r-6rrt {
+    display: none !important/*No Channel Message*/
+    ;
+}
+
+.dividerEnabled-2TTlcf {
+    display: none !important/*Divider Bar - Line between each messages*/
+    ;
+}
+
+.attachButtonDivider-3Glu60 {
+    display: none !important/*Line between the chat input and the + button*/
+    ;
+}
+
+.voiceUserSummaryItem-BDt0rD {
+    display: none !important/*Collapsed Voice Channel Still visible users*/
+    ;
+}
