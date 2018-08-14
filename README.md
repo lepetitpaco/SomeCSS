@@ -10,6 +10,7 @@
     - [Wipe Discord Completely from your PC](#wipe-discord-completely-from-your-pc)
 - [Part II: Themes and Plugins](#part-ii-themes-and-plugins)
     - [To add themes & plugins to discord](#to-add-themes--plugins-to-discord)
+
 # Part I: Better Discord
 ## Install Better Discord
 *If you already Installed Better Discord go to* ***[Part II](#part-ii-themes-and-plugins)***
