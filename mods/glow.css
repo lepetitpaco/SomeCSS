@@ -1,8 +1,11 @@
 /*TEXT INPUTS*/
 
+
 /*=========================================================================================================================*/
 
+
 /*General Chat Input*/
+
 
 /*Border and Background*/
 
@@ -11,12 +14,14 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
+
 /*Upload modal chat input background*/
 
 .theme-brand .inner-zqa7da {
     -webkit-box-shadow: 0 0 10px var(--main-color)!important;
     box-shadow: 0 0 10px var(--main-color)!important;
 }
+
 
 /*Emoji Search Input*/
 
@@ -25,6 +30,7 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
+
 /* underline roles in memberlist & DMs */
 
 .members-1998pB .membersGroup-v9BXpm::after,
@@ -32,12 +38,14 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
+
 /* underline labels in channellist */
 
 .channels-Ie2l6A .wrapperDefault-10Jfvz::after,
 .channels-Ie2l6A .wrapperHovered-28fu1D::after {
     box-shadow: 0 0 10px var(--main-color)!important;
 }
+
 
 /*doing cool notification thingy lights sexy glowy circles you know it*/
 
@@ -49,12 +57,14 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
+
 /*Guild Separator Glow cuz we EXTRA 😌*/
 
 .guildSeparator-1X4GQ1:after {
     background: var(--main-color) !important;
     box-shadow: 0 0 10px var(--main-color)!important;
 }
+
 
 /*Blocked Messages Design*/
 
@@ -66,11 +76,13 @@
     box-shadow: 0 0 10px var(--main-color) !important;
 }
 
+
 /*bf toolbar BBD*/
 
 .bf-toolbar:before {
     box-shadow: 0 0 12px var(--main-color)!important;
 }
+
 
 /*User Popout Footer Border Top*/
 

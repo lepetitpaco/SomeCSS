@@ -15,6 +15,7 @@
     align-content: flex-start;
 }
 
+
 /*======================= ICON PLACEMENTS========================*/
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
@@ -30,7 +31,8 @@
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before {
     display: none;
-} 
+}
+
 
 /*DM Person Talking Placement*/
 
@@ -46,14 +48,15 @@
     left: -11px;
 }
 
-#bd-pub-li{
+#bd-pub-li {
     width: 70%;
 }
 
-#bd-pub-button{
+#bd-pub-button {
     margin: auto;
     margin-left: 65%;
 }
+
 
 /*====================================================================*/
 
@@ -76,6 +79,7 @@
     flex-flow: row wrap;
 }
 
+
 /*Separator Line btween guilds and dms // friends section*/
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
@@ -85,6 +89,7 @@
     left: -11px;
 }
 
+
 /*Guild Separator Zone is too big*/
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
@@ -93,6 +98,7 @@
     width: 100%;
     left: 0;
 }
+
 
 /*Number of Online Friends Indicator*/
 
@@ -104,6 +110,7 @@
     /* left: -11px; */
 }
 
+
 /*Notification Circles*/
 
 .guild-1EfMGQ.selected-ML3OIq:before,
@@ -111,12 +118,15 @@
     left: -13px;
 }
 
+
 /*Select the right column of servers*/
+
 
 /* .guild-1EfMGQ.selected-ML3OIq:before,
 .guild-1EfMGQ.unread-qLkInr:nth-child(odd):before {
     left: -5px;
 } */
+
 
 /*Select the selected thingy thing and put it back in the middle to cancel the selection of the right column servers*/
 
