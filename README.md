@@ -1,14 +1,25 @@
-- [Part I](#Part-I:-Better-Discord)
 
-# SomeCSS
+
+# How to get custom theme on Discord
+# Table of Content
+- [How to get custom theme on Discord](#how-to-get-custom-theme-on-discord)
+- [Table of Content](#table-of-content)
+- [Part I: Better Discord](#part-i-better-discord)
+    - [Install Better Discord](#install-better-discord)
+    - [Better Discord not Working ?](#better-discord-not-working)
+    - [Wipe Discord Completely from your PC](#wipe-discord-completely-from-your-pc)
+- [Part II: Themes and Plugins](#part-ii-themes-and-plugins)
+    - [To add themes & plugins to discord](#to-add-themes--plugins-to-discord)
 # Part I: Better Discord
 ## Install Better Discord
-### If you already Installed Better Discord go to [Part II](#-Part-II:-Themes-and-Plugins)
-### [Download](<https://github.com/rauenzi/BetterDiscordApp/releases/tag/0.3.0i>) Better Discord and Install it
+*If you already Installed Better Discord go to* ***[Part II](#-Part-II:-Themes-and-Plugins)***
 
-### If Better Discord  doesn't work even if you installed it and restarted Discord, you might have to delete discord completely to make it work. 
-#### If Better Discord works go to [Part II](#-Part-II:-Themes-and-Plugins)
-##### Wipe Discord Completely from your PC
+**[Download](<https://github.com/rauenzi/BetterDiscordApp/releases/tag/0.3.0i>) Better Discord and Install it**
+
+**If Better Discord works go to [Part II](#-Part-II:-Themes-and-Plugins)**
+## Better Discord not Working ?
+If Better Discord  doesn't work even if you installed it and restarted Discord a **few times**, you might have to **delete** discord completely to make it work.
+## Wipe Discord Completely from your PC
     `windows key + r`
         search : `appdata`
      Press `OK
@@ -25,7 +36,7 @@ You **deleted** discord completely from your computer
 **[Download](https://github.com/rauenzi/BetterDiscordApp/releases/tag/0.3.0i)** Better Discord and **Install** it
 
 # Part II: Themes and Plugins
-## To add themes or plugins to discord
+## To add themes & plugins to discord
 
     `windows key + r`
         search : `%appdata%/BetterDiscord/themes` for **themes**
