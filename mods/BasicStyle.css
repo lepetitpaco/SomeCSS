@@ -284,7 +284,12 @@ DIV .content-yTz4x3,
 .nameConnectedVoice-MHUX5F,
 .nameSelectedVoice-1qSph5 {
     /* opacity: var(--voice-chat-selected-opacity)!important; */
-    color: var(--voice-chat-selected-color) !important;
+    color: var(--selected-voice-color) !important;
+}
+
+.nameConnectedText-3CzNQn,
+.nameSelectedText-sp_EUw{
+    color:var(--selected-text-chat-color) !important;
 }
 
 /*Blocked Messages Design*/
@@ -414,3 +419,4 @@ body::after,
     background-repeat: no-repeat;
     border-radius: 15px;
 }
+
