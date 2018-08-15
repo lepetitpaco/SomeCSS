@@ -14,14 +14,12 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
-
 /*Upload modal chat input background*/
 
 .theme-brand .inner-zqa7da {
     -webkit-box-shadow: 0 0 10px var(--main-color)!important;
     box-shadow: 0 0 10px var(--main-color)!important;
 }
-
 
 /*Emoji Search Input*/
 
@@ -30,33 +28,26 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
-
 /* underline roles in memberlist & DMs */
 
-.members-1998pB .membersGroup-v9BXpm::after,
-.private-channels header::after {
+.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after {
     box-shadow: 0 0 10px var(--main-color)!important;
 }
-
 
 /* underline labels in channellist */
 
-.channels-Ie2l6A .wrapperDefault-10Jfvz::after,
-.channels-Ie2l6A .wrapperHovered-28fu1D::after {
+.channels-Ie2l6A .wrapperDefault-10Jfvz::after, .channels-Ie2l6A .wrapperHovered-28fu1D::after {
     box-shadow: 0 0 10px var(--main-color)!important;
 }
-
 
 /*doing cool notification thingy lights sexy glowy circles you know it*/
 
 .guild-1EfMGQ.unread-qLkInr:before {
     box-shadow: 0 0 10px var(--main-color)!important;
 }
-
 [class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
     box-shadow: 0 0 10px var(--main-color)!important;
 }
-
 
 /*Guild Separator Glow cuz we EXTRA 😌*/
 
@@ -65,17 +56,14 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 
-
 /*Blocked Messages Design*/
 
 .messageGroupBlocked-3wrQQX {
     box-shadow: 0 0 10px var(--main-color)!important;
 }
-
 .messageGroupBlocked-3wrQQX:hover {
     box-shadow: 0 0 10px var(--main-color) !important;
 }
-
 
 /*bf toolbar BBD*/
 
@@ -83,9 +71,26 @@
     box-shadow: 0 0 12px var(--main-color)!important;
 }
 
-
 /*User Popout Footer Border Top*/
 
 [class*="userPopout-"] [class*="footer-"] {
     box-shadow: 0 0 10px var(--main-color)!important;
+}
+
+/*Dividers of Settings and Border Colors*/
+
+.side-8zPYf6 .separator-gCa7yv, #bd-settings-sidebar .ui-tab-bar-separator {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Chat Bubble*/
+
+.containerCozy-jafyvG {
+    box-shadow: 0 0 15px var(--main-color);
+}
+
+/*Profile Picture*/
+
+.avatar-17mtNa .large-3ChYtB {
+    box-shadow: 0 0 20px var(--main-color);
 }
