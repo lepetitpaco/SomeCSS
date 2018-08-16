@@ -41,3 +41,9 @@
 .contentCozy-3XX413 {
     margin-left: 10px;
 }
+
+/*Chat Bubble Glow*/
+
+.containerCozy-jafyvG {
+    box-shadow: 0 0 15px var(--main-color);
+}
