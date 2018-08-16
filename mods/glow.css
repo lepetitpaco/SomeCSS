@@ -46,7 +46,7 @@
     box-shadow: 0 0 10px var(--main-color)!important;
 }
 [class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
-    box-shadow: 0 0 10px var(--main-color)!important;
+    box-shadow: 0 0 20px var(--main-color)!important;
 }
 
 /*Guild Separator Glow cuz we EXTRA 😌*/
