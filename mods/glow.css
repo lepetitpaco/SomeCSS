@@ -82,9 +82,3 @@
 .side-8zPYf6 .separator-gCa7yv, #bd-settings-sidebar .ui-tab-bar-separator {
     box-shadow: 0 0 10px var(--main-color);
 }
-
-/*Profile Picture*/
-
-.avatar-17mtNa .large-3ChYtB {
-    box-shadow: 0 0 20px var(--main-color);
-}
