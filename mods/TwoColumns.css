@@ -97,8 +97,9 @@
 
 /*Notification Circles*/
 
-.guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
-    left: -1.5px;
+.guild-1EfMGQ.selected-ML3OIq:before,
+.guild-1EfMGQ.unread-qLkInr:before {
+    left: -13px;
 }
 
 /*Select the right column of servers*/
@@ -116,3 +117,8 @@
     left: -1.5px;
 }
 
+/*TC*/
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    left: -13px;
+}

@@ -9,7 +9,7 @@
 
 .guild-1EfMGQ.selected-ML3OIq:before,
 .guild-1EfMGQ.unread-qLkInr:before {
-    left: -1.5px;
+    left: -1.5px!important;
 }
 
 [class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
@@ -22,4 +22,8 @@
 
 [class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
     background: transparent !important;
+}
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    left: -1.5px!important;
 }

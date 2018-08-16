@@ -1,0 +1,65 @@
+.app-19_DXt,
+.typeWindows-1za-n7 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75) 310px, rgba(0, 0, 0, 0.45) 70%, rgba(0, 0, 0, 0) 95%) !important;
+}
+
+/*Fix for the thin not gradiented Line*/
+
+.typeWindows-1za-n7 {
+    height: 18px;
+    padding-top: 4px!important;
+    margin-top: 0px!important;
+}
+
+/**/
+
+body::after,
+.callout-backdrop,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.dark label {
+    box-shadow: inset 0 0 3000px rgba(255, 255, 255, .7);
+    filter: blur(2px);
+}
+
+/*Chat Containers - Chat Bubbles*/
+
+.containerCozy-jafyvG {
+    overflow: visible !important;
+    padding: 10px 0 !important;
+    margin: 20px 5px 20px 100px !important;
+    border-radius: 15px !important;
+    box-shadow: inset 0 0 50px rgba(255, 255, 255, .4);
+}
+.headerCozy-2N9HOL {
+    position: relative !important;
+    margin-left: 10px !important;
+}
+.headerCozy-2N9HOL .avatar-17mtNa {
+    position: absolute !important;
+    left: -90px !important;
+    top: 0 !important;
+}
+.contentCozy-3XX413 {
+    margin-left: 10px;
+}
+
+/**/
+
+.members-1998pB>.membersGroup-v9BXpm {
+    box-shadow: inset 0 0 50px rgba(255, 255, 255, .6);
+    color: var(--main-color) !important;
+}
+
+/**/
+
+.userPopout-3XzG_A::before {
+    background-position-x: 70%;
+    filter: blur(2px);
+}
+.root-SR8cQa::before {
+    box-shadow: inset 0 0 60px rgba(255, 255, 255, .6);
+    filter: blur(2px);
+}
