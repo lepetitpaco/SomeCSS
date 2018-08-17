@@ -40,13 +40,13 @@ You **deleted** discord completely from your computer
 ## To add themes & plugins to discord
 
     `windows key + r`
-        search : `%appdata%/BetterDiscord/themes` for **themes**
+        search : `%appdata%/BetterDiscord/themes` for the theme folder
     Press `OK`
 
 **or**
 
 	`windows key + r`
-		search : `%appdata%/BetterDiscord/plugins` for **themes**
+		search : `%appdata%/BetterDiscord/plugins` for the plugin folder
 	Press `OK`
 
 - **Quit** Discord and **Start** it again
