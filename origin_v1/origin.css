@@ -1,15 +1,20 @@
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/glassAndBubbles.css); */
 :root {
     /*==================== Main Background ====================*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/Kn20dfv.jpg);
+    --background-url: url(https://i.imgur.com/IhcvGBK.jpg);
     /* Main Background Brightness */
-    --background-brightness: 100%;
+    --background-brightness: 10%;
     --background-blur: 0px;
     /*==================== User Popout ====================*/
     /* User Popout Background Image */
-    --popout-url: url(http://i.imgur.com/Kn20dfv.jpg);
+    --popout-url: url(https://cdn.discordapp.com/attachments/479790308922621952/480067408510320650/Bravery_1.gif);
     /* User Popout Background Brightness */
-    --popout-brightness: 100%;
+    --popout-brightness: 50%;
     --popout-blur: 0px;
     /*User Popout Width - Default Width: 250px */
     --userPopout-width: 320px;
@@ -17,9 +22,9 @@
     --userPopout-height: auto;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(http://i.imgur.com/Kn20dfv.jpg);
+    --modal-url: url(https://cdn.discordapp.com/attachments/479790308922621952/480067408510320650/Bravery_1.gif);
     /* Modal Popout Background Brightness */
-    --modal-brightness: 100%;
+    --modal-brightness: 50%;
     --modal-blur: 0px;
     /*Modal Popout Width*/
     --modalPopout-width: 800px;
@@ -27,11 +32,11 @@
     --modalPopout-height: 502px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.imgur.com/gQAFLEj.png);
+    --home-icon-url: url(https://i.imgur.com/I06JeJf.gif);
     /*====================Colors====================*/
-    --solid-main-color: rgb(255, 158, 31);
-    --main-color: 255, 158, 31;
-    --secondary-text-color: rgb(72, 188, 192);
+    --solid-main-color: rgb(114, 137, 218);
+    --main-color: 114, 137, 218;
+    --secondary-text-color: rgb(153, 170, 181);
     --hover-color: rgba(75, 72, 72, 0.267);
     --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
@@ -45,11 +50,48 @@
     /* Text Chat and Voice Chat names Color */
     --chat-voice-channels-color: #fff;
     /* Voice Chat Selected Color [Default: #f6f6f7] */
-    --selected-voice-color: rgb(248, 141, 216);
+    --selected-voice-color: var(--solid-main-color);
     /* Text Chat Selected Color [Default: #f6f6f7] */
     --selected-text-chat-color: #fff;
     /*==================== Emoji Picker ====================*/
     --emoji-picker-height: 420px;
+}
+
+/*Don't Display of the Blocked Message Line*/
+
+.messageGroupBlocked-3wrQQX,
+.messageGroupBlockedBtn-1PBBh- {
+    display: none !important;
+}
+
+/*Don't display protip cuz I'm not a noob*/
+
+.protip-YaFfgO {
+    display: none !important;
+}
+
+/*No Channel Message*/
+
+.wrapper-r-6rrt {
+    display: none !important;
+}
+
+/*Divider Bar - Line between each messages*/
+
+.dividerEnabled-2TTlcf {
+    display: none !important;
+}
+
+/*Line between the chat input and the + button*/
+
+.attachButtonDivider-3Glu60 {
+    display: none !important;
+}
+
+/*Collapsed Voice Channel Still visible users*/
+
+.voiceUserSummaryItem-BDt0rD {
+    display: none !important;
 }
 
 /**/
@@ -169,18 +211,18 @@ body::after,
     background: transparent !important;
 }
  ::-webkit-scrollbar-thumb {
-    border-color: transparent !important;
-    background: transparent!important;
+    border-color: var(--solid-main-color) !important;
+    background: var(--solid-main-color)!important;
 }
  ::-webkit-scrollbar,
  ::-webkit-scrollbar-track-piece {
     border-color: transparent !important;
     background: transparent !important;
+    width: 6px!important;
 }
  ::-webkit-scrollbar-corner {
     display: none !important;
 }
-.contentSelectedText-3wUhMi,
 .private-channels .channel.selected a,
 .private-channels .channel:hover a,
 .contentHoveredText-2D9B-x,
@@ -345,11 +387,6 @@ body::after,
 .inner-zqa7da.flex-1O1GKY {
     /* border: 1px solid transparent; */
     background: transparent!important;
-}
-.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
-    box-shadow: 0 0 10px transparent;
-    border-radius: 5px;
-    margin: 10px 0 30px;
 }
 [class*="theme-"] .inner-zqa7da .textArea-2Spzkt {
     background: transparent!important;
@@ -1077,17 +1114,30 @@ css-editor #bd-customcss-attach-controls button {
     -o-filter: none;
     filter: none
 }
-.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
-    box-shadow: 0 0 10px transparent;
-    border-radius: 25px;
-    margin: 10px 0 30px;
+
+/**/
+
+.channelTextArea-rNsIhG {
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.typing-2GQL18 {
+    bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    height: 26px;
+    left: 0;
+    line-height: 24px;
+    overflow-y: hidden;
+    position: absolute;
+    resize: none;
+    width: 100%;
 }
 [class*="theme-"] .channelTextArea-rNsIhG {
-    border: 1px solid var(--solid-main-color);
-}
-.channelTextArea-rNsIhG {
-    margin-bottom: 30px;
-    padding-top: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0);
 }
 
 /**/
@@ -1206,7 +1256,8 @@ css-editor #bd-customcss-attach-controls button {
     display: block;
     line-height: initial;
 }
-.horizontal-1ae9ci>.flex-1xMQg5:last-child .actionRed-gYn8D3 {
+
+/* .horizontal-1ae9ci>.flex-1xMQg5:last-child .actionRed-gYn8D3 {
     background-color: #288f00!important;
     color: #fff;
 }
@@ -1229,7 +1280,8 @@ css-editor #bd-customcss-attach-controls button {
     text-indent: 0;
     display: block;
     line-height: initial;
-}
+} */
+
 
 /*Lights On - Voice Chat*/
 
@@ -1741,15 +1793,49 @@ p.tooltip-black.tooltip-bottom:after,
         opacity: 1
     }
 }
-.app-19_DXt,
-.typeWindows-1za-n7 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75) 310px, rgba(0, 0, 0, 0.45) 70%, rgba(0, 0, 0, 0) 95%) !important;
+
+/*Game Library*/
+
+[class*="theme-"] .gameLibrary-TTDw4Y {
+    background-color: transparent;
 }
 
-/*Fix for the thin not gradiented Line*/
+/**/
 
-.typeWindows-1za-n7 {
-    height: 18px;
-    padding-top: 4px!important;
-    margin-top: 0px!important;
+.contentSelectedText-3wUhMi {
+    background: var(--solid-main-color);
+}
+.contentConnectedText-16O0fe:hover,
+.contentDefaultText-3vZplL:hover,
+.contentHoveredText-2D9B-x:hover,
+.contentLockedText-1aHuz8:hover,
+.contentMutedText-2y6aPQ:hover,
+.contentSelectedText-3wUhMi:hover,
+.contentUnreadText-2vNnZ:hover {
+    background: rgba(var(--main-color), .2)!important;
+}
+
+/**/
+
+[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+    background: var(--solid-main-color);
+}
+
+/**/
+
+.userPopout-3XzG_A {
+    border-radius: 5px!important;
+}
+.unread-1Dp-OI {
+    background-color: var(--solid-main-color);
+}
+
+/**/
+
+.theme-dark .incomingCallInner-2VmFiR,
+.video-1FfuMD,
+.theme-dark .wrapper-29NfPK,
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background: rgba(0, 0, 0, .2);
+    border: none;
 }
