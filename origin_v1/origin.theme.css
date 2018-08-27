@@ -1,4 +1,7 @@
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+//META{"name":"Origin","description":"I did it myself","author":"lepetitpaco","version":"1"}*//{} 
+
+
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
@@ -6,13 +9,13 @@
 :root {
     /*==================== Main Background ====================*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/IhcvGBK.jpg);
+    --background-url: url(http://i.imgur.com/e7dLREl.jpg);
     /* Main Background Brightness */
-    --background-brightness: 10%;
+    --background-brightness: 30%;
     --background-blur: 0px;
     /*==================== User Popout ====================*/
     /* User Popout Background Image */
-    --popout-url: url(https://cdn.discordapp.com/attachments/479790308922621952/480067408510320650/Bravery_1.gif);
+    --popout-url: url(http://i.imgur.com/BiAzvA3.jpg);
     /* User Popout Background Brightness */
     --popout-brightness: 50%;
     --popout-blur: 0px;
@@ -22,7 +25,7 @@
     --userPopout-height: auto;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://cdn.discordapp.com/attachments/479790308922621952/480067408510320650/Bravery_1.gif);
+    --modal-url: url(http://i.imgur.com/BiAzvA3.jpg);
     /* Modal Popout Background Brightness */
     --modal-brightness: 50%;
     --modal-blur: 0px;
@@ -32,18 +35,18 @@
     --modalPopout-height: 502px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.imgur.com/I06JeJf.gif);
+    --home-icon-url: url(https://i.imgur.com/YhI0gsY.jpg);
     /*====================Colors====================*/
-    --solid-main-color: rgb(114, 137, 218);
+    --solid-main-color: rgb(230, 68, 149);
     --main-color: 114, 137, 218;
-    --secondary-text-color: rgb(153, 170, 181);
+    --secondary-text-color: rgb(39, 194, 221);
     --hover-color: rgba(75, 72, 72, 0.267);
     --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
     /*Background Color when hovering or selecting a member in the member list in the right column*/
-    --member-list-selected-background-color: rgba(0, 0, 0, 0.42);
+    --member-list-selected-background-color: rgba(39, 223, 255, 0.42);
     /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
-    --speech-bubbles-background: rgba(0, 0, 0, .0);
+    --speech-bubbles-background: rgba(255, 255, 255, 0);
     /*====================Voice Chat Colors====================*/
     /* Text Chat and Voice Chat names Opacity */
     --chat-voice-channels-opacity: 1;
