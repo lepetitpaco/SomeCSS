@@ -82,3 +82,32 @@
 .side-8zPYf6 .separator-gCa7yv, #bd-settings-sidebar .ui-tab-bar-separator {
     box-shadow: 0 0 10px var(--main-color);
 }
+
+/*Chat category Lines*/
+
+.channels-Ie2l6A .nameDefault-2DI02H:before,
+.channels-Ie2l6A .nameDefault-2DI02H::before,
+.channels-Ie2l6A .nameHovered-1gxhWH:before,
+.channels-Ie2l6A .nameHovered-1gxhWH::before,
+.channels-Ie2l6A .nameCollapsed-34uFWo:before,
+.channels-Ie2l6A .nameCollapsed-34uFWo::before,
+.channels-Ie2l6A .nameHoveredCollapsed-2orEWB:before,
+.channels-Ie2l6A .nameHoveredCollapsed-2orEWB::before,
+.channels-Ie2l6A .nameMuted-1MCOt4:before,
+.channels-Ie2l6A .nameMuted-1MCOt4::before,
+.channels-Ie2l6A .nameUnread-njOjIS:before,
+.channels-Ie2l6A .nameUnread-njOjIS::before,
+.channels-Ie2l6A .nameDefault-2DI02H:after,
+.channels-Ie2l6A .nameDefault-2DI02H::after,
+.channels-Ie2l6A .nameHovered-1gxhWH:after,
+.channels-Ie2l6A .nameHovered-1gxhWH::after,
+.channels-Ie2l6A .nameCollapsed-34uFWo:after,
+.channels-Ie2l6A .nameCollapsed-34uFWo::after,
+.channels-Ie2l6A .nameHoveredCollapsed-2orEWB:after,
+.channels-Ie2l6A .nameHoveredCollapsed-2orEWB::after,
+.channels-Ie2l6A .nameMuted-1MCOt4:after,
+.channels-Ie2l6A .nameMuted-1MCOt4::after,
+.channels-Ie2l6A .nameUnread-njOjIS:after,
+.channels-Ie2l6A .nameUnread-njOjIS::after {
+    box-shadow: 0 0 10px var(--main-color);
+}
