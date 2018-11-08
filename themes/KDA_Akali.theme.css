@@ -1,5 +1,4 @@
-//META{"name":"FullTrans","description":"","author":"lepetitpaco","version":"1"}*//{}
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+//META{"name":"KDA_Akali","description":"We Go Hard, We Popstars","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 /*============== CUSTOMIZABLE SETTINGS ===============*/
@@ -7,38 +6,38 @@
 :root {
   /*==================== Main Background ====================*/
   /* Main Background Image */
-  --background-url: url(https://wallpapercave.com/wp/DTvUQor.jpg);
+  --background-url: url(https://i.imgur.com/gwyy15K.jpg);
   /* Main Background Brightness */
-  --background-brightness: 100%;
+  --background-brightness: 50%;
   --background-blur: 0px;
   /*==================== User Popout ====================*/
   /* User Popout Background Image */
-  --popout-url: url(https://wallpapercave.com/wp/DTvUQor.jpg);
+  --popout-url: url(http://www.lol-wallpapers.com/wp-content/uploads/2018/11/KDA-Akali-by-Koyori-n-HD-Wallpaper-Background-Fan-Art-Artwork-League-of-Legends-lol.jpg);
   /* User Popout Background Brightness */
-  --popout-brightness: 100%;
+  --popout-brightness: 40%;
   --popout-blur: 0px;
   /*User Popout Width - Default Width: 250px */
-  --userPopout-width: 350px;
+  --userPopout-width: 300px;
   /*User Popout Height - Default Height :auto*/
   --userPopout-height: auto;
   /*====================Modal Popout====================*/
   /* Modal Popout Background Image */
-  --modal-url: url(https://wallpapercave.com/wp/DTvUQor.jpg);
+  --modal-url: url(https://i.imgur.com/lW9UeVL.jpg);
   /* Modal Popout Background Brightness */
-  --modal-brightness: 100%;
+  --modal-brightness: 50%;
   --modal-blur: 0px;
   /*Modal Popout Width*/
   --modalPopout-width: 600px;
   /*Modal Popout Height*/
-  --modalPopout-height: 650px;
+  --modalPopout-height: 1111px;
   /*====================Home Icon====================*/
   /* Home Icon Image */
-  --home-icon-url: url(https://i.imgur.com/judn6JH.jpg);
+  --home-icon-url: url(https://i.imgur.com/NQbUSUF.png);
   /*====================Colors====================*/
-  --solid-main-color: rgb(70, 161, 81);
-  --main-color: 70, 161, 81;
-  --secondary-text-color: rgb(70, 161, 81);
-  --secondary-color: 70, 161, 81;
+  --solid-main-color: rgb(151, 30, 250);
+  --main-color: 151, 30, 250;
+  --secondary-text-color: rgb(28, 204, 228);
+  --secondary-color: 28, 204, 228;
   --hover-color: rgba(75, 72, 72, 0.267);
   --first-gradient-color: rgb(255, 253, 160);
   --second-gradient-color: rgb(146, 247, 205);
@@ -58,48 +57,52 @@
   /*==================== Emoji Picker ====================*/
   --emoji-picker-height: 666px;
   /*For Better Discord Transparency*/
-  --body-after-opacity: .5;
-  --popout-opacity: .8;
-  --modal-opacity: .8;
+  --body-after-opacity: 1;
+  --popout-opacity: 1;
+  --modal-opacity: 1;
 }
 
 /*===============================I will Keep these for myself===============================*/
 
 /*Remove Leave Server Buttons*/
 
-.item-1Yvehc.danger-2dXSTE {
+/* .item-1Yvehc.danger-2dXSTE {
   display: none;
 }
 
 .theme-dark .item-1GzJrl.leave-1DRJfn {
   display: none;
 }
+ */
 
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
 
-/* .body-3ND3kc,.header-2BwW8b {
+.body-3ND3kc, .header-2BwW8b {
   opacity: .1;
   transition: 400ms ease;
 }
-.body-3ND3kc:hover,.header-2BwW8b:hover {
+
+.body-3ND3kc:hover, .header-2BwW8b:hover {
   opacity: 1;
-} */
+}
 
 /*Avatar in Userpopout disappear*/
 
-/* .avatarWrapperNormal-3wFMbf {
+.avatarWrapperNormal-3wFMbf {
   cursor: pointer;
   opacity: 0;
 }
+
 .avatarWrapperNormal-3wFMbf:hover {
   cursor: pointer;
   opacity: 1;
   transition: 400ms;
 }
+
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
   opacity: 1;
   border-radius: 25%;
-} */
+}
 
 /*============================================================================================*/
 
@@ -302,8 +305,6 @@ body::after, .callout-backdrop, .userPopout-11hFKo::before, #pubs-container::bef
 /*Border and Background*/
 
 .inner-zqa7da.flex-1O1GKY {
-  /* border: 1px solid transparent;
-  */
   background: transparent !important;
 }
 
@@ -1414,7 +1415,7 @@ css-editor #bd-customcss-attach-controls button {
 }
 
 .theme-dark .modal-3HD5ck {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .9);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -2107,8 +2108,6 @@ css-editor #bd-customcss-attach-controls button {
 
 .tab-bar.TOP {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
-  /* box-shadow: 0 0px 10px var(--secondary-text-color);
-  */
 }
 
 .tab-bar.TOP .tab-bar-item.selected {
@@ -2119,48 +2118,6 @@ css-editor #bd-customcss-attach-controls button {
 .tabBarContainer-1s1u-z {
   border-top: 1px solid transparent;
   padding-left: 20px;
-}
-
-/*Read ALL and Friends Online Buttons*/
-
-#RANbutton-frame.guild-1EfMGQ {
-  margin: 0 25%;
-}
-
-#RANbutton-frame.guild-1EfMGQ {
-  width: 100%;
-}
-
-#RANbutton-frame.guildInner-3DSoA4 {
-  height: 30px;
-}
-
-#RANbutton {
-  width: 65px;
-  padding: 3px;
-  margin: 0 auto;
-  margin-top: 0px;
-  border-radius: 15px;
-  transition: background 400ms ease;
-}
-
-#RANbutton:hover {
-  background: rgba(var(--main-color), 0.4);
-  color: #fff;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
-  position: relative;
-  padding: 6px;
-  margin: 0 22px;
-  margin-top: 0px;
-  border-radius: 15px;
-  transition: background 400ms ease;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM:hover {
-  background: rgba(var(--main-color), 0.4);
-  color: #fff;
 }
 
 /**/
@@ -2222,4 +2179,125 @@ css-editor #bd-customcss-attach-controls button {
 .theme-dark .item-1GzJrl:hover {
   background-color: var(--solid-main-color);
   color: #fff;
+}
+
+/*Guild List Redoo*/
+
+.theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+/*======================================== SERVER GRID 2 COLUMNS =================================*/
+
+.guildsWrapper-5TJh6A {
+  width: 135px;
+}
+
+.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
+  width: 150px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  align-content: flex-start;
+}
+
+/*======================= ICON PLACEMENTS========================*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+  margin: auto;
+  margin-top: 8px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread::before {
+  left: -2px;
+  top: 5px;
+  z-index: 9000;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before {
+  display: none;
+}
+
+/*DM Person Talking Placement*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+  width: 100%;
+  display: flex;
+  margin-right: 0;
+  margin-left: 10px;
+  flex-flow: row wrap;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
+  left: -11px;
+}
+
+#bd-pub-li {
+  width: 70%;
+}
+
+#bd-pub-button {
+  margin: auto;
+  margin-left: 65%;
+}
+
+/*====================================================================*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/*Separator Line btween guilds and dms // friends section*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  left: -11px;
+}
+
+/*Guild Separator Zone is too big*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  left: 0;
+}
+
+/*Number of Online Friends Indicator*/
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM.da-friendsOnline {
+  position: relative;
+  width: 75%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+/*Place the Read All Button Right*/
+
+#RANbutton-frame {
+  width: 100%;
+}
+
+#RANbutton-frame .guildInner-3DSoA4 {
+  padding: 0px 30%;
 }

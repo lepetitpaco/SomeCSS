@@ -1,3 +1,4 @@
+//META{"name":"FullTrans","description":"","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 /*============== CUSTOMIZABLE SETTINGS ===============*/
@@ -55,7 +56,7 @@
   --selected-text-chat-color: #fff;
   /*==================== Emoji Picker ====================*/
   --emoji-picker-height: 666px;
-  /*For Better Discord Transparency*/
+  /*==================== For Better Discord Transparency ====================*/
   --body-after-opacity: .7;
   --popout-opacity: .8;
   --modal-opacity: .8;
@@ -100,6 +101,15 @@
   border-radius: 25%;
 } */
 
+/*Gradient BG*/
+
+/* .app-19_DXt, .typeWindows-1za-n7 {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+  margin-top: unset;
+  padding-top: 6px;
+} */
+
+
 /*============================================================================================*/
 
 body {
@@ -111,14 +121,6 @@ body::after {
   opacity: var(--body-after-opacity);
   z-index: -9999;
 }
-
-/*Gradient BG*/
-
-/* .app-19_DXt, .typeWindows-1za-n7 {
-  background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
-  margin-top: unset;
-  padding-top: 6px;
-} */
 
 body::after, .callout-backdrop::after {
   background-position: center;
