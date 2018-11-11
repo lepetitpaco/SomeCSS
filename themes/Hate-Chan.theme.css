@@ -1,0 +1,73 @@
+//META{"name":"Hate-Chan","description":"UwU","author":"lepetitpaco","version":"1"}*//{}
+
+@import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+/*============== CUSTOMIZABLE SETTINGS ===============*/
+
+:root {
+  /*==================== Main Background ====================*/
+  /* Main Background Image */
+  --background-url: url(https://i.imgur.com/JOLqlSk.jpg);
+  /* Main Background Brightness */
+  --background-brightness: 50%;
+  --background-blur: 0px;
+  /*==================== User Popout ====================*/
+  /* User Popout Background Image */
+  --popout-url: url(https://i.imgur.com/tQ9CAPe.png);
+  /* User Popout Background Brightness */
+  --popout-brightness: 40%;
+  --popout-blur: 0px;
+  /*User Popout Width - Default Width: 250px */
+  --userPopout-width: 300px;
+  /*User Popout Height - Default Height :auto*/
+  --userPopout-height: auto;
+  /*====================Modal Popout====================*/
+  /* Modal Popout Background Image */
+  --modal-url: url(https://i.imgur.com/4Y8lAWf.jpg);
+  /* Modal Popout Background Brightness */
+  --modal-brightness: 50%;
+  --modal-blur: 0px;
+  /*Modal Popout Width*/
+  --modalPopout-width: 600px;
+  /*Modal Popout Height*/
+  --modalPopout-height: 900px;
+  /*====================Home Icon====================*/
+  /* Home Icon Image */
+  --home-icon-url: url(https://i.imgur.com/6UKrhNc.jpg);
+  /*====================Colors====================*/
+  --solid-main-color: rgb(151, 30, 250);
+  --main-color: 151, 30, 250;
+  --secondary-text-color: rgb(28, 204, 228);
+  --secondary-color: 28, 204, 228;
+  --hover-color: rgba(75, 72, 72, 0.267);
+  --first-gradient-color: rgb(255, 253, 160);
+  --second-gradient-color: rgb(146, 247, 205);
+  /*Background Color when hovering or selecting a member in the member list in the right column*/
+  --member-list-selected-background-color: rgba(var(--main-color), 0.42);
+  /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
+  --speech-bubbles-background: rgba(0, 0, 0, .0);
+  /*====================Voice Chat Colors====================*/
+  /* Text Chat and Voice Chat names Opacity */
+  --chat-voice-channels-opacity: 1;
+  /* Text Chat and Voice Chat names Color */
+  --chat-voice-channels-color: #fff;
+  /* Voice Chat Selected Color [Default: #f6f6f7] */
+  --selected-voice-color: var(--solid-main-color);
+  /* Text Chat Selected Color [Default: #f6f6f7] */
+  --selected-text-chat-color: #fff;
+  /*==================== Emoji Picker ====================*/
+  --emoji-picker-height: 666px;
+  /*For Better Discord Transparency*/
+  --body-after-opacity: 1;
+  --popout-opacity: 1;
+  --modal-opacity: 1;
+}
+
+/*Gradient BG*/
+
+.app-19_DXt, .typeWindows-1za-n7 {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+  margin-top: unset;
+  padding-top: 6px;
+}
