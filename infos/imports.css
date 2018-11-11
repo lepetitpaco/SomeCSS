@@ -1,0 +1,44 @@
+/*Base of the theme adding itself over clearvision, necessary, don't remove, import just after clearvision import*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BasicStyle.css);
+
+/*Its cool add it after BasicStyle*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/SomeAnimations.css);
+
+/*Notification Circle Behind Guild Icon*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BacklightNotifications.css);
+
+/*Big Avatar UWU*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+
+/*Change size of the popouts*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
+
+/*If you have a BLACK AND WHITE THEME, ITS NICE ON CONTRAST //// Never updated don't know if that works*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BlackAndWhite.css);
+
+/*Change Text Message colors, test em I guess*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorGradient-TwoColors.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-RainbowText.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/ColorPulse-TwoColors.css);
+
+/*Its in the name*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/HideChannels.css);
+
+/*Nice light on the name when someone talks*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/LightsOnVoiceChat.css);
+
+/*Guilds displayed on two colums*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+
+/*All the shit you don't wanna see, you can copy individual lines directly in the .theme.css if you don't want to hide everything*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/display-none.css);
+
+/*Disgusting shit I dunno why I made this*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/glassAndBubbles.css);
+
+/*Awee GLOWY I think you have to add it before of after two backlight or two columns, if its broken its just import order*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/glow.css);
+
+/*Its nice to put some limit around the popouts, its fancy glowy*/
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/userpopout-modalpopout-boxshadow.css);
