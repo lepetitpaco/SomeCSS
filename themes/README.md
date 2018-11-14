@@ -4,7 +4,7 @@
     Theme to start from to make a new one, free of tweaks and neutral Visually
 
 ### **[Transparency](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/transparency.theme.css>)** 
-    The Background is transparent, you can see your background
+    The background is transparent, you can see your wallpaper
 
 ## Check Those Out
 
