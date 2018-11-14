@@ -10,7 +10,7 @@
 
 **[KDA_Akali](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/KDA_Akali.theme.css>)**
 
-**[KDA_Akali](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/AhriFluffy.theme.css>)**
+**[Ahri](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/AhriFluffy.theme.css>)**
 
 **[Transparency](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/transparency.theme.css>)**
 
