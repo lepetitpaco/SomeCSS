@@ -14,7 +14,7 @@
 
 ### **[Hate-Chan](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/Hate-Chan.theme.css>)**
 
-### **[Ahri](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/AhriFluffy.theme.css>)**
+### **[Ahri](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/Ahri.theme.css>)**
 
 ### **[KDA_Akali](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/KDA_Akali.theme.css>)**
 
