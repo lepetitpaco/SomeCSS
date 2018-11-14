@@ -15,7 +15,7 @@
 ## Install Better Discord
 *If you already Installed Better Discord go to* ***[Part II](#part-ii-themes-and-plugins)***
 
-**[Download](<https://github.com/rauenzi/BetterDiscordApp/releases/tag/0.3.0i>) Better Discord and Install it**
+**[Download](<https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.1/BandagedBD_Windows.exe>) Better Discord and Install it**
 
 **If Better Discord works go to [Part II](#part-ii-themes-and-plugins)**
 ## Better Discord not Working ?
@@ -34,7 +34,7 @@ You **deleted** discord completely from your computer
 
 **[Download](<https://discordapp.com/api/download?platform=win>)** discord and **Install** it
 
-**[Download](https://github.com/rauenzi/BetterDiscordApp/releases/tag/0.3.0i)** Better Discord and **Install** it
+**[Download](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.1/BandagedBD_Windows.exe)** Better Discord and **Install** it
 
 # Part II: Themes and Plugins
 ## To add themes & plugins to discord
