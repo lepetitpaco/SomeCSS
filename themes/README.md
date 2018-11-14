@@ -17,6 +17,3 @@
 ### **[Ahri](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/Ahri.theme.css>)**
 
 ### **[KDA_Akali](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/KDA_Akali.theme.css>)**
-
-
-
