@@ -2,101 +2,106 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-
 /*============== CUSTOMIZABLE SETTINGS ===============*/
 
 :root {
-  /*==================== Main Background ====================*/
-  /* Main Background Image */
-  --background-url: url(https://i.imgur.com/gwyy15K.jpg);
-  /* Main Background Brightness */
-  --background-brightness: 50%;
-  --background-blur: 0px;
-  /*==================== User Popout ====================*/
-  /* User Popout Background Image */
-  --popout-url: url(http://www.lol-wallpapers.com/wp-content/uploads/2018/11/KDA-Akali-by-Koyori-n-HD-Wallpaper-Background-Fan-Art-Artwork-League-of-Legends-lol.jpg);
-  /* User Popout Background Brightness */
-  --popout-brightness: 40%;
-  --popout-blur: 0px;
-  /*User Popout Width - Default Width: 250px */
-  --userPopout-width: 300px;
-  /*User Popout Height - Default Height :auto*/
-  --userPopout-height: auto;
-  /*====================Modal Popout====================*/
-  /* Modal Popout Background Image */
-  --modal-url: url(https://i.imgur.com/NVVUjbd.png);
-  /* Modal Popout Background Brightness */
-  --modal-brightness: 50%;
-  --modal-blur: 0px;
-  /*Modal Popout Width*/
-  --modalPopout-width: 600px;
-  /*Modal Popout Height*/
-  --modalPopout-height: 400px;
-  /*====================Home Icon====================*/
-  /* Home Icon Image */
-  --home-icon-url: url(https://i.imgur.com/NQbUSUF.png);
-  /*====================Colors====================*/
-  --solid-main-color: rgb(151, 30, 250);
-  --main-color: 151, 30, 250;
-  --secondary-text-color: rgb(28, 204, 228);
-  --secondary-color: 28, 204, 228;
-  --hover-color: rgba(75, 72, 72, 0.267);
-  --first-gradient-color: rgb(255, 253, 160);
-  --second-gradient-color: rgb(214, 50, 255);
-  /*Background Color when hovering or selecting a member in the member list in the right column*/
-  --member-list-selected-background-color: rgba(var(--main-color), 0.42);
-  /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
-  --speech-bubbles-background: rgba(0, 0, 0, .0);
-  /*====================Voice Chat Colors====================*/
-  /* Text Chat and Voice Chat names Opacity */
-  --chat-voice-channels-opacity: 1;
-  /* Text Chat and Voice Chat names Color */
-  --chat-voice-channels-color: #fff;
-  /* Voice Chat Selected Color [Default: #f6f6f7] */
-  --selected-voice-color: var(--solid-main-color);
-  /* Text Chat Selected Color [Default: #f6f6f7] */
-  --selected-text-chat-color: #fff;
-  /*==================== Emoji Picker ====================*/
-  --emoji-picker-height: 666px;
-  /*For Better Discord Transparency*/
-  --body-after-opacity: 1;
-  --popout-opacity: 1;
-  --modal-opacity: 1;
+    /*==================== Main Background ====================*/
+    /* Main Background Image */
+    --background-url: url(https://i.imgur.com/gwyy15K.jpg);
+    /* Main Background Brightness */
+    --background-brightness: 50%;
+    --background-blur: 0px;
+    /*==================== User Popout ====================*/
+    /* User Popout Background Image */
+    --popout-url: url(http://www.lol-wallpapers.com/wp-content/uploads/2018/11/KDA-Akali-by-Koyori-n-HD-Wallpaper-Background-Fan-Art-Artwork-League-of-Legends-lol.jpg);
+    /* User Popout Background Brightness */
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*User Popout Width - Default Width: 250px */
+    --userPopout-width: 300px;
+    /*User Popout Height - Default Height :auto*/
+    --userPopout-height: auto;
+    /*====================Modal Popout====================*/
+    /* Modal Popout Background Image */
+    --modal-url: url(https://i.imgur.com/NVVUjbd.png);
+    /* Modal Popout Background Brightness */
+    --modal-brightness: 50%;
+    --modal-blur: 0px;
+    /*Modal Popout Width*/
+    --modalPopout-width: 600px;
+    /*Modal Popout Height*/
+    --modalPopout-height: 400px;
+    /*====================Home Icon====================*/
+    /* Home Icon Image */
+    --home-icon-url: url(https://i.imgur.com/NQbUSUF.png);
+    /*====================Colors====================*/
+    --solid-main-color: rgb(151, 30, 250);
+    --main-color: 151, 30, 250;
+    --secondary-text-color: rgb(28, 204, 228);
+    --secondary-color: 28, 204, 228;
+    --hover-color: rgba(75, 72, 72, 0.267);
+    --first-gradient-color: rgb(255, 253, 160);
+    --second-gradient-color: rgb(214, 50, 255);
+    /*Background Color when hovering or selecting a member in the member list in the right column*/
+    --member-list-selected-background-color: rgba(var(--main-color), 0.42);
+    /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
+    --speech-bubbles-background: rgba(0, 0, 0, .0);
+    /*====================Voice Chat Colors====================*/
+    /* Text Chat and Voice Chat names Opacity */
+    --chat-voice-channels-opacity: 1;
+    /* Text Chat and Voice Chat names Color */
+    --chat-voice-channels-color: #fff;
+    /* Voice Chat Selected Color [Default: #f6f6f7] */
+    --selected-voice-color: var(--solid-main-color);
+    /* Text Chat Selected Color [Default: #f6f6f7] */
+    --selected-text-chat-color: #fff;
+    /*==================== Emoji Picker ====================*/
+    --emoji-picker-height: 666px;
+    /*For Better Discord Transparency*/
+    --body-after-opacity: 1;
+    --popout-opacity: 1;
+    --modal-opacity: 1;
+    /*NSFW Settings*/
+    --nwfw-warning-image: url(https://cdn140.picsart.com/269026868052201.jpg?r1024x1024);
+    --nwfw-warning-text: "Ooof what a pervert";
 }
 
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
 
-.body-3ND3kc, .header-2BwW8b {
-  opacity: .1;
-  transition: 400ms ease;
+.body-3ND3kc,
+.header-2BwW8b {
+    opacity: .1;
+    transition: 400ms ease;
 }
 
-.body-3ND3kc:hover, .header-2BwW8b:hover {
-  opacity: 1;
+.body-3ND3kc:hover,
+.header-2BwW8b:hover {
+    opacity: 1;
 }
 
 /*Avatar in Userpopout disappear*/
 
 .avatarWrapperNormal-3wFMbf {
-  cursor: pointer;
-  opacity: 0;
+    cursor: pointer;
+    opacity: 0;
 }
 
 .avatarWrapperNormal-3wFMbf:hover {
-  cursor: pointer;
-  opacity: 1;
-  transition: 400ms;
+    cursor: pointer;
+    opacity: 1;
+    transition: 400ms;
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-  opacity: 1;
-  border-radius: 25%;
+    opacity: 1;
+    border-radius: 25%;
 }
 
 /*Gradient BG*/
 
-.app-19_DXt, .typeWindows-1za-n7 {
-  background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
-  margin-top: unset;
-  padding-top: 6px;
+.app-19_DXt,
+.typeWindows-1za-n7 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    margin-top: unset;
+    padding-top: 6px;
 }

@@ -3,92 +3,98 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 /*============== CUSTOMIZABLE SETTINGS ===============*/
+
 /*https://wallpapercave.com/wp/DTvUQor.jpg*/
 
 :root {
-  /*==================== Main Background ====================*/
-  /* Main Background Image */
-  --background-url: url(https://wallpapercave.com/wp/DTvUQor.jpg);
-  /* Main Background Brightness */
-  --background-brightness: 100%;
-  --background-blur: 0px;
-  /*==================== User Popout ====================*/
-  /* User Popout Background Image */
-  --popout-url: url(https://i.imgur.com/urRpI3B.jpg);
-  /* User Popout Background Brightness */
-  --popout-brightness: 40%;
-  --popout-blur: 0px;
-  /*User Popout Width - Default Width: 250px */
-  --userPopout-width: 350px;
-  /*User Popout Height - Default Height :auto*/
-  --userPopout-height: auto;
-  /*====================Modal Popout====================*/
-  /* Modal Popout Background Image */
-  --modal-url: url(https://i.imgur.com/zhPMou6.jpg);
-  /* Modal Popout Background Brightness */
-  --modal-brightness: 40%;
-  --modal-blur: 0px;
-  /*Modal Popout Width*/
-  --modalPopout-width: 800px;
-  /*Modal Popout Height*/
-  --modalPopout-height: 600px;
-  /*====================Home Icon====================*/
-  /* Home Icon Image */
-  --home-icon-url: url(https://i.imgur.com/rSr3uXI.jpg);
-  /*====================Colors====================*/
-  --solid-main-color: rgb(0, 118, 139);
-  --main-color: 0, 118, 139;
-  --secondary-text-color: rgb(243, 211, 71);
-  --secondary-color: 243, 211, 71;
-  --hover-color: rgba(75, 72, 72, 0.267);
-  --first-gradient-color: rgb(255, 253, 160);
-  --second-gradient-color: rgb(146, 247, 205);
-  /*Background Color when hovering or selecting a member in the member list in the right column*/
-  --member-list-selected-background-color: rgba(var(--main-color), 0.42);
-  /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
-  --speech-bubbles-background: rgba(0, 0, 0, .0);
-  /*====================Voice Chat Colors====================*/
-  /* Text Chat and Voice Chat names Opacity */
-  --chat-voice-channels-opacity: 1;
-  /* Text Chat and Voice Chat names Color */
-  --chat-voice-channels-color: #fff;
-  /* Voice Chat Selected Color [Default: #f6f6f7] */
-  --selected-voice-color: var(--solid-main-color);
-  /* Text Chat Selected Color [Default: #f6f6f7] */
-  --selected-text-chat-color: #fff;
-  /*==================== Emoji Picker ====================*/
-  --emoji-picker-height: 666px;
-  /*==================== For Better Discord Transparency ====================*/
-  --body-after-opacity: .7;
-  --popout-opacity: 1;
-  --modal-opacity: 1;
+    /*==================== Main Background ====================*/
+    /* Main Background Image */
+    --background-url: url(https://wallpapercave.com/wp/DTvUQor.jpg);
+    /* Main Background Brightness */
+    --background-brightness: 100%;
+    --background-blur: 0px;
+    /*==================== User Popout ====================*/
+    /* User Popout Background Image */
+    --popout-url: url(https://i.imgur.com/urRpI3B.jpg);
+    /* User Popout Background Brightness */
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*User Popout Width - Default Width: 250px */
+    --userPopout-width: 350px;
+    /*User Popout Height - Default Height :auto*/
+    --userPopout-height: auto;
+    /*====================Modal Popout====================*/
+    /* Modal Popout Background Image */
+    --modal-url: url(https://i.imgur.com/zhPMou6.jpg);
+    /* Modal Popout Background Brightness */
+    --modal-brightness: 40%;
+    --modal-blur: 0px;
+    /*Modal Popout Width*/
+    --modalPopout-width: 800px;
+    /*Modal Popout Height*/
+    --modalPopout-height: 600px;
+    /*====================Home Icon====================*/
+    /* Home Icon Image */
+    --home-icon-url: url(https://i.imgur.com/rSr3uXI.jpg);
+    /*====================Colors====================*/
+    --solid-main-color: rgb(0, 118, 139);
+    --main-color: 0, 118, 139;
+    --secondary-text-color: rgb(243, 211, 71);
+    --secondary-color: 243, 211, 71;
+    --hover-color: rgba(75, 72, 72, 0.267);
+    --first-gradient-color: rgb(255, 253, 160);
+    --second-gradient-color: rgb(146, 247, 205);
+    /*Background Color when hovering or selecting a member in the member list in the right column*/
+    --member-list-selected-background-color: rgba(var(--main-color), 0.42);
+    /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
+    --speech-bubbles-background: rgba(0, 0, 0, .0);
+    /*====================Voice Chat Colors====================*/
+    /* Text Chat and Voice Chat names Opacity */
+    --chat-voice-channels-opacity: 1;
+    /* Text Chat and Voice Chat names Color */
+    --chat-voice-channels-color: #fff;
+    /* Voice Chat Selected Color [Default: #f6f6f7] */
+    --selected-voice-color: var(--solid-main-color);
+    /* Text Chat Selected Color [Default: #f6f6f7] */
+    --selected-text-chat-color: #fff;
+    /*==================== Emoji Picker ====================*/
+    --emoji-picker-height: 666px;
+    /*==================== For Better Discord Transparency ====================*/
+    --body-after-opacity: .7;
+    --popout-opacity: 1;
+    --modal-opacity: 1;
+    /*NSFW Settings*/
+    --nwfw-warning-image: url(https://cdn140.picsart.com/269026868052201.jpg?r1024x1024);
+    --nwfw-warning-text: "Ooof what a pervert";
 }
 
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
 
-.body-3ND3kc, .header-2BwW8b {
-  opacity: .1;
-  transition: 400ms ease;
+.body-3ND3kc,
+.header-2BwW8b {
+    opacity: .1;
+    transition: 400ms ease;
 }
 
-.body-3ND3kc:hover, .header-2BwW8b:hover {
-  opacity: 1;
+.body-3ND3kc:hover,
+.header-2BwW8b:hover {
+    opacity: 1;
 }
 
 /*Avatar in Userpopout disappear*/
 
 .avatarWrapperNormal-3wFMbf {
-  cursor: pointer;
-  opacity: 0;
+    cursor: pointer;
+    opacity: 0;
 }
 
 .avatarWrapperNormal-3wFMbf:hover {
-  cursor: pointer;
-  opacity: 1;
-  transition: 400ms;
+    cursor: pointer;
+    opacity: 1;
+    transition: 400ms;
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-  opacity: 1;
-  border-radius: 25%;
+    opacity: 1;
+    border-radius: 25%;
 }

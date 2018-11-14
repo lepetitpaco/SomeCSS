@@ -10,8 +10,10 @@
 
 **[KDA_Akali](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/KDA_Akali.theme.css>)**
 
+**[KDA_Akali](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/AhriFluffy.theme.css>)**
+
 **[Transparency](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/transparency.theme.css>)**
 
-**[Animu Girls](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/cv_Neutral.theme.css>)**
+**[Clearvision_Neutral](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/themes/cv_Neutral.theme.css>)**
 
-**[cv_Neutral](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/origin/origin_neutral.theme.css>)**
+**[Origin_Neutral](<https://raw.githubusercontent.com/lepetitpaco/SomeCSS/master/origin/origin_neutral.theme.css>)**
