@@ -3,9 +3,11 @@
 .guildsWrapper-5TJh6A {
     width: 135px;
 }
+
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
     width: 150px;
 }
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
     display: flex;
     flex-flow: row wrap;
@@ -19,11 +21,13 @@
     margin: auto;
     margin-top: 8px;
 }
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread::before {
     left: -2px;
     top: 5px;
     z-index: 9000;
 }
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before {
     display: none;
 }
@@ -37,12 +41,15 @@
     margin-left: 10px;
     flex-flow: row wrap;
 }
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
     left: -11px;
 }
+
 #bd-pub-li {
     width: 70%;
 }
+
 #bd-pub-button {
     margin: auto;
     margin-left: 65%;
@@ -55,12 +62,14 @@
     width: 100%;
     margin-top: 10px;
 }
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
     position: relative;
     width: 100%;
     margin: auto;
     margin-top: 5px;
 }
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
     width: 100%;
     display: flex;
@@ -92,33 +101,14 @@
     width: 75%;
     margin: auto;
     margin-top: 5px;
-    /* left: -11px; */
 }
 
-/*Notification Circles*/
+/*Place the Read All Button Right*/
 
-.guild-1EfMGQ.selected-ML3OIq:before,
-.guild-1EfMGQ.unread-qLkInr:before {
-    left: -13px;
+#RANbutton-frame {
+    width: 100%;
 }
 
-/*Select the right column of servers*/
-
-
-/* .guild-1EfMGQ.selected-ML3OIq:before,
-.guild-1EfMGQ.unread-qLkInr:nth-child(odd):before {
-    left: -5px;
-} */
-
-
-/*Select the selected thingy thing and put it back in the middle to cancel the selection of the right column servers*/
-
-[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
-    left: -1.5px;
-}
-
-/*TC*/
-
-[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
-    left: -13px;
+#RANbutton-frame .guildInner-3DSoA4 {
+    padding: 0px 30%;
 }
