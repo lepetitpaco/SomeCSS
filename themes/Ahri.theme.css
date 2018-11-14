@@ -35,10 +35,10 @@
   /* Home Icon Image */
   --home-icon-url: url(https://i.imgur.com/judn6JH.jpg);
   /*====================Colors====================*/
-  --solid-main-color: rgb(122, 142, 255);
-  --main-color: 122, 142, 255;
-  --secondary-text-color: rgb(232, 234, 105);
-  --secondary-color: 234, 204, 105;
+  --solid-main-color: rgb(200, 0, 0);
+  --main-color: 200, 0, 0;
+  --secondary-text-color: rgb(255,223,0);
+  --secondary-color: 255,223,0;
   --hover-color: rgba(75, 72, 72, 0.267);
   --first-gradient-color: rgb(255, 253, 160);
   --second-gradient-color: rgb(146, 247, 205);
