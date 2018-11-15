@@ -1544,7 +1544,7 @@ css-editor #bd-customcss-attach-controls button {
     border-color: var(--solid-main-color);
 }
 
-/**/
+/*Friends Tab*/
 
 .theme-dark #friends .friends-table .friends-row:hover {
     background-color: rgba(var(--main-color), .4) !important;
@@ -1552,6 +1552,12 @@ css-editor #bd-customcss-attach-controls button {
 
 .theme-dark #friends .friends-table .friends-row+.friends-row {
     border-top: 1px solid var(--solid-main-color);
+}
+
+/*Add Friend Button*/
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: var(--solid-main-color);
 }
 
 /**/
@@ -1566,6 +1572,14 @@ css-editor #bd-customcss-attach-controls button {
 
 .private-channels .channel.selected {
     background-color: var(--solid-main-color) !important;
+}
+
+.channel-2QD9_O:hover a {
+    background-color: rgba(var(--main-color), .2);
+}
+
+.channel-2QD9_O.selected-1HYmZZ a {
+    background-color: var(--solid-main-color);
 }
 
 /**/
@@ -1712,6 +1726,30 @@ css-editor #bd-customcss-attach-controls button {
 
 .uploadModal-2ifh8j .footer-3mqk7D .button:first-child {
     background-color: var(--solid-main-color);
+}
+
+/*Green Buttons*/
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: var(--solid-main-color);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: var(--secondary-text-color);
+}
+
+/*Request Data Buttons*/
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    border-color: var(--solid-main-color);
+    background-color: var(--solid-main-color);
+    color: rgb(255, 255, 255);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+    border-color: var(--secondary-text-color);
+    background-color: var(--secondary-text-color);
+    color: rgb(255, 255, 255);
 }
 
 /**/
@@ -1880,6 +1918,10 @@ a {
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--solid-main-color);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: var(--secondary-text-color);
 }
 
 .lookLink-9FtZy-.colorLink-35jkBc {
@@ -2205,6 +2247,13 @@ a {
     }
 }
 
+/*Checkboxes Context Menu*/
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: var(--solid-main-color) !important;
+    border-color: var(--solid-main-color) !important;
+}
+
 /*Game Library*/
 
 .theme-dark .gameLibrary-TTDw4Y {
@@ -2429,6 +2478,105 @@ a {
     top: unset;
 }
 
+/*Search Menu*/
+
+.theme-dark .resultsGroup-r_nuzN {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.theme-dark .resultsGroup-r_nuzN:before {
+    border-top: 1px solid rgba(var(--main-color), .3)
+}
+
+.theme-dark .resultsGroup-r_nuzN .header-2N-gMV,
+.theme-dark .resultsGroup-r_nuzN .plusIcon-v0BTrL,
+.theme-dark .resultsGroup-r_nuzN .searchClearHistory-2cSSMO,
+.theme-dark .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a {
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .option-96V44q:after {
+    background: transparent;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: rgba(var(--main-color), .2);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: transparent;
+}
+
+.theme-dark .option-96V44q .answer-1n6g43,
+.theme-dark .option-96V44q .nonText-3CRkO0,
+.theme-dark .option-96V44q strong {
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .option-96V44q .filter-3Y_im- {
+    color: var(--secondary-text-color);
+}
+
+.theme-dark .option-96V44q.user-O3Czj0 .displayedNick-3xxvzU {
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .option-96V44q.user-O3Czj0 .displayUsername-Qekxml {
+    color: #ffffff
+}
+
+.theme-dark .searchOption-zQ-1l6 .filter-3Y_im- {
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .searchOption-zQ-1l6 .answer-1n6g43 {
+    color: #ffffff
+}
+
+.theme-dark .searchResultChannelCategory-1l0lSn,
+.theme-dark .searchResultChannelIcon-1DnTme {
+    color: #ffffff
+}
+
+.theme-dark .searchResultChannelIconBackground-7ncwtC {
+    opacity: .6
+}
+
+/*date picker*/
+
+/*Day's name color*/
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day-name {
+    color: rgb(255, 255, 255) !important;
+}
+
+/*Enabled days hover color*/
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
+    background-color: var(--solid-main-color) !important;
+}
+
+/*Border bottom of today's date*/
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: var(--solid-main-color) !important;
+}
+
+/*Disabled Dates in this month (precedent months and days not happened yet*/
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: rgba(0, 0, 0, .3) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
+    background-color: rgba(0, 0, 0, .3) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
 /*Server Settings dropdown Menu*/
 
 .theme-dark .menu-Sp6bN1 {
@@ -2612,3 +2760,5 @@ a {
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::after {
     background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/palette.svg) !important;
 }
+
+/**/
