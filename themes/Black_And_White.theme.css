@@ -26,7 +26,7 @@
     --userPopout-height: auto;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://i.imgur.com/zhPMou6.jpg);
+    --modal-url: url();
     /* Modal Popout Background Brightness */
     --modal-brightness: 40%;
     --modal-blur: 0px;
@@ -36,7 +36,7 @@
     --modalPopout-height: 600px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.imgur.com/rSr3uXI.jpg);
+    --home-icon-url: url(https://i.imgur.com/SZWViRY.png);
     /*====================Colors====================*/
     --solid-main-color: rgb(201, 201, 201);
     --main-color: 201, 201, 201;
@@ -65,7 +65,7 @@
     --popout-opacity: 1;
     --modal-opacity: 1;
     /*NSFW Settings*/
-    --nwfw-warning-image: url(https://cdn140.picsart.com/269026868052201.jpg?r1024x1024);
+    --nwfw-warning-image: url(https://i.imgur.com/SZWViRY.png);
     --nwfw-warning-text: "Ooof what a pervert";
 }
 

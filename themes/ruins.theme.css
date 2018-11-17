@@ -1,21 +1,19 @@
-//META{"name":"FullTrans","description":"Remove the background letting us see the desktop","author":"lepetitpaco","version":"1"}*//{}
+//META{"name":"Ruins","description":"Desolate City","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
 /*============== CUSTOMIZABLE SETTINGS ===============*/
-
-/*https://wallpapercave.com/wp/DTvUQor.jpg*/
 
 :root {
     /*==================== Main Background ====================*/
     /* Main Background Image */
-    --background-url: url(https://wallpapercave.com/wp/DTvUQor.jpg);
+    --background-url: url(https://i.imgur.com/LPPbw9H.jpg);
     /* Main Background Brightness */
-    --background-brightness: 100%;
+    --background-brightness: 40%;
     --background-blur: 0px;
     /*==================== User Popout ====================*/
     /* User Popout Background Image */
-    --popout-url: url(https://i.imgur.com/urRpI3B.jpg);
+    --popout-url: url(https://i.imgur.com/5BTuMP8.jpg);
     /* User Popout Background Brightness */
     --popout-brightness: 40%;
     --popout-blur: 0px;
@@ -25,22 +23,22 @@
     --userPopout-height: auto;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://i.imgur.com/zhPMou6.jpg);
+    --modal-url: url(https://i.imgur.com/3T4tXCf.jpg);
     /* Modal Popout Background Brightness */
-    --modal-brightness: 40%;
+    --modal-brightness: 30%;
     --modal-blur: 0px;
     /*Modal Popout Width*/
-    --modalPopout-width: 800px;
+    --modalPopout-width: 600px;
     /*Modal Popout Height*/
-    --modalPopout-height: 600px;
+    --modalPopout-height: 650px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.imgur.com/rSr3uXI.jpg);
+    --home-icon-url: url(https://i.imgur.com/DauP10V.jpg);
     /*====================Colors====================*/
-    --solid-main-color: rgb(224, 79, 176);
-    --main-color: 0, 118, 139;
-    --secondary-text-color: rgb(243, 211, 71);
-    --secondary-color: 243, 211, 71;
+    --solid-main-color: rgb(0, 114, 0);
+    --main-color: 0, 114, 0;
+    --secondary-text-color: rgb(202, 185, 0);
+    --secondary-color: 202, 185, 0;
     --hover-color: rgba(75, 72, 72, 0.267);
     --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
@@ -59,13 +57,19 @@
     --selected-text-chat-color: #fff;
     /*==================== Emoji Picker ====================*/
     --emoji-picker-height: 666px;
-    /*==================== For Better Discord Transparency ====================*/
-    --body-after-opacity: .7;
+    /*For Better Discord Transparency*/
+    --body-after-opacity: 1;
     --popout-opacity: 1;
     --modal-opacity: 1;
-    /*NSFW Settings*/
-    --nwfw-warning-image: url(https://cdn140.picsart.com/269026868052201.jpg?r1024x1024);
-    --nwfw-warning-text: "Ooof what a pervert";
+}
+
+/*Gradient BG*/
+
+.app-19_DXt,
+.typeWindows-1za-n7 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    margin-top: unset;
+    padding-top: 6px;
 }
 
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
