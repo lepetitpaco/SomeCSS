@@ -1675,6 +1675,10 @@ css-editor #bd-customcss-attach-controls button {
     background-color: var(--solid-main-color);
 }
 
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected){
+    background-color: var(--secondary-text-color);
+}
+
 /**/
 
 .private-channels .channel {

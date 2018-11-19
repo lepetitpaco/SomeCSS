@@ -62,6 +62,9 @@
   --body-after-opacity: 1;
   --popout-opacity: 1;
   --modal-opacity: 1;
+  /*NSFW Settings*/
+  --nwfw-warning-image: url(https://i.imgur.com/SZWViRY.png);
+  --nwfw-warning-text: "Ooof what a pervert";
 }
 
 /*Gradient BG*/
