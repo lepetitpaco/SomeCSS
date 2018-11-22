@@ -11,7 +11,7 @@
   /* Main Background Image */
   --background-url: url(https://i.imgur.com/pIPnoQq.png);
   /* Main Background Brightness */
-  --background-brightness: 70%;
+  --background-brightness: 30%;
   --background-blur: 0px;
   /*==================== User Popout ====================*/
   /* User Popout Background Image */
@@ -37,8 +37,8 @@
   /* Home Icon Image */
   --home-icon-url: url(https://i.imgur.com/Dg7zmMB.png);
   /*====================Colors====================*/
-  --solid-main-color: rgb(161, 0, 100);
-  --main-color: 161, 0, 100;
+  --solid-main-color: rgb(255, 0, 157);
+  --main-color: 255, 0, 157;
   --secondary-text-color: rgb(0, 133, 145);
   --secondary-color: 0, 133, 145;
   --hover-color: rgba(75, 72, 72, 0.267);
@@ -105,6 +105,18 @@
   padding-top: 6px;
 }
 
-* {
+
+/**************************CyberNeon Style*********************************/
+/* * {
   font-family: 'Courier New', Courier, monospace!important;
+} */
+
+.containerCompact-3V0ioj{
+  padding: 4px 0;
+}
+
+
+.image-33JSyf,
+.wrapper-2F3Zv8 {
+    border-radius: 5%;
 }
