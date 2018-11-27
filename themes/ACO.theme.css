@@ -1,0 +1,103 @@
+//META{"name":"Assassin's creed odyssey","description":"New Shit Good Shit","author":"lepetitpaco","version":"1"}*//{}
+
+@import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+/*============== CUSTOMIZABLE SETTINGS ===============*/
+
+/*============== CUSTOMIZABLE SETTINGS ===============*/
+:root {
+  /*==================== Main Background ====================*/
+  /* Main Background Image */
+  --background-url: url(https://i.imgur.com/ZMgboYo.jpg);
+  /* Main Background Brightness */
+  --background-brightness: 30%;
+  --background-blur: 0px;
+  /*==================== User Popout ====================*/
+  /* User Popout Background Image */
+  --popout-url: url(https://i.imgur.com/ZMgboYo.jpg);
+  /* User Popout Background Brightness */
+  --popout-brightness: 60%;
+  --popout-blur: 0px;
+  /*User Popout Width - Default Width: 250px */
+  --userPopout-width: 350px;
+  /*User Popout Height - Default Height :auto*/
+  --userPopout-height: auto;
+  /*====================Modal Popout====================*/
+  /* Modal Popout Background Image */
+  --modal-url: url(https://i.imgur.com/vHjzgxc.jpg);
+  /* Modal Popout Background Brightness */
+  --modal-brightness: 60%;
+  --modal-blur: 0px;
+  /*Modal Popout Width*/
+  --modalPopout-width: 900px;
+  /*Modal Popout Height*/
+  --modalPopout-height: 600px;
+  /*====================Home Icon====================*/
+  /* Home Icon Image */
+  --home-icon-url: url(https://i.imgur.com/jJKCptp.jpg);
+  /*====================Colors====================*/
+  --solid-main-color: rgb(200, 0, 0);
+  --main-color: 200, 0, 0;
+  --secondary-text-color: rgb(212,175,55);
+  --secondary-color: 212,175,55;
+  --hover-color: rgba(75, 72, 72, 0.267);
+  /*Background Color when hovering or selecting a member in the member list in the right column*/
+  --member-list-selected-background-color: rgba(var(--main-color), 0.42);
+  /*====================Voice Chat Colors====================*/
+  /* Text Chat and Voice Chat names Opacity */
+  --chat-voice-channels-opacity: 1;
+  /* Text Chat and Voice Chat names Color */
+  --chat-voice-channels-color: #fff;
+  /* Voice Chat Selected Color [Default: #f6f6f7] */
+  --selected-voice-color: var(--solid-main-color);
+  /* Text Chat Selected Color [Default: #f6f6f7] */
+  --selected-text-chat-color: #fff;
+  /*==================== Emoji Picker ====================*/
+  --emoji-picker-height: 666px;
+  /*For Better Discord Transparency*/
+  --body-after-opacity: 1;
+  --popout-opacity: 1;
+  --modal-opacity: 1;
+  /*NSFW Settings*/
+  --nwfw-warning-image: url(https://steamuserimages-a.akamaihd.net/ugc/171538555563961181/952AECC7D2090BED0547A6A60E7AEA65E24D6178/);
+  --nwfw-warning-text: "Yameteeeeeeeeeeeeee";
+}
+
+/*Some opacity hovers to enjoy them backgrounds ya feel*/
+
+.body-3ND3kc, .header-2BwW8b {
+  opacity: .1;
+  transition: 400ms ease;
+}
+
+.body-3ND3kc:hover, .header-2BwW8b:hover {
+  opacity: 1;
+}
+
+/*Avatar in Userpopout disappear*/
+
+.avatarWrapperNormal-3wFMbf {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.avatarWrapperNormal-3wFMbf:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 400ms;
+}
+
+.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
+  opacity: 1;
+  border-radius: 25%;
+}
+
+/*Gradient BG*/
+
+.app-19_DXt, .typeWindows-1za-n7 {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+  margin-top: unset;
+  padding-top: 6px;
+}
