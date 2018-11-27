@@ -1,5 +1,6 @@
 //META{"name":"Origin_Theme","description":"Full Local for Development and Fixes","author":"lepetitpaco","version":"1"}*//{}
 /* @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css); */
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 
@@ -7,13 +8,13 @@
 :root {
   /*==================== Main Background ====================*/
   /* Main Background Image */
-  --background-url: url(https://i.imgur.com/pIPnoQq.png);
+  --background-url: url(https://i.imgur.com/aYhxZ6K.jpg);
   /* Main Background Brightness */
   --background-brightness: 30%;
   --background-blur: 0px;
   /*==================== User Popout ====================*/
   /* User Popout Background Image */
-  --popout-url: url(https://i.imgur.com/95JpGxY.jpg);
+  --popout-url: url(http://i.imgur.com/JycKbNe.jpg);
   /* User Popout Background Brightness */
   --popout-brightness: 60%;
   --popout-blur: 0px;
@@ -23,7 +24,7 @@
   --userPopout-height: auto;
   /*====================Modal Popout====================*/
   /* Modal Popout Background Image */
-  --modal-url: url(http://i.imgur.com/vQrVHcX.jpg);
+  --modal-url: url(https://i.imgur.com/tppyrXW.jpg);
   /* Modal Popout Background Brightness */
   --modal-brightness: 60%;
   --modal-blur: 0px;
@@ -33,19 +34,15 @@
   --modalPopout-height: 600px;
   /*====================Home Icon====================*/
   /* Home Icon Image */
-  --home-icon-url: url(https://i.imgur.com/Dg7zmMB.png);
+  --home-icon-url: url(https://i.imgur.com/haRnpC3.gif);
   /*====================Colors====================*/
-  --solid-main-color: rgb(255, 0, 157);
-  --main-color: 255, 0, 157;
-  --secondary-text-color: rgb(0, 133, 145);
-  --secondary-color: 0, 133, 145;
+  --solid-main-color: rgb(223, 74, 181);
+  --main-color: 223, 74, 181;
+  --secondary-text-color: rgb(0, 240, 255);
+  --secondary-color: 0, 240, 255;
   --hover-color: rgba(75, 72, 72, 0.267);
-  --first-gradient-color: rgb(255, 253, 160);
-  --second-gradient-color: rgb(146, 247, 205);
   /*Background Color when hovering or selecting a member in the member list in the right column*/
   --member-list-selected-background-color: rgba(var(--main-color), 0.42);
-  /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
-  --speech-bubbles-background: rgba(0, 0, 0, .0);
   /*====================Voice Chat Colors====================*/
   /* Text Chat and Voice Chat names Opacity */
   --chat-voice-channels-opacity: 1;
@@ -2795,12 +2792,12 @@ a {
 
 /*Bot Tag*/
 .botTagRegular-2HEhHi {
-  background: var(--secondary-text-color);
+  background: var(--solid-main-color);
   color: #fff;
 }
 
 .botTagInvert-18-95s {
-  background: var(--secondary-text-color);
+  background: var(--solid-main-color);
   color: #fff;
 }
 
@@ -2964,3 +2961,57 @@ a {
 .avatar-uploader-inner {
   background-color: var(--solid-main-color) !important;
 }
+
+.create-guild-container.deprecated .action.create .action-icon, .create-guild-container.deprecated .action.join .action-icon {
+  filter: invert();
+}
+
+.form-deprecated header, .form.deprecated header {
+  color: var(--solid-main-color) !important;
+}
+
+/*Pinned Message Jump Button*/
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
+  border-color: rgba(var(--main-color), .2) !important;
+}
+
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+  -webkit-box-shadow: 0 0 6px 4px rgba(var(--main-color), .6);
+  background-color: rgba(var(--main-color), .6);
+  box-shadow: 0 0 6px 4px rgba(var(--main-color), .6);
+}
+
+.theme-dark .jumpButton-3DTcS_ {
+  background-color: transparent;
+  color: #fff;
+}
+
+/*My Account Name Email Password input border*/
+.theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
+  border-color: var(--solid-main-color) !important;
+}
+
+/*Search filter background*/
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+  background-color: var(--solid-main-color);
+}
+
+.theme-dark .closeButton-1tv5uR {
+  border-color: var(--solid-main-color);
+}
+
+.theme-dark .keybind-KpFkfr {
+  color: var(--solid-main-color);
+}
+
+/* .theme-dark .closeButton-1tv5uR path {
+  fill: none;
+}
+
+.theme-dark .closeButton-1tv5uR::after {
+  content: "x";
+  color: var(--solid-main-color);
+  font-weight: bold;
+  transform: translate(50% 50% 0px);
+  margin: auto;
+} */
