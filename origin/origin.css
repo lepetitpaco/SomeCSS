@@ -2690,12 +2690,12 @@ a {
 
 /*Bot Tag*/
 .botTagRegular-2HEhHi {
-  background: var(--secondary-text-color);
+  background: var(--solid-main-color);
   color: #fff;
 }
 
 .botTagInvert-18-95s {
-  background: var(--secondary-text-color);
+  background: var(--solid-main-color);
   color: #fff;
 }
 
@@ -2859,3 +2859,57 @@ a {
 .avatar-uploader-inner {
   background-color: var(--solid-main-color) !important;
 }
+
+.create-guild-container.deprecated .action.create .action-icon, .create-guild-container.deprecated .action.join .action-icon {
+  filter: invert();
+}
+
+.form-deprecated header, .form.deprecated header {
+  color: var(--solid-main-color) !important;
+}
+
+/*Pinned Message Jump Button*/
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
+  border-color: rgba(var(--main-color), .2) !important;
+}
+
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+  -webkit-box-shadow: 0 0 6px 4px rgba(var(--main-color), .6);
+  background-color: rgba(var(--main-color), .6);
+  box-shadow: 0 0 6px 4px rgba(var(--main-color), .6);
+}
+
+.theme-dark .jumpButton-3DTcS_ {
+  background-color: transparent;
+  color: #fff;
+}
+
+/*My Account Name Email Password input border*/
+.theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
+  border-color: var(--solid-main-color) !important;
+}
+
+/*Search filter background*/
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+  background-color: var(--solid-main-color);
+}
+
+.theme-dark .closeButton-1tv5uR {
+  border-color: var(--solid-main-color);
+}
+
+.theme-dark .keybind-KpFkfr {
+  color: var(--solid-main-color);
+}
+
+/* .theme-dark .closeButton-1tv5uR path {
+  fill: none;
+}
+
+.theme-dark .closeButton-1tv5uR::after {
+  content: "x";
+  color: var(--solid-main-color);
+  font-weight: bold;
+  transform: translate(50% 50% 0px);
+  margin: auto;
+} */
