@@ -18,7 +18,7 @@
   /* User Popout Background Brightness */
   --popout-brightness: 60%;
   --popout-blur: 0px;
-  /*User Popout Width - Default Width: 250px */ 
+  /*User Popout Width - Default Width: 250px */
   --userPopout-width: 350px;
   /*User Popout Height - Default Height :auto*/
   --userPopout-height: auto;
@@ -67,30 +67,32 @@
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
 .body-3ND3kc,
 .header-2BwW8b {
-    opacity: .1;
-    transition: 400ms ease;
+  opacity: .1;
+  transition: 400ms ease;
 }
 
 .body-3ND3kc:hover,
 .header-2BwW8b:hover {
-    opacity: 1;
+  opacity: 1;
 }
+
 /*Avatar in Userpopout disappear*/
 .avatarWrapperNormal-3wFMbf {
-    cursor: pointer;
-    opacity: 0;
+  cursor: pointer;
+  opacity: 0;
 }
 
 .avatarWrapperNormal-3wFMbf:hover {
-    cursor: pointer;
-    opacity: 1;
-    transition: 400ms;
+  cursor: pointer;
+  opacity: 1;
+  transition: 400ms;
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-    opacity: 1;
-    border-radius: 25%;
+  opacity: 1;
+  border-radius: 25%;
 }
+
 /*============================================================================================*/
 /*Gradient BG*/
 .app-19_DXt,
