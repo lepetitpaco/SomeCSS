@@ -18,7 +18,7 @@
   /* User Popout Background Brightness */
   --popout-brightness: 60%;
   --popout-blur: 0px;
-  /*User Popout Width - Default Width: 250px */
+  /*User Popout Width - Default Width: 250px */ 
   --userPopout-width: 350px;
   /*User Popout Height - Default Height :auto*/
   --userPopout-height: auto;
