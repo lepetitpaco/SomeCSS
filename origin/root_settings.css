@@ -1,3 +1,5 @@
+//META{"name":"Theme_Name","description":"You can change this description.","author":"lepetitpaco","version":"1"}*//{}
+
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
@@ -59,4 +61,11 @@
     /*Color Pulse and Color Gradient Mods Settings*/
     --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
+}
+
+/*Gradient BG*/
+.app-19_DXt, .typeWindows-1za-n7 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    margin-top: unset;
+    padding-top: 6px;
 }
