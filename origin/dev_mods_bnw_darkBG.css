@@ -1,0 +1,68 @@
+/*Will be Implemented as an @import when done*/
+/*Selected Text Channel Color*/
+.channels-Ie2l6A .nameSelectedText-sp_EUw {
+    color: rgb(0, 0, 0) !important;
+}
+
+/*Selected Text Channel SVG fill color*/
+.channels-Ie2l6A .contentSelectedText-3wUhMi path {
+    fill: rgb(0, 0, 0) !important;
+}
+
+/*User Popout*/
+.headerName-fajvi9,
+.headerTagUsernameNoNickname-2_H881,
+.headerTag-2pZJzA,
+.username-3gJmXY,
+.discriminator,
+.discriminator:hover,
+.header-2BwW8b .creationDate,
+[class*='topSection'] .creationDate,
+.activityProfile-2bJRaP .details-38sfDr,
+.activityName-1IaRLn,
+.activityUserPopout-2yItg2 .details-38sfDr,
+.activityUserPopout-2yItg2 .content-3JfFJh,
+.note-3kmerW textarea,
+.activityUserPopout-2yItg2 .headerText-1HLrL7,
+.activityProfile-2bJRaP .headerText-1HLrL7,
+.textRow-19NEd_,
+.bodyTitle-Y0qMQz,
+.roleName-32vpEy {
+    color: rgb(255, 255, 255) !important;
+}
+
+/*@ Hover*/
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: rgb(69, 69, 69) !important;
+}
+
+/*Upload modal buttons*/
+.uploadModal-2ifh8j .footer-3mqk7D .button:first-child {
+    background-color: rgb(69, 69, 69) !important;
+}
+
+/*Settings>My Account>Edit + Enable Two-Factor Auth*/
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: rgb(69, 69, 69) !important;
+}
+
+/*Settings>tabs Selected Text Color*/
+.side-8zPYf6 .itemSelected-1qLhcL {
+    color: rgb(0, 0, 0);
+}
+
+.newMessagesBar-mujexs:hover {
+    background-color: rgb(69, 69, 69);
+}
+
+/*Server Settings dropdown menu*/
+.theme-dark .item-1GzJrl:hover {
+    background-color: var(--solid-main-color);
+    color: rgb(0, 0, 0);
+}
+
+/*context menu*/
+.contextMenu-HLZMGh .item-1Yvehc:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255) !important;
+}
