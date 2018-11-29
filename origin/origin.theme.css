@@ -2613,7 +2613,7 @@ a {
 }
 
 [class*="theme-"] #bd-settings-sidebar .ui-tab-bar-item:hover {
-  background-color: var(--hover-color);
+  background-color: rgba(75, 72, 72, 0.267);
 }
 
 [layer-id="user-settings"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e>*>[class*="item"] {
