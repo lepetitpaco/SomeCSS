@@ -16,7 +16,7 @@
   /* User Popout Background Image */
   --popout-url: url(http://i.imgur.com/JycKbNe.jpg);
   /* User Popout Background Brightness */
-  --popout-brightness: 60%;
+  --popout-brightness: 40%;
   --popout-blur: 0px;
   /*User Popout Width - Default Width: 250px */
   --userPopout-width: 350px;
@@ -38,8 +38,8 @@
   /*====================Colors====================*/
   --solid-main-color: rgb(223, 74, 181);
   --main-color: 223, 74, 181;
-  --secondary-text-color: rgb(0, 240, 255);
-  --secondary-color: 0, 240, 255;
+  --secondary-text-color: rgb(255, 252, 0);
+  --secondary-color: 255, 252, 0;
   --hover-color: rgba(75, 72, 72, 0.267);
   /*Background Color when hovering or selecting a member in the member list in the right column*/
   --member-list-selected-background-color: rgba(var(--main-color), 0.42);
