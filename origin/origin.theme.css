@@ -38,8 +38,8 @@
     /*====================Colors====================*/
     --solid-main-color: rgb(255, 0, 0);
     --main-color: 255, 0, 0;
-    --secondary-text-color: rgb(0, 255, 0);
-    --secondary-color: 0, 255, 0;
+    --secondary-text-color: rgb(255, 0, 0);
+    --secondary-color: 255, 0, 0;
     /*Background Color when hovering or selecting a member in the member list in the right column*/
     --member-list-selected-background-color: rgba(var(--main-color), 0.42);
     /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
@@ -3005,14 +3005,74 @@ a {
     color: var(--solid-main-color);
 }
 
-/* .theme-dark .closeButton-1tv5uR path {
-  fill: none;
+/*Headbar*/
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #fff !important;
 }
 
-.theme-dark .closeButton-1tv5uR::after {
-  content: "x";
-  color: var(--solid-main-color);
-  font-weight: bold;
-  transform: translate(50% 50% 0px);
-  margin: auto;
-} */
+.searchBar-6Kv8R2 {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.theme-dark .libraryFilterInput-3JzqZD {
+    background-color: transparent !important;
+}
+
+/*Activity Tab*/
+.article-3kb3qm {
+    background-color: transparent !important;
+}
+
+.inputWrapper-31_8H8 {
+    border: 1px solid var(--solid-main-color);
+    border-radius: 5px;
+}
+
+/*Library*/
+.theme-dark .header-39GIC8 {
+    background-color: transparent;
+    border-bottom-color: transparent;
+    color: #fff;
+}
+
+.theme-dark .row-ZLfFhY {
+    color: #fff;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--solid-main-color);
+}
+
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+    background-color: var(--secondary-text-color);
+    color: #fff;
+}
+
+.theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP {
+    color: #fff;
+}
+
+.theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
+    border-top-color: transparent;
+}
+
+/*Store*/
+
+.theme-dark .applicationStore-1pNvnv{
+    background-color: transparent!important;
+}
+
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: transparent;
+    border: 1px solid var(--solid-main-color);
+    border-radius: 5px;
+}
+
+.applicationStore-1pNvnv .inputWrapper-31_8H8 {
+    border: none;
+    border-radius: 5px;
+}
