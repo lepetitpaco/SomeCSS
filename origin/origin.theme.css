@@ -3076,3 +3076,17 @@ a {
     border: none;
     border-radius: 5px;
 }
+
+/*New MEssage Line in Chat*/
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    color: var(--solid-main-color);
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    border-color: rgba(var(--main-color), .4);
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before{
+    border-color: rgba(var(--main-color), .4);
+}
