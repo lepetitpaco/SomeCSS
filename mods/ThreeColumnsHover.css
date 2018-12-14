@@ -1,21 +1,6 @@
 /*======================================== Three Colums on Hover =================================*/
 .guildsWrapper-5TJh6A,
-.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
-.guildsWrapper-5TJh6A .guilds-1q_RqH,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ,
-.guildsWrapper-5TJh6A .guild-1EfMGQ.unread-qLkInr:before,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ,
-#bd-pub-li,
-#bd-pub-button,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
-/* .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1, */
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM.da-friendsOnline,
-#RANbutton-frame #RANbutton-frame .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
     transition: 400ms ease;
 }
 
