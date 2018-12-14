@@ -11,9 +11,9 @@
 #bd-pub-button,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV,
+/* .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1, */
 .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM.da-friendsOnline,
 #RANbutton-frame #RANbutton-frame .guildInner-3DSoA4 {
     transition: 400ms ease;
