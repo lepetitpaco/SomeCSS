@@ -1,7 +1,7 @@
 /*======================================== Three Colums on Hover =================================*/
 .guildsWrapper-5TJh6A,
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
-    transition: 400ms ease;
+    transition: 400ms linear;
 }
 
 .guildsWrapper-5TJh6A:hover {
