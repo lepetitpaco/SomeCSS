@@ -1,53 +1,55 @@
+//META{"name":"rindo","description":"good girl","author":"headtaker21","version":"1"}*//{}
 
-//META{"name":"Rainy-Day","description":"It's Raining","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
 
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
 /*============== CUSTOMIZABLE SETTINGS ===============*/
 :root {
     /*==================== Main Background ====================*/
     /* Main Background Image */
-    --background-url: url(https://wallpapercave.com/wp/wp1865025.jpg);
+    --background-url: url(http://www.wallpapermaiden.com/image/2016/12/29/kobayashi-rindou-shokugeki-no-souma-redhead-mylove-anime-11388.png);
     /* Main Background Brightness */
-    --background-brightness: 40%;
+    --background-brightness: 70%;
     --background-blur: 0px;
     /*==================== User Popout ====================*/
     /* User Popout Background Image */
-    --popout-url: url(https://wallpapercave.com/wp/wp1865025.jpg);
+    --popout-url: url(https://i.pinimg.com/originals/8f/9b/f5/8f9bf5471c2e9adc812f7c75337f92cf.jpg);
     /* User Popout Background Brightness */
-    --popout-brightness: 40%;
+    --popout-brightness: 60%;
     --popout-blur: 0px;
     /*User Popout Width - Default Width: 250px */
     --userPopout-width: 350px;
     /*User Popout Height - Default Height :auto*/
-    --userPopout-height: auto;
+    --userPopout-height: 600px;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://wallpapercave.com/wp/wp1865025.jpg);
+    --modal-url: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/c10a0ca8-b6ed-4de8-a979-db07f486ae22/dbsgp4p-c40e951a-5e36-4f32-88e6-978242b63010.png/v1/fill/w_1036,h_772,q_70,strp/shokugeki_no_souma__kobayashi_rindou_by_kyokoyuikogts_dbsgp4p-pre.jpg);
     /* Modal Popout Background Brightness */
-    --modal-brightness: 40%;
+    --modal-brightness: 80%;
     --modal-blur: 0px;
     /*Modal Popout Width*/
-    --modalPopout-width: 600px;
+    --modalPopout-width: 700px;
     /*Modal Popout Height*/
-    --modalPopout-height: 400px;
+    --modalPopout-height: 500px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.pinimg.com/236x/31/ce/74/31ce7445086c65b53dc8e86f39d7ad0d.jpg);
+    --home-icon-url: url(https://vignette.wikia.nocookie.net/shokugekinosoma/images/1/1e/Chaliapin_Steak_Don_%28anime%29.png/revision/latest?cb=20150515215831);
     /*====================Colors====================*/
-    --solid-main-color: rgb(156, 186, 221);
-    --main-color: 156, 186, 221;
-    --secondary-text-color: rgb(156, 186, 221);
-    --secondary-color: 156, 186, 221;
+    --solid-main-color: rgb(255, 0, 0);
+    --main-color: 255, 0, 0;
+    --secondary-text-color: rgb(255, 0, 0);
+    --secondary-color: 255, 0, 0;
     /*Background Color when hovering or selecting a member in the member list in the right column*/
     --member-list-selected-background-color: rgba(var(--main-color), 0.42);
+    /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
     /*====================Voice Chat Colors====================*/
     /* Text Chat and Voice Chat names Opacity */
     --chat-voice-channels-opacity: 1;
     /* Text Chat and Voice Chat names Color */
-    --chat-voice-channels-color: #99badd;
+    --chat-voice-channels-color: #fff;
     /* Voice Chat Selected Color [Default: #f6f6f7] */
     --selected-voice-color: var(--solid-main-color);
     /* Text Chat Selected Color [Default: #f6f6f7] */
@@ -55,11 +57,29 @@
     /*==================== Emoji Picker ====================*/
     --emoji-picker-height: 666px;
     /*NSFW Warning Settings*/
-    --nwfw-warning-image: url(https://i.pinimg.com/236x/31/ce/74/31ce7445086c65b53dc8e86f39d7ad0d.jpg);
-    --nwfw-warning-text: "b-baka >.<";
+    --nwfw-warning-image: url(https://source.unsplash.com/random);
+    --nwfw-warning-text: "Random text about you being a pervert";
     /*Color Pulse and Color Gradient Mods Settings*/
-    --first-gradient-color: rgb();
+    --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
+}
+
+/*Avatar in Userpopout disappear*/
+
+.avatarWrapperNormal-3wFMbf {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.avatarWrapperNormal-3wFMbf:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
+    opacity: 1;
+    border-radius: 25%;
 }
 
 /*Gradient BG*/
