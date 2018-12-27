@@ -2399,6 +2399,7 @@ a {
     border-color: var(--secondary-text-color);
     background: rgba(0, 0, 0, .3);
     box-shadow: 0 0px 10px var(--secondary-text-color);
+    width: 45%;
 }
 
 .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
