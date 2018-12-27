@@ -1,4 +1,4 @@
-//META{"name":"mushroomQueens","description":"Boosette and Bowsette","author":"lepetitpaco","version":"1"}*//{}
+//META{"name":"Super Crown","description":"Boosette and Bowsette","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
@@ -70,46 +70,12 @@
 }
 
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
-/*userPopout*/
-.body-3iLsc4,
-/*Modal*/
-.connectedAccounts-repVzS,
-.header-2BwW8b,
-.header-QKLPzZ,
-.tabBarContainer-1s1u-z,
-.activity-1ythUs,
-.userInfoSection-2acyCx {
-    opacity: .05;
-    transition: 400ms ease;
-}
-
-.connectedAccounts-repVzS:hover,
-.header-2BwW8b:hover,
-.header-QKLPzZ:hover,
-.tabBarContainer-1s1u-z:hover,
-.body-3iLsc4:hover,
-.activity-1ythUs:hover,
-.userInfoSection-2acyCx:hover {
-    opacity: 1;
-}
-
+.body-3ND3kc {opacity:.05;transition: 400ms ease;}
+.body-3ND3kc:hover{opacity: 1;}
 /*Avatar in Userpopout disappear*/
-.avatarWrapperNormal-3wFMbf {
-    cursor: pointer;
-    opacity: 0;
-}
-
-.avatarWrapperNormal-3wFMbf:hover {
-    cursor: pointer;
-    opacity: 1;
-    transition: 400ms;
-}
-
-.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-    opacity: 1;
-    border-radius: 25%;
-}
-
+.avatarWrapperNormal-3wFMbf {cursor: pointer;opacity: 0;}
+.avatarWrapperNormal-3wFMbf:hover {cursor: pointer;opacity:1;transition: 400ms;}
+.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {opacity: 1;border-radius: 25%;}
 /*BACKGROUNDS*/
 body::after,
 .callout-backdrop,
@@ -129,9 +95,9 @@ body::after,
 
 /*3 COl Custom for me*/
 /* .guildsWrapper-5TJh6A:hover {
-    width: 293px;
+    width: 393px;
 }
 
 .guildsWrapper-5TJh6A:hover .scrollerWrap-1IAIlv {
-    width: 300px;
+    width: 400px;
 } */

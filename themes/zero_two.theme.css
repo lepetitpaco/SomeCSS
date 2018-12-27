@@ -62,31 +62,12 @@
 }
 
 /*Some opacity hovers to enjoy them backgrounds ya feel*/
-.body-3ND3kc, .header-2BwW8b {
-    opacity: .1;
-    transition: 400ms ease;
-}
-
-.body-3ND3kc:hover, .header-2BwW8b:hover {
-    opacity: 1;
-}
-
+.body-3ND3kc {opacity:.05;transition: 400ms ease;}
+.body-3ND3kc:hover{opacity: 1;}
 /*Avatar in Userpopout disappear*/
-.avatarWrapperNormal-3wFMbf {
-    cursor: pointer;
-    opacity: 0;
-}
-
-.avatarWrapperNormal-3wFMbf:hover {
-    cursor: pointer;
-    opacity: 1;
-    transition: 400ms;
-}
-
-.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-    opacity: 1;
-    border-radius: 25%;
-}
+.avatarWrapperNormal-3wFMbf {cursor: pointer;opacity: 0;}
+.avatarWrapperNormal-3wFMbf:hover {cursor: pointer;opacity:1;transition: 400ms;}
+.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {opacity: 1;border-radius: 25%;}
 
 /*Gradient BG*/
 .app-19_DXt, .typeWindows-1za-n7 {
