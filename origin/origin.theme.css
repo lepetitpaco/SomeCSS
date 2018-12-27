@@ -2860,6 +2860,11 @@ a {
     background-color: transparent;
 }
 
+/*Remove border footer*/
+.theme-dark .footer-1fjuF6 {
+    border-color: transparent;
+}
+
 /*Create Server Button in Guild List*/
 .theme-dark .guildsAdd-21_IdK {
     background: rgba(0, 0, 0, 0.9);

@@ -8,3 +8,14 @@
 .bodyTitle-Y0qMQz {
     margin-bottom: -5%;
 }
+
+.userPopout-3XzG_A {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-1fjuF6 {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}

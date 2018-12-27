@@ -248,6 +248,11 @@ body::after,
     opacity: var(--popout-opacity);
 }
 
+/*Remove border footer*/
+.theme-dark .footer-1fjuF6 {
+    border-color: transparent;
+}
+
 /*CUSTOMIZABLE USER MODAL IMAGE*/
 .root-SR8cQa::before {
     content: "";
@@ -2959,9 +2964,8 @@ a {
 }
 
 /*Store*/
-
-.theme-dark .applicationStore-1pNvnv{
-    background-color: transparent!important;
+.theme-dark .applicationStore-1pNvnv {
+    background-color: transparent !important;
 }
 
 .theme-dark .searchBox-3Y2Vi7 {
@@ -2976,7 +2980,6 @@ a {
 }
 
 /*New MEssage Line in Chat*/
-
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
     color: var(--solid-main-color);
 }
@@ -2985,6 +2988,6 @@ a {
     border-color: rgba(var(--main-color), .4);
 }
 
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before{
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
     border-color: rgba(var(--main-color), .4);
 }
