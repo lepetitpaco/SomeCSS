@@ -1,4 +1,4 @@
-//META{"name":"Super Crown 2","description":"Boosette and Bowsette","author":"lepetitpaco","version":"1"}*//{}
+//META{"name":"macross","description":"macross","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
@@ -8,38 +8,38 @@
 :root {
     /*==================== Main Background ====================*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/guaQWxj.png);
+    --background-url: url(http://i.imgur.com/bqF8FvG.jpg);
     /* Main Background Brightness */
     --background-brightness: 40%;
     --background-blur: 0px;
     /*==================== User Popout ====================*/
     /* User Popout Background Image */
-    --popout-url: url(http://i.imgur.com/93J1p0y.jpg);
+    --popout-url: url(https://i.imgur.com/nYlVT5p.jpg);
     /* User Popout Background Brightness */
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout Width - Default Width: 250px */
-    --userPopout-width: 350px;
+    --userPopout-width: 400px;
     /*User Popout Height - Default Height :auto*/
     --userPopout-height: 600px;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://i.imgur.com/0SPO3n1.jpg);
+    --modal-url: url(http://i.imgur.com/fmjbucP.jpg);
     /* Modal Popout Background Brightness */
     --modal-brightness: 40%;
     --modal-blur: 0px;
     /*Modal Popout Width*/
-    --modalPopout-width: 1000px;
+    --modalPopout-width: 900px;
     /*Modal Popout Height*/
-    --modalPopout-height: 700px;
+    --modalPopout-height: 600px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.imgur.com/NwKIcKQ.png);
+    --home-icon-url: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/57167498-012b-4dbf-bd46-b1c83d316217/dakah57-a04e8d1a-eaec-4fa0-b033-8ea599c96cd6.png);
     /*====================Colors====================*/
-    --solid-main-color: rgb(64, 122, 198);
-    --main-color: 64, 122, 198;
-    --secondary-text-color: rgb(244, 204, 82);
-    --secondary-color: 244, 204, 82;
+    --solid-main-color: rgb(158, 101, 238);
+    --main-color: 158, 101, 238;
+    --secondary-text-color: rgb(162, 202, 244);
+    --secondary-color: 162, 202, 244;
     /*Background Color when hovering or selecting a member in the member list in the right column*/
     --member-list-selected-background-color: rgba(var(--main-color), 0.42);
     /*Speech Bubble Color and Opacity(4th Value between 0 and 1*/
