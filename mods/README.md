@@ -16,3 +16,5 @@
     @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
 ## Ugly, don't use it
     @import url(https://lepetitpaco.github.io/SomeCSS/mods/glassAndBubbles.css);
+## 3 Guild Columns on hover
+    @import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css);
