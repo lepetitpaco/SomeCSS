@@ -87,6 +87,7 @@ DIV .content-yTz4x3,
 .headerPlaying-j0WQBV,
 .headerFill-adLl4x1,
 .headerStreaming-2FjmGz,
+.container-3gCOGc,
 [class*=appMount-] {
     background-color: transparent !important;
 }
@@ -246,11 +247,6 @@ body::after,
     background-repeat: no-repeat !important;
     filter: brightness(var(--popout-brightness)) blur(var(--popout-blur));
     opacity: var(--popout-opacity);
-}
-
-/*Remove border footer*/
-.theme-dark .footer-1fjuF6 {
-    border-color: transparent;
 }
 
 /*CUSTOMIZABLE USER MODAL IMAGE*/
@@ -2781,6 +2777,11 @@ a {
 /*User Popout Edit Note*/
 .theme-dark .note-3kmerW textarea:focus {
     background-color: transparent;
+}
+
+/*Remove border footer*/
+.theme-dark .footer-1fjuF6 {
+    border-color: transparent;
 }
 
 /*Create Server Button in Guild List*/
