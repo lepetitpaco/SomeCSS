@@ -27,9 +27,19 @@ body::after,
     background: transparent !important;
 }
 
-/*Transparent*/
-.search-results-wrap .search-result-message.hit {
+/*Search  Result*/
+.searchResult-3pzFAB .hit-NLlWXA {
     box-shadow: none !important;
+    border: 0px solid transparent !important;
+}
+
+.theme-dark .searchResult-3pzFAB:before,
+.theme-dark .searchResult-3pzFAB:after {
+    background-image: none;
+}
+
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+    background-color: transparent;
 }
 
 .titleBar-AC4pGV::after {
@@ -72,7 +82,7 @@ DIV DIV[class*="noWrap"] [class*="channels-"],
 DIV DIV.flex-spacer.flex-horizontal,
 DIV[class*="titleWrapper"]>DIV[class*="title-"],
 DIV DIV.channel-members,
-DIV .search-results-wrap,
+DIV .searchResultsWrap-2DKFzt,
 DIV #friends [class*="noWrap"][class*="headerBar"],
 DIV #friends DIV.friends-table,
 .topSectionStreaming-1Tpf5X,
@@ -146,9 +156,9 @@ DIV .content-yTz4x3,
 .guilds-wrapper,
 .search-l1Wz-Q .search-bar,
 .chat .inner-zqa7da,
-.search-results-wrap,
-.search-results-wrap .search-header,
-.search-results-wrap .search-result-message.hit,
+.searchResultsWrap-2DKFzt,
+.searchResultsWrap-2DKFzt .searchHeader-1l-wpR,
+.searchResult-3pzFAB .hit-NLlWXA,
 .sidebar-region,
 .ui-standard-sidebar-view,
 .channels-Ie2l6A,
@@ -166,9 +176,9 @@ DIV .content-yTz4x3,
 .headerBar-UHpsPw,
 /* .titleBar-AC4pGV,*/
 .titleWrapper-1l0xT9 .title-3qD0b-,
-.search-results-wrap .search-result::before,
-.search-results-wrap .search-result::after,
-.search-results-wrap .channel-name,
+.searchResultsWrap-2DKFzt .search-result::before,
+.searchResultsWrap-2DKFzt .search-result::after,
+.searchResultsWrap-2DKFzt .channel-name,
 .private-channels .channel.selected a,
 .private-channels .channel:hover a,
 .contentHoveredText-2D9B-x,
@@ -183,6 +193,7 @@ DIV .content-yTz4x3,
 .theme-dark .emptyState-2-sT0o,
 .theme-dark .message-group .comment .markup code.inline {
     background: transparent !important;
+    background-color: transparent !important;
 }
 
 /*Scrollbar*/
@@ -208,8 +219,8 @@ DIV .content-yTz4x3,
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
-.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
-.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.searchResultsWrap-2DKFzt .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.searchResultsWrap-2DKFzt .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: transparent !important;
     border: 0 solid transparent !important;
@@ -325,10 +336,14 @@ body::after,
 }
 
 /*Emoji Search Input*/
-.search-bar.search-bar-light .search-bar-inner {
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 1px solid var(--solid-main-color);
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px !important;
+}
+
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ .searchBarInner-1_Tg2R {
+    border: 1px solid var(--solid-main-color);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /*Chat Search Input*/
@@ -1885,10 +1900,6 @@ a {
     color: var(--solid-main-color) !important;
 }
 
-.theme-dark .checkbox-1ix_J3 {
-    border-color: var(--solid-main-color) !important;
-}
-
 .theme-dark .checked-3_4uQ9 {
     background-color: transparent;
 }
@@ -2178,9 +2189,13 @@ a {
 }
 
 /*Checkboxes Context Menu*/
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
     background-color: var(--solid-main-color) !important;
     border-color: var(--solid-main-color) !important;
+}
+
+.theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span {
+    border-color: #fff;
 }
 
 /*Game Library*/
@@ -2886,8 +2901,8 @@ a {
     box-shadow: 0 0 6px 4px rgba(var(--main-color), .6);
 }
 
-.theme-dark .jumpButton-3DTcS_ {
-    background-color: transparent;
+.theme-dark .jumpButton-Ia2hRJ {
+    background-color: rgba(var(--main-color), .2) !important;
     color: #fff;
 }
 
