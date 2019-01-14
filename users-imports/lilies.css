@@ -36,3 +36,19 @@
          transform: scaleX(1.5) scaleY(1.5);
     }
 }
+
+/*Custom message to you*/
+.wordmark-2iDDfm{
+    display: none;
+}
+
+.titleBar-AC4pGV::after{
+    content: "Hehe you can get a daily message from me";
+    color: var(--solid-main-color);
+    /* color: white; */
+    font-family: "Arial";
+    text-align: left;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
