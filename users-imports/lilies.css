@@ -1,0 +1,38 @@
+.wrapper-232cHJ {
+    height: 25px;
+    width: 20px;
+    line-height: 23px;
+    text-align: center;
+    vertical-align: middle;
+    right: 10px;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    border-radius: 100%;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: rainbow, scale;
+    -webkit-animation-duration: 2s, 3s;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%;
+    }
+
+    50% {
+        background-position: 100% 19%;
+    }
+
+    100% {
+        background-position: 0% 82%;
+    }
+}
+
+@-webkit-keyframes scale {
+    100% {
+         transform: scaleX(1.5) scaleY(1.5);
+    }
+}
