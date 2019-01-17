@@ -1,0 +1,256 @@
+:root {
+    /*==================== Main Background ====================*/
+    /* Main Background Image */
+    --background-url: url(https://i.imgur.com/eCEgBKh.jpg);
+    /* Main Background Brightness */
+    --background-brightness: 40%;
+    --background-blur: 0px;
+    /*==================== User Popout ====================*/
+    /* User Popout Background Image */
+    --popout-url: url(https://i.imgur.com/Ja9IzFL.jpg);
+    /* User Popout Background Brightness */
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*User Popout Width - Default Width: 250px */
+    --userPopout-width: 350px;
+    /*User Popout Height - Default Height :auto*/
+    --userPopout-height: auto;
+    /*====================Modal Popout====================*/
+    /* Modal Popout Background Image */
+    --modal-url: url(https://i.imgur.com/0sYi901.png);
+    /* Modal Popout Background Brightness */
+    --modal-brightness: 40%;
+    --modal-blur: 0px;
+    /*Modal Popout Width*/
+    --modalPopout-width: 600px;
+    /*Modal Popout Height*/
+    --modalPopout-height: 400px;
+    /*====================Home Icon====================*/
+    /* Home Icon Image */
+    --home-icon-url: url(https://i.imgur.com/jQlUedX.png);
+    /*====================Colors====================*/
+    --solid-main-color: rgb(255, 0, 0);
+    --main-color: 255, 0, 0;
+    --secondary-text-color: rgb(255, 0, 0);
+    --secondary-color: 255, 0, 0;
+    /*Background Color when hovering or selecting a member in the member list in the right column*/
+    --member-list-selected-background-color: rgba(var(--main-color), 0.42);
+    /*====================Voice Chat Colors====================*/
+    /* Text Chat and Voice Chat names Opacity */
+    --chat-voice-channels-opacity: 1;
+    /* Text Chat and Voice Chat names Color */
+    --chat-voice-channels-color: #fff;
+    /* Voice Chat Selected Color [Default: #f6f6f7] */
+    --selected-voice-color: var(--solid-main-color);
+    /* Text Chat Selected Color [Default: #f6f6f7] */
+    --selected-text-chat-color: #fff;
+    /*==================== Emoji Picker ====================*/
+    --emoji-picker-height: 666px;
+    /*NSFW Warning Settings*/
+    --nwfw-warning-image: url(https://i.pinimg.com/originals/5f/fe/c1/5ffec1d8b61385f330b5a655fd55e6ae.jpg);
+    --nwfw-warning-text: "The gods won't forgive you";
+    /*Color Pulse and Color Gradient Mods Settings*/
+    --first-gradient-color: rgb(255, 253, 160);
+    --second-gradient-color: rgb(146, 247, 205);
+}
+
+body {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+body::after {
+    z-index: -9999;
+}
+
+body::after,
+.callout-backdrop::after {
+    background-position: center;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+    {
+    background: transparent !important;
+}
+
+/*================Container================*/
+.app,
+.layers,
+.layer,
+.container-2lgZY8,
+.theme-dark .layer-3QrUeG,
+.theme-dark .layers-3iHuyZ,
+.appMount-3lHmkl {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Container Background*/
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.dark label {
+    background-image: var(--background-url) !important;
+    filter: brightness(var(--background-brightness)) blur(var(--background-blur)) !important;
+}
+
+/*================Title Bar================*/
+.theme-dark .title-3qD0b- {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Box Shadows of Title Bar*/
+.theme-dark .title-3qD0b- {
+    -webkit-box-shadow: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+/*================Guild List================*/
+.guildsWrapper-5TJh6A,
+.guilds-wrapper {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*================Channel List================*/
+.channels-Ie2l6A,
+.container-PNkimc {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Account Details*/
+.theme-dark .container-2Thooq, .theme-light .container-2Thooq {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*================Chat Zone================*/
+/*Message Wrapper*/
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Chat Input Zone*/
+.theme-dark .chat-3bRxxu,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3 {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*================Member List================*/
+.theme-dark .members-1998pB {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*================Activity Tab================*/
+/*Background*/
+.theme-dark .activityFeed-28jde9 {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Title Bar*/
+.theme-dark .headerBar-UHpsPw {
+    background-color: transparent !important;
+    background: transparent !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+/*Activity Cards*/
+.theme-dark .card-7JP0BX {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Carousel*/
+.carousel-2WxMes {
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+.paginationItem-2lUq0s {
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+.selectedPage-3cFHgU {
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+/*Activity Cards Header*/
+.theme-dark .header-1RC2Wb {
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+/*Activity Cards Body*/
+.theme-dark .body-SKIE6r {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+/*News*/
+.news-2GDtLJ {
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+/*================Library Tab================*/
+
+/*Game Library*/
+.theme-dark .gameLibrary-TTDw4Y{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.theme-dark .header-39GIC8{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*Gift Inventory*/
+.theme-dark .root-1BQpZw{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/*================Store Tab================*/
+
+.theme-dark .applicationStore-1pNvnv{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.theme-dark .itemBackground-2vEldQ{
+
+}
+
+.theme-dark .applicationTile-1Goy1W{
+    background-color: #000 !important;
+    background: #000 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.theme-dark .tileMedia-24cT6_{
+    background-color: #000 !important;
+    background: #000 !important;
+}
