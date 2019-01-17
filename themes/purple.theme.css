@@ -1,31 +1,32 @@
-//META{"name":"Alisa","description":"God Eater","author":"lepetitpaco","version":"1"}*//{}
+//META{"name":"Purple","description":"It's Purple","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/origin/origin.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/users-imports/lilies.css);
 
 /*============== CUSTOMIZABLE SETTINGS ===============*/
 :root {
     /*==================== Main Background ====================*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/GzdZex7.jpg);
+    --background-url: url(https://i.imgur.com/1eWYmFT.jpg);
     /* Main Background Brightness */
     --background-brightness: 40%;
     --background-blur: 0px;
     /*==================== User Popout ====================*/
     /* User Popout Background Image */
-    --popout-url: url(https://i.imgur.com/QWCK3qY.jpg);
+    --popout-url: url(https://i.imgur.com/TzQBeF1.jpg);
     /* User Popout Background Brightness */
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout Width - Default Width: 250px */
     --userPopout-width: 350px;
     /*User Popout Height - Default Height :auto*/
-    --userPopout-height: 700px;
+    --userPopout-height: 600px;
     /*====================Modal Popout====================*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://i.imgur.com/6OYeXNZ.jpg);
+    --modal-url: url(https://i.imgur.com/ks8eK9I.jpg);
     /* Modal Popout Background Brightness */
     --modal-brightness: 40%;
     --modal-blur: 0px;
@@ -35,12 +36,12 @@
     --modalPopout-height: 600px;
     /*====================Home Icon====================*/
     /* Home Icon Image */
-    --home-icon-url: url(https://i.imgur.com/80OBmMU.jpg);
+    --home-icon-url: url(https://i.imgur.com/Xb5WCXQ.png);
     /*====================Colors====================*/
-    --solid-main-color: rgb(255, 0, 0);
-    --main-color: 255, 0, 0;
-    --secondary-text-color: rgb(231, 162, 162);
-    --secondary-color: 231, 162, 162;
+    --solid-main-color: rgb(144, 0, 200);
+    --main-color: 144, 0, 200;
+    --secondary-text-color: rgb(169, 110, 244);
+    --secondary-color: 169, 110, 244;
     /*Background Color when hovering or selecting a member in the member list in the right column*/
     --member-list-selected-background-color: rgba(var(--main-color), 0.42);
     /*====================Voice Chat Colors====================*/
@@ -55,12 +56,13 @@
     /*==================== Emoji Picker ====================*/
     --emoji-picker-height: 666px;
     /*NSFW Warning Settings*/
-    --nwfw-warning-image: url(https://i.pinimg.com/originals/5f/fe/c1/5ffec1d8b61385f330b5a655fd55e6ae.jpg);
-    --nwfw-warning-text: "I'll shoot you with my big gun";
+    --nwfw-warning-image: url(https://i.imgur.com/Xb5WCXQ.png);
+    --nwfw-warning-text: "OwO";
     /*Color Pulse and Color Gradient Mods Settings*/
     --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
-    /* --bubble-color: 255, 255, 255; */
+    /*For Glass and Bubbles Mod*/
+    --bubble-color: 255, 0, 255 !important;
 }
 
 /*Gradient BG*/
@@ -68,4 +70,13 @@
     background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
     margin-top: unset;
     padding-top: 6px;
+}
+
+.homeIcon-1FoKUJ {
+    background-position: -1.5px;
+    filter: hue-rotate(1rad);
+}
+
+.horizontal-1ae9ci>.flex-1xMQg5:last-child .theme-dark .image-2LqJex {
+    filter: hue-rotate(1rad);
 }
