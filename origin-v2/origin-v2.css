@@ -586,11 +586,18 @@ body::after,
 .theme-dark .modal-3HD5ck{
     box-shadow: none;
     background-color: var(--blackbgopacity);
+    border: 1px solid var(--main-color);
 }
 
 .theme-dark .footer-2yfCgX{
     box-shadow: none;
     background-color: var(--blackbgopacity);
+    border-top: 1px solid var(--main-color);
+}
+
+.theme-dark .option-1l2vXE{
+    background-color: var(--blackbgopacity);
+    border: 1px solid var(--main-color);
 }
 
 /*Popouts and Dropdowns*/
