@@ -466,7 +466,6 @@ body::after,
 
 
 /*Modals*/
-/*Transparency*/
 /*Backdrop for modals*/
 .backdrop-1wrmKB {
     opacity: 0.85 !important;
@@ -581,6 +580,17 @@ body::after,
 
 .ddrArrows-lSnH7P .arrow-2enltQ:after {
     background: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_5.svg') center/contain no-repeat !important;
+}
+
+/*Gift Nitro*/
+.theme-dark .modal-3HD5ck{
+    box-shadow: none;
+    background-color: var(--blackbgopacity);
+}
+
+.theme-dark .footer-2yfCgX{
+    box-shadow: none;
+    background-color: var(--blackbgopacity);
 }
 
 /*Popouts and Dropdowns*/
