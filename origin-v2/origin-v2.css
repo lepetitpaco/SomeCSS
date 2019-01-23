@@ -30,19 +30,13 @@
     --home-icon-url: url(https://i.imgur.com/jQlUedX.png);
     /*====Colors====*/
     --main-color: rgb(255, 0, 0);
-    --main-color-rgba: rgba(255, 0, 0,.5);
+    --main-color-rgba: rgba(255, 0, 0, .5);
     --secondary-color: rgb(255, 0, 0);
-    --secondary-color-rgba: rgba(255, 0, 0,.5);
+    --secondary-color-rgba: rgba(255, 0, 0, .5);
     --blackbgopacity: rgba(0, 0, 0, .5);
-    /*==== Emoji Picker ====*/
-    --emoji-picker-height: 666px;
-    /*NSFW Warning Settings*/
-    /* --nwfw-warning-image: url(https://i.pinimg.com/originals/5f/fe/c1/5ffec1d8b61385f330b5a655fd55e6ae.jpg);
-    --nwfw-warning-text: "The gods won't forgive you"; */
-    /*Color Pulse and Color Gradient Mods Settings*/
-    /* --first-gradient-color: rgb(255, 253, 160);
-    --second-gradient-color: rgb(146, 247, 205); */
-
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --grey: rgb(110, 110, 110)
 }
 
 /*Main Background*/
@@ -125,6 +119,38 @@ body::after,
     background: transparent !important;
 }
 
+/*Text Channels*/
+/*Hover Color*/
+.channels-Ie2l6A .contentHoveredText-2D9B-x {
+    background-color: var(--main-color-rgba);
+
+}
+
+/*Default Text*/
+.nameDefaultText-24KCy5, .colorDefaultText-oas-QM {
+    color: var(--white);
+}
+
+/*Selected Text*/
+.contentSelectedText-3wUhMi {
+    background-color: var(--main-color);
+}
+
+/*Muted Text*/
+.nameMutedText-3Vj4bM, .colorMutedText-36M8WR {
+    color: var(--grey);
+}
+
+/*Unread Text*/
+.nameUnreadText-DfkrI4, .colorUnreadText-2t7XRb {
+    color: var(--main-color);
+}
+
+/*Unread Text Notification Dot */
+.unread-1Dp-OI {
+    background-color: var(--main-color);
+}
+
 /*Chat Zone*/
 /*Message Wrapper*/
 .theme-dark .messagesWrapper-3lZDfY {
@@ -179,7 +205,7 @@ body::after,
     display: none;
 }
 
-.theme-dark .markup-2BOw-j a{
+.theme-dark .markup-2BOw-j a {
     color: var(--main-color);
 }
 
@@ -212,7 +238,7 @@ body::after,
 }
 
 .newMessagesBar-mujexs button {
-    color: #fff !important;
+    color: var(--white) !important;
 }
 
 .divider-3gKybi {
@@ -238,7 +264,7 @@ body::after,
 }
 
 .chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child {
-    color: #fff;
+    color: var(--white);
 }
 
 .chat-3bRxxu .jumpToPresentBar-9P20AM {
@@ -282,7 +308,7 @@ body::after,
     background: transparent !important;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #fff;
+    color: var(--white);
 }
 
 /*Activity Cards*/
@@ -420,6 +446,25 @@ body::after,
     border-color: transparent;
 }
 
+/*Checkbox Options*/
+.theme-dark .cardPrimaryEditable-3KtE4g {
+    background-color: var(--blackbgopacity) !important;
+    border-color: var(--main-color) !important;
+}
+
+.theme-dark .cardPrimaryEditable-3KtE4g .title-3BE6m5,
+.theme-dark .radioGroup-1GBvlr,
+.theme-dark .descChecked-XkfPsU,
+.theme-dark .titleChecked-2wg0pd {
+    color: var(--main-color) !important;
+}
+
+.theme-dark .checked-3_4uQ9{
+    background-color: var(--main-color) !important;
+
+}
+
+
 /*Modals*/
 /*Transparency*/
 /*Backdrop for modals*/
@@ -429,7 +474,7 @@ body::after,
 
 /*Upload Modal*/
 .uploadModal-2ifh8j {
-    background: var(--blackbgopacity)!important;
+    background: var(--blackbgopacity) !important;
     border: 1px solid var(--main-color);
 }
 
@@ -769,7 +814,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background: var(--main-color) !important;
-    border-color: #fff !important;
+    border-color: var(--white) !important;
 }
 
 .da-contextMenu {
@@ -977,7 +1022,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 .dim-1l4L4y span,
 .keybindShortcut-1BD6Z1 span {
     background: var(--main-color) !important;
-    color: #fff !important;
+    color: var(--white) !important;
 }
 
 .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--next,
@@ -1050,11 +1095,11 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
     background-color: rgba(0, 0, 0, 0);
-    color: #fff;
+    color: var(--white);
 }
 
 .emojiPicker-3m1S-j .category-2U57w6 {
-    color: #fff;
+    color: var(--white);
 }
 
 .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
@@ -1206,4 +1251,15 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 
 ::-webkit-scrollbar-corner {
     display: none !important;
+}
+
+/*Switch Buttons*/
+/*Checked*/
+.themeDefault-24hCdX.valueChecked-m-4IJZ{
+    background-color: var(--main-color)!important;
+}
+
+/*Unchecked*/
+.themeDefault-24hCdX.valueUnchecked-2lU_20{
+    background-color: var(--blackbgopacity);
 }
