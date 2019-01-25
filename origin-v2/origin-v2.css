@@ -965,18 +965,11 @@ body::after,
     background-color: transparent;
 }
 
-.channel-2QD9_O:hover:nth-child(2),
-.channel-2QD9_O:hover:nth-child(3),
-.channel-2QD9_O:hover:nth-child(4),
-.channel-2QD9_O:hover:nth-child(5) {
-    background-color: var(--blackbgopacity);
-}
-
-.channel-2QD9_O:nth-child(2).selected-1HYmZZ a,
-.channel-2QD9_O:nth-child(3).selected-1HYmZZ a,
-.channel-2QD9_O:nth-child(4).selected-1HYmZZ a,
-.channel-2QD9_O:nth-child(5).selected-1HYmZZ a {
-    background-color: var(--black);
+.channel-2QD9_O:nth-child(2).selected-1HYmZZ a svg g path,
+.channel-2QD9_O:nth-child(3).selected-1HYmZZ a svg g path,
+.channel-2QD9_O:nth-child(4).selected-1HYmZZ a svg g path,
+.channel-2QD9_O:nth-child(5).selected-1HYmZZ a svg g path:nth-child(1) {
+    fill: var(--secondary-color)!important;
 }
 
 /*Store Tab*/
