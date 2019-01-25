@@ -2,7 +2,8 @@
     /*==== Main Background ====*/
     /* Main Background Image */
     /* --background-url: url(https://i.imgur.com/eCEgBKh.jpg); */
-    --background-url: url(https://i.imgur.com/GivggjC.jpg);
+    /* --background-url: url(https://i.imgur.com/GivggjC.jpg); */
+    --background-url: url(https://cdn.discordapp.com/attachments/448862111645302784/512004673721597965/unknown.png);
     /* --background-url: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-551758.png); */
     /* Main Background Brightness */
     --background-brightness: 40%;
@@ -103,10 +104,6 @@
 }
 
 /*Icons*/
-svg {
-    /* color: var(--secondary-color) !important; */
-    /* color: yellow !important; */
-}
 
 .titleWrapper-1l0xT9 svg * {
     /* color: var(--secondary-color) !important; */
