@@ -951,10 +951,10 @@ body::after,
     display: inline-flex;
 }
 
-.channel-2QD9_O:nth-child(2) .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a,
-.channel-2QD9_O:nth-child(3) .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a,
-.channel-2QD9_O:nth-child(4) .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a,
-.channel-2QD9_O:nth-child(5) .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
+.channel-2QD9_O:nth-child(2) a,
+.channel-2QD9_O:nth-child(3) a,
+.channel-2QD9_O:nth-child(4) a,
+.channel-2QD9_O:nth-child(5) a{
     background-color: transparent!important;
 }
 
