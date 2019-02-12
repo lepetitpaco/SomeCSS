@@ -1,7 +1,7 @@
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/eCEgBKh.jpg);
+    --background-url: url(https://i.imgur.com/9tPwOZe.jpg);
     /* --background-url: url(https://i.imgur.com/GivggjC.jpg); */
     /* --background-url: url(https://cdn.discordapp.com/attachments/448862111645302784/512004673721597965/unknown.png); */
     /* --background-url: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-551758.png); */
@@ -10,7 +10,7 @@
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url(https://i.imgur.com/Ja9IzFL.jpg);
+    --popout-url: url(https://i.imgur.com/xtpQxnj.jpg);
     /* User Popout Background Brightness */
     --popout-brightness: 40%;
     --popout-blur: 0px;
@@ -20,7 +20,7 @@
     --userPopout-height: auto;
     /*====Modal Popout====*/
     /* Modal Popout Background Image */
-    --modal-url: url(https://i.imgur.com/0sYi901.png);
+    --modal-url: url(https://i.imgur.com/9tPwOZe.jpg);
     /* Modal Popout Background Brightness */
     --modal-brightness: 40%;
     --modal-blur: 0px;
@@ -32,8 +32,8 @@
     /* Home Icon Image */
     --home-icon-url: url(https://i.imgur.com/jQlUedX.png);
     /*====Colors====*/
-    --main-color: rgb(255, 0, 0);
-    --main-color-rgba: rgba(255, 0, 0, .5);
+    --main-color: rgb(218, 165, 32);
+    --main-color-rgba: rgba(218, 165, 32, .5);
     --secondary-color: rgb(255, 100, 0);
     --secondary-color-rgba: rgba(255, 100, 0, .5);
     --black-alpha-5: rgba(0, 0, 0, .5);
