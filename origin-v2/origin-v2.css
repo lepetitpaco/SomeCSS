@@ -1,4 +1,6 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css); */
 
 :root {
     /*==== Main Background ====*/
@@ -9,20 +11,20 @@
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url(https://i.imgur.com/xtpQxnj.jpg);
+    --popout-url: url(https://i.imgur.com/QTGKF9m.jpg);
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout*/
     --userPopout-width: 350px;
-    --userPopout-height: auto;
+    --userPopout-height: 650px;
     /*====Modal Popout====*/
-    --modal-url: url(https://i.imgur.com/9tPwOZe.jpg);
+    --modal-url: url(https://i.imgur.com/juBzzjl.jpg);
     --modal-brightness: 40%;
     --modal-blur: 0px;
-    --modalPopout-width: 600px;
-    --modalPopout-height: 400px;
+    --modalPopout-width: 900px;
+    --modalPopout-height: 650px;
     /*====Home Icon====*/
-    --home-icon-url: url(https://i.imgur.com/jQlUedX.png);
+    --home-icon-url: url(https://i.imgur.com/9hVbiFo.jpg);
     /*====Colors====*/
     --main-color: rgb(218, 165, 32);
     --main-color-alpha-5: rgba(218, 165, 32, .5);
