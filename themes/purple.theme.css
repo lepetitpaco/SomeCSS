@@ -4,9 +4,7 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css);
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/glassAndBubbles.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/users-imports/lilies.css); */
+@import url(https://lepetitpaco.github.io/SomeCSS/users-imports/lilies.css);
 
 /*============== CUSTOMIZABLE SETTINGS ===============*/
 :root {
@@ -63,8 +61,6 @@
     /*Color Pulse and Color Gradient Mods Settings*/
     --first-gradient-color: rgb(255, 253, 160);
     --second-gradient-color: rgb(146, 247, 205);
-    /*For Glass and Bubbles Mod*/
-    --bubble-color: 255, 255, 255 !important;
 }
 
 /*Gradient BG*/
@@ -74,11 +70,11 @@
     padding-top: 6px;
 }
 
-.homeIcon-1FoKUJ {
+.homeIcon-1FoKUJ{
     background-position: -1.5px;
     filter: hue-rotate(1rad);
 }
 
-.horizontal-1ae9ci>.flex-1xMQg5:last-child .theme-dark .image-2LqJex {
+.horizontal-1ae9ci>.flex-1xMQg5:last-child .theme-dark .image-2LqJex{
     filter: hue-rotate(1rad);
 }

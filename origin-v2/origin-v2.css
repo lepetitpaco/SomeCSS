@@ -1,13 +1,11 @@
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerUserPopout.css); */
 
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/9tPwOZe.jpg);
-    /* --background-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg); */
-    --background-brightness: 50%;
+    --background-url: url(https://i.imgur.com/jmFh4EB.jpg);
+    --background-brightness: 60%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
@@ -26,9 +24,10 @@
     /*====Home Icon====*/
     --home-icon-url: url(https://i.imgur.com/9hVbiFo.jpg);
     /*====Colors====*/
-    --main-color: rgb(218, 165, 32);
-    --main-color-alpha-5: rgba(218, 165, 32, .5);
-    --main-color-alpha-1: rgba(218, 165, 32, .1);
+    --mc : 109, 141, 171;
+    --main-color: rgb(var(--mc));
+    --main-color-alpha-5: rgba(var(--mc), .5);
+    --main-color-alpha-1: rgba(var(--mc), .1);
     /* --main-color: rgb(255, 255, 255);
     --main-color-alpha-5: rgba(255, 255, 255, .5);
     --main-color-alpha-1: rgba(255, 255, 255, .1); */
@@ -52,6 +51,7 @@
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
 }
+
 
 /*Global Elements*/
 
@@ -280,6 +280,12 @@ body::after,.callout-backdrop,.userPopout-11hFKo::before,#pubs-container::before
 .theme-dark .wrapper-3WhCwL:hover{background-color:var(--main-color-alpha-5);color:var(--white);}
 .theme-dark .isMentioned-N-h9aa .mention:hover{color:var(--white);}
 .theme-dark .isMentioned-N-h9aa{background: var(--main-color-alpha-1);}
+
+/*You must be a member for at least 10 minutes to send messages in this server.*/
+.theme-dark .wrapper-39oAo3{
+    background-color: transparent;
+    color: var(--white);
+}
 
 
 /*Member List*/
