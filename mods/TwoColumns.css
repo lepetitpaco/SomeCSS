@@ -1,14 +1,14 @@
 /*======================================== SERVER GRID 2 COLUMNS =================================*/
 
-.guildsWrapper-5TJh6A {
+.wrapper-1Rf91z {
     width: 135px;
 }
 
-.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv {
     width: 150px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH {
+ .scroller-2TZvBN {
     display: flex;
     flex-flow: row wrap;
     padding-left: 0;
@@ -17,24 +17,24 @@
 
 /*======================= ICON PLACEMENTS========================*/
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+.container-2td-dC,.container-1ETFDs,.container-1aNBdK {
     margin: auto;
     margin-top: 8px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread::before {
+.container-2td-dC.unread::before {
     left: -2px;
     top: 5px;
     z-index: 9000;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before {
+.container-2td-dC..selected-nT-gM3:before {
     display: none;
 }
 
 /*DM Person Talking Placement*/
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+.wrapper-1Rf91z .scroller-2TZvBN .dms-rcsEnV {
     width: 100%;
     display: flex;
     margin-right: 0;
@@ -42,7 +42,7 @@
     flex-flow: row wrap;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
+.wrapper-1Rf91z .scroller-2TZvBN .dms-rcsEnV .guild-1EfMGQ {
     left: -11px;
 }
 
@@ -57,20 +57,20 @@
 
 /*====================================================================*/
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+.guildSeparator-3s64Iy {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+.friendsOnline-2JkivW {
     position: relative;
     width: 100%;
     margin: auto;
     margin-top: 5px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+.wrapper-1Rf91z .scroller-2TZvBN .dms-rcsEnV {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -78,30 +78,12 @@
 
 /*Separator Line btween guilds and dms // friends section*/
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+.guildSeparator-3s64Iy {
     position: relative;
     width: 100%;
     margin-top: 10px;
-    left: -11px;
 }
 
-/*Guild Separator Zone is too big*/
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
-    position: relative;
-    margin: auto;
-    width: 100%;
-    left: 0;
-}
-
-/*Number of Online Friends Indicator*/
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM.da-friendsOnline {
-    position: relative;
-    width: 75%;
-    margin: auto;
-    margin-top: 5px;
-}
 
 /*Place the Read All Button Right*/
 
