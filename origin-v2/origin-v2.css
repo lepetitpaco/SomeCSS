@@ -103,18 +103,18 @@ body::after,.callout-backdrop,.userPopout-11hFKo::before,#pubs-container::before
 
 
 /*Guild List*/
-.guildsWrapper-5TJh6A,.guilds-wrapper{background-color:transparent!important;background:transparent!important;}
-.theme-dark .friendsOnline-_wi_fM{color:var(--white);}
+.wrapper-1Rf91z{background-color:transparent!important;background:transparent!important;}
+.friendsOnline-2JkivW{color:var(--white)!important;}
 /*Home Icon*/
-.homeIcon-1FoKUJ g{display:none;}
-.theme-dark .homeIcon-1FoKUJ,.theme-dark .homeIcon-1FoKUJ:hover{background-color:transparent!important;}
-.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ{background-color:transparent!important;}
-.homeIcon-1FoKUJ,.homeIcon-1FoKUJ:hover{color:transparent;background-color:transparent;background-image:var(--home-icon-url)!important;-moz-background-size:cover;-webkit-background-size:cover;background-repeat:no-repeat;border-radius:15px;}
-.guild-1EfMGQ:first-child .guildInner-3DSoA4{box-shadow:0 0 10px var(--solid-main-color);border:solid 1px var(--main-color);}
+.homeIcon-tEMBK1 g{display:none;}
+.theme-dark .homeIcon-tEMBK1,.theme-dark .homeIcon-tEMBK1:hover{background-color:transparent!important;}
+.selected-nT-gM3 .guildInner-3DSoA4.da-guildInner .homeIcon-tEMBK1{background-color:transparent!important;}
+.homeIcon-tEMBK1,.homeIcon-tEMBK1:hover{color:transparent;background-color:transparent;background-image:var(--home-icon-url)!important;-moz-background-size:cover;-webkit-background-size:cover;background-repeat:no-repeat;border-radius:15px;}
+.container-2td-dC:first-child .guildInner-3DSoA4{box-shadow:0 0 10px var(--solid-main-color);border:solid 1px var(--main-color);}
 /*Unread*/
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before{background: var(--main-color);}
+.theme-dark .container-2td-dC.unread-2OHH1w:before{background: var(--main-color);}
 /*Selected*/
-.theme-dark .guild-1EfMGQ.selected-ML3OIq:before{background: var(--main-color);}
+.theme-dark .container-2td-dC.selected-nT-gM3:before{background: var(--main-color);}
 
 /*Channel List*/
 .channels-Ie2l6A,.container-PNkimc{background-color:transparent!important;background:transparent!important;}
