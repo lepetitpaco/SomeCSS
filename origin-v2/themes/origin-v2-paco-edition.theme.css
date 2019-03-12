@@ -32,9 +32,6 @@
     --main-color: rgb(var(--mc));
     --main-color-alpha-5: rgba(var(--mc), .5);
     --main-color-alpha-1: rgba(var(--mc), .1);
-    /* --main-color: rgb(255, 255, 255);
-    --main-color-alpha-5: rgba(255, 255, 255, .5);
-    --main-color-alpha-1: rgba(255, 255, 255, .1); */
     /*White if using normal Colored background*/
     --contrast-main-color: rgb(255, 255, 255);
     --black-alpha-5: rgba(0, 0, 0, .5);
