@@ -1,14 +1,14 @@
 //META{"name":"OriginV2","description":"My second theme in development, for your eyes only.","author":"lepetitpaco","version":"0"}*//{}
 
-@import url(https://lepetitpaco.github.io/SomeCSS/origin-v2/origin-v2.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerModalPopout.css);
+@import url(https://somecss.lepetitpaco.fr/origin-v2/origin-v2.css);
+@import url(https://somecss.lepetitpaco.fr/mods/TwoColumns.css);
+@import url(https://somecss.lepetitpaco.fr/mods/BiggerAvatar.css);
+@import url(https://somecss.lepetitpaco.fr/mods/BiggerModalPopout.css);
 
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/jmFh4EB.jpg);
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/Cage-(Jade).jpg");
     --background-brightness: 60%;
     --background-blur: 0px;
     /*==== User Popout ====*/
@@ -51,4 +51,3 @@
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
 }
- 
