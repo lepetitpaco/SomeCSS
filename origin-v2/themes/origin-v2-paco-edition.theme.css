@@ -8,25 +8,25 @@
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/Cage-(Jade).jpg");
+    --background-url: url("https://lepetitpaco.fr/wp-content/uploads/2019/03/Cage-Jade.jpg");
     --background-brightness: 60%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/Serene-(Jade).jpg");
+    --popout-url: url("https://lepetitpaco.fr/wp-content/uploads/2019/03/Serene-Jade.jpg");
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout*/
     --userPopout-width: 350px;
     --userPopout-height: 650px;
     /*====Modal Popout====*/
-    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/Lion%20(Aeolian).jpg");
+    --modal-url: url("https://lepetitpaco.fr/wp-content/uploads/2019/03/Trapped-Jade.jpg");
     --modal-brightness: 40%;
     --modal-blur: 0px;
     --modalPopout-width: 900px;
     --modalPopout-height: 650px;
     /*====Home Icon====*/
-    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/Ghostblade.jpg");
+    --home-icon-url: url("https://lepetitpaco.fr/wp-content/uploads/2019/03/Aldrich-DS3.jpg");
     /*====Colors====*/
     --mc : 109, 141, 171;
     --main-color: rgb(var(--mc));
