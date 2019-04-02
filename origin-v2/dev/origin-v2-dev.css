@@ -6,20 +6,20 @@
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/OHLAND");
+    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout*/
     --userPopout-width: 350px;
     --userPopout-height: 650px;
     /*====Modal Popout====*/
-    --modal-url: url("https://lepetitpaco.fr/wp-content/uploads/2019/03/Trapped-Jade.jpg");
+    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/ohland");
     --modal-brightness: 40%;
     --modal-blur: 0px;
-    --modalPopout-width: 900px;
-    --modalPopout-height: 650px;
+    --modalPopout-width: 600px;
+    --modalPopout-height: 900px;
     /*====Home Icon====*/
-    --home-icon-url: url("https://lepetitpaco.fr/wp-content/uploads/2019/03/Aldrich-DS3.jpg");
+    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
     /*====Colors====*/
     --mc : 255, 0, 0;
     --main-color: rgb(var(--mc));
@@ -442,6 +442,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active){
 
 /*Modal Popout*/
 .topSectionSpotify-1lI0-P{background:transparent;}
+.root-SR8cQa{height: var(--modalPopout-height);width: var(--modalPopout-width);}
 
 /*Pinned Messages/Mentions*/
 .themedPopout-25DgLi{background:var(--black-alpha-7)!important;background-size:cover!important;background-repeat:no-repeat;box-shadow:inset 0 0 0 1000px var(--black-alpha-7)!important;border:none!important;animation:slide-down 200ms ease!important;}
