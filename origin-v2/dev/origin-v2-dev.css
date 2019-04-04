@@ -1,9 +1,9 @@
 /*Global Elements*/
 
 /*Scrollbar*/
-::-webkit-scrollbar-thumb{background:var(--main-color)!important;border-color:var(--main-color)!important;}
+/* ::-webkit-scrollbar-thumb{background:var(--main-color)!important;border-color:var(--main-color)!important;}
 ::-webkit-scrollbar,::-webkit-scrollbar-track-piece{background:transparent!important;border-color:transparent!important;width:6px!important;}
-::-webkit-scrollbar-corner{display:none!important;}
+::-webkit-scrollbar-corner{display:none!important;} */
 
 /*Switches*/
 
