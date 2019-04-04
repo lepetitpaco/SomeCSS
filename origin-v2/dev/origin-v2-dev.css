@@ -1,3 +1,61 @@
+:root {
+    /*==== Main Background ====*/
+    /* Main Background Image */
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/wide");
+    --background-brightness: 60%;
+    --background-blur: 0px;
+    /*==== User Popout ====*/
+    /* User Popout Background Image */
+    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*User Popout*/
+    --userPopout-width: 350px;
+    --userPopout-height: 650px;
+    /*====Modal Popout====*/
+    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/ohland");
+    --modal-brightness: 40%;
+    --modal-blur: 0px;
+    --modalPopout-width: 600px;
+    --modalPopout-height: 900px;
+    /*====Home Icon====*/
+    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
+    /*====Colors====*/
+    --mc : 255, 0, 0;
+    --main-color: rgb(var(--mc));
+    --main-color-alpha-1: rgba(var(--mc), .1); /*User for mentions*/
+    --main-color-alpha-5: rgba(var(--mc), .5);
+    --main-color-alpha-7: rgba(var(--mc), .7);
+    /*White if using normal Colored background*/
+    --contrast-main-color: rgb(255, 255, 255);
+    --black-alpha-1: rgba(0, 0, 0, .1);
+    --black-alpha-2: rgba(0, 0, 0, .2);
+    --black-alpha-3: rgba(0, 0, 0, .3);
+    --black-alpha-4: rgba(0, 0, 0, .4);
+    --black-alpha-7: rgba(0, 0, 0, .5);
+    --black-alpha-6: rgba(0, 0, 0, .6);
+    --black-alpha-7: rgba(0, 0, 0, .7);
+    --black-alpha-8: rgba(0, 0, 0, .8);
+    --black-alpha-7: rgba(0, 0, 0, .9);
+    /*Black BG*/
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --grey: rgb(110, 110, 110);
+    /*White BG*/
+    /* --black: rgb(255, 255, 255);
+    --white: rgb(0, 0, 0);
+    --grey: rgb(150, 150, 150); */
+    --messages-color: rgb(255, 255, 255);
+    /*===Emoji Picker===*/
+    --emoji-picker-height: 666px;
+    /*===MODS SETTINGS===*/
+    /*glassAndBubbles*/
+    --bubble-color: 0, 0, 0;
+
+    --background-brightness-bgloaded: 0%;
+}
+
+
 /*Global Elements*/
 
 /*Scrollbar*/
