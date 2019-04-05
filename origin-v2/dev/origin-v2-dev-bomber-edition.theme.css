@@ -1,27 +1,30 @@
+//META{"name":"Origin_V2_Bomber_Edition","description":"Dev_Edition","author":"lepetitpaco","version":"0"}*//{}
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/wide");
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/wide/images/shield-hero-1.jpg");
     --background-brightness: 60%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
+    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/shield-hero-3.jpg");
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout*/
     --userPopout-width: 350px;
     --userPopout-height: 650px;
     /*====Modal Popout====*/
-    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/ohland");
+    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/wide/images/shield-hero-2.jpg");
     --modal-brightness: 40%;
     --modal-blur: 0px;
-    --modalPopout-width: 600px;
-    --modalPopout-height: 900px;
+    --modalPopout-width: 900px;
+    --modalPopout-height: 550px;
     /*====Home Icon====*/
-    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
+    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/icons/images/shield-hero-4.png");
     /*====Colors====*/
-    --mc : 255, 0, 0;
+    --mc : 74, 143, 53;
     --main-color: rgb(var(--mc));
     --main-color-alpha-1: rgba(var(--mc), .1); /*User for mentions*/
     --main-color-alpha-5: rgba(var(--mc), .5);
@@ -52,9 +55,7 @@
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
 
-    --background-brightness-bgloaded: 0%;
 }
-
 
 /*Global Elements*/
 
