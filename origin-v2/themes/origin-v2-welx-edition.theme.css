@@ -1,15 +1,14 @@
 //META{"name":"OriginV2","description":"My second theme in development, for your eyes only.","author":"lepetitpaco","version":"0"}*//{}
 
 @import url(https://lepetitpaco.github.io/SomeCSS/origin-v2/origin-v2.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/glassAndBubbles.css);
 
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
     --background-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg);
-    --background-brightness: 80%;
+    --background-brightness: 100%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
@@ -18,40 +17,26 @@
     --popout-blur: 0px;
     /*User Popout*/
     --userPopout-width: 350px;
-    --userPopout-height: auto;
+    --userPopout-height: 650px;
     /*====Modal Popout====*/
     --modal-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg);
-    --modal-brightness: 80%;
+    --modal-brightness: 40%;
     --modal-blur: 0px;
     --modalPopout-width: 600px;
     --modalPopout-height: 400px;
     /*====Home Icon====*/
     --home-icon-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg);
     /*====Colors====*/
-    --mc : 255, 255, 255;
-    --main-color: rgb(var(--mc));
-    --main-color-alpha-5: rgba(var(--mc), .5);
-    --main-color-alpha-1: rgba(var(--mc), .1);
-    /* --main-color: rgb(255, 255, 255);
-    --main-color-alpha-5: rgba(255, 255, 255, .5);
-    --main-color-alpha-1: rgba(255, 255, 255, .1); */
-    /*White if using normal Colored background*/
-    --contrast-main-color: rgb(255, 255, 255);
-    --black-alpha-5: rgba(0, 0, 0, .5);
-    --black-alpha-9: rgba(0, 0, 0, .9);
-    /*Black BG*/
-    /* --white: rgb(255, 255, 255);
-    --black: rgb(0, 0, 0);
-    --grey: rgb(110, 110, 110); */
-    /*White BG*/
-    --black: rgb(255, 255, 255);
+    --mc : 0, 0, 0;
+    --cmc: rgb(255, 255, 255);
+    --black-alpha-10: rgb(255, 255, 255);
     --white: rgb(0, 0, 0);
-    --grey: rgb(150, 150, 150);
-
-    --messages-color: rgb(0, 0, 0);
+    --messages-color: rgb(167, 51, 75);
     /*===Emoji Picker===*/
-    --emoji-picker-height: 666px;
+    --emoji-picker-height: 400px;
     /*===MODS SETTINGS===*/
     /*glassAndBubbles*/
-    --bubble-color: 255, 255, 255;
+    --bubble-color: 0, 0, 0;
 }
+
+.app-19_DXt, .typeWindows-1za-n7 {background: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .0) 100%) !important; margin-top: 0; padding-top: 0;}

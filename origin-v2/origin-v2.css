@@ -108,7 +108,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*All Channels*/
 .containerDefault-1ZnADq{margin:5px 0;}
-.content-20Aix8{border-radius:10px 10px 0 0!important;background-color:transparent;margin: 2px 0 1px 8px;}
+.content-20Aix8{border-radius:10px!important;background-color:transparent;margin: 2px 0 1px 8px;}
 
 /*Text Channels*/
 /*Hover Color*/
@@ -124,8 +124,8 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 
 /*Muted Text*/
-.nameMutedText-3Vj4bM{color:var(--cmc)!important;}
-.colorMutedText-36M8WR path{fill:var(--cmc)!important;opacity:1!important;}
+.nameMutedText-3Vj4bM{color:var(--white)!important;}
+.colorMutedText-36M8WR path{fill:var(--white)!important;opacity:1!important;}
 
 /*Unread Text*/
 .channels-Ie2l6A .nameUnreadText-DfkrI4{color:var(--main-color)!important;}
@@ -139,37 +139,29 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*Voice Channels*/
 
-/*Connected People background*/
-/* .listCollapse-3hmWwX, .listDefault-36Sktb{
-    background-color: transparent;
-    padding-bottom: 8px;
-    padding-left: 0;
-    margin-left: 8px;
-    border-radius: 0 0 10px 10px;
-} */
-
-
 /*Connected Voice*/
 .nameConnectedVoice-MHUX5F{color:var(--main-color)!important;}
 .contentConnectedVoice-qL-YrL .colorConnectedVoice-3kyvUN .foreground-2W-aJk{fill:var(--main-color)!important;opacity:1;}
 /*Default Voice*/
-.nameDefaultVoice-3WUH7s{color:var(--cmc);}
-.channels-Ie2l6A .content-20Aix8 path {fill:var(--cmc)!important;}
+.nameDefaultVoice-3WUH7s{color:var(--white);}
+.channels-Ie2l6A .content-20Aix8 path {fill:var(--white)!important;}
 /*User Names*/
-.nameDefault-2s3kbY{color:var(--cmc);}
+.nameDefault-2s3kbY{color:var(--white);}
 /*Locked Voice chat names*/
-.nameLockedVoice-26MhB1{color:var(--cmc);}
+.nameLockedVoice-26MhB1{color:var(--white);}
 /*Category Arrow*/
 .iconCollapsed-3hFp_8,.iconDefault-3Gr8d2,.nameCollapsed-34uFWo,.nameDefault-2DI02H{color:var(--white);}
 /*Voice svg icons*/
 .colorConnectedText-1c_uzY,.colorConnectedVoice-3kyvUN,.colorDefaultText-oas-QM,.colorDefaultVoice-3wYlhb,.colorHoveredText-OZnAgu,.colorHoveredVoice-1kucsK,.colorLockedText-1VRkPt,.colorLockedVoice-2UlBjl,.colorSelectedText-1y4Wvs,.colorSelectedVoice-Xcb_9R,.colorUnreadText-2t7XRb,.colorUnreadVoice-137o4S{color:var(--white);}
 /*Muted Category*/
-.iconMuted-1HVBGH,.nameMuted-1MCOt4{color:var(--cmc);}
+.iconMuted-1HVBGH,.nameMuted-1MCOt4{color:var(--white);}
 /*Muted Icon Svg*/
-.icon-3nr6O- path{fill:var(--cmc);}
+.icon-3nr6O-{opacity: 1;}
+.icon-3nr6O- path{fill:var(--main-color); }
 /*Deafened Icon Svg*/
-.icon-29PTzq path{fill:var(--cmc);}
-.wrapperHoveredVoice-3ItgyI svg path {fill:var(--cmc);}
+.icon-29PTzq{opacity: 1;}
+.icon-29PTzq path{fill:var(--main-color);}
+.wrapperHoveredVoice-3ItgyI svg path {fill:var(--main-color);}
 
 /*Categories*/
 
