@@ -1,8 +1,6 @@
 //META{"name":"OriginV2","description":"My second theme in development, for your eyes only.","author":"lepetitpaco","version":"0"}*//{}
 
 @import url(https://lepetitpaco.github.io/SomeCSS/origin-v2/origin-v2.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css);
 @import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
 
 :root {
