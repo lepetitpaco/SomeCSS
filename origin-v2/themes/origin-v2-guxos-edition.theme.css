@@ -8,48 +8,33 @@
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url(https://i.imgur.com/bhgo2xm.jpg);
+    --background-url: url("https://i.imgur.com/bhgo2xm.jpg");
     --background-brightness: 100%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url(https://i.imgur.com/rL6K57D.png);
+    --popout-url: url("https://i.imgur.com/rL6K57D.png");
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*User Popout*/
     --userPopout-width: 350px;
     --userPopout-height: 650px;
     /*====Modal Popout====*/
-    --modal-url: url(https://i.imgur.com/PvopQ5k.jpg);
+    --modal-url: url("https://i.imgur.com/PvopQ5k.jpg");
     --modal-brightness: 40%;
     --modal-blur: 0px;
     --modalPopout-width: 900px;
     --modalPopout-height: 650px;
     /*====Home Icon====*/
-    --home-icon-url: url(https://i.imgur.com/6UKrhNc.jpg);
+    --home-icon-url: url("https://i.imgur.com/6UKrhNc.jpg");
     /*====Colors====*/
     --mc : 223, 30, 30;
-    --main-color: rgb(var(--mc));
-    --main-color-alpha-5: rgba(var(--mc), .5);
-    --main-color-alpha-1: rgba(var(--mc), .1);
-    /* --main-color: rgb(255, 255, 255);
-    --main-color-alpha-5: rgba(255, 255, 255, .5);
-    --main-color-alpha-1: rgba(255, 255, 255, .1); */
-    /*White if using normal Colored background*/
-    --contrast-main-color: rgb(255, 255, 255);
-    --black-alpha-5: rgba(0, 0, 0, .5);
-    --black-alpha-9: rgba(0, 0, 0, .9);
-    /*Black BG*/
+    --cmc: rgb(255, 255, 255);
+    --black : 0,0,0;
     --white: rgb(255, 255, 255);
-    --black: rgb(0, 0, 0);
-    --grey: rgb(110, 110, 110);
-    /*White BG*/
-    /* --black: rgb(255, 255, 255);
-    --white: rgb(0, 0, 0);
-    --grey: rgb(150, 150, 150); */
     --messages-color: rgb(255, 255, 255);
     /*===Emoji Picker===*/
-    --emoji-picker-height: 666px;
+    --emoji-picker-height: 400px;
     /*===MODS SETTINGS===*/
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
