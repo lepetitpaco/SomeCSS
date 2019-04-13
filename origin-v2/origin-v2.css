@@ -24,6 +24,7 @@
     --black-alpha-7: rgba(var(--black), .7);
     --black-alpha-8: rgba(var(--black), .8);
     --black-alpha-9: rgba(var(--black), .9);
+    --black-alpha-10: rgb(var(--black));
 }
 
 

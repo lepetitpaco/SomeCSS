@@ -1,0 +1,41 @@
+//META{"name":"OriginV2","description":"My second theme in development, for your eyes only.","author":"lepetitpaco","version":"0"}*//{}
+
+@import url(https://lepetitpaco.github.io/SomeCSS/origin-v2/origin-v2.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/BiggerAvatar.css);
+
+:root {
+    /*==== Main Background ====*/
+    /* Main Background Image */
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/wide");
+    --background-brightness: 80%;
+    --background-blur: 0px;
+    /*==== User Popout ====*/
+    /* User Popout Background Image */
+    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*User Popout*/
+    --userPopout-width: 350px;
+    --userPopout-height: 650px;
+    /*====Modal Popout====*/
+    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/ohland");
+    --modal-brightness: 40%;
+    --modal-blur: 0px;
+    --modalPopout-width: 600px;
+    --modalPopout-height: 900px;
+    /*====Home Icon====*/
+    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
+    /*====Colors====*/
+    --mc : 255, 0, 0;
+    --cmc: rgb(255, 255, 255);
+    --black : 0,0,0;
+    --white: rgb(255, 255, 255);
+    --messages-color: rgb(255, 255, 255);
+    /*===Emoji Picker===*/
+    --emoji-picker-height: 400px;
+    /*===MODS SETTINGS===*/
+    /*glassAndBubbles*/
+    --bubble-color: 0, 0, 0;
+}
