@@ -128,7 +128,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .wrapper-1Rf91z{background-color:transparent!important;background:transparent!important;}
 .friendsOnline-2JkivW{color:var(--white)!important;}
 /*All Guild Icons*/
-.theme-dark .wrapper-2lTRaf{background: transparent;}
+.theme-dark .wrapper-2lTRaf{background: transparent;background-color: transparent!important;}
 /*Home Icon*/
 .homeIcon-tEMBK1 g{display:none;}
 .theme-dark .homeIcon-tEMBK1,.theme-dark .homeIcon-tEMBK1:hover{background-color:transparent!important;}
