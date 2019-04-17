@@ -1,3 +1,6 @@
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
+@import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css);
+
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
@@ -9,17 +12,18 @@
     --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
     --popout-brightness: 40%;
     --popout-blur: 0px;
-    /*User Popout*/
-    --userPopout-width: 350px;
-    --userPopout-height: 650px;
     /*====Modal Popout====*/
-    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/ohland");
+    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/aoi");
     --modal-brightness: 40%;
     --modal-blur: 0px;
     --modalPopout-width: 600px;
     --modalPopout-height: 900px;
     /*====Home Icon====*/
     --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
+    /*====Profile Picture====*/
+    --pfp-border-radius: 15px;
+    --pfp-size: 60px;
+    --adjust-content: -9px; /*If the username is not aligned with the  text, increase or decrease the value to your liking*/
     /*====Colors====*/
     --mc : 255, 0, 0;
     --main-color: rgb(var(--mc));
@@ -63,6 +67,8 @@
     --white: rgb(0, 0, 0);
     --messages-color: rgb(255, 255, 255); */
 }
+
+
 
 /*Global Elements*/
 /*Gradient BG*/
@@ -140,7 +146,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Selected Unread Server*/
 .container-2td-dC.selected-nT-gM3.unread-2OHH1w:before{top:17px;width:56px;height:56px;border-radius:10px;background-color:var(--main-color);}
 /*New Style Guilds*/
-/*Pings*/
+ /*Pings*/
 .badge-3dItlm{pointer-events:none;position:absolute;right:0;bottom:0;background:var(--main-color-alpha-8);border-radius:100%;color:var(--cmc);margin:17px;transform:scale(1.5);font-family:arial;font-weight:bold;animation:pulse 2s infinite;}
 @keyframes pulse{0%{-moz-box-shadow:0 0 0 0 var(--main-color-alpha-4);box-shadow:0 0 0 0 var(--main-color-alpha-4);}
   70%{-moz-box-shadow:0 0 0 10px rgba(0,0,0,0);box-shadow:0 0 0 10px rgba(0,0,0,0);}
@@ -260,10 +266,17 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .channels-Ie2l6A>.container-2Thooq,.channels-Ie2l6A>.container-1UB9sr{background-color:transparent!important}
 
 
+
 /*Add Channels Button*/
 .addButton-1BORro polygon{fill:var(--main-color);}
 
 /*Chat Section*/
+
+/*Profile Picture*/
+.image-33JSyf,.wrapper-2F3Zv8 {border-radius: var(--pfp-border-radius);}
+.avatar-17mtNa .large-3ChYtB {height: var(--pfp-size);width: var(--pfp-size);background-repeat: no-repeat;}
+.avatar-17mtNa {height: var(--pfp-size);width: var(--pfp-size);cursor: pointer;opacity: 1;-webkit-transition: opacity .2s ease;transition: opacity .2s ease;}
+.contentCozy-3XX413{margin-left: calc(var(--adjust-content) + 80px + var(--pfp-size)/2);}
 
 /*Message Wrapper*/
 .theme-dark .messagesWrapper-3lZDfY{background-color:transparent!important;background:transparent!important;}
