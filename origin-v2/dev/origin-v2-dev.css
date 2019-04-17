@@ -1,5 +1,5 @@
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css);
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
+/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css); */
 
 :root {
     /*==== Main Background ====*/
@@ -127,12 +127,16 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Guild List*/
 .wrapper-1Rf91z{background-color:transparent!important;background:transparent!important;}
 .friendsOnline-2JkivW{color:var(--white)!important;}
+/*All Guild Icons*/
+.theme-dark .wrapper-2lTRaf{background: transparent;}
 /*Home Icon*/
 .homeIcon-tEMBK1 g{display:none;}
 .theme-dark .homeIcon-tEMBK1,.theme-dark .homeIcon-tEMBK1:hover{background-color:transparent!important;}
 .selected-nT-gM3 .guildInner-3DSoA4.da-guildInner .homeIcon-tEMBK1{background-color:transparent!important;}
 .homeIcon-tEMBK1,.homeIcon-tEMBK1:hover{color:transparent;background-color:transparent;background-image:var(--home-icon-url)!important;-moz-background-size:cover;-webkit-background-size:cover;background-repeat:no-repeat;border-radius:15px;}
 .container-2td-dC:first-child .guildInner-3DSoA4{box-shadow:0 0 10px var(--solid-main-color);border:solid 1px var(--main-color);}
+/*Read All Button*/
+.RANbutton{background:var(--black-alpha-5);width:50px;margin:auto;border-radius:10px;text-align:center;}
 /*Unread*/
 .theme-dark .container-2td-dC.unread-2OHH1w:before{background: var(--main-color);}
 /*Selected*/
