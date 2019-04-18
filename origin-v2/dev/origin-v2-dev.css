@@ -685,7 +685,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .userInfoSection-2acyCx+.userInfoSection-2acyCx,.connectedAccount-36nQx7{border:none!important;}
 .tabBarContainer-1s1u-z .tab-bar.TOP .tab-bar-item{transition:150ms all ease-in-out;}
 .topSectionNormal-2-vo2m .lookFilled-1Gx00P:hover{box-shadow:none!important;}
-.topSectionNormal-2-vo2m .lookFilled-1Gx00P{box-shadow:none!important;transition:150ms all ease-in-out;background:transparent!important;}
+.topSectionNormal-2-vo2m .lookFilled-1Gx00P{box-shadow:none!important;transition:150ms all ease-in-out;background:var(--main-color)!important;color:var(--cmc)}
 .tabBarContainer-1s1u-z{border:none!important;height:65px;}
 .modal-1UGdnR .tab-bar-item.selected{background:transparent!important;}
 .topSectionNormal-2-vo2m{background:transparent!important;}
