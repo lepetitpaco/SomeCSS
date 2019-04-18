@@ -1,25 +1,22 @@
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/TwoColumns.css); */
-/* @import url(https://lepetitpaco.github.io/SomeCSS/mods/ThreeColumnsHover.css); */
-
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/wide");
+    --background-url: url(https://source.unsplash.com/random);
     --background-brightness: 80%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
-    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
+    --popout-url: url(https://source.unsplash.com/random);
     --popout-brightness: 40%;
     --popout-blur: 0px;
     /*====Modal Popout====*/
-    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/aoi");
+    --modal-url: url(https://source.unsplash.com/random);
     --modal-brightness: 40%;
     --modal-blur: 0px;
     --modalPopout-width: 600px;
     --modalPopout-height: 900px;
     /*====Home Icon====*/
-    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
+    --home-icon-url: url(https://source.unsplash.com/random);
     /*====Profile Picture====*/
     --pfp-border-radius: 15px;
     --pfp-size: 60px;
@@ -59,20 +56,62 @@
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
 
-    /*Full White BG*/
-    /* --background-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg);
-    --mc : 0, 0, 0;
-    --cmc: rgb(255, 255, 255);
-    --black-alpha-10: rgb(255, 255, 255);
-    --white: rgb(0, 0, 0);
-    --messages-color: rgb(255, 255, 255); */
-}
+    /*===============================Custom Settings===============================*/
 
+    /*==== Main Background ====*/
+    /* Main Background Image */
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/paco");
+    --background-brightness: 80%;
+    --background-blur: 0px;
+    /*==== User Popout ====*/
+    /* User Popout Background Image */
+    --popout-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide");
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*User Popout*/
+    --userPopout-width: 350px;
+    --userPopout-height: 650px;
+    /*====Modal Popout====*/
+    --modal-url: url("https://somecss.lepetitpaco.fr/backgrounds/paco");
+    --modal-brightness: 40%;
+    --modal-blur: 0px;
+    --modalPopout-width: 600px;
+    --modalPopout-height: 900px;
+    /*====Home Icon====*/
+    --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
+    /*====Colors====*/
+    --mc : 255, 255, 255;
+    --cmc: rgb(0, 0, 0);
+    --black : 0,0,0;
+    --white: rgb(255, 255, 255);
+    --messages-color: rgb(255, 255, 255);
+    /*===Emoji Picker===*/
+    --emoji-picker-height: 400px;
+    /*===MODS SETTINGS===*/
+    /*glassAndBubbles*/
+    --bubble-color: 0, 0, 0;
+}
 
 
 /*Global Elements*/
 /*Gradient BG*/
-.app-19_DXt, .typeWindows-1za-n7 {background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important; margin-top: 0; padding-top: 0;}
+.app-19_DXt:before {
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height: 100%;
+}
+
+.typeWindows-1za-n7{
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    margin-top:0;
+    padding-top: 4px;
+}
 
 /*Scrollbar*/
 ::-webkit-scrollbar-thumb{background:var(--main-color)!important;border-color:var(--main-color)!important;}
@@ -357,7 +396,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Member List*/
 .theme-dark .members-1998pB{background-color:transparent!important;background:transparent!important;}
 .theme-dark .membersGroup-v9BXpm{color:var(--main-color);}
-.members-1998pB>.membersGroup-v9BXpm{height:auto;margin:5px 15px;padding:2px 8px;background-color:rgba(0,0,0,0.288);color:var(--cmc)!important;font-size:11px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:.08em;border-radius:3px}
+.members-1998pB>.membersGroup-v9BXpm{height:auto;margin:5px 15px;padding:2px 8px;background-color:rgba(0,0,0,0.288);color:var(--main-color)!important;font-size:11px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:.08em;border-radius:3px}
 .members-1998pB>.member-3W1lQa{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden}
 .members-1998pB>.member-3W1lQa>.content-OzHfo4{-webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-ms-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out}
 .members-1998pB>.member-3W1lQa:hover>.content-OzHfo4,.members-1998pB>.member-3W1lQa.popout-open>.content-OzHfo4{background:linear-gradient(to left,var(--main-color-alpha-7)15%,transparent)!important;}
@@ -379,13 +418,16 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .channel-2QD9_O:hover a{background-color:var(--main-color-alpha-5);}
 .name-2WpE7M{color:var(--white);}
 .activityText-OW8WYb{color:var(--white);}
+.channel-2QD9_O.selected-1HYmZZ .activityText-OW8WYb{color:var(--cmc);}
 .searchBar-6Kv8R2 .searchBar-2_Yu-C{background-color:var(--black-alpha-7);border:1px solid var(--main-color);}
 .searchBar-6Kv8R2{webkit-box-shadow: none; box-shadow: none;}
-
-
+.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O.selected-1HYmZZ .nameWrapper-10v56U, .channel-2QD9_O:hover .name-2WpE7M, .channel-2QD9_O:hover .nameWrapper-10v56U{color: var(--cmc);}
 
 /*Activity Tab*/
 
+/*Tabs*/
+.channel-2QD9_O.selected-1HYmZZ svg path {fill: var(--cmc);}
+.channel-2QD9_O:nth-child(5) svg path:last-child {fill:none;}/*The friend icon is fucking weird bruh*/
 /*Background*/
 .theme-dark .activityFeed-1C0EmJ{background-color:transparent!important;background:transparent!important;}
 

@@ -26,8 +26,8 @@
     /*====Home Icon====*/
     --home-icon-url: url("https://somecss.lepetitpaco.fr/backgrounds/not_wide/images/aldrich_ds3.jpg");
     /*====Colors====*/
-    --mc : 255, 0, 0;
-    --cmc: rgb(255, 255, 255);
+    --mc : 255, 255, 255;
+    --cmc: rgb(0, 0, 0);
     --black : 0,0,0;
     --white: rgb(255, 255, 255);
     --messages-color: rgb(255, 255, 255);

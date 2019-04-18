@@ -362,7 +362,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Member List*/
 .theme-dark .members-1998pB{background-color:transparent!important;background:transparent!important;}
 .theme-dark .membersGroup-v9BXpm{color:var(--main-color);}
-.members-1998pB>.membersGroup-v9BXpm{height:auto;margin:5px 15px;padding:2px 8px;background-color:rgba(0,0,0,0.288);color:var(--cmc)!important;font-size:11px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:.08em;border-radius:3px}
+.members-1998pB>.membersGroup-v9BXpm{height:auto;margin:5px 15px;padding:2px 8px;background-color:rgba(0,0,0,0.288);color:var(--main-color)!important;font-size:11px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:.08em;border-radius:3px}
 .members-1998pB>.member-3W1lQa{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden}
 .members-1998pB>.member-3W1lQa>.content-OzHfo4{-webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-ms-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out}
 .members-1998pB>.member-3W1lQa:hover>.content-OzHfo4,.members-1998pB>.member-3W1lQa.popout-open>.content-OzHfo4{background:linear-gradient(to left,var(--main-color-alpha-7)15%,transparent)!important;}
@@ -384,13 +384,16 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .channel-2QD9_O:hover a{background-color:var(--main-color-alpha-5);}
 .name-2WpE7M{color:var(--white);}
 .activityText-OW8WYb{color:var(--white);}
+.channel-2QD9_O.selected-1HYmZZ .activityText-OW8WYb{color:var(--cmc);}
 .searchBar-6Kv8R2 .searchBar-2_Yu-C{background-color:var(--black-alpha-7);border:1px solid var(--main-color);}
 .searchBar-6Kv8R2{webkit-box-shadow: none; box-shadow: none;}
-
-
+.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O.selected-1HYmZZ .nameWrapper-10v56U, .channel-2QD9_O:hover .name-2WpE7M, .channel-2QD9_O:hover .nameWrapper-10v56U{color: var(--cmc);}
 
 /*Activity Tab*/
 
+/*Tabs*/
+.channel-2QD9_O.selected-1HYmZZ svg path {fill: var(--cmc);}
+.channel-2QD9_O:nth-child(5) svg path:last-child {fill:none;}/*The friend icon is fucking weird bruh*/
 /*Background*/
 .theme-dark .activityFeed-1C0EmJ{background-color:transparent!important;background:transparent!important;}
 
