@@ -1,0 +1,54 @@
+//META{"name":"origin-v2-hannah-edition","description":"My second theme in development, for your eyes only.","author":"lepetitpaco","version":"0"}*//{}
+
+@import url(https://lepetitpaco.github.io/SomeCSS/origin-v2/origin-v2.css);
+
+:root {
+    /*==== Main Background ====*/
+    /* Main Background Image */
+    --background-url: url(https://somecss.lepetitpaco.fr/backgrounds/dororo/dororo-hyakkimaru_2.jpg);
+    --background-brightness: 80%;
+    --background-blur: 0px;
+    /*==== User Popout ====*/
+    /* User Popout Background Image */
+    --popout-url: url(https://somecss.lepetitpaco.fr/backgrounds/dororo/Hyakkimaru_1.jpg);
+    --popout-brightness: 40%;
+    --popout-blur: 0px;
+    /*====Modal Popout====*/
+    --modal-url: url(https://somecss.lepetitpaco.fr/backgrounds/dororo/dororo-hyakkimaru.jpg);
+    --modal-brightness: 30%;
+    --modal-blur: 0px;
+    --modalPopout-width: 750px;
+    --modalPopout-height: 550px;
+    /*====Home Icon====*/
+    --home-icon-url: url(https://somecss.lepetitpaco.fr/backgrounds/dororo/keroro.png);
+    /*====Profile Picture====*/
+    --pfp-border-radius: 15px;
+    --pfp-size: 60px;
+    --adjust-content: -9px; /*If the username is not aligned with the  text, increase or decrease the value to your liking*/
+    /*====Colors====*/
+    --mc : 56, 90, 127; /*Main Color*/
+    --messages-color: rgb(255, 255, 255);
+    /*===Emoji Picker===*/
+    --emoji-picker-height: 400px;
+    /*===MODS SETTINGS===*/
+    /*glassAndBubbles*/
+    --bubble-color: 0, 0, 0;
+}
+/*Gradient BG*/
+/*Hannah*/
+.app-19_DXt {
+    background-image: url(https://somecss.lepetitpaco.fr/backgrounds/dororo/dororo-hyakkimaru_3.png);
+    background-size:  auto 70%;
+    background-position-x: 85%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+/*Ainz*/
+/* .app-19_DXt {
+    background-image: url(https://somecss.lepetitpaco.fr/backgrounds/dororo/Hyakkimaru_3.png);
+    background-size: auto 90%;
+    background-position-x: 85%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+} */
