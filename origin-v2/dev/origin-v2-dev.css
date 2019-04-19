@@ -133,6 +133,7 @@
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover{background-color:var(--main-color)!important;color:var(--cmc);transform:scale(1.1);}
 .lookFilled-1Gx00P.colorPrimary-3b3xI6{background-color:var(--main-color)!important;color:var(--cmc);transition:all 0.1s linear;}
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{background-color:var(--main-color)!important;color:var(--cmc);transform:scale(1.1);}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background-color: #4f545c;color:var(--cmc);}
 
 .lookOutlined-3sRXeN.colorRed-1TFJan{    border-color: var(--main-color)!important;color:var(--main-color);}
 
@@ -561,6 +562,9 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .modal-3HD5ck{box-shadow:none;background-color:var(--black-alpha-7);border:1px solid var(--main-color);}
 .theme-dark .footer-2yfCgX{box-shadow:none;background-color:var(--black-alpha-7);border-top:1px solid var(--main-color);}
 .theme-dark .option-1l2vXE{background-color:var(--black-alpha-7);border:1px solid var(--main-color);}
+
+/*New Audio Device Detected*/
+.lookLink-9FtZy- .contents-18-Yxp {color:var(--main-color);}
 
 /*Popouts and Dropdowns*/
 /*Popouts*/
