@@ -1,13 +1,12 @@
 //META{"name":"welx-taco","description":"Get some guac","author":"lepetitpaco","version":"1"}*//{}
 
 @import url(https://lepetitpaco.github.io/SomeCSS/taco/shell.css);
-@import url(https://lepetitpaco.github.io/SomeCSS/taco/mods/glassAndBubbles.css);
 
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
     --background-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg);
-    --background-brightness: 100%;
+    --background-brightness: 80%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
@@ -28,9 +27,9 @@
     /*====Colors====*/
     --mc : 0, 0, 0;
     --cmc: rgb(255, 255, 255);
-    --black-alpha-10: rgb(255, 255, 255);
+    --black : 255, 255, 255;
     --white: rgb(0, 0, 0);
-    --messages-color: rgb(167, 51, 75);
+    --messages-color: rgb(0, 0, 0);
     /*===Emoji Picker===*/
     --emoji-picker-height: 400px;
     /*===MODS SETTINGS===*/
@@ -38,4 +37,9 @@
     --bubble-color: 0, 0, 0;
 }
 
-.app-19_DXt, .typeWindows-1za-n7 {background: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .0) 100%) !important; margin-top: 0; padding-top: 0;}
+.app-19_DXt:before {
+    background: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .0) 100%) !important;}
+
+.typeWindows-1za-n7{
+    background: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .0) 100%) !important;
+}
