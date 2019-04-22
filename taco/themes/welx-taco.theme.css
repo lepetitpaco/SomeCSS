@@ -6,7 +6,7 @@
     /*==== Main Background ====*/
     /* Main Background Image */
     --background-url: url(https://cdn.discordapp.com/attachments/456062480557408257/544875096356159498/kantai_collection_harusame_destroyer_umbrella_petals_110046_1920x1080.jpg);
-    --background-brightness: 80%;
+    --background-brightness: 100%;
     --background-blur: 0px;
     /*==== User Popout ====*/
     /* User Popout Background Image */
@@ -37,9 +37,5 @@
     --bubble-color: 0, 0, 0;
 }
 
-.app-19_DXt:before {
-    background: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .0) 100%) !important;}
-
-.typeWindows-1za-n7{
-    background: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .0) 100%) !important;
-}
+.app-19_DXt:before{background:linear-gradient(to right,rgba(0,0,0,.0)0%,rgba(0,0,0,0)55%,rgba(0,0,0,.0)100%)!important;}
+.typeWindows-1za-n7{background:linear-gradient(to right,rgba(0,0,0,.0)0%,rgba(0,0,0,0)55%,rgba(0,0,0,.0)100%)!important;}
