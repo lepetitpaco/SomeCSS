@@ -338,7 +338,8 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .messageGroupBlockedBtn-1PBBh-{background:transparent!important;}
 
 /*Dividers*/
-.unreadBar-3YD_k9{background:var(--main-color);}
+.unreadBar-3YD_k9{background:var(--main-color);color:var(--cmc);}
+.unreadBar-3YD_k9 .icon-2aINcz{color:var(--cmc);}
 .newMessagesBar-mujexs button{color:var(--cmc)!important;}
 .divider-3gKybi{padding-top:10px;}
 .dividerContent-2L12VI:before,.dividerContent-2L12VI:after,.dividerEnabled-2TTlcf{display:none;}
