@@ -684,7 +684,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .headerStreaming-2FjmGz{background:transparent;}
 .activity-11LB_k{background:transparent;}
 .userPopout-3XzG_A{box-shadow: none;-webkit-box-shadow: none;border-radius: 0;}
-.userPopout-3XzG_A::before{content:"";position:absolute;top:200px;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;overflow:hidden;background-image:var(--popout-url)!important;-moz-background-size:cover!important;-webkit-background-size:cover!important;background-repeat:no-repeat!important;filter:brightness(var(--popout-brightness))blur(var(--popout-blur));opacity:var(--popout-opacity);border-radius:0px;background-color:var(--popout-bgc);}
+.userPopout-3XzG_A::before{content:"";position:absolute;top:250px;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;overflow:hidden;background-image:var(--popout-url)!important;-moz-background-size:cover!important;-webkit-background-size:cover!important;background-repeat:no-repeat!important;filter:brightness(var(--popout-brightness))blur(var(--popout-blur));opacity:var(--popout-opacity);border-radius:0px;background-color:var(--popout-bgc);}
 .role-2irmRk{border-width:1px;border-style:solid;border-radius:10px;box-sizing:content-box;height:16px;margin:3px;padding:2px;position:relative;line-height:16px;font-size:10px;font-weight:400;text-transform:uppercase;overflow:visible;}
 .role-2irmRk::before{content:'';position:absolute;top:0;left:0;width:100%;border-radius:10px;border-width:calc(0.65em + 4px).5em;border-style:solid;border-color:inherit;box-sizing:border-box;opacity:0.5;}
 .roleName-32vpEy{margin:0 4px;}
@@ -704,6 +704,8 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .headerTop-3C2Zn0 .avatarHint-1qgaV3{border-radius:0;}
 .headerTop-3C2Zn0 .avatarStatus-3Ay1VL{border-radius:0;bottom:0px;height:5px;width:260px;}
 .headerTop-3C2Zn0 .statusProfile-3ynqtt{-webkit-box-shadow:none;box-shadow:none;position:relative;}
+.headerTop-3C2Zn0 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3{height: 250px;}
+.headerTop-3C2Zn0 .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3{height: 250px;}
 
 /*Modal Popout*/
 .topSectionSpotify-1lI0-P{background:transparent;}
