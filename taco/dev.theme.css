@@ -100,16 +100,10 @@
     /*===MODS SETTINGS===*/
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
-
-
-
 }
-
 
 /*Global Elements*/
 /*Gradient BG*/
-
-
 .app-19_DXt:before {
     background: var(--color-background);
     content: "";
@@ -136,7 +130,6 @@
 ::-webkit-scrollbar-corner{display:none!important;}
 
 /*Switches*/
-
 /*Checked*/
 .themeDefault-24hCdX.valueChecked-m-4IJZ{background-color:var(--main-color)!important;}
 
@@ -182,7 +175,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Box Shadows of Title Bar*/
 .theme-dark .title-3qD0b-{-webkit-box-shadow:none;background:transparent;box-shadow:none;}
 
-
 /*Guild List*/
 .wrapper-1Rf91z{background-color:transparent!important;background:transparent!important;}
 /*Home Icon*/
@@ -204,7 +196,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*User Name*/
 .theme-dark .container-2Thooq,.theme-light .container-2Thooq{background:transparent;}
 
-
 /*Channels*/
 /*Selected*/
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU{background-color: var(--main-color);}
@@ -214,7 +205,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .wrapper-1ucjTd:active .content-3at_AU, .theme-light .wrapper-1ucjTd:active .content-3at_AU{background-color: var(--main-color);}
 
 /*Chat Section*/
-
 /*Profile Picture*/
 .image-33JSyf,.wrapper-2F3Zv8 {border-radius: var(--pfp-border-radius);}
 .avatar-17mtNa .large-3ChYtB {height: var(--pfp-size);width: var(--pfp-size);background-repeat: no-repeat;}
@@ -312,7 +302,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*Home*/
 /*Direct Messages*/
-
 .privateChannels-1nO12o header{color:var(--white);opacity:1;}
 .channel-2QD9_O.selected-1HYmZZ a,.channel-2QD9_O.selected-1HYmZZ:hover a{background-color:var(--main-color);}
 .channel-2QD9_O:hover a{background-color:var(--main-color-alpha-5);}
@@ -324,7 +313,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O.selected-1HYmZZ .nameWrapper-10v56U, .channel-2QD9_O:hover .name-2WpE7M, .channel-2QD9_O:hover .nameWrapper-10v56U{color: var(--cmc);}
 
 /*Activity Tab*/
-
 /*Tabs*/
 .channel-2QD9_O.selected-1HYmZZ svg path {fill: var(--cmc);}
 .channel-2QD9_O:nth-child(5) svg path:last-child {fill:none;}/*The friend icon is fucking weird bruh*/
@@ -340,12 +328,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Quick Launcher*/
 .theme-dark .unwrapped-37iUtM{background-color:var(--black-alpha-7);}
 
-
-
-
-
 /*Library Tab*/
-
 /*Game Library*/
 .theme-dark .gameLibrary-TTDw4Y{background-color:transparent!important;background:transparent!important;}
 .theme-dark .header-39GIC8{background-color:transparent!important;background:transparent!important;}
@@ -384,7 +367,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .desc-2Dttbk{color: var(--white);}
 .theme-dark .finePrint-xGGTK5{color: var(--white);}
 
-
 /*Billing Section*/
 
 .subText-V8PTt8{color: var(--white);}
@@ -394,7 +376,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 }
 
 /*Transaction History*/
-
 /*Header*/
 .theme-dark .paymentPane-3bwJ6A{background-color:transparent!important;background:transparent!important;}
 
@@ -487,7 +468,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .item-1GzJrl:hover {background-color: var(--main-color);color: var(--white);}
 
 /*Status Picker*/
-
 /*Context Menus*/
 .container-3cGP6G{background:transparent!important;}
 .item-1Yvehc:hover{background:var(--main-color-alpha-7)!important;}
@@ -539,7 +519,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover{background-color:red}
 
 /*Search Result*/
-
 .theme-dark .searchResultsWrap-2DKFzt{background-color:transparent;}
 .theme-dark .searchHeader-1l-wpR{background-color:transparent;}
 .theme-dark .searchResult-3pzFAB:before{background-image:none;}
