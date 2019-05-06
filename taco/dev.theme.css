@@ -6,6 +6,7 @@
     --background-url: url(https://source.unsplash.com/random);
     --background-brightness: 80%;
     --background-blur: 0px;
+    --color-background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
     /*==== User Popout ====*/
     /* User Popout Background Image */
     --popout-url: url(https://source.unsplash.com/random);
@@ -67,8 +68,10 @@
     /*==== Main Background ====*/
     /* Main Background Image */
     --background-url: url("http://www.lol-wallpapers.com/wp-content/uploads/2016/12/Bilgewater-Slaughter-Docks-4.jpg");
-    --background-brightness: 20%;
+    --background-brightness: 10%;
     --background-blur: 0px;
+    --color-background: rgba(69, 0, 111, 1)!important;
+    /*linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;*/
     /*==== User Popout ====*/
     /* User Popout Background Image */
     --popout-url: url();
@@ -87,7 +90,7 @@
     /*====Home Icon====*/
     --home-icon-url: url("https://media.cdnandroid.com/5b/b2/9d/39/d8/imagen-league-friends-0thumb.jpg");
     /*====Colors====*/
-    --mc : 119,92,49;
+    --mc : 69, 0, 111;
     --cmc: rgb(255, 255, 255);
     --black : 0,0,0;
     --white: rgb(255, 255, 255);
@@ -97,13 +100,18 @@
     /*===MODS SETTINGS===*/
     /*glassAndBubbles*/
     --bubble-color: 0, 0, 0;
+
+
+
 }
 
 
 /*Global Elements*/
 /*Gradient BG*/
+
+
 .app-19_DXt:before {
-    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    background: var(--color-background);
     content: "";
     position: absolute;
     top:0;
@@ -112,12 +120,14 @@
     bottom:0;
     width:100%;
     height: 100%;
+    filter: brightness(var(--background-brightness));
 }
 
 .typeWindows-1za-n7{
-    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    background: var(--color-background);
     margin-top:0;
     padding-top: 4px;
+    filter: brightness(var(--background-brightness));
 }
 
 /*Scrollbar*/
@@ -286,10 +296,10 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Member List*/
 .theme-dark .members-1998pB{background-color:transparent!important;background:transparent!important;}
 .theme-dark .membersGroup-v9BXpm{color:var(--main-color);}
-.members-1998pB>.membersGroup-v9BXpm{height:auto;margin:5px 15px;padding:2px 8px;background-color:rgba(0,0,0,0.288);color:var(--main-color)!important;font-size:11px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:.08em;border-radius:3px}
+.members-1998pB>.membersGroup-v9BXpm{height:auto;margin:5px 15px;padding:2px 8px;background-color:transparent;color:var(--main-color)!important;font-size:11px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:.08em;border-radius:3px}
 .members-1998pB>.member-3W1lQa{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden}
 .members-1998pB>.member-3W1lQa>.content-OzHfo4{-webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-ms-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out}
-.members-1998pB>.member-3W1lQa:hover>.content-OzHfo4,.members-1998pB>.member-3W1lQa.popout-open>.content-OzHfo4{background:linear-gradient(to left,var(--main-color-alpha-7)15%,transparent)!important;}
+.members-1998pB>.member-3W1lQa:hover>.content-OzHfo4,.members-1998pB>.member-3W1lQa.popout-open>.content-OzHfo4{background:var(--main-color-alpha-4)!important;}
 .members-1998pB>.member-3W1lQa:active>.content-OzHfo4{-webkit-transform:scale(0.9);-moz-transform:scale(0.9);-ms-transform:scale(0.9);-o-transform:scale(0.9);transform:scale(0.9)}
 .members-1998pB>.member-3W1lQa .username-1cB_5E{font-size:14px}
 .members-1998pB>.member-3W1lQa .ownerIcon-uZ6mE7>g>path,.members-1998pB>.member-3W1lQa .activityIconForeground-qYIPPg{fill:rgba(255,255,255,0.4)}
@@ -434,20 +444,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*Keyboard Shortcuts Modal*/
 .keyboardShortcutsModal-3piNz7{background:var(--black-alpha-7)!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important;}
-.ragingDemon-bDcoXE img[src="/assets/bb7f752540c7f4c7039c6dd6b5dd052e.svg"]{box-sizing:border-box!important;padding-right:80vw!important;}
-.ragingDemon-bDcoXE img[src="/assets/bb7f752540c7f4c7039c6dd6b5dd052e.svg"],.ragingDemon-bDcoXE .symbol-3ffeCr:before,.ragingDemon-bDcoXE .symbol-3ffeCr:after{width:80vw!important;height:60vh!important;}
-.ragingDemon-bDcoXE .symbol-3ffeCr:before,.ragingDemon-bDcoXE .symbol-3ffeCr:after{content:"";position:absolute;}
-.ragingDemon-bDcoXE .symbol-3ffeCr:before{background:var(--main-color)!important;-webkit-mask-size:cover;-webkit-mask:url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_2.svg')center/contain no-repeat!important;}
-.ragingDemon-bDcoXE .symbol-3ffeCr:after{background:url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_1.svg')center/contain no-repeat!important;}
-.ddrArrows-lSnH7P .arrow-2enltQ.down-2Ju7Q_{transform:rotate(270deg);}
-.ddrArrows-lSnH7P .arrow-2enltQ.up-fkTose{transform:rotate(90deg);}
-.ddrArrows-lSnH7P .arrow-2enltQ.right-1AEPK3{transform:rotate(180deg);}
-.ddrArrows-lSnH7P .arrow-2enltQ.active-2X6Ewx{filter:brightness(130%);}
-.ddrArrows-lSnH7P .arrow-2enltQ,.ddrArrows-lSnH7P .arrow-2enltQ:before,.ddrArrows-lSnH7P .arrow-2enltQ:after{height:50px!important;width:50px!important;}
-.ddrArrows-lSnH7P .arrow-2enltQ:before,.ddrArrows-lSnH7P .arrow-2enltQ:after{content:"";position:absolute;top:0;left:0;}
-.ddrArrows-lSnH7P .arrow-2enltQ{position:relative!important;animation:none!important;background:url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_3.svg')center/contain no-repeat!important;}
-.ddrArrows-lSnH7P .arrow-2enltQ:before{-webkit-mask-size:cover;-webkit-mask:url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_4.svg')center/contain no-repeat!important;background:var(--main-color)!important;}
-.ddrArrows-lSnH7P .arrow-2enltQ:after{background:url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_5.svg')center/contain no-repeat!important;}
 
 /*Gift Nitro*/
 .theme-dark .modal-3HD5ck{box-shadow:none;background-color:var(--black-alpha-9);}
@@ -478,6 +474,8 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Join Server*/
 .title-2CFvp_{color: var(--main-color)!important;}
 .sampleLink-KPFu3I{color: var(--main-color)!important;}
+/*Quick Switcher*/
+.theme-dark .quickswitcher-3JagVE{background-color: var(--black-alpha-9);}
 
 /*Popouts and Dropdowns*/
 /*Popouts*/
@@ -584,6 +582,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .container-2x5lvQ section{background:rgba(0,0,0,0)!important;}
 
 /*User Popout*/
+.popoutRight-2ZVwL-{border: 2px solid var(--main-color);}
 .body-3iLsc4,.footer-1fjuF6{background:transparent!important;}
 .headerPlaying-j0WQBV{background:transparent;}
 .quickMessage-2XpSaN,.note-3kmerW textarea:focus,.da-selectorSelected{background:transparent!important;border:none;}
@@ -591,16 +590,16 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .headerSpotify-zpWxgT{background:transparent;}
 .headerStreaming-2FjmGz{background:transparent;}
 .activity-11LB_k{background:transparent;}
-.userPopout-3XzG_A{box-shadow: none;-webkit-box-shadow: none;border-radius: 0;}
+.userPopout-3XzG_A{box-shadow: none;-webkit-box-shadow: none;border-radius:0;}
 .userPopout-3XzG_A::before{content:"";position:absolute;top:250px;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;overflow:hidden;background-image:var(--popout-url)!important;-moz-background-size:cover!important;-webkit-background-size:cover!important;background-repeat:no-repeat!important;filter:brightness(var(--popout-brightness))blur(var(--popout-blur));opacity:var(--popout-opacity);border-radius:0px;background-color:var(--popout-bgc);}
-.role-2irmRk{border-width:1px;border-style:solid;border-radius:10px;box-sizing:content-box;height:16px;margin:3px;padding:2px;position:relative;line-height:16px;font-size:10px;font-weight:400;text-transform:uppercase;overflow:visible;}
-.role-2irmRk::before{content:'';position:absolute;top:0;left:0;width:100%;border-radius:10px;border-width:calc(0.65em + 4px).5em;border-style:solid;border-color:inherit;box-sizing:border-box;opacity:0.5;}
+.role-2irmRk{border-width:1px;border-style:solid;border-radius:0px;box-sizing:content-box;height:16px;margin:3px;padding:2px;position:relative;line-height:16px;font-size:10px;font-weight:400;text-transform:uppercase;overflow:visible;}
+.role-2irmRk::before{content:'';position:absolute;top:0;left:0;width:100%;border-radius:0px;border-width:calc(0.65em + 4px).5em;border-style:solid;border-color:inherit;box-sizing:border-box;opacity:0.5;}
 .roleName-32vpEy{margin:0 4px;}
-.roleCircleButton-377y0l{padding:0;position:absolute;z-index:2;height:22px;top:-1px;left:-1px;border-radius:2px 0 0 2px;width:0px;display:flex!important;transition:width 200ms;}
+.roleCircleButton-377y0l{padding:0;position:absolute;z-index:2;height:22px;top:-1px;left:-1px;border-radius:0px 0 0 0px;width:0px;display:flex!important;transition:width 200ms;}
 .roleCircle-3xAZ1j{display:none;}
 .addButton-pcyyf6{line-height:10px;width:22px;box-sizing:border-box;height:22px;}
 .roleRemoveIcon-2-TeGW{display:block;}
-.role-2irmRk:hover .roleCircleButton-377y0l{transition:width 0.2s;width:22px;border-radius:10px;}
+.role-2irmRk:hover .roleCircleButton-377y0l{transition:width 0.2s;width:22px;border-radius:0px;}
 .addButtonIcon-1NMJ8u{height:7px;width:7px;}
 /*Profile Picture*/
 .headerTop-3C2Zn0{padding:0;}
@@ -631,7 +630,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .body-3ND3kc{border-top:none!important;}
 .topSectionPlaying-1J5E4n{background:transparent!important;}
 .root-SR8cQa::before{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;overflow:hidden;background-image:var(--modal-url)!important;-moz-background-size:cover;-webkit-background-size:cover;background-repeat:no-repeat;filter:brightness(var(--modal-brightness))blur(var(--modal-blur))!important;opacity:var(--modal-opacity);background-color:var(--popout-bgc);}
-.root-SR8cQa{border-radius:25px!important;box-shadow:0 0 20px var(--main-color);}
+.root-SR8cQa{border-radius:0px!important;box-shadow:0 0 0px var(--main-color);border: 2px solid var(--main-color);}
 
 /*Video Calls*/
 .theme-dark .wrapper-29NfPK{background-color: transparent;}
