@@ -67,10 +67,10 @@
 
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url("http://www.lol-wallpapers.com/wp-content/uploads/2016/12/Bilgewater-Slaughter-Docks-4.jpg");
-    --background-brightness: 10%;
+    --background-url: url("http://lol-wallpapers.com/wp-content/uploads/2016/12/Shurima-Capital.jpg");
+    --background-brightness: 40%;
     --background-blur: 0px;
-    --color-background: rgba(69, 0, 111, 1)!important;
+    /*--color-background: rgba(69, 0, 111, 1)!important;*/
     /*linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;*/
     /*==== User Popout ====*/
     /* User Popout Background Image */
@@ -90,7 +90,7 @@
     /*====Home Icon====*/
     --home-icon-url: url("https://media.cdnandroid.com/5b/b2/9d/39/d8/imagen-league-friends-0thumb.jpg");
     /*====Colors====*/
-    --mc : 69, 0, 111;
+    --mc : 255, 156, 0;
     --cmc: rgb(255, 255, 255);
     --black : 0,0,0;
     --white: rgb(255, 255, 255);
