@@ -28,6 +28,10 @@
     --pfp-border-radius: 15px;
     --pfp-size: 60px;
     --adjust-content: -9px; /*If the username is not aligned with the  text, increase or decrease the value to your liking*/
+    /*===Channels===*/
+    --channel-width: 240px;
+    /*Guilds*/
+    --number-of-colums: 2;
     /*====Colors====*/
     --mc : 255, 0, 0;
     --main-color: rgb(var(--mc));
@@ -67,7 +71,7 @@
 
     /*==== Main Background ====*/
     /* Main Background Image */
-    --background-url: url("http://lol-wallpapers.com/wp-content/uploads/2016/12/Shurima-Capital.jpg");
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/paco/images/leona-solar.jpg");
     --background-brightness: 40%;
     --background-blur: 0px;
     /*--color-background: rgba(69, 0, 111, 1)!important;*/
@@ -88,7 +92,9 @@
     --modal-opacity: .9;
     --modal-bgc: rgb(var(--black));
     /*====Home Icon====*/
-    --home-icon-url: url("https://media.cdnandroid.com/5b/b2/9d/39/d8/imagen-league-friends-0thumb.jpg");
+    --home-icon-url: url("https://image.flaticon.com/icons/svg/284/284824.svg");
+    /*===Channels===*/
+    --channel-width: 260px;
     /*====Colors====*/
     --mc : 255, 156, 0;
     --cmc: rgb(255, 255, 255);
@@ -177,6 +183,24 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*Guild List*/
 .wrapper-1Rf91z{background-color:transparent!important;background:transparent!important;}
+
+.wrapper-1Rf91z{
+    width: calc(72px * var(--number-of-colums));
+}
+.wrapper-1Rf91z .scrollerWrap-1IAIlv {
+    width: calc(90px * var(--number-of-colums));
+}
+
+.scroller-2TZvBN {
+   display: flex;
+   flex-flow: row wrap;
+   padding-left: 0;
+   align-content: flex-start;
+}
+
+/*Home Icon width*/
+.listItem-2P_4kh:first-child,.listItem-2P_4kh:nth-child(2),.listItem-2P_4kh:nth-child(3),.listItem-2P_4kh:nth-child(4) {width: calc(72px * var(--number-of-colums));}
+
 /*Home Icon*/
 .blob-1PX1Gp.wrapper-25eVIn{background-image:var(--home-icon-url)!important;background-size:cover;border-radius:25px;}
 .blob-1PX1Gp.wrapper-25eVIn svg foreignObject a{background-color:transparent;}
@@ -188,6 +212,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /*Background*/
 .channels-Ie2l6A{background-color:transparent;}
 .container-PNkimc{background-color:transparent;}
+.channels-Ie2l6A{width: var(--channel-width)}
 /*Channel Notice*/
 .channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW{background-color:transparent;}
 .channelNotices-41mJbj .channelNotice-1-XFjC{box-shadow:none;}
