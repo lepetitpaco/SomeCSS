@@ -1,5 +1,5 @@
 //META{"name":"dev-taco","description":"Spicy Dev","author":"lepetitpaco","version":"1"}*//{}
-
+/*===============================Default Settings===============================*/
 :root {
     /*==== Main Background ====*/
     /* Main Background Image */
@@ -8,31 +8,31 @@
     --background-blur: 0px;
     --color-background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
     /*==== User Popout ====*/
-    /* User Popout Background Image */
     --popout-url: url(https://source.unsplash.com/random);
     --popout-brightness: 40%;
     --popout-blur: 0px;
     --popout-opacity: 1;
     --popout-bgc: rgb(var(--black));
-    /*====Modal Popout====*/
+    /*==== Modal Popout ====*/
     --modal-url: url(https://source.unsplash.com/random);
     --modal-brightness: 40%;
     --modal-blur: 0px;
     --modalPopout-width: 600px;
     --modalPopout-height: 900px;
     --modal-opacity: 1;
-    --modal-bgc: rgb(var(--black));
-    /*====Home Icon====*/
+    --modal-bgc: rgb(0,0,0);
+    /*==== Home Icon ====*/
     --home-icon-url: url(https://source.unsplash.com/random);
-    /*====Profile Picture====*/
+    /*==== Profile Picture ====*/
     --pfp-border-radius: 15px;
     --pfp-size: 60px;
     --adjust-content: -9px; /*If the username is not aligned with the  text, increase or decrease the value to your liking*/
-    /*===Channels===*/
+    /*=== Channels ===*/
     --channel-width: 240px;
-    /*Guilds*/
-    --number-of-colums: 2;
-    /*====Colors====*/
+    /*=== Guilds ===*/
+    --number-of-colums: 1;
+    /*==== Colors ====*/
+    /* Main Color */
     --mc : 255, 0, 0;
     --main-color: rgb(var(--mc));
     --main-color-alpha-1: rgba(var(--mc), .1); /*User for mentions*/
@@ -44,9 +44,9 @@
     --main-color-alpha-7: rgba(var(--mc), .7);
     --main-color-alpha-8: rgba(var(--mc), .8);
     --main-color-alpha-9: rgba(var(--mc), .9);
-    /*White if using normal Colored background*/
+    /* Contrast to the main color (if Main Color is Black, contrast to the main color is white)*/
     --cmc: rgb(255, 255, 255);
-    /****************************************/
+    /*=== Black Color ===*/
     --black : 0,0,0;
     --black-alpha-1: rgba(var(--black), .1);
     --black-alpha-2: rgba(var(--black), .2);
@@ -57,55 +57,34 @@
     --black-alpha-7: rgba(var(--black), .7);
     --black-alpha-8: rgba(var(--black), .8);
     --black-alpha-9: rgba(var(--black), .9);
-    /*Black BG*/
-    --white: rgb(255, 255, 255);
     --black-alpha-10: rgb(var(--black));
+    --white: rgb(255, 255, 255);
+    /*=== Color of the chat messages ===*/
     --messages-color: rgb(255, 255, 255);
-    /*===Emoji Picker===*/
+    /*=== Emoji Picker ===*/
     --emoji-picker-height: 400px;
-    /*===MODS SETTINGS===*/
-    /*glassAndBubbles*/
-    --bubble-color: 0, 0, 0;
-
-    /*===============================Custom Settings===============================*/
-
-    /*==== Main Background ====*/
-    /* Main Background Image */
-    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/paco/images/leona-solar.jpg");
-    --background-brightness: 40%;
+}
+/*===============================Custom Settings===============================*/
+:root {
+    /*=== Main Background ===*/
+    --background-url: url("https://somecss.lepetitpaco.fr/backgrounds/paco/");
+    --background-brightness: 20%;
     --background-blur: 0px;
-    /*--color-background: rgba(69, 0, 111, 1)!important;*/
-    /*linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;*/
-    /*==== User Popout ====*/
-    /* User Popout Background Image */
+    /*=== User Popout ===*/
     --popout-url: url();
-    --popout-brightness: 40%;
     --popout-blur: 0px;
     --popout-opacity: .9;
-    --popout-bgc: rgb(var(--black));
-    /*====Modal Popout====*/
+    --popout-bgc: rgb(0,0,0);
+    /*=== Modal Popout ===*/
     --modal-url: url();
-    --modal-brightness: 40%;
-    --modal-blur: 0px;
-    --modalPopout-width: 600px;
-    --modalPopout-height: 426px;
-    --modal-opacity: .9;
-    --modal-bgc: rgb(var(--black));
-    /*====Home Icon====*/
-    --home-icon-url: url("https://image.flaticon.com/icons/svg/284/284824.svg");
-    /*===Channels===*/
-    --channel-width: 260px;
-    /*====Colors====*/
-    --mc : 255, 156, 0;
-    --cmc: rgb(255, 255, 255);
-    --black : 0,0,0;
-    --white: rgb(255, 255, 255);
-    --messages-color: rgb(255, 255, 255);
-    /*===Emoji Picker===*/
-    --emoji-picker-height: 400px;
-    /*===MODS SETTINGS===*/
-    /*glassAndBubbles*/
-    --bubble-color: 0, 0, 0;
+    --modal-opacity: .5;
+    --modal-bgc: rgb(0,0,0);
+    /*=== Home Icon ===*/
+    --home-icon-url: url("https://steamuserimages-a.akamaihd.net/ugc/919167685836382411/3A5CE98578415ED2AD73392595775E50DC868C9C/");
+    /*Guilds*/
+    --number-of-colums: 1;
+    /*Colors*/
+    --mc: 255, 150, 0;
 }
 
 /*Global Elements*/
@@ -183,20 +162,26 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*Guild List*/
 .wrapper-1Rf91z{background-color:transparent!important;background:transparent!important;}
+.wrapper-1Rf91z{width:calc(72px * var(--number-of-colums));}
+.wrapper-1Rf91z .scrollerWrap-1IAIlv{width:calc(90px * var(--number-of-colums));}
+.scroller-2TZvBN{display:flex;flex-flow:row wrap;padding-left:0;align-content:flex-start;}
+/*Notifications New Message*/
+.pill-31IEus{position:absolute;left:9px;top:-3px;width:54px;height:54px;}
+.item-2hkk8m{position:absolute;display:block;width:100%!important;height:100%!important;background-color:var(--main-color);border-radius:100%;margin-left:0;}
+.pill-31IEus.bd-selected .item-2hkk8m{border-radius:20px;}
+.pill-31IEus.bd-hovered .item-2hkk8m{border-radius:20px;}
+/*Ping Badges*/
+.lowerBadge-29hYVK,.upperBadge-2XnnGB{position:absolute;left:12px;right:0;top:12px;bottom:0;}
+.numberBadge-2s8kKX{height:24px!important;width:24px!important;border-radius:100%;box-shadow:0 0 0 0 rgba(232,76,61,0.7);-webkit-animation:pulse 1.25s infinite cubic-bezier(0.66,0,0,1);-moz-animation:pulse 1.25s infinite cubic-bezier(0.66,0,0,1);-ms-animation:pulse 1.25s infinite cubic-bezier(0.66,0,0,1);animation:pulse 1.25s infinite cubic-bezier(0.66,0,0,1);}
+@-webkit-keyframes pulse{to{box-shadow:0 0 0 25px rgba(240,71,71,0);}
+}
+@-moz-keyframes pulse{to{box-shadow:0 0 0 25px rgba(240,71,71,0);}
+}
+@-ms-keyframes pulse{to{box-shadow:0 0 0 25px rgba(240,71,71,0);}
+}
+@keyframes pulse{to{box-shadow:0 0 0 25px rgba(240,71,71,0);}
+}
 
-.wrapper-1Rf91z{
-    width: calc(72px * var(--number-of-colums));
-}
-.wrapper-1Rf91z .scrollerWrap-1IAIlv {
-    width: calc(90px * var(--number-of-colums));
-}
-
-.scroller-2TZvBN {
-   display: flex;
-   flex-flow: row wrap;
-   padding-left: 0;
-   align-content: flex-start;
-}
 
 /*Home Icon width*/
 .listItem-2P_4kh:first-child,.listItem-2P_4kh:nth-child(2),.listItem-2P_4kh:nth-child(3),.listItem-2P_4kh:nth-child(4) {width: calc(72px * var(--number-of-colums));}
