@@ -152,7 +152,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .scroller-2TZvBN .button-OhfaWu:hover, .scroller-2TZvBN .button-OhfaWu.selected-wSa2KV{background-color: var(--black-alpha-3);}
 .scroller-2TZvBN .homeIcon-tEMBK1 {display: none;}
 .scroller-2TZvBN .button-OhfaWu {background-image: var(--home-icon-url);background-repeat: no-repeat;background-size: cover;}
-
+.theme-dark .button-OhfaWu{background-color: transparent;}
 /*Channels Columns*/
 /*Background*/
 .channels-Ie2l6A{background-color:transparent;}
