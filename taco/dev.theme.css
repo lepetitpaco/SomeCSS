@@ -22,7 +22,7 @@
     --modal-opacity: 1;
     --modal-bgc: rgb(0,0,0);
     /*==== Home Icon ====*/
-    --home-icon-url: url(https://source.unsplash.com/random);
+    --home-icon-url: url(https://ui-ex.com/images/discord-transparent-purple-3.png);
     /*==== Profile Picture ====*/
     --pfp-border-radius: 15px;
     --pfp-size: 60px;
@@ -64,6 +64,8 @@
     /*=== Emoji Picker ===*/
     --emoji-picker-height: 400px;
 }
+
+
 
 
 /*Global Elements*/
@@ -143,16 +145,13 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 @keyframes pulse{to{box-shadow:0 0 0 25px rgba(240,71,71,0);}
 }
 
-
 /*Home Icon width*/
 .listItem-2P_4kh:first-child,.listItem-2P_4kh:nth-child(2),.listItem-2P_4kh:nth-child(3),.listItem-2P_4kh:nth-child(4) {width: calc(72px * var(--number-of-colums));}
 
 /*Home Icon*/
-.blob-1PX1Gp.wrapper-25eVIn{background-image:var(--home-icon-url)!important;background-size:cover;border-radius:25px;}
-.blob-1PX1Gp.wrapper-25eVIn svg foreignObject a{background-color:transparent;}
-.blob-1PX1Gp.wrapper-25eVIn svg foreignObject a svg{display:none;}
-.blob-1PX1Gp.wrapper-25eVIn svg mask{display:none;}
-.theme-dark .button-OhfaWu.selected-wSa2KV,.theme-light .button-OhfaWu.selected-wSa2KV{background-color:transparent;}
+.scroller-2TZvBN .button-OhfaWu:hover, .scroller-2TZvBN .button-OhfaWu.selected-wSa2KV{background-color: var(--black-alpha-3);}
+.scroller-2TZvBN .homeIcon-tEMBK1 {display: none;}
+.scroller-2TZvBN .button-OhfaWu {background-image: var(--home-icon-url);background-repeat: no-repeat;background-size: cover;}
 
 /*Channels Columns*/
 /*Background*/
