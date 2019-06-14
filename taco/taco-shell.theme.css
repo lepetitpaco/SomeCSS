@@ -1,12 +1,12 @@
-//META{"name":"taco-shell","description":"Standard and simple Version of the theme","author":"lepetitpaco","version":"2"}*//{}
+//META{"name":"taco-shell","description":"Standard and simple Version of the theme","author":"lepetitpaco","version":"1"}*//{}
 @import url(https://lepetitpaco.github.io/SomeCSS/taco/shell.css);
 
 :root {
     --background-url: url(https://lepetitpaco.github.io/SomeCSS/taco/ressources/ilgd.jpg);
     --popout-url: url();
     --modal-url: url();
-    --popout-opacity: .9;
-    --modal-opacity: .9;
+    --popout-opacity: 1;
+    --modal-opacity: 1;
     --home-icon-url: url(https://ui-ex.com/images/discord-transparent-purple-3.png);
     --background-brightness: 20%;
     --mc : 122, 7, 124

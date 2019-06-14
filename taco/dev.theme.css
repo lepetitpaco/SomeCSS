@@ -1,4 +1,4 @@
-//META{"name":"dev-taco","description":"Spicy Dev","author":"lepetitpaco","version":"1"}*//{}
+//META{"name":"taco-shell-dev","description":"Dev Version of Taco-Shell","author":"lepetitpaco","version":"1"}*//{}
 /*===============================Default Settings===============================*/
 :root {
     /*==== Main Background ====*/
@@ -153,6 +153,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .scroller-2TZvBN .homeIcon-tEMBK1 {display: none;}
 .scroller-2TZvBN .button-OhfaWu {background-image: var(--home-icon-url);background-repeat: no-repeat;background-size: cover;}
 .theme-dark .button-OhfaWu{background-color: transparent;}
+
 /*Channels Columns*/
 /*Background*/
 .channels-Ie2l6A{background-color:transparent;}
