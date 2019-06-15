@@ -7,18 +7,28 @@
     --background-brightness: 20%;
     --background-blur: 0px;
     --color-background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+    /* Transitioning Background */
+    --transitioning-background-shading: 0%;
+    --transitioning-background-overlay: rgba(0, 0, 0, .6);
+    --transitioning-background-brightness: 100%;
+    --transitioning-background-contrast: 100%;
+    --transitioning-background-saturation: 100%;
+    --transitioning-background-invert: 0%;
+    --transitioning-background-grayscale: 0%;
+    --transitioning-background-sepia: 0%;
+    --transitioning-background-blur: 0px;
     /*==== User Popout ====*/
     --popout-url: url(https://source.unsplash.com/random);
-    --popout-brightness: 20%;
+    --popout-brightness: 50%;
     --popout-blur: 0px;
     --popout-opacity: 1;
-    --popout-bgc: rgb(var(--black));
+    --popout-bgc: rgb(0,0,0);
     /*==== Modal Popout ====*/
     --modal-url: url(https://source.unsplash.com/random);
-    --modal-brightness: 20%;
+    --modal-brightness: 50%;
     --modal-blur: 0px;
     --modalPopout-width: 600px;
-    --modalPopout-height: 900px;
+    --modalPopout-height: 500px;
     --modal-opacity: 1;
     --modal-bgc: rgb(0,0,0);
     /*==== Home Icon ====*/
@@ -65,9 +75,6 @@
     --emoji-picker-height: 400px;
 }
 
-
-
-
 /*Global Elements*/
 /*Scrollbar*/
 ::-webkit-scrollbar-thumb{background:var(--main-color)!important;border-color:var(--main-color)!important;}
@@ -112,6 +119,22 @@ body::after,.callout-backdrop::after{background-position:center;background-size:
 
 /*Container Background*/
 body::after{background-image:var(--background-url)!important;filter:brightness(var(--background-brightness))blur(var(--background-blur))!important;}
+
+/*Transitioning bg*/
+.transitioning-background {
+	-webkit-filter: grayscale( var(--transitioning-background-grayscale) ) sepia(var(--transitioning-background-sepia)) invert( var(--transitioning-background-invert) ) brightness(var(--transitioning-background-brightness)) contrast(var(--transitioning-background-contrast)) saturate( var(--transitioning-background-saturation) ) blur(var(--transitioning-background-blur));
+	filter: grayscale( var(--transitioning-background-grayscale) ) sepia(var(--transitioning-background-sepia)) invert( var(--transitioning-background-invert) ) brightness(var(--transitioning-background-brightness)) contrast(var(--transitioning-background-contrast)) saturate( var(--transitioning-background-saturation) ) blur(var(--transitioning-background-blur));
+}
+
+.transitioning-background::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: var(--transitioning-background-overlay);
+}
 
 /*Title Bar*/
 .theme-dark .title-3qD0b-{background-color:transparent!important;background:transparent!important;}
@@ -288,6 +311,11 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .mobileIndicator-329Gd6{color: var(--white);}
 .members-1998pB>.member-3W1lQa.memberOffline-2lN7gt .avatar-16XVId{-webkit-filter:grayscale(100%)blur(1px);-moz-filter:grayscale(100%)blur(1px);-ms-filter:grayscale(100%)blur(1px);-o-filter:grayscale(100%)blur(1px);filter:grayscale(100%)blur(1px);-webkit-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out}
 .members-1998pB>.member-3W1lQa.memberOffline-2lN7gt:hover .avatar-16XVId{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none}
+
+/*Clock*/
+#dv-mount{
+	background-color: transparent;
+}
 
 /*Home*/
 /*Direct Messages*/
@@ -607,7 +635,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /*Modal Popout*/
 .topSectionSpotify-1lI0-P{background:transparent;}
-.root-SR8cQa{height: /*var(--modalPopout-height);*/width: var(--modalPopout-width);}
+.root-SR8cQa{height: var(--modalPopout-height); width: var(--modalPopout-width);}
 .verified-3uJH7V g path:nth-child(2),.connectedAccountVerifiedIcon-3aZz_K g path:nth-child(2),.verifiedIcon-2TCIsJ g path:nth-child(2),.verified-2-ja4L g path:nth-child(2){fill:transparent!important;}
 .userInfoSection-2acyCx+.userInfoSection-2acyCx,.connectedAccount-36nQx7{border:none!important;}
 .tabBarContainer-1s1u-z .tab-bar.TOP .tab-bar-item{transition:150ms all ease-in-out;}
