@@ -1,13 +1,50 @@
-//META{"name":"taco-shell","description":"Standard and simple Version of the theme","author":"lepetitpaco","version":"1"}*//{}
-@import url(https://lepetitpaco.github.io/SomeCSS/taco/shell.css);
+/**
+ * @name taco-shell
+ * @author Paco
+ * @version 1
+ * @description Dev Version of Taco-Shell
+ */
 
-:root {
-    --background-url: url(https://lepetitpaco.github.io/SomeCSS/taco/ressources/ilgd.jpg);
-    --popout-url: url();
-    --modal-url: url();
-    --popout-opacity: 1;
-    --modal-opacity: 1;
-    --home-icon-url: url(https://ui-ex.com/images/discord-transparent-purple-3.png);
-    --background-brightness: 20%;
-    --mc : 122, 7, 124
-}
+ @import url(https://lepetitpaco.github.io/SomeCSS/taco/shell.css);
+
+ :root {
+     /*==== Main Background ====*/
+     /* Main Background Image */
+     --background-url: url(https://source.unsplash.com/random);
+     --background-brightness: 20%;
+     --background-blur: 0px;
+     --color-background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .9) 100%) !important;
+     /*==== User Popout ====*/
+     --popout-url: url(https://source.unsplash.com/random);
+     --popout-brightness: 50%;
+     --popout-blur: 0px;
+     --popout-opacity: 1;
+     --popout-bgc: rgb(0,0,0);
+     /*==== Modal Popout ====*/
+     --modal-url: url(https://source.unsplash.com/random);
+     --modal-brightness: 50%;
+     --modal-blur: 0px;
+     --modalPopout-width: 600px;
+     --modalPopout-height: 500px;
+     --modal-opacity: 1;
+     --modal-bgc: rgb(0,0,0);
+     /*==== Home Icon ====*/
+     --home-icon-url: url(https://ui-ex.com/images/discord-transparent-purple-3.png);
+     /*==== Profile Picture ====*/
+     --pfp-border-radius: 15px;
+     --pfp-size: 60px;
+     --adjust-content: -9px; /*If the username is not aligned with the  text, increase or decrease the value to your liking*/
+     /*=== Channels ===*/
+     --channel-width: 240px;
+     /*=== Guilds ===*/
+     --number-of-colums: 1;
+     /*==== Colors ====*/
+     /* Main Color */
+     --mc : 255, 0, 0;
+     /* Contrast to the main color (if Main Color is Black, contrast to the main color is white)*/
+     --cmc: rgb(255, 255, 255);
+     /*=== Color of the chat messages ===*/
+     --messages-color: rgb(255, 255, 255);
+     /*=== Emoji Picker ===*/
+     --emoji-picker-height: 400px;
+ }
