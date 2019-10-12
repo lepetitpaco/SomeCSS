@@ -1,6 +1,29 @@
 /**
  * @name Origin v2
- * @author Paco
+ * @author lepetitpaco
  * @version 0.5.1
  * @description Second Version of Origin
  */
+
+@import "https://lepetitpaco.github.io/SomeCSS/origin/origin-v2.css";
+
+/* Settings Specific to Dark Theme Set */
+.theme-dark {
+	/* Main Color
+		* Color Picker
+		* https://www.google.com/search?q=color+picker
+		* only use the RGB Value
+	*/
+	--mc : 43, 121, 255;
+	/* Main Background */
+    --background-url: url(https://i.imgur.com/lsMGvvH.jpg);
+	--background-brightness: 80%;
+	/*==== User Popout ====*/
+	--popout-url: url(https://i.imgur.com/1BTjsDO.jpg);
+	--popout-brightness: 80%;
+	/*==== Modal Popout ====*/
+	--modal-url: url(https://i.imgur.com/Cd8FGo0.png);
+	--modal-brightness: 80%;
+	--modalPopout-width: 900px;
+	--modalPopout-height: 650px;
+}
