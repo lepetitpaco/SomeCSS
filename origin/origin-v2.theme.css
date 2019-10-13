@@ -26,4 +26,7 @@
 	--modal-brightness: 80%;
 	--modalPopout-width: 900px;
 	--modalPopout-height: 650px;
+	/*Home Icon*/
+	--home-icon: url(https://i.imgur.com/rObbX3K.png);
+	--home-icon-bg-color: #00151c;
 }
