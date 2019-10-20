@@ -1,0 +1,32 @@
+/**
+ * @name Origin v2 Shinobu
+ * @author lepetitpaco
+ * @version 0.5.1
+ * @description Shinobu from Kimetsu no Yaiba
+ */
+
+@import "https://lepetitpaco.github.io/SomeCSS/origin/origin-v2.css";
+
+/* Settings Specific to Dark Theme Set */
+.theme-dark {
+	/* Main Color
+		* Color Picker
+		* https://www.google.com/search?q=color+picker
+		* only use the RGB Value
+	*/
+	--mc : 43, 121, 255;
+	/* Main Background */
+    --background-url: url(https://i.imgur.com/GdnIVNO.png);
+	--background-brightness: 80%;
+	/*==== User Popout ====*/
+	--popout-url: url(https://i.imgur.com/zvTId9V.jpg);
+	--popout-brightness: 80%;
+	/*==== Modal Popout ====*/
+	--modal-url: url(https://i.imgur.com/gXVYeYW.jpg);
+	--modal-brightness: 50%;
+	--modalPopout-width: 900px;
+	--modalPopout-height: 650px;
+	/*Home Icon*/
+	--home-icon: url(https://i.imgur.com/rObbX3K.png);
+	--home-icon-bg-color: #00151c;
+}
