@@ -1,0 +1,73 @@
+/**
+ * @name Animations Pack
+ * @author Paco
+ * @version 1
+ * @description Animations for Origin v2
+ */
+
+/**
+ *  Animation List
+ * appear, accordeonX, rotate
+ * If you don't want an animation, put none instead
+ **/
+
+ .theme-dark,
+ .theme-light {
+    --user-popout-animation : appear;
+    --modal-popout-animation : accordeonX;
+    --settings-button: rotate;
+ }
+
+
+/********************************************************************* ANIMATION PACK - TO BE SEPARATED *******************************************************************/
+
+/* User Popout */
+.popoutRight-1veHKi{
+    animation-duration: 0.5s;
+	animation-name: var(--user-popout-animation);
+}
+
+/* Modal Popout */
+.modal-3c3bKg{transform: unset!important;}
+.root-SR8cQa{
+	animation-duration: 0.5s;
+	animation-name: var(--modal-popout-animation);
+}
+
+/* Settings Button */
+.button-14-BFJ:last-child:hover svg{
+	animation-duration: 3s;
+	animation-name: var(--settings-button);
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes accordeonX {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
