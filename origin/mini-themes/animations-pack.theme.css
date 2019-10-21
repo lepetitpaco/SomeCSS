@@ -7,13 +7,14 @@
 
 /**
  *  Animation List
- * appear, accordeonX, rotate
+ * appear, accordeonX, rotate, slidein
  * If you don't want an animation, put none instead
  **/
 
  .theme-dark,
  .theme-light {
-    --user-popout-animation : appear;
+    --user-popout-animation : slideinleft;
+    --user-popout-member-list: slideinright;
     --modal-popout-animation : accordeonX;
     --settings-button: rotate;
  }
@@ -22,9 +23,17 @@
 /********************************************************************* ANIMATION PACK - TO BE SEPARATED *******************************************************************/
 
 /* User Popout */
-.popoutRight-1veHKi{
-    animation-duration: 0.5s;
-	animation-name: var(--user-popout-animation);
+.popoutRight-1veHKi .userPopout-3XzG_A{
+  transform:unset!important;
+  animation-duration: 0.5s;
+  animation-name: var(--user-popout-animation);
+}
+
+/* User popout from memberlist */
+.layer-v9HyYc{transform:unset!important;}
+.userPopout-3XzG_A{
+  animation-duration: 0.5s;
+	animation-name: var(--user-popout-member-list);
 }
 
 /* Modal Popout */
@@ -69,5 +78,25 @@
 
   to {
     transform: rotateZ(360deg);
+  }
+}
+
+@keyframes slideinleft {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+   transform: translateX(0);
+  }
+}
+
+@keyframes slideinright {
+  from {
+    transform: translateX(600px);
+  }
+
+  to {
+   transform: translateX(0);
   }
 }

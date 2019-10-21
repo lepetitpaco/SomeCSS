@@ -361,18 +361,17 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 }
 
 /********************************************************************* Pinned Messages and Mentions *******************************************************************/
+.theme-dark .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW{background-color:rgba(0, 0, 0, .8)}
+.theme-light .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW{background-color:rgba(255,255,255,.8)}
 
-.theme-dark .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW{background-color:rgba(0, 0, 0, .8)}
-.theme-light .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW{background-color:rgba(255,255,255,.8)}
+.theme-dark .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW .header-ykumBX{background-color:rgba(0, 0, 0, .0)}
+.theme-light .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW .header-ykumBX{background-color:rgba(255,255,255,.0)}
 
-.theme-dark .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW .header-ykumBX{background-color:rgba(0, 0, 0, .0)}
-.theme-light .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW .header-ykumBX{background-color:rgba(255,255,255,.0)}
+.theme-dark .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi{background-color:rgba(0, 0, 0, .0)}
+.theme-light .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi{background-color:rgba(255,255,255,.0)}
 
-.theme-dark .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi{background-color:rgba(0, 0, 0, .0)}
-.theme-light .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi{background-color:rgba(255,255,255,.0)}
-
-.theme-dark .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {border-color: var(--main-color);background-color: rgba(0, 0, 0, .8);}
-.theme-light .popouts-2bnG9Z .popout-2iWAc- .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {border-color: var(--main-color);background-color: rgba(255, 255, 255, .8);}
+.theme-dark .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {border-color: var(--main-color);background-color: rgba(0, 0, 0, .8);}
+.theme-light .popouts-2bnG9Z .messagesPopoutWrap-1MQ1bW .scrollerWrap-2lJEkd .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {border-color: var(--main-color);background-color: rgba(255, 255, 255, .8);}
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {-webkit-box-shadow: 0 0 6px 4px var(--main-color);box-shadow: 0 0 6px 4px var(--main-color);background-color: var(--main-color);}
 
@@ -381,6 +380,20 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 .theme-light .jumpButton-3DTcS_ {background-color: var(--main-color);color: #fff;}
 .theme-light .jumpButton-3DTcS_:hover {color: #fff;}
+
+
+/********************************************************************* Emoji Picker *******************************************************************/
+.bda-dark .emojiPicker-3m1S-j{background-color:rgba(0, 0, 0, .8);border:1px solid var(--main-color);}
+.bda-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU{background-color:rgba(0,0,0,0);}
+.bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ{background-color:rgba(0,0,0,0);}
+.bda-dark .emojiPicker-3m1S-j .category-2U57w6{background-color:rgba(0, 0, 0, 0)}
+.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_{background-color:rgba(0, 0, 0, .8)}
+
+/********************************************************************* Gif Picker *******************************************************************/
+.result-3w1ZcL:hover:after{box-shadow:inset 0 0 0 2px var(--main-color)!important;}
+.autocomplete-1vrmpx{background:rgba(0, 0, 0, .8)!important;background-repeat:no-repeat;background-size:cover!important;box-shadow:inset 0 0 0 1000px rgba(0,0,0,.8);}
+.autocomplete-1vrmpx{animation:slide-up 150ms ease;}
+.da-categoryFadeBlurple{background:var(--main-color)!important;opacity:0.6!important;}
 
 /********************************************************************* Popouts and Dropdowns *******************************************************************/
 
@@ -423,20 +436,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf{background-color:transparent;}
 .theme-dark .channelSeparator-1X1FuH:before{border-color:transparent;display:none;}
 .channelSeparator-1X1FuH{text-align:center;background-color:rgba(0, 0, 0, .5);}
-
-/*Emoji Picker*/
-.emojiPicker-3m1S-j{background-color:rgba(0, 0, 0, .8);border:none;}
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU{background-color:rgba(0,0,0,0);}
-.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ{background-color:rgba(0,0,0,0);}
-.diversitySelector-tmmMv0 .popout-2nUePc{background-color:rgba(0,0,0,.1);border-color:rgba(0,0,0,.0);}
-.searchBar-2_Yu-C.searchBarLight-1NxoDG{background-color:transparent;}
-.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R{background-color:rgba(0, 0, 0, .8);border:1px solid var(--main-color);}
-
-/*Gif Picker*/
-.result-3w1ZcL:hover:after{box-shadow:inset 0 0 0 2px var(--main-color)!important;}
-.autocomplete-1vrmpx{background:rgba(0, 0, 0, .8)!important;background-repeat:no-repeat;background-size:cover!important;box-shadow:inset 0 0 0 1000px rgba(0,0,0,.8);}
-.autocomplete-1vrmpx{animation:slide-up 150ms ease;}
-.da-categoryFadeBlurple{background:var(--main-color)!important;opacity:0.6!important;}
 
 /*Upload*/
 .uploadModal-2ifh8j{background-color: rgba(0, 0, 0, .8)}
@@ -501,3 +500,11 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-dark .paginator-166-09{background-color: rgba(0,0,0,.0);}
 .theme-dark .bottomDivider-1K9Gao{border-bottom-color: var(--main-color);}
 .theme-dark .payment-xT17Mq{background-color: rgba(0,0,0,.2);}
+
+/********************************************************************* Activity *******************************************************************/
+.theme-dark .emptyCard-3CNsz2{background-color: rgba(0, 0, 0, 0.5);}
+.theme-light .emptyCard-3CNsz2{background-color: rgba(255, 255, 255, 0.5);}
+.theme-dark .inset-GQDQYw{background-color: rgba(0, 0, 0, 0.5);}
+.theme-light .inset-GQDQYw{background-color: rgba(255, 255, 255, 0.5);}
+.theme-dark .recentlyPlayedContainer-2F3MqS{background-color: rgba(0, 0, 0, 0.5);}
+.theme-light .recentlyPlayedContainer-2F3MqS{background-color: rgba(255, 255, 255, 0.5);}
