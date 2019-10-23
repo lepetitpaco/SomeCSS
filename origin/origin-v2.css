@@ -385,11 +385,11 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 
 /********************************************************************* Emoji Picker *******************************************************************/
-.bda-dark .emojiPicker-3m1S-j{background-color:rgba(0, 0, 0, .8);border:1px solid var(--main-color);}
-.bda-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU{background-color:rgba(0,0,0,0);}
-.bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ{background-color:rgba(0,0,0,0);}
-.bda-dark .emojiPicker-3m1S-j .category-2U57w6{background-color:rgba(0, 0, 0, 0)}
-.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_{background-color:rgba(0, 0, 0, .8)}
+.emojiPicker-3m1S-j{background-color:rgba(0, 0, 0, .8);border:1px solid var(--main-color);}
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU{background-color:rgba(0,0,0,0);}
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ{background-color:rgba(0,0,0,0);}
+.emojiPicker-3m1S-j .category-2U57w6{background-color:rgba(0, 0, 0, 0)}
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_{background-color:rgba(0, 0, 0, .8)}
 
 /********************************************************************* Gif Picker *******************************************************************/
 .result-3w1ZcL:hover:after{box-shadow:inset 0 0 0 2px var(--main-color)!important;}
