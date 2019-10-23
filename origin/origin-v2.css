@@ -1,8 +1,8 @@
 /**
- * @name Origin v2 dev
- * @author Paco
- * @version 0.5.2
- * @description Second Dev Version of Origin
+ * @name Origin
+ * @author lepetitpaco
+ * @version 2.1
+ * @description Second Version of Origin
  */
 
 /*===============================Default Settings===============================*/
@@ -111,6 +111,7 @@
 	--interactive-hover: #fff;
 	--interactive-active: #fff;
 	--interactive-muted: #2b2b2b;
+	--activity-card-background: rgba(0, 0, 0, .8);
 	/* Main Color
 		* Color Picker
 		* https://www.google.com/search?q=color+picker
@@ -171,6 +172,7 @@
 	--home-icon: url(https://i.imgur.com/rObbX3K.png);
 	--home-icon-bg-color: #00151c;
 }
+
 
 /************************************************************* TAKES CARE OF OVERALL TRANSPARENCY - NO COLORING - NO RESHAPING *************************************************************/
 /*Main Background*/
