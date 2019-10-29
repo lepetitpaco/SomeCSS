@@ -17,6 +17,7 @@
     --user-popout-member-list: slideinright;
     --modal-popout-animation : accordeonX;
     --settings-button: rotate;
+    --auto-complete: appear;
  }
 
 
@@ -49,6 +50,23 @@
 	animation-name: var(--settings-button);
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+/* Auto Complete */
+.autocomplete-1vrmpx{
+    animation-duration: 0.5s;
+	animation-name: var(--auto-complete);
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-up {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 100%;
+  }
 }
 
 @keyframes appear {

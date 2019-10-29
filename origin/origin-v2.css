@@ -394,7 +394,6 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /********************************************************************* Gif Picker *******************************************************************/
 .result-3w1ZcL:hover:after{box-shadow:inset 0 0 0 2px var(--main-color)!important;}
 .autocomplete-1vrmpx{background:rgba(0, 0, 0, .8)!important;background-repeat:no-repeat;background-size:cover!important;box-shadow:inset 0 0 0 1000px rgba(0,0,0,.8);}
-.autocomplete-1vrmpx{animation:slide-up 150ms ease;}
 .da-categoryFadeBlurple{background:var(--main-color)!important;opacity:0.6!important;}
 
 /********************************************************************* Popouts and Dropdowns *******************************************************************/
