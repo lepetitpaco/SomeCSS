@@ -6,19 +6,19 @@
  */
 
 /*Profile Picture in popout*/
-.userPopout-3XzG_A .wrapper-3t9DeA foreignObject {-webkit-mask: none;mask: none;}
+.userPopout-3XzG_A .wrapper-3t9DeA foreignObject {-webkit-mask: none!important;mask: none!important;}
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA{width: 100px!important;height: 100px!important;}
-.userPopout-3XzG_A .headerTop-3C2Zn0{padding: 50px 0px 0px 0px;}
+.userPopout-3XzG_A .headerTop-3C2Zn0{padding: 50px 0px 0px 0px!important;}
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3 {width: 100px!important;height: 100px!important;}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3 foreignObject {-webkit-mask: none;mask: none;}
+.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3 foreignObject {-webkit-mask: none!important;mask: none!important;}
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {width: 100px!important;height: 100px!important;}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 foreignObject {-webkit-mask: none;mask: none;}
+.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 foreignObject {-webkit-mask: none!important;mask: none!important;}
 .userPopout-3XzG_A .headerTop-3C2Zn0 span.BE-badges.BE-badges-popout.topSectionNormal-2-vo2m {position: absolute!important;}
-.userPopout-3XzG_A::before{top:250px;background-position: top;}
-.userPopout-3XzG_A .headerTop-3C2Zn0{padding: 0px 0px 0px 0px;}
+.userPopout-3XzG_A::before{top:250px!important;background-position: top!important;}
+.userPopout-3XzG_A .headerTop-3C2Zn0{padding: 0px 0px 0px 0px!important;}
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA{width: 250px!important;height: 250px!important;}
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3 {width: 250px!important;height: 250px!important;}
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {width: 250px!important;height: 250px!important;}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA svg rect.pointerEvents-2zdfdO{width: 12px;height: 12px;}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA svg rect{x: 65;y: 65;}
-.userPopout-3XzG_A  .headerNormal-T_seeN {background-color: var(--background-secondary);}
+.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA svg rect.pointerEvents-2zdfdO{width: 12px!important;height: 12px!important;}
+.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA svg rect{x: 65!important;y: 65!important;}
+.userPopout-3XzG_A  .headerNormal-T_seeN {background-color: var(--background-secondary)!important;}

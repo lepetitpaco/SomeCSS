@@ -1,0 +1,36 @@
+/**
+ * @name Origin/Obliviaz
+ * @author lepetitpaco
+ * @version 2.1
+ * @description Inspired by the obliviaz series of arts by ching yeh https://www.artstation.com/chingyeh/albums/566069
+ */
+
+@import "https://lepetitpaco.github.io/SomeCSS/origin/origin-v2.css";
+
+/* Settings Specific to Dark Theme Set */
+.theme-dark {
+	/* Main Color
+		* Color Picker
+		* https://www.google.com/search?q=color+picker
+		* only use the RGB Value
+	*/
+	--mc : 154, 121, 41;
+	/* Main Background */
+    --background-url: url(https://cdnb.artstation.com/p/assets/images/images/017/818/885/large/ching-yeh-.jpg?1557437420);
+	--background-brightness: 80%;
+	/*==== User Popout ====*/
+	--popout-url: url(https://cdnb.artstation.com/p/assets/images/images/014/698/301/large/ching-yeh-2.jpg?1545073061);
+	--popout-brightness: 80%;
+	/*==== Modal Popout ====*/
+	--modal-url: url(https://cdnb.artstation.com/p/assets/images/images/021/320/949/large/ching-yeh-.jpg?1571225574);
+	--modal-brightness: 50%;
+	--modalPopout-width: 650px;
+	--modalPopout-height: 900px;
+	/*Home Icon*/
+	--home-icon: url(https://i.imgur.com/rObbX3K.png);
+	--home-icon-bg-color: #00151c;
+}
+
+body::after, .callout-backdrop::after{
+	background-position: top;
+}

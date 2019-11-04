@@ -5,6 +5,18 @@
  * @description Second Version of Origin
  */
 
+
+ /* USING BLURPLE RECOLOR BY DEVILBRO
+  * "name":"BlurpleRecolor",
+  * "description":"Replaces discords native blurple with your own color, change color in themefile.",
+  * "author":"DevilBro",
+  * "version":"1.0.0",
+  * "website":"https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor",
+  * "source":"https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BlurpleRecolor/BlurpleRecolor.theme.css"
+  */
+ @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+
+
 /*===============================Default Settings===============================*/
 /* Default Theme Dark and Light Settings, don't touch */
 .theme-dark {
@@ -119,6 +131,9 @@
 	*/
 	--mc : 43, 121, 255;
 	--main-color: rgb(var(--mc));
+	/* BlurpleRecolor Settings */
+	--accentcolor: var(--mc);
+	--linkcolor: var(--mc);
 	/* Main Background */
     --background-url: url(https://i.imgur.com/lsMGvvH.jpg);
 	--background-brightness: 80%;
@@ -140,37 +155,7 @@
 }
 /* Settings Specific to Light Theme Set */
 .theme-light {
-	/* Main Discord Settings */
-	--background-floating: rgba(255, 255, 255, 0.8);
-	--channels-default: #000000;/*Text and Voice Chats*/
-	--interactive-normal: #000000;
-	--interactive-hover: #000000;
-	--interactive-active: #000000;
-	--interactive-muted: #b2b2b2;
-	/* Main Color
-		* Color Picker
-		* https://www.google.com/search?q=color+picker
-		* only use the RGB Value
-	*/
-	--mc : 43, 121, 255;
-	--main-color: rgb(var(--mc));
-	/* Main Background */
-    --background-url: url(https://i.imgur.com/mMkFCWY.png);
-	--background-brightness: 70%;
-	--background-color: rgba(255,255,255,.3) !important;
-	/*==== User Popout ====*/
-	--popout-url: url(https://i.imgur.com/ofMwBOV.jpg);
-	--popout-brightness: 100%;
-	--popout-text-color: #000;
-	/*==== Modal Popout ====*/
-	--modal-url: url(https://i.imgur.com/f1NM3Mi.png);
-	--modal-brightness: 100%;
-	--modalPopout-width: 900px;
-	--modalPopout-height: 650px;
-	--modal-text-color: #000;
-	/*Home Icon*/
-	--home-icon: url(https://i.imgur.com/rObbX3K.png);
-	--home-icon-bg-color: #00151c;
+	/* Ew Who uses light theme */
 }
 
 
@@ -234,7 +219,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /************************************************************* USER POPOUT ONLY *************************************************************/
 /*User Popout*/
 /*Background*/
-.userPopout-3XzG_A::before{content:"";position:absolute;top:0;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;background-image:var(--popout-url);background-size:cover;background-repeat:no-repeat;filter:brightness(var(--popout-brightness));background-color:var(--popout-bgc);}
+.userPopout-3XzG_A::before{content:"";position:absolute;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;background-image:var(--popout-url);background-size:cover;background-repeat:no-repeat;filter:brightness(var(--popout-brightness));background-color:var(--popout-bgc);}
 
 /*Header Body Footer*/
 /*Text Coloring*/
@@ -471,30 +456,9 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 
 /* Switches */
 .themeDefault-24hCdX{background-color:rgba(0,0,0,.8);}
-.themeDefault-24hCdX.valueChecked-m-4IJZ{background-color:var(--main-color);}
 
 /*Hover Member Server Setting Params*/
 .theme-dark .card-FDVird:before{background-color:rgba(var(--mc),.8);}
-
-/*Check Boxes*/
-.item-26Dhrx{border-color:rgba(0,0,0,.8)!important;background-color:rgba(0,0,0,.8)!important;}
-.checkboxWrapper-SkhIWG .checked-3_4uQ9{background-color:var(--main-color);border-color:#fff!important;}
-.checkboxWrapper-SkhIWG .checked-3_4uQ9 svg g polyline {stroke: #fff};
-
-/*Overlay Notifications*/
-.wrapper-3jrx9n {border: 2px solid var(--main-color)!important;}
-.selected-mKYnfr.option-n0icdO{background-color: var(--main-color);var(--main-color);}
-.option-n0icdO{background-color: rgba(0,0,0,.8)}
-.disabled-3I9jyo{color: rgba(0,0,0,.8)}
-
-/*SLiders Fill*/
-.bar-2Qqk5Z{background: rgba(0,0,0,.8)!important;}
-.barFill-23-gu-{background: var(--main-color);}
-
-/*Video Settings*/
-.userSettingsVoice-iwdUCU .media-engine-video{background-color: transparent;}
-.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{background-color: rgba(0,0,0,.8);border-color:var(--main-color);}
-.theme-light .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{background-color: rgba(255,255,255,.8);border-color:var(--main-color);}
 
 /*Billing*/
 .theme-dark .paymentPane-3bwJ6A{background-color: rgba(0,0,0,.6);}
@@ -509,3 +473,15 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .theme-light .inset-GQDQYw{background-color: rgba(255, 255, 255, 0.5);}
 .theme-dark .recentlyPlayedContainer-2F3MqS{background-color: rgba(0, 0, 0, 0.5);}
 .theme-light .recentlyPlayedContainer-2F3MqS{background-color: rgba(255, 255, 255, 0.5);}
+
+/******************************************************************* BD PLUGINS ******************************************************************/
+
+/**
+ * @name Better Discord Plugin
+ * @author lepetitpaco
+ * @version 1
+ * @description Adapts Better Discord Plugins Style to the theme
+ */
+
+/*BD Clock*/
+#dv-mount{background-color: transparent;}
