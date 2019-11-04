@@ -237,13 +237,13 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .activityUserPopout-2yItg2 .name-29ETJS{color:var(--popout-text-color)!important;}
 
 /*Foreground Grays to Transparent*/
-.userPopout-3XzG_A .headerNormal-T_seeN{background-color: transparent;}
-.userPopout-3XzG_A .bodyInner-245q0L{background-color: transparent;}
-.userPopout-3XzG_A .footer-1fjuF6{background-color: transparent;}
-.userPopout-3XzG_A .headerPlaying-j0WQBV{background:transparent;}
-.userPopout-3XzG_A .headerSpotify-zpWxgT{background:transparent;}
-.userPopout-3XzG_A .headerStreaming-2FjmGz{background:transparent;}
-.userPopout-3XzG_A .activity-11LB_k{background:transparent;}
+.userPopout-3XzG_A .headerNormal-T_seeN{background-color: transparent!important;}
+.userPopout-3XzG_A .bodyInner-245q0L{background-color: transparent!important;}
+.userPopout-3XzG_A .footer-1fjuF6{background-color: transparent!important;}
+.userPopout-3XzG_A .headerPlaying-j0WQBV{background:transparent!important;}
+.userPopout-3XzG_A .headerSpotify-zpWxgT{background:transparent!important;}
+.userPopout-3XzG_A .headerStreaming-2FjmGz{background:transparent!important;}
+.userPopout-3XzG_A .activity-11LB_k{background:transparent!important;}
 
 /*Quick Chat Input*/
 .userPopout-3XzG_A .quickMessage-2XpSaN{background:rgba(0,0,0,0.4);}
@@ -270,9 +270,9 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .root-SR8cQa {border-radius:0px;box-shadow:none;border:2px solid var(--main-color);}
 
 /*Backgrounds Transparent*/
-.root-SR8cQa .topSectionPlaying-1J5E4n{background: transparent;}
-.root-SR8cQa .topSectionSpotify-1lI0-P{background: transparent;}
-.root-SR8cQa .topSectionStreaming-1Tpf5X{background: transparent;}
+.root-SR8cQa .topSectionPlaying-1J5E4n{background: transparent!important;}
+.root-SR8cQa .topSectionSpotify-1lI0-P{background: transparent!important;}
+.root-SR8cQa .topSectionStreaming-1Tpf5X{background: transparent!important;}
 /*All text Colors Cuz I'm lazy*/
 .root-SR8cQa .username-2b1r56 {color: var(--modal-text-color)!important;}
 .root-SR8cQa .discriminator-xUhQkU {color: var(--modal-text-color)!important;opacity: 1}
