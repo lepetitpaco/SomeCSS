@@ -219,7 +219,7 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 /************************************************************* USER POPOUT ONLY *************************************************************/
 /*User Popout*/
 /*Background*/
-.userPopout-3XzG_A::before{content:"";position:absolute;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;background-image:var(--popout-url);background-size:cover;background-repeat:no-repeat;filter:brightness(var(--popout-brightness));background-color:var(--popout-bgc);}
+.userPopout-3XzG_A::before{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;background-image:var(--popout-url);background-size:cover;background-repeat:no-repeat;filter:brightness(var(--popout-brightness));background-color:var(--popout-bgc);}
 
 /*Header Body Footer*/
 /*Text Coloring*/
