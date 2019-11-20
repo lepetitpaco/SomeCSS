@@ -5,18 +5,6 @@
  * @description Second Version of Origin
  */
 
-
- /* USING BLURPLE RECOLOR BY DEVILBRO
-  * "name":"BlurpleRecolor",
-  * "description":"Replaces discords native blurple with your own color, change color in themefile.",
-  * "author":"DevilBro",
-  * "version":"1.0.0",
-  * "website":"https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor",
-  * "source":"https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BlurpleRecolor/BlurpleRecolor.theme.css"
-  */
- @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
-
-
 /*===============================Default Settings===============================*/
 /* Default Theme Dark and Light Settings, don't touch */
 .theme-dark {
@@ -131,9 +119,6 @@
 	*/
 	--mc : 43, 121, 255;
 	--main-color: rgb(var(--mc));
-	/* BlurpleRecolor Settings */
-	--accentcolor: var(--mc);
-	--linkcolor: var(--mc);
 	/* Main Background */
     --background-url: url(https://i.imgur.com/lsMGvvH.jpg);
 	--background-brightness: 80%;
@@ -215,6 +200,9 @@ body::after{background-image:var(--background-url)!important;filter:brightness(v
 .jumpToPresentBar-9P20AM{left:auto!important;background-color: var(--main-color)}
 /*New Messages*/
 .newMessagesBar-mujexs{background-color: var(--main-color);}
+/*Time Stamps*/
+.timestampCozy-2hLAPV {color: #ffffff20;transition: ease-in-out .2s;}
+.timestampCozy-2hLAPV:hover {color: #ffffff;}
 
 /************************************************************* USER POPOUT ONLY *************************************************************/
 /*User Popout*/
