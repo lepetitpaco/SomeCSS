@@ -52,6 +52,7 @@
 	--interactive-normal:#fff;
 
     /*Layers Opacity*/
+    --modal-color: rgba(0,0,0,.8);
     --black: 0,0,0;
     --type-window-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.4));
     --chat-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.6));
@@ -66,7 +67,7 @@
     --channel-list-private-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.5));
     --user-pannel-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.5));
     --guild-list-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.4));
-    --modal-color: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.8));
+
 
 	/* Main Color
 		* Color Picker
