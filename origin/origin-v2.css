@@ -81,9 +81,9 @@
 
     /* Main Background */
     --background-url: url(https://i.imgur.com/g5g1tAu.jpg);
-    --background-color: rgba(0,0,0,.0);
+    --background-color: rgba(0,0,0,.5);
     /* --background-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
-    --layers-opacity: 10;
+    --layers-opacity: 0;
     --background-brightness:100%;
     --background-blur:0px;
     --background-contrast:100%;
@@ -265,7 +265,7 @@ body::after,.callout-backdrop::after{background-position:center;background-size:
 .userPopout-3XzG_A::before{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;
 background-position:center;background-image:var(--popout-url);
 background-size:cover;background-repeat:no-repeat;
-filter: brightness(100%) blur(var(--popout-blur)) contrast(var(--popout-contrast)) grayscale(var(--popout-grayscale)) hue-rotate(var(--popout-hue-rotate)) invert(var(--popout-invert)) opacity(var(--popout-opacity)) saturate(var(--popout-saturate)) sepia(var(--popout-sepia));
+filter: brightness(var(--popout-brightness)) blur(var(--popout-blur)) contrast(var(--popout-contrast)) grayscale(var(--popout-grayscale)) hue-rotate(var(--popout-hue-rotate)) invert(var(--popout-invert)) opacity(var(--popout-opacity)) saturate(var(--popout-saturate)) sepia(var(--popout-sepia));
 background-color:var(--popout-bgc);}
 
 /*Header Body Footer*/
@@ -311,7 +311,7 @@ background-color:var(--popout-bgc);}
 /************************************************************* MODAL POPOUT ONLY *************************************************************/
 /*Background*/
 .root-SR8cQa::before{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;background-position:center;overflow:hidden;background-image:var(--modal-url);background-size:cover;background-repeat:no-repeat;
-filter: brightness(100%) blur(var(--modal-blur)) contrast(var(--modal-contrast)) grayscale(var(--modal-grayscale)) hue-rotate(var(--modal-hue-rotate)) invert(var(--modal-invert)) opacity(var(--modal-opacity)) saturate(var(--modal-saturate)) sepia(var(--modal-sepia));}
+filter: brightness(var(--modal-brightness)) blur(var(--modal-blur)) contrast(var(--modal-contrast)) grayscale(var(--modal-grayscale)) hue-rotate(var(--modal-hue-rotate)) invert(var(--modal-invert)) opacity(var(--modal-opacity)) saturate(var(--modal-saturate)) sepia(var(--modal-sepia));}
 
 /*Size*/
 .root-SR8cQa{height:var(--modalPopout-height);width:var(--modalPopout-width);}
