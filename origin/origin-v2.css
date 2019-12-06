@@ -181,7 +181,7 @@ body::after,.callout-backdrop::after{background-position:center;background-size:
 .form-2fGMdU {margin-left:0px;margin-right:0px;padding-left:20px;padding-right:20px;background-color:var(--chat-input-form-bgc);}
 
 /* Chat Messages */
-.containerCozy-jafyvG{background-color: var(--chat-message-bgc);border-radius: 00px;padding-top: 20px;margin-right: 20px;margin-bottom: 0px;padding-bottom: var(--adjust-bottom)}
+.containerCozy-jafyvG{background-color: var(--chat-message-bgc);border-radius: 00px;padding-top: 20px;margin-right: 20px;margin-bottom: 0px;}
 .containerCozy-jafyvG:nth-child(1n){background: var(--chat-message-bgc-1);}
 .containerCozy-jafyvG:nth-child(2n){background: var(--chat-message-bgc-2);}
 
