@@ -140,7 +140,7 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 body::after{z-index:-9999;}
 body::after{
     background-image:var(--background-url)!important;
-    filter: brightness(100%) blur(var(--background-blur)) contrast(var(--background-contrast)) grayscale(var(--background-grayscale)) hue-rotate(var(--background-hue-rotate)) invert(var(--background-invert)) opacity(var(--background-opacity)) saturate(var(--background-saturate)) sepia(var(--background-sepia));
+    filter: brightness(var(--background-brightness)) blur(var(--background-blur)) contrast(var(--background-contrast)) grayscale(var(--background-grayscale)) hue-rotate(var(--background-hue-rotate)) invert(var(--background-invert)) opacity(var(--background-opacity)) saturate(var(--background-saturate)) sepia(var(--background-sepia));
 }
 body::after,.callout-backdrop::after{background-position:center;background-size:cover;content:"";height:100%;left:0;position:absolute;top:0;width:100%;}
 
