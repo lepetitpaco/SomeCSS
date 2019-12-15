@@ -74,6 +74,7 @@
 		* https://www.google.com/search?q=color+picker
 		* only use the RGB Value
 	*/
+
 	--mc : 18, 123, 99;
 	--main-color: rgb(var(--mc));
 	--accentcolor: var(--mc);		/* blurple - default: 114,137,218 */
@@ -83,7 +84,7 @@
     --background-url: url(https://i.imgur.com/g5g1tAu.jpg);
     --background-color: rgba(0,0,0,.5);
     /* --background-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
-    --layers-opacity: 0;
+    --layers-opacity: 0; /*0 To no use it, then 1 to whatever*/
     --background-brightness:100%;
     --background-blur:0px;
     --background-contrast:100%;
@@ -236,6 +237,9 @@ body::after,.callout-backdrop::after{background-position:center;background-size:
 }
 
 /************************************************************* CHAT SECTION *************************************************************/
+/*Profile Picture in Chat*/
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA foreignObject img.avatar-VxgULZ {border-radius: 5px!important;}
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA foreignObject {-webkit-mask: none;mask: none;}
 /*Message Wrapper*/
 /*Border Top Above Chat input*/
 .channelTextArea-rNsIhG{border-top:none}
