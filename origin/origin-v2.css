@@ -146,16 +146,13 @@ body::after{
 body::after,.callout-backdrop::after{background-position:center;background-size:cover;content:"";height:100%;left:0;position:absolute;top:0;width:100%;}
 
 /*Container*/
-.app,.layers,.layer,.container-2lgZY8,.theme-dark .layer-3QrUeG,.theme-dark .layers-3iHuyZ,.appMount-3lHmkl{background-color:transparent!important;background:transparent!important;}
+.app,.layers,.layer,.container-2lgZY8,.theme-dark .layer-3QrUeG,.theme-dark .layers-3iHuyZ,.appMount-3lHmkl,.container-1D34oG{background-color:transparent!important;background:transparent!important;}
 .bg-h5JY_x{background:var(--background-color);}
 
 /*Container Background*/
 /* Dark Line Above Chat and Channels*/
 .content-yTz4x3:before{display:none;}
 .header-2o-2hj{box-shadow:none;}
-
-/*Friends BG (Will probably be updated at some point to a var)*/
-.theme-dark .container-3gCOGc{background-color:transparent;}
 
 /************************************************************* TAKES CARE OF GLOBAL ELEMENTS *************************************************************/
 
@@ -379,7 +376,12 @@ filter: brightness(var(--modal-brightness)) blur(var(--modal-blur)) contrast(var
 }
 
 /********************************************************************* Pinned Messages and Mentions *******************************************************************/
-
+.layer-v9HyYc{
+  background-color: var(--modal-color);
+}
+.messageGroupWrapper-o-Zw7G{
+  border: 1px solid var(--main-color);
+}
 /********************************************************************* Emoji Picker *******************************************************************/
 .emojiPicker-3m1S-j{background-color:var(--modal-color);}
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU{background-color:transparent;}
