@@ -254,8 +254,17 @@
 
 /********************************************************************* Popouts and Dropdowns *******************************************************************/
 
-/*Server Dropdonwn*/
+/**************************************** HEADER LEFT ********************************************************/
+/*Server Settings dropdown*/
 .item-1GzJrl:hover{background-color:var(--main-color);}
+.item-1GzJrl:hover .label-1Y-LW5{color:var(--white);}
+.item-1GzJrl:hover .iconContainer-2ZxvJk{color:var(--white);}
+.item-1GzJrl:hover .iconContainer-2ZxvJk .premiumGuildIcon-BhwtRn{color:var(--white);}
+
+/**************************************** DROP DOWN MENU - RIGHT CLICK *****************************************/
+.clickable-11uBi-:hover .label-JWQiNe{color:var(--white);}
+.itemBase-tz5SeC.danger-2dXSTE:hover{color:var(--white);}
+
 /*Add Role Dropdown*/
 .row-rrHHJU.selected-1pIgLL{background:linear-gradient(90deg,rgba(var(--mc),.6),rgba(var(--mc),.2));}
 .theme-dark .autocompleteArrow-Zxoy9H,.theme-dark .autocompleteHeaderBackground-30T70q{background-color:var(--modal-color);}
