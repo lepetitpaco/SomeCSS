@@ -35,6 +35,21 @@
   --channels-default: #fff;
   --interactive-normal: #fff;
 
+  /*Layers Opacity*/
+	--type-window-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.4));
+	--chat-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.6));
+	--chat-message-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.0));
+	--chat-message-bgc-1: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.3));
+	--chat-message-bgc-2: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.0));
+	--chat-input-form-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.6));
+	--chat-input-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.6));
+	--member-list-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.6));
+	--header-left-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.5));
+	--header-right-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.5));
+	--channel-list-private-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.5));
+	--user-pannel-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.5));
+	--guild-list-bgc: rgba(var(--black),calc((var(--layers-opacity) / 10) * 0.4));
+
   /* Main Color
 		* Color Picker
 		* https://www.google.com/search?q=color+picker
