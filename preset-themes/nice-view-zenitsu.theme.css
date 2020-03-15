@@ -1,0 +1,81 @@
+/**
+ * @name Nice View Zenitsu
+ * @author lepetitpaco
+ * @version 1
+ * @description Just a Nice view of Zenitsu
+ */
+
+@import "https://lepetitpaco.github.io/SomeCSS/nice-view/nice-view.css";
+
+.theme-dark {
+  --mc : 252, 191, 31;
+  --main-color: rgb(var(--mc));
+  /* blurple - default: 114,137,218 */
+  --accentcolor: var(--mc);
+  /* link - default: 0,176,244 */
+  --linkcolor: var(--mc);
+  --modal-color: rgba(0, 0, 0, .8);
+  --black: 0, 0, 0;
+  --white: #fff;
+  /* Main Background */
+  --background-url: url(https://i.imgur.com/XPy7Ghx.png);
+  /* --background-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
+  --background-color: rgba(0, 0, 0, .0);
+  /*0 To no use it, then 1 to whatever*/
+  --layers-opacity: 0;
+  --background-brightness: 100%;
+  --background-blur: 0px;
+  --background-contrast: 100%;
+  --background-grayscale: 0%;
+  --background-hue-rotate: 0deg;
+  --background-invert: 0%;
+  --background-opacity: 100%;
+  --background-saturate: 100%;
+  --background-sepia: 0%;
+  /* Foreground*/
+  --foreground-url: url(https://i.imgur.com/XPy7Ghx.png);
+  /* --foreground-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
+  --foreground-color: rgba(0, 0, 0, .0);
+  /*0 To no use it, then 1 to whatever*/
+  --layers-opacity: 0;
+  --foreground-brightness: 100%;
+  --foreground-blur: 5px;
+  --foreground-contrast: 100%;
+  --foreground-grayscale: 0%;
+  --foreground-hue-rotate: 0deg;
+  --foreground-invert: 0%;
+  --foreground-opacity: 100%;
+  --foreground-saturate: 100%;
+  --foreground-sepia: 0%;
+  /* User Popout */
+  --popout-url: url(https://i.imgur.com/fLiThJw.jpg);
+  /*Only visible if no popout url, its behind the image*/
+  --popout-bgc: rgba(0, 0, 0, .8);
+  --popout-text-color: #fff;
+  --popout-brightness: 50%;
+  --popout-blur: 2px;
+  --popout-contrast: 100%;
+  --popout-grayscale: 0%;
+  --popout-hue-rotate: 0deg;
+  --popout-invert: 0%;
+  --popout-opacity: 100%;
+  --popout-saturate: 100%;
+  --popout-sepia: 0%;
+  /* Modal Popout */
+  --modal-url: url(https://i.imgur.com/jdf3iHG.jpg);
+  /*Only visible if no popout url, its behind the image*/
+  --modal-bgc: rgba(0, 0, 0, .8);
+  --modal-text-color: #fff;
+  --modal-brightness: 50%;
+  --modal-blur: 2px;
+  --modal-contrast: 100%;
+  --modal-grayscale: 0%;
+  --modal-hue-rotate: 0deg;
+  --modal-invert: 0%;
+  --modal-opacity: 100%;
+  --modal-saturate: 100%;
+  --modal-sepia: 0%;
+  /* Home Icon */
+  --home-icon: url(https://i.imgur.com/rCJmbsX.gif);
+  --home-icon-bgc: rgb(252, 191, 31);
+}

@@ -1,0 +1,73 @@
+/**
+ * @name Origin Zenitsu
+ * @author lepetitpaco
+ * @version 2.5
+ * @description Zenitsu from Demon Slayer
+ */
+
+@import "https://lepetitpaco.github.io/SomeCSS/origin/origin-v2.css";
+
+/* Settings Specific to Dark Theme Set */
+.theme-dark {
+
+	  /* Main Color
+		* Color Picker
+		* https://www.google.com/search?q=color+picker
+		* only use the RGB Value
+	*/
+	--mc : 252, 191, 31;
+	--main-color: rgb(var(--mc));
+	/* blurple - default: 114,137,218 */
+	--accentcolor: var(--mc);
+	/* link - default: 0,176,244 */
+	--linkcolor: var(--mc);
+	--modal-color: rgba(0, 0, 0, .8);
+	--black: 0, 0, 0;
+	--white: #fff;
+	/* Main Background */
+	--background-url: url(https://i.imgur.com/UEUqiCC.jpg);
+	/* --background-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
+	--background-color: rgba(0, 0, 0, .5);
+	/*0 To no use it, then 1 to whatever*/
+	--layers-opacity: 0;
+	--background-brightness: 100%;
+	--background-blur: 0px;
+	--background-contrast: 100%;
+	--background-grayscale: 0%;
+	--background-hue-rotate: 0deg;
+	--background-invert: 0%;
+	--background-opacity: 100%;
+	--background-saturate: 100%;
+	--background-sepia: 0%;
+	/* User Popout */
+	--popout-url: url(https://i.imgur.com/fLiThJw.jpg);
+	--popout-bgc: rgba(0, 0, 0, .8);
+	/*Only visible if no popout url, its behind the image*/
+	--popout-text-color: #fff;
+	--popout-brightness: 30%;
+	--popout-blur: 0px;
+	--popout-contrast: 100%;
+	--popout-grayscale: 0%;
+	--popout-hue-rotate: 0deg;
+	--popout-invert: 0%;
+	--popout-opacity: 100%;
+	--popout-saturate: 100%;
+	--popout-sepia: 0%;
+	/* Modal Popout */
+	--modal-url: url(https://i.imgur.com/jdf3iHG.jpg);
+	--modal-bgc: rgba(0, 0, 0, .8);
+	/*Only visible if no popout url, its behind the image*/
+	--modal-text-color: #fff;
+	--modal-brightness: 50%;
+	--modal-blur: 0px;
+	--modal-contrast: 100%;
+	--modal-grayscale: 0%;
+	--modal-hue-rotate: 0deg;
+	--modal-invert: 0%;
+	--modal-opacity: 100%;
+	--modal-saturate: 100%;
+	--modal-sepia: 0%;
+	/* Home Icon */
+	--home-icon: url(https://i.imgur.com/rCJmbsX.gif);
+	--home-icon-bgc: rgb(252, 191, 31);
+}
