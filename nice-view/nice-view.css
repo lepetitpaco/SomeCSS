@@ -1,16 +1,25 @@
 /**
  * @name Nice View Dev
  * @author lepetitpaco
- * @version 1
- * @description Just a Nice view
+ * @version Dev
+ * @description Dev Version if the Nice View Theme
+ * @authorId 152431535914614785
+ * @invite fuz2Dyy
+ * @donate https://paypal.me/lepetitpaco?locale.x=fr_FR
+ * @website https://github.com/lepetitpaco/SomeCSS/tree/master/
+ */
+
+ /**
+ * Thank you to DevilBro for allowing me to use his theme BlurpleRecolor
+ * The theme BlurpleRecolor is available here https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
  */
 
  @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
  @import url(https://lepetitpaco.github.io/SomeCSS/starter-pack/StarterPack.css);
 
-.theme-dark {
-  --background-primary: transparent;
+ .theme-dark {
   --background-secondary: transparent;
+  --background-primary: transparent;
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --deprecated-store-bg: transparent;
@@ -53,8 +62,6 @@
   --background-url: url(https://i.imgur.com/g5g1tAu.jpg);
   /* --background-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
   --background-color: rgba(0, 0, 0, .0);
-  /*0 To no use it, then 1 to whatever*/
-  --layers-opacity: 0;
   --background-brightness: 100%;
   --background-blur: 0px;
   --background-contrast: 100%;
@@ -68,8 +75,6 @@
   --foreground-url: url(https://i.imgur.com/g5g1tAu.jpg);
   /* --foreground-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
   --foreground-color: rgba(0, 0, 0, .0);
-  /*0 To no use it, then 1 to whatever*/
-  --layers-opacity: 0;
   --foreground-brightness: 100%;
   --foreground-blur: 5px;
   --foreground-contrast: 100%;
@@ -119,12 +124,12 @@
 .app-2rEoOp{background-color:rgba(0,0,0,.6);border-radius:20px;}
 
 /* Chat */
-.messagesWrapper-3lZDfY{background-color:rgba(0,0,0,.0);}
+.messagesWrapper-3lZDfY{background-color:rgba(0,0,0,.0);padding-bottom:15px;}
 .chat-3bRxxu{background:transparent;}
 
 /* Chat Input */
 .innerNoAutocomplete-1WpcVO{background-color:rgba(0,0,0,.0);}
-.form-2fGMdU{margin-left:0;margin-right:0;}
+.form-2fGMdU{margin-left:0;margin-right:0;margin-top: 7px;}
 .innerNoAutocomplete-1WpcVO{border-radius:0;}
 .channelTextArea-rNsIhG{border-top:0px solid var(--main-color);}
 .channelTextArea-rNsIhG{padding-top:0;margin-bottom:0;margin-bottom:16px;}
@@ -189,6 +194,9 @@
 
 /*New Messages*/
 .newMessagesBar-mujexs{background-color: var(--main-color);}
+
+/* Typing */
+.base-gE7OpD{bottom:-3px;}
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 

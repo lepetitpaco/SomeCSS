@@ -3,6 +3,15 @@
  * @author lepetitpaco
  * @version 1
  * @description Just a Nice view of Shinobu
+ * @authorId 152431535914614785
+ * @invite fuz2Dyy
+ * @donate https://paypal.me/lepetitpaco?locale.x=fr_FR
+ * @website https://github.com/lepetitpaco/SomeCSS/tree/master/
+ */
+
+/**
+ * Thank you to DevilBro for allowing me to use his theme BlurpleRecolor
+ * The theme BlurpleRecolor is available here https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
  */
 
 @import "https://lepetitpaco.github.io/SomeCSS/nice-view/nice-view.css";
@@ -22,7 +31,6 @@
   /* --background-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
   --background-color: rgba(0, 0, 0, .0);
   /*0 To no use it, then 1 to whatever*/
-  --layers-opacity: 0;
   --background-brightness: 100%;
   --background-blur: 0px;
   --background-contrast: 100%;
@@ -36,8 +44,6 @@
   --foreground-url: url(https://i.imgur.com/GdnIVNO.png);
   /* --foreground-color: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .2) 35%,rgba(0, 0, 0, .2) 75%, rgba(0, 0, 0, .9) 100%) !important; */
   --foreground-color: rgba(0, 0, 0, .0);
-  /*0 To no use it, then 1 to whatever*/
-  --layers-opacity: 0;
   --foreground-brightness: 100%;
   --foreground-blur: 5px;
   --foreground-contrast: 100%;
