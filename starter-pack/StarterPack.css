@@ -125,3 +125,6 @@
   .scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc .homeIcon-tEMBK1{display:none;}
   .scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc foreignObject .childWrapper-anI2G9{background-image:var(--home-icon);background-color:var(--home-icon-bgc);background-size:cover;}
   
+  /* Emoji + Gif Panel */
+.button-1YfofB.buttonColor-7qQbGO{color:var(--white);}
+.contentWrapper-2txmjs{background-color: var(--popout-bgc);}

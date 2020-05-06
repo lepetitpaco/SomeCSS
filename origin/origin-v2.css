@@ -126,7 +126,7 @@
 /* Chat Input */
 .innerNoAutocomplete-1WpcVO{background-color:var(--chat-input-bgc);}
 .channelTextArea-rNsIhG{border-top:none;}
-.form-2fGMdU {margin-left:0px;margin-right:0px;padding-left:20px;padding-right:20px;background-color:var(--chat-input-form-bgc);}
+.form-2fGMdU{margin-left:0;margin-right:0;margin-top: 0px;}
 
 /* Chat Messages */
 .containerCozy-jafyvG{background-color: var(--chat-message-bgc);border-radius: 00px;padding-top: 20px;margin-right: 20px;margin-bottom: 0px;}
