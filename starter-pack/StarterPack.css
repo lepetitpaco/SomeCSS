@@ -222,8 +222,8 @@ body::after,.callout-backdrop::after{background-image:var(--background-tall-url)
 .guildSeparator-3s64Iy{background-color:var(--main-color);}
 
 /*Guild Icon*/
-.scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc .homeIcon-tEMBK1{display:none;}
-.scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc foreignObject .childWrapper-anI2G9{background-image:var(--home-icon);background-color:var(--home-icon-bgc);background-size:cover;}
+.homeIcon-tEMBK1 path {fill: var(--discord-icon-bgc);}
+.tutorialContainer-1v44GL .listItemWrapper-3X98Pc .wrapper-25eVIn foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 {background-image:var(--home-icon);background-color:var(--home-icon-bgc);background-size:cover; }
 
 /*
  * CHAT SECTION
