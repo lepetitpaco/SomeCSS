@@ -9,7 +9,10 @@
  * @website https://github.com/lepetitpaco/SomeCSS/tree/master/
  */
 
-const config = { "info": { "name": "VideoBackground", "authors": [{ "name": "Lepetitpaco", "discord_id": "152431535914614785", "github_username": "lepetitpaco" }], "version": "2", "description": "Enables a video background.", "github": "https://github.com/lepetitpaco/SomeCSS" }, "main": "index.js", "defaultConfig": [{ "type": "category", "id": "videobackground", "name": "Video Background", "collapsible": false, "shown": false, "settings": [{ "type": "textbox", "id": "videoLink", "name": "Video  Link", "note": "Change the link of the video you want as a background", "value": "" }] }] };
+const config = { "info": { "name": "VideoBackground", "authors": [{ "name": "Lepetitpaco", "discord_id": "152431535914614785", "github_username": "lepetitpaco" }], "version": "2", "description": "Enables a video background.", "github": "https://github.com/lepetitpaco/SomeCSS" }, "main": "index.js", "defaultConfig": [{"type": "textbox", "id": "videoLink", "name": "Video  Link", "note": "Change the link of the video you want as a background. Has to have the file extension.", "value": "" }] };
+
+
+
 var VideoBackground = (() => {
 
     return !global.ZeresPluginLibrary ? class {
@@ -18,7 +21,7 @@ var VideoBackground = (() => {
     } : (([Plugin, Api]) => {
         const plugin = (Plugin, Library) => {
 
-            const { Logger, Patcher, Settings, PluginUtilities, DiscordModules, DiscordSelectors, ReactTools, DOMTools, Utilities, WebpackModules } = Library;
+            const { Settings } = Library;
 
 
             return class VideoBackground extends Plugin {
@@ -47,8 +50,8 @@ var VideoBackground = (() => {
                         videotagdiv.innerHTML = '<video id="videoloop" loop muted autoplay></video>';
                         document.body.prepend(videotagdiv);
                         var source = document.getElementById("videoloop");
-                        source.setAttribute('src', this.settings.videobackground.videoLink);
-                        document.getElementById("videoloop").setAttribute('style', 'position: fixed;top: 50 %;left: 50 %;z-index: 0;min-width: 100 %;min-height: 100 %;width: auto;height: auto;transform: translate(-50 %, -50 %;');
+                        source.setAttribute('src', this.settings.videoLink);
+                        document.getElementById("videoloop").setAttribute('style', 'position: fixed;top:50 %;left:50 %;z-index:-9999;min-width:100%;min-height:100%;width: auto;height: auto;transform:translate(-50%,-50%;');
                     }
                 }
 
