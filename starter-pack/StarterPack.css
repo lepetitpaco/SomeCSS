@@ -95,7 +95,7 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 /*
  * Container
  */
-/* .app-1q1i1E,
+.app-1q1i1E,
 .app-2rEoOp,
 .layers,
 .layer,
@@ -105,7 +105,7 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 .appMount-3lHmkl,
 .container-1D34oG,
 .scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG
-{background-color:transparent!important;background:transparent!important;} */
+{background-color:transparent!important;background:transparent!important;}
 
 .bg-h5JY_x{background:var(--background-color);}
 
