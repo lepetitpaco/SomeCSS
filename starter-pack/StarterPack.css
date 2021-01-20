@@ -41,29 +41,33 @@
     --logo-primary: rgb(var(--mc));
     --channels-default: #ffffff;
     --interactive-normal: #ffffff;
+
+    --main-color: rgb(var(--mc));
+    --accentcolor: var(--mc);
+    --linkcolor: var(--mc);
 }
 
-/* :root { */
-/*--mc: 204, 80, 53;                                                                     /* Main Color */
-/*--modal-color: rgba(0, 0, 0, .8);                                                      /* Background Color of modals */
-/*--chat-input-bg-color: rgba(255, 255, 255, .1);                                        /* Background Color of text inputs */
-/*--background-url: url(https://source.unsplash.com/1920x1080/?nature);                  /* Background Image URL */
-/*--background-tall-url:url(https://source.unsplash.com/1080x1080/?nature);              /* Background Image URL when width < height */
-/*--background-color: rgba(0, 0, 0, .8);                                                 /* Background Color */
-/*--background-brightness: 100%;                                                         /* Background Brightness */
-/*--background-blur: 0px;                                                                /* Background Blur */
-/*--popout-url: url(https://source.unsplash.com/1080x1080/?nature);                      /* Popout Image URL */
-/*--popout-bgc: rgba(0, 0, 0, .5);                                                       /* Popout Background Color */
-/*--popout-text-color: #ffffff;                                                          /* Popout Text Color */
-/*--modal-url: url();                                                                    /* Modal Background URL */
-/*--modal-popout-bgc: rgba(0, 0, 0, .8);                                                 /* Modal Background Color */
-/*--modal-text-color: #ffffff;                                                           /* Modal Text Color */
-/*--layer-accent-color: 0,0,0;                                                           /* Layer Accent Color */
-/*--layers-opacity: 0;                                                                  /* Layer Opacity  from 0 to 30 */
-/*--home-icon: url(https://source.unsplash.com/500x500/?textures-patterns);
-/*--home-icon-bgc: rgb(255, 0, 0);
-/*--discord-icon-bgc: rgb(255, 0, 0);
-/* } */
+:root{
+--mc: 204, 80, 53;
+--modal-color: rgba(0, 0, 0, .8);
+--chat-input-bg-color: rgba(255, 255, 255, .1);
+--background-url: url(https://source.unsplash.com/1920x1080/?nature);
+--background-tall-url:url(https://source.unsplash.com/1080x1920/?nature);
+--background-color: rgba(0, 0, 0, .8);
+--background-brightness: 100%;
+--background-blur: 0px;
+--popout-url: url(https://source.unsplash.com/1080x1080/?nature);
+--popout-bgc: rgba(0, 0, 0, .5);
+--popout-text-color: #ffffff;
+--modal-url: url();
+--modal-popout-bgc: rgba(0, 0, 0, .8);
+--modal-text-color: #ffffff;
+--layer-accent-color: 0,0,0;
+--layers-opacity: 0;
+--home-icon: url(/*https://source.unsplash.com/500x500/?textures-patterns*/);
+--home-icon-bgc: rgb(204, 80, 53);
+--discord-icon-bgc: rgb(255, 255, 255);
+ }
 
 /*
  * Fonts
@@ -83,15 +87,26 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 body::after{z-index:-9999;}
 
 body::after,.callout-backdrop::after{background-image:var(--background-tall-url)!important;background-position:top;background-size:cover;position:absolute;content:"";left:0;top:0;width:100%;height:100%;filter:brightness(var(--background-brightness))blur(var(--background-blur));}
-@media(min-width:992px){
-    body::after{background-image:var(--background-url)!important;}
+@media(max-width:1080px){
+    body::after{background-image:var(--background-tall-url)!important;}
     body::after,.callout-backdrop::after{background-position:center;}
 }
 
 /*
  * Container
  */
-.app,.layers,.layer,.container-2lgZY8,.theme-dark .layer-3QrUeG,.theme-dark .layers-3iHuyZ,.appMount-3lHmkl,.container-1D34oG,.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG{background-color:transparent!important;background:transparent!important;}
+/* .app-1q1i1E,
+.app-2rEoOp,
+.layers,
+.layer,
+.container-2lgZY8,
+.layer-3QrUeG,
+.layers-3iHuyZ,
+.appMount-3lHmkl,
+.container-1D34oG,
+.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG
+{background-color:transparent!important;background:transparent!important;} */
+
 .bg-h5JY_x{background:var(--background-color);}
 
 /*
