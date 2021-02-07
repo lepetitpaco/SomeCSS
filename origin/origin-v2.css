@@ -13,20 +13,20 @@
  @import url(https://lepetitpaco.github.io/SomeCSS/starter-pack/StarterPack.css);
 
 :root {
-    --type-window-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.1));
-    --guild-list-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.1));
-    --header-left-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
-    --header-right-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
-    --channel-list-private-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
-    --user-pannel-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
-    --chat-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.3));
-    --chat-input-form-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.3));
-    --chat-input-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.3));
-    --member-list-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.3));
+    --type-window-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.15));
+    --guild-list-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.15));
+    --header-left-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.17));
+    --header-right-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.17));
+    --channel-list-private-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.17));
+    --user-pannel-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.17));
+    --chat-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
+    --chat-input-form-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
+    --chat-input-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
+    --member-list-bgc: rgba(var(--layer-accent-color),calc((var(--layers-opacity) / 10) * 0.2));
 
-    --main-color: rgb(var(--mc));                                                          /* Main Color Variable */
-    --accentcolor: var(--mc);                                                              /* blurple - default:114,137,218 */
-    --linkcolor: var(--mc);                                                                /* link - default:0,176,244 */
+    --main-color: rgb(var(--mc));
+    --accentcolor: var(--mc);
+    --linkcolor: var(--mc);
 }
 
 
@@ -37,34 +37,23 @@
 /*Type Window*/
 .withFrame-haYltI {margin-top: 0px;padding-top: 4px;background-color: var(--type-window-bgc);}
 
-/* Chat */
-.messagesWrapper-3lZDfY{background-color:var(--chat-bgc);}
+/* Chat / chat input / Friendlist / Friend Activity / Nitro */
+.chatContent-a9vAAp,.tabBody-3YRQ8W, .scroller-9moviB{background-color:var(--chat-bgc);}
 .chat-3bRxxu{background:transparent;}
-
-/* Chat Input */
-.form-2fGMdU{background-color:var(--chat-input-bgc);}
-
-/* Chat Messages */
-.containerCozy-jafyvG{background-color: border-radius: 00px;padding-top: 20px;margin-right: 20px;margin-bottom: 0px;}
-
 
 /*Full Sidebar*/
 .platform-win .sidebar-2K8pFh{border-radius: 0}
 
-/* Member List */
-.members-1998pB{background-color:var(--member-list-bgc);}
+/* Member List / clock */
+.membersWrap-2h-GB4{background-color:var(--member-list-bgc);}
 
-/* Header LEFT*/
-.container-2Rl01u{background-color:var(--header-left-bgc);z-index:1;}
 
 /* Header RIGHT*/
-.container-1r6BKw.themed-ANHk51{background-color:var(--header-right-bgc);}
 
-/* Channel List  / Private Channel List */
-.scroller-2wx7Hm,.privateChannels-1nO12o{background-color:var(--channel-list-private-bgc);}
 
-/* User Pannel */
-.panels-j1Uci_{background-color:var(--user-pannel-bgc);}
+/* Channel List  / Private Channel List / User Pannel / HEADER RIGHT */
+.sidebar-2K8pFh, .container-1r6BKw.themed-ANHk51{background-color:var(--channel-list-private-bgc);}
+
 
 /* Guild List */
-.scroller-2TZvBN{background-color:var(--guild-list-bgc);}
+.scroller-2TZvBN,#channelTabs-container{background-color:var(--guild-list-bgc);}

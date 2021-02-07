@@ -41,6 +41,7 @@
     --logo-primary: rgb(var(--mc));
     --channels-default: #ffffff;
     --interactive-normal: #ffffff;
+    --elevation-low: none;
 
     --main-color: rgb(var(--mc));
     --accentcolor: var(--mc);
@@ -62,6 +63,9 @@
 --modal-url: url();
 --modal-popout-bgc: rgba(0, 0, 0, .8);
 --modal-text-color: #ffffff;
+--backdrop-blur: 2px;
+--backdrop-opacity: 1;
+--backdrop-bgcolor: transparent;
 --layer-accent-color: 0,0,0;
 --layers-opacity: 0;
 --home-icon: url(/*https://source.unsplash.com/500x500/?textures-patterns*/);
@@ -119,7 +123,7 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 /*
  * Backdrop
  */
-.backdrop-1wrmKB,.backdropWithLayer-3_uhz4{opacity:0!important;}
+.backdrop-1wrmKB,.backdropWithLayer-3_uhz4{background-color:var(--backdrop-bgcolor)!important;opacity:var(--backdrop-opacity)!important;backdrop-filter:blur(var(--backdrop-blur))!important;}
 
 /************************************************************* TAKES CARE OF GLOBAL ELEMENTS *************************************************************/
 
@@ -127,6 +131,7 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 ::-webkit-scrollbar-thumb{background:var(--main-color)!important;border-color:var(--main-color)!important;}
 ::-webkit-scrollbar,::-webkit-scrollbar-track-piece{background:transparent!important;border-color:transparent!important;}
 ::-webkit-scrollbar-corner{display:none!important;}
+::-webkit-scrollbar-track{background-color: transparent!important;}
 
 /*
  * Buttons
@@ -143,8 +148,10 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 /************************************************************* USER POPOUT ONLY *************************************************************/
 
 /* * User Popout * Background */
-.userPopout-3XzG_A::before{position:absolute;content:"";top:0px;right:0px;bottom:0px;left:0px;z-index:-2;background-position:center;background-image:var(--popout-url);background-size:cover;background-repeat:no-repeat;}
-.userPopout-3XzG_A{-webkit-backface-visibility:hidden;backface-visibility:hidden;}
+.userPopout-3XzG_A::before{position:absolute;content:"";top:0px;right:0px;bottom:0px;left:0px;z-index:-2;background-position:center;background-image:var(--popout-url);background-size:cover;background-repeat:no-repeat;border-radius: 15px;}
+.userPopout-3XzG_A{-webkit-backface-visibility:hidden;backface-visibility:hidden;box-shadow: none;border-radius: 15px;}
+
+
 
 /* * Text Coloring */
 .userPopout-3XzG_A .bodyTitle-Y0qMQz{color:var(--popout-text-color);}
@@ -186,7 +193,7 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
  */
 
 /*Background*/
-.root-SR8cQa::before{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-2;background-position:center;overflow:hidden;background-image:var(--modal-url);background-color:var(--modal-popout-bgc);background-size:cover;background-repeat:no-repeat;epia));}
+.root-SR8cQa::before{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-2;background-position:center;overflow:hidden;background-image:var(--modal-url);background-size:cover;background-repeat:no-repeat;epia));}
 .root-SR8cQa{-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 .root-SR8cQa::after{z-index:-9999;}
 .root-SR8cQa::after{content:"";position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;background-color:var(--modal-popout-bgc);}
@@ -229,11 +236,16 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 .homeIcon-tEMBK1 path {fill: var(--discord-icon-bgc);}
 .tutorialContainer-1v44GL .listItemWrapper-3X98Pc .wrapper-25eVIn foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 {background-image:var(--home-icon);background-color:var(--home-icon-bgc);background-size:cover; }
 
+/*New Guild Button & public servers*/
+.circleIconButton-jET_ig.selected-ugP_am {background-color: rgb(249, 210, 228);}
+.circleIconButton-jET_ig {color: rgb(249, 210, 228);}
+
 /*
  * CHAT SECTION
  */
 
 .scrollerWrap-2su1QI{padding-bottom: 15px;}
+.form-2fGMdU{margin-top:8px;}
 
 /*
  * GIF/EMOJI PICKER
@@ -336,3 +348,22 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
  * Text Inputs
  */
 .search-36MZv-,/* Search */.searchBar-5di9mG, /*Emojis*/.searchBar--fTZYa{background-color: var(--chat-input-bg-color);}
+
+/*
+ * Notification Inbox
+ */
+
+ .messagesPopoutWrap-1MQ1bW,.container-enaOkj{background-color:var(--modal-color);width: 35vw;max-width: 600px;min-width: 480px;max-height: 80vh!important;}
+
+ /*
+  * Themes and Plugins Lists
+  */
+ .bd-addon-list .bd-addon-card{background: var(--modal-color);}
+
+ /*
+  * Activity
+  */
+
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY {backdrop-filter:blur(0px);background-color: rgba(var(--mc),.2);}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {backdrop-filter:blur(3px);background-color: rgba(var(--mc),.2);}
+.theme-dark .inset-3sAvek {background-color: transparent;}
