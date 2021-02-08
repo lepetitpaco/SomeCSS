@@ -326,6 +326,12 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 .clickable-11uBi-:hover .label-JWQiNe{color:#ffffff;}
 .itemBase-tz5SeC.danger-2dXSTE:hover{color:#ffffff;}
 
+/* Dropdown AddRole from */
+.container-3XJ8ns {
+    background-color: var(--modal-color);
+    border: 1px solid rgb(var(--mc));
+}
+
 /*Checkbox*/
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span{background-color:var(--main-color);border-color:var(--main-color);}
 

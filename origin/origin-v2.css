@@ -37,8 +37,8 @@
 /*Type Window*/
 .withFrame-haYltI {margin-top: 0px;padding-top: 4px;background-color: var(--type-window-bgc);}
 
-/* Chat / chat input / Friendlist / Friend Activity / Nitro */
-.chatContent-a9vAAp,.tabBody-3YRQ8W, .scroller-9moviB{background-color:var(--chat-bgc);}
+/* Chat / chat input / Friendlist / Friend Activity / Nitro / settings content region */
+.chatContent-a9vAAp,.tabBody-3YRQ8W, .scroller-9moviB, .contentRegion-3nDuYy{background-color:var(--chat-bgc);}
 .chat-3bRxxu{background:transparent;}
 
 /*Full Sidebar*/
@@ -47,12 +47,8 @@
 /* Member List / clock */
 .membersWrap-2h-GB4{background-color:var(--member-list-bgc);}
 
-
-/* Header RIGHT*/
-
-
-/* Channel List  / Private Channel List / User Pannel / HEADER RIGHT */
-.sidebar-2K8pFh, .container-1r6BKw.themed-ANHk51{background-color:var(--channel-list-private-bgc);}
+/* Channel List  / Private Channel List / User Pannel / HEADER RIGHT / settings sidebar*/
+.sidebar-2K8pFh, .container-1r6BKw.themed-ANHk51, .sidebarRegion-VFTUkN{background-color:var(--channel-list-private-bgc);}
 
 
 /* Guild List */
