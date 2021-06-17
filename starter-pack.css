@@ -1,17 +1,4 @@
-/**
- * @name StarterPack
- * @author lepetitpaco
- * @version DEV
- * @description Applies Background Transparency, background, popout, modal image & filters
- * @authorId 152431535914614785
- * @invite fuz2Dyy
- * @donate https://paypal.me/lepetitpaco?locale.x=fr_FR
- * @website https://github.com/lepetitpaco/SomeCSS/tree/master/
- */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
-
 :root {
-
     /*
      * Basic Resetting of discord variables
      * Stays in Starter Pack CSS
@@ -233,8 +220,8 @@ body::after,.callout-backdrop::after{background-image:var(--background-url)!impo
 .guildSeparator-3s64Iy{background-color:var(--main-color);}
 
 /*Guild Icon*/
-.homeIcon-tEMBK1 path {fill: var(--discord-icon-bgc);}
-.tutorialContainer-1v44GL .listItemWrapper-3X98Pc .wrapper-25eVIn foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 {background-image:var(--home-icon);background-color:var(--home-icon-bgc);background-size:cover; }
+.homeIcon-FuNwkv path {fill: var(--discord-icon-bgc);}
+.wrapper-25eVIn .childWrapper-anI2G9 {background-image:var(--home-icon);background-color:var(--home-icon-bgc);background-size:cover; }
 
 /*New Guild Button & public servers*/
 .circleIconButton-jET_ig.selected-ugP_am {background-color: rgb(249, 210, 228);}
