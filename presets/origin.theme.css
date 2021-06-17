@@ -10,8 +10,8 @@
  * The theme BlurpleRecolor is available here https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
  */
 
- @import url(https://lepetitpaco.github.io/BDThemes/starter-pack.css);
- @import url(https://lepetitpaco.github.io/BDThemes/origin.css);
+ @import url(https://lepetitpaco.fr/BDThemes/starter-pack.css);
+ @import url(https://lepetitpaco.fr/BDThemes/origin.css);
 
  :root {
      --mc: 255, 0, 55;                                                                    /* Main Color */
