@@ -1,0 +1,69 @@
+/**
+* @name Layers
+* @author lepetitpaco
+* @version 1
+* @description Mini Theme
+*/
+/* Updated 2021-07-15 */
+
+:root {
+    --main-color: rgb(var(--mc));
+    --accentcolor: var(--mc);
+    --linkcolor: var(--mc);
+
+    /* --------------------------------------------------------------------- */
+    --pannel-backdrop-brightness:   100%;
+    --pannel-backdrop-blur:         2px;
+    --typeWindows-bg-color :        rgba(0, 0, 0, .0);
+    --channelTabs-bg-color :        rgba(0, 0, 0, .0);
+    --guilds-bg-color :             rgba(0, 0, 0, .0);
+    --channels-bg-color :           rgba(0, 0, 0, .0);
+    --user-bg-color :               rgba(0, 0, 0, .0);
+    --members-bg-color :            rgba(0, 0, 0, .0);
+    --title-section-bg-color :      rgba(0, 0, 0, .0);
+    --chat-bg-color :               rgba(0, 0, 0, .0);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*RESTRUCTURING*/
+
+/* Type Windows */
+.typeWindows-1za-n7 {
+margin: 50px 50px 0 50px;
+background: var(--typeWindows-bg-color);
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;
+backdrop-filter: brightness(var(--pannel-backdrop-brightness))blur(var(--pannel-backdrop-blur));}
+/* App COntent Container */
+.app-2rEoOp { margin: 0px 50px 50px 50px; backdrop-filter: brightness(var(--pannel-backdrop-brightness))blur(var(--pannel-backdrop-blur));}
+/* Border Bottom */
+.layers-3iHuyZ.layers-3q14ss {border-bottom-left-radius: 16px;border-bottom-right-radius: 16px;}
+
+/* Title Bar Channel Title */
+.container-1r6BKw.themed-ANHk51 {background: var(--title-section-bg-color);}
+
+/* Chat */
+.chatContent-a9vAAp,
+/* Friends */
+/* Activity */
+.tabBody-3YRQ8W,
+/* Settings */
+.platform-win .standardSidebarView-3F1I7i {
+    background: var(--chat-bg-color);
+}
+
+/* Channels List */
+/* Direct Message History */
+.sidebar-2K8pFh {
+    background: var(--channels-bg-color);
+}
+
+/* Member List */
+.members-1998pB {background: var(--members-bg-color);}
+
+/* Guild List */
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih {background: var(--guilds-bg-color);}
+
+
+/* Channel Tab Container */
+#channelTabs-container {background: var(--channelTabs-bg-color);}
